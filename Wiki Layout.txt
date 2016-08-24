@@ -1,0 +1,42 @@
+<big>'''United Federation of Planets, Gamma Quadrant Wiki'''</big>
+
+
+United Federation of Planets Gamma Quadrant Wiki currently has '''{{NUMBEROFARTICLES}}''' pages and growing every day.
+
+== United Federation of Planets: Gamma Quadrant Pages ==
+# [http://www.ufgq.org/ Main Page]
+# [http://www.ufgq.org/forum Forum]
+# [http://www.ufgq.org/forum/chat/flashchat.php UFGQ Chat Room (Must login through Forum first)]
+# UFGQ [[Council]]
+# [[UFGQ Members]]
+# [[UFGQ Charter]]
+# [[UFGQ Credits]]  and Links
+# [[UFGQ SIM Rules]]
+# [[UFGQ Rules]]
+
+== Civilian Departments ==
+# UFGQ [[SCIS]]
+# UFGQ [[SSO]]
+
+== Starfleet Pages ==
+# UFGQ [[Starfleet Members]]
+# UFGQ:SF [[Divisions]]
+# UFGQ:SF [[Service Records]]
+# UFGQ:SF [[Academy]]
+# UFGQ:SF [[Time in Grade]]
+# UFGQ:SF [[Awards]]
+# UFGQ:SF [[Rank Collars]]
+# UFGQ:SF [[Ships of the Line]]
+
+== Management ==
+# [[Templates]]
+# [[Forms]]
+# [[Intellectual Property]]
+# [[UFGQ Rules]]
+
+== Archive ==
+# [[UFGQ Retired Members]]
+# [[Inactive Forms]]
+# [[Inactive Pages]]
+# [[Inactive Templates]]
+# [[Dishonorable Discharge]]
