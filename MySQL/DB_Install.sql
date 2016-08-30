@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `accounts`;
 CREATE TABLE IF NOT EXISTS `accounts` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(64) DEFAULT NULL,
-  `password` tinyint(3) unsigned NOT NULL DEFAULT '0' COMMENT 'BUG: needs to have an md5sum has on passwords',
+  `password` tinyint(3) unsigned NOT NULL DEFAULT '0' COMMENT 'BUG: needs to have an md5sum hash on passwords',
   `active` tinyint(4) NOT NULL DEFAULT '0' COMMENT '-1 inactive 0 cadet 1 active officer',
   `rank` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `promotiondate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
