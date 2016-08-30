@@ -8,7 +8,7 @@
 
 import MySQLdb
 import os
-from subprocess import call
+from subprocess import call, Popen, PIPE
 import os
 import subprocess
 import sys
@@ -17,7 +17,6 @@ import shlex
 from time import sleep
 import ConfigParser
 from module import config
-
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
@@ -31,5 +30,13 @@ cursor = db.cursor()
 cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
 print "Database version: %s " % data
+print "Database configuration settings are correct"
 sleep(5)
 db.close()
+
+print "Uploading "+config._IN_MYSQL_FILE_+" to database.......Please standby this could take a long time depending on file size"
+
+process = Popen(['mysql', config._IN_MYSQL_DB_, '-u', config._IN_MYSQL_USR_, '-p', config._IN_MYSQL_PASS_, '-h', config._IN_MYSQL_HOST_], stdout=PIPE, stdin=PIPE)
+output = process.communicate('source ' + config._IN_MYSQL_FILE_)[0]
+
+print "Upload finished."
