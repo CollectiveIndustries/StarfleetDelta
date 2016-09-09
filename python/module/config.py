@@ -15,18 +15,18 @@
 import ConfigParser
 import os
 
-ice = ConfigParser.ConfigParser()
-ice.read(os.path.abspath("config.d/ufgq.conf"))
-ice.sections()
+conf = ConfigParser.ConfigParser()
+conf.read(os.path.abspath("config.d/ufgq.conf"))
+conf.sections()
 
 ## Config Parse Helper ##
 
 def ConfigSectionMap(section):
     dict1 = {}
-    options = ice.options(section)
+    options = conf.options(section)
     for option in options:
         try:
-            dict1[option] = ice.get(section, option)
+            dict1[option] = conf.get(section, option)
             if dict1[option] == -1:
                 print("Skipping: %s %s" % (section,option))
         except:
@@ -37,6 +37,7 @@ def ConfigSectionMap(section):
 
 
 # Set up config values
+# If these are blank/invalid we will ask the user to fix them on the fly
 _IN_MYSQL_HOST_ = ConfigSectionMap("DB")['host']
 _IN_MYSQL_USR_ = ConfigSectionMap("DB")['user']
 _IN_MYSQL_PASS_ = ConfigSectionMap("DB")['password']

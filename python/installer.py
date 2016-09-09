@@ -36,12 +36,10 @@ db.close()
 
 print "Uploading "+config._IN_MYSQL_FILE_+" to database.......Please standby this could take a long time depending on file size"
 
+# Open the file ReadOnly and stream it to MySQL's Standard In. Redirect Standard Out/Error
 with open(config._IN_MYSQL_FILE_, 'r') as f:
        command = ['mysql', '-u%s' % config._IN_MYSQL_USR_, '-p%s' % config._IN_MYSQL_PASS_, '-h%s' % config._IN_MYSQL_HOST_, config._IN_MYSQL_DB_]
        proc = Popen(command, stdin = f)
        stdout, stderr = proc.communicate()
-
-#process = Popen(['mysql', config._IN_MYSQL_DB_, '-u', config._IN_MYSQL_USR_, '-p', config._IN_MYSQL_PASS_, '-h', config._IN_MYSQL_HOST_], stdout=PIPE, stdin=PIPE)
-#output = process.communicate('source ' + config._IN_MYSQL_FILE_)[0]
 
 print "Upload finished."
