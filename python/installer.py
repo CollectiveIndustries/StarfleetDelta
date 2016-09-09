@@ -16,7 +16,7 @@ import getpass
 import shlex
 from time import sleep
 import ConfigParser
-from module import config
+from module import config, functions
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
@@ -24,7 +24,7 @@ print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries"
 print "Resuming in 5 seconds"
 sleep(5)
 
-db = MySQLdb.connect(config._IN_MYSQL_HOST_,config._IN_MYSQL_USR_,config._IN_MYSQL_PASS_,config._IN_MYSQL_DB_)
+db = functions.MySQL_init()
 cursor = db.cursor()
 
 cursor.execute("SELECT VERSION()")
