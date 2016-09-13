@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-## hopefully we can avoide disaster if we dont import this in a main program
+## Hopefully we can avoid disaster if we dont import this in a main program
 try:
   config
 except NameError:

@@ -43,3 +43,7 @@ with open(config._IN_MYSQL_FILE_, 'r') as f:
        stdout, stderr = proc.communicate()
 
 print "Upload finished."
+
+# TODO add in file manipulators to move webpage
+# TODO set up variables for admin account
+# TODO walk the user through account creation to build the web admin
