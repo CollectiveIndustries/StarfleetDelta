@@ -7,7 +7,6 @@
 # Copyright (C) Andrew Malone 2015
 
 import MySQLdb
-import os
 from subprocess import call, Popen, PIPE
 import os
 import subprocess
