@@ -1,13 +1,13 @@
 #!/usr/bin/python
 ##################################################################################################
 #
-# Copyright (C) 2016 Andrew Malone
+# Copyright (C) Andrew Malone, Collective Industries 2016
 #
 # AUTHOR: Andrew Malone
 #
 # TITLE: config
 #
-# PURPOSE: configuration importer
+# PURPOSE: Configuration import
 #
 #
 ##################################################################################################
@@ -37,9 +37,14 @@ def ConfigSectionMap(section):
 
 
 # Set up config values
-# If these are blank/invalid we will ask the user to fix them on the fly
+# TODO If these are blank/invalid we will ask the user to fix them on the fly
+
+# MYSQL server config
 _IN_MYSQL_HOST_ = ConfigSectionMap("DB")['host']
 _IN_MYSQL_USR_ = ConfigSectionMap("DB")['user']
 _IN_MYSQL_PASS_ = ConfigSectionMap("DB")['password']
 _IN_MYSQL_DB_ = ConfigSectionMap("DB")['database']
-_IN_MYSQL_FILE_ = ConfigSectionMap("DB")['file']
+_IN_MYSQL_FILE_ = ConfigSectionMap("DB")['mysqlConfigFile']
+
+# Web Site config
+_IN_PHP_CONFIG_ = ConfigSectionMap("WEB")['phpConfigFile']
