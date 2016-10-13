@@ -45,6 +45,7 @@ _IN_MYSQL_USR_ = ConfigSectionMap("DB")['user']
 _IN_MYSQL_PASS_ = ConfigSectionMap("DB")['password']
 _IN_MYSQL_DB_ = ConfigSectionMap("DB")['database']
 _IN_MYSQL_FILE_ = ConfigSectionMap("DB")['sqlconfigfile']
+_IN_MYSQL_PORT_ = ConfigSectionMap("DB")['port']
 
 # Web Site config
 _IN_PHP_CONFIG_ = ConfigSectionMap("WEB")['phpconfigfile']
