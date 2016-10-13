@@ -28,9 +28,7 @@ sql_data = []
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
-print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries"
-print "Resuming in 5 seconds"
-sleep(5)
+print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
 
 db = functions.MySQL_init()
 cursor = db.cursor()
@@ -70,23 +68,16 @@ db.commit()
 # Close DB Connection
 db.close()
 
+
+# Write the PHP Configuration file
 _FILE_ = open(config._IN_PHP_CONFIG_, 'w')
 
 _FILE_.write("<?php")
-_FILE_.write("   define('DB_USERNAME', '%s'" % (username))
 _FILE_.write("   define('DB_SERVER', '%s:%s'" % (config._IN_MYSQL_HOST_ ,config._IN_MYSQL_PORT_ ))
+_FILE_.write("   define('DB_USERNAME', '%s'" % (username))
 _FILE_.write("   define('DB_PASSWORD', '%s'" % (password))
 _FILE_.write("   define('DB_DATABASE', '%s'" % (config._IN_MYSQL_DB_))
 _FILE_.write("   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);")
 _FILE_.write("php?>")
 
 _FILE_.close()
-
-#<?php
-#   define('DB_SERVER', 'localhost:3036');
-#   define('DB_USERNAME', 'root');
-#   define('DB_PASSWORD', 'rootpassword');
-#   define('DB_DATABASE', 'database');
-#   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-#?>
-
