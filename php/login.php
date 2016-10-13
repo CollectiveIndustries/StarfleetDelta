@@ -45,7 +45,7 @@
          }
 
          .box {
-		border:#0000A0 solid 1px;
+		border:#666666 solid 1px;
          }
       </style>
 
@@ -54,7 +54,7 @@
    <body bgcolor = "#000000">
 
       <div align = "center">
-         <div style = "width:300px; border: solid 1px #333333;" align = "center">
+         <div style = "width:300px; border: solid 1px #0000A0;" align = "center">
             <div style = "background-color:#0000A0; color:#FDD017; padding:3px;"><b>UFGQ Login Portal</b></div>
 
             <div style = "color:#FDD017; margin:30px">
@@ -65,7 +65,7 @@
                   <input type = "submit" value = " Engage! "/><br />
                </form>
 
-               <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
+               <div style = "font-size:13px; font-weight: 600; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
 
             </div>
 
