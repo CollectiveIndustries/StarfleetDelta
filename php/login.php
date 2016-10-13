@@ -45,24 +45,24 @@
          }
 
          .box {
-            border:#666666 solid 1px;
+		border:#0000A0 solid 1px;
          }
       </style>
 
    </head>
 
-   <body bgcolor = "#FFFFFF">
+   <body bgcolor = "#000000">
 
       <div align = "center">
-         <div style = "width:300px; border: solid 1px #333333; " align = "left">
-            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>UFGQ Login Portal</b></div>
+         <div style = "width:300px; border: solid 1px #333333;" align = "center">
+            <div style = "background-color:#0000A0; color:#FDD017; padding:3px;"><b>UFGQ Login Portal</b></div>
 
-            <div style = "margin:30px">
+            <div style = "color:#FDD017; margin:30px">
 
                <form action = "" method = "post">
-                  <label>User Name  :</label><input type = "text" name = "username" class = "box"/><br /><br />
-                  <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
-                  <input type = "submit" value = " Engage "/><br />
+                  <label>User Name  :</label><input style = "background-color:#6D6968;" type = "text" name = "username" class = "box"/><br/><br/>
+                  <label>Password   :</label><input style = "background-color:#6D6968;" type = "password" name = "password" class = "box"/><br/><br/>
+                  <input type = "submit" value = " Engage! "/><br />
                </form>
 
                <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
