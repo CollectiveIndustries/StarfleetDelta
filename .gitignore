@@ -91,3 +91,6 @@ ENV/
 
 # Editor Stuff
 .swp
+
+#  PHP Configuration File
+php/config.php
