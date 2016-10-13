@@ -26,6 +26,8 @@ sql = "INSERT INTO `academy`.`accounts` (`username`, `password`, `db_privlage_le
 sql_data = []
 
 
+### Main Script ###
+
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
 print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
