@@ -49,3 +49,5 @@ _IN_MYSQL_PORT_ = ConfigSectionMap("DB")['port']
 
 # Web Site config
 _IN_PHP_CONFIG_ = ConfigSectionMap("WEB")['phpconfigfile']
+_PHP_REPO_ = ConfigSectionMap("WEB")['phprepo']
+_WEB_ROOT_ = ConfigSectionMap("WEB")['webroot']

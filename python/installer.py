@@ -9,20 +9,21 @@
 import MySQLdb
 from subprocess import call, Popen, PIPE
 import os
+import shutil # File manipulation
 import subprocess
 import sys
 import getpass
 import shlex
 from time import sleep
 import ConfigParser
-from module import config, functions
+from module import config, function
 
 ######## variable init #######
 username = None
 password = None
 
 # Insert statement for creating a new admin user on first install.
-sql = "INSERT INTO `academy`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
+sql = "INSERT INTO `ufgq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
 sql_data = []
 
 
@@ -32,7 +33,7 @@ subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
 print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
 
-db = functions.MySQL_init()
+db = function.MySQL_init()
 cursor = db.cursor()
 
 cursor.execute("SELECT VERSION()")
@@ -51,8 +52,8 @@ with open(config._IN_MYSQL_FILE_, 'r') as f:
 
 print "Upload finished."
 
-# TODO Add in file manipulators to move webpage
 
+# get webadmin username and password
 while ((username is None) or (username == '')):
                 username = raw_input('New Administrator account for the webpage (cannot be left blank): ')
 while ((password is None) or (password == '')):
@@ -70,7 +71,7 @@ db.commit()
 db.close()
 
 
-# Write the PHP Configuration file
+# Write the PHP Configuration file with all the database settings we just set up.
 _FILE_ = open(config._IN_PHP_CONFIG_, 'w')
 
 _FILE_.write("<?php\n")
@@ -82,3 +83,6 @@ _FILE_.write("   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATAB
 _FILE_.write("?>\n")
 
 _FILE_.close()
+
+# File manipulators to move webpage
+function.mv(config._PHP_REPO_,config._WEB_ROOT_)

@@ -16,9 +16,9 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 -- Dumping database structure for academy
-DROP DATABASE IF EXISTS `academy`;
-CREATE DATABASE IF NOT EXISTS `academy` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `academy`;
+DROP DATABASE IF EXISTS `ufgq`;
+CREATE DATABASE IF NOT EXISTS `ufgq` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `ufgq`;
 
 --
 -- Table structure for table `accounts`
