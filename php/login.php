@@ -47,11 +47,20 @@
          .box {
 		border:#666666 solid 1px;
          }
+	.middleDiv {
+               position : absolute;
+               width    : 300px;
+               height   : 500px;
+               left     : 50%;
+               top      : 50%;
+               margin-left : -150px; /* half of the width  */
+               margin-top  : -250px; /* half of the height */
+        }
       </style>
 
    </head>
 
-   <body bgcolor = "#000000">
+   <body class="middleDiv" bgcolor = "#000000">
 
       <div align = "center">
          <div style = "width:300px; border: solid 1px #0000A0;" align = "center">
