@@ -22,6 +22,7 @@
          $_SESSION['login_user'] = $myusername;
 
          header("location: welcome.php");
+	 exit();
       }else {
          $error = "Your Login Name or Password is invalid";
       }
