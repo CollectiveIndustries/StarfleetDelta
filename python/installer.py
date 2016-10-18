@@ -23,9 +23,7 @@ username = None
 password = None
 
 # Insert statement for creating a new admin user on first install.
-sql = "INSERT INTO `ufgq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES ('%s', SHA2('%s', 512), 3)"
-sql_data = []
-
+sql = "INSERT INTO `ufgq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
 
 ### Main Script ###
 
@@ -40,9 +38,8 @@ cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
 print "Database version: %s " % data
 print "Database configuration settings are correct\n\n"
-sleep(5)
-
 print "Uploading "+config._IN_MYSQL_FILE_+" to database.......Please standby this could take a long time depending on file size"
+sleep(2)
 
 # Open the file ReadOnly and stream it to MySQL's Standard In. Redirect Standard Out/Error
 with open(config._IN_MYSQL_FILE_, 'r') as f:
@@ -52,17 +49,13 @@ with open(config._IN_MYSQL_FILE_, 'r') as f:
 
 print "Upload finished."
 
-
 # get webadmin username and password
 while ((username is None) or (username == '')):
                 username = raw_input('New Administrator account for the webpage (cannot be left blank): ')
 while ((password is None) or (password == '')):
                 password = raw_input('Password for New administrator (cannot be left blank): ')
-
-sql_data = [username, password]
-
 # Execute sql statement
-cursor.execute(sql,sql_data)
+cursor.execute(sql,(username,password) )
 
 # Commit changes
 db.commit()
