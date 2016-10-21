@@ -1,7 +1,6 @@
 # Change Log
 
-## [Unreleased](https://github.com/CollectiveIndustries/UFGQ/tree/HEAD)
-
+## [v0.1](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1) (2016-10-21)
 **Fixed bugs:**
 
 - Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
