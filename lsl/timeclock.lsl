@@ -45,14 +45,14 @@ default
 		{
 			s1 += s1l;
 			key UUID=llGetSubString(body, s1, s1 + 35);
-		}
-		if (UUID == NULL_KEY)
-		{
-			llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
-		}
-		else
-		{
-			llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+			if (UUID == NULL_KEY) // UUID is NULL set defualt screen
+			{
+				llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+			}
+			else //UUID is valid set profile picture
+			{
+				llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+			}
 		}
 	}
 
