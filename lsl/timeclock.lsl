@@ -1,5 +1,3 @@
-
-
 // Function declerations
 
 GetProfilePic(key id) //Run the HTTP Request then set the texture
@@ -34,12 +32,13 @@ default
 		integer s1 = llSubStringIndex(body,profile_key_prefix);
 		if(s1 == -1)
 		{
-			SetDefaultTextures();
+			llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
 		}
 		else
 		{
 			s1 += s1l;
 			key UUID=llGetSubString(body, s1, s1 + 35);
+		}
 		if (UUID == NULL_KEY)
 		{
 			llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
