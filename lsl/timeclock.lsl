@@ -15,22 +15,22 @@ integer CONSOLE_FACE = 3;
 
 default
 {
-    state_entry()
-    {
+	state_entry()
+	{
 
-    }
+	}
 
-    touch_start(integer total_number)
-    {
-        if(running)
-        {
-            running = FALSE;
-            llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
-        }
-        else
-        {
-		running = TRUE;
-		llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0,1.0,1.0>, <0,0,0>, 0.0]);
-        }
-    }
+	touch_start(integer total_number)
+	{
+		if(running)
+		{
+			running = FALSE;
+			llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+		}
+		else
+		{
+			running = TRUE;
+			llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0,1.0,1.0>, <0,0,0>, 0.0]);
+		}
+	}
 }
