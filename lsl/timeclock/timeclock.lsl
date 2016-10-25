@@ -91,7 +91,7 @@ default
 		integer face = llDetectedTouchFace(0);
  
 		if (face == TOUCH_INVALID_FACE)
-			llSay(0, "Sorry, your viewer doesn't support touched faces.");
+			llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
 		else if(face == CONSOLE_FACE ) // Not invalid Log user in IF they touched the proper face
 		{
 			USER = llDetectedKey(0);
