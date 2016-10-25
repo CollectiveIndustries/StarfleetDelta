@@ -79,5 +79,3 @@ _FILE_.close()
 
 # File manipulators to move webpage
 function.mv(config._PHP_REPO_,config._WEB_ROOT_)
-
-#merge Conflict
