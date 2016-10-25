@@ -1,4 +1,3 @@
-# Touch script with Web backend for punching in and out
 integer on;
 integer running = FALSE;
 
@@ -47,4 +46,3 @@ default
         }
     }
 }
-
