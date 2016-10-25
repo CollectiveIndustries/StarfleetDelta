@@ -27,7 +27,7 @@ default
             llSetTimerEvent(0.5);
             running = TRUE;
             on = TRUE;
-            llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, 1, "34661b45-fcea-9900-34de-06ac5678b252", <1,1,0>, <0,0,0>, 0.0]);
+            llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, 1, DisplayFace, <1,1,0>, <0,0,0>, 0.0]);
         }
     }
     timer()
