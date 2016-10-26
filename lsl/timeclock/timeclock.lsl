@@ -84,7 +84,10 @@ default
 		else if( req == ClockReq ) //Response was from the TimeClock
 		{
 			if(stat == 200)
-				llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you.");
+			{
+				llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you out.");
+				USER = "";
+			}
 			else
 				llSay(0,"An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\nSTAT: "+(string)stat+"\nRES: "+(string)body);
 		}
@@ -103,7 +106,6 @@ default
 			GetProfilePic(USER);
 			llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered you clocking in/out.");
 			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER);
-			USER = "";
 		}
 	}
 }
