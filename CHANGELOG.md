@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1...HEAD)
 
+**Fixed bugs:**
+
+- \[Time Clock\] Invalid IM Key [\#12](https://github.com/CollectiveIndustries/UFGQ/issues/12)
+
 **Merged pull requests:**
 
 - Update timeclock.lsl [\#11](https://github.com/CollectiveIndustries/UFGQ/pull/11) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
