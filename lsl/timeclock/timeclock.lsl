@@ -27,7 +27,7 @@ string profile_key_prefix = "<meta name=\"imageid\" content=\"";
 key USER = "";
 key ClockReq = ""; // Clock request HTTP Key
 integer PROFILE_FACE = 1; // Profile display face
-key StandByLogo = "edea3d68-df2e-96dc-75a3-b12ab9e02563"; // Defualt texture when in standby mode
+key StandByLogo = "ef9fc11a-fc5e-bef6-2934-88ea97529ff8"; // Defualt texture when in standby mode
 integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
