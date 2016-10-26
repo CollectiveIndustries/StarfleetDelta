@@ -41,3 +41,16 @@
 <li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/14a6990096bcdc624ff2c2a4ea33d6072bab0243">view commit &bull;</a> Fixes Commit tags in changelog</li> 
 <li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/e88bc756a088551f8dc53da6a915b5e37172d305">view commit &bull;</a> Adds github-changelog-generator style changelog</li> 
 <li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/34713c48478721741c868b2c8629f794c3705dc0">view commit &bull;</a> updates changelog</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/7083ad15031ab5a12242af641ecd23d974aa94eb">view commit &bull;</a> Adds commit history</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/bbc77f47d4fac46b5c2d28c14498a7fcf48e67c8">view commit &bull;</a> Adds Service record forms to repository</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/87ce0e9d578168e9e3ef4f65dd7906e58f852165">view commit &bull;</a> Initial clock commit</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/dff3eb502a8bbd7439116704f34e6b9a408eeed5">view commit &bull;</a> variable rewrites</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/a1baf0ecc2771617cde3c977d98b6a3f83a1954d">view commit &bull;</a> Clock textures</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/49d2e45de6bf7a6779406b7b1b2cc5e1c1d512fd">view commit &bull;</a> Variable optimization</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/531b3e74d60a8be1a4a9cea3134e16094ffaa2db">view commit &bull;</a> Tab optimization</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/f89a261c8845124edc9fa278d2b405aadf0cabff">view commit &bull;</a> Adds profile screen</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/d98e5d226f8aba734dc97722f47ebe5cae36336a">view commit &bull;</a> Syntax Error fixes</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/0dfcbeeae31ea8a252646b15fb0cac79f895cbca">view commit &bull;</a> Variable fixes</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/75ecfaab03d16944e7a9619c49b9e772a629ea1a">view commit &bull;</a> fixes Missaligned Brackets</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/7f600753c4a4add5b26bdae22812a400cbfaf2e9">view commit &bull;</a> Adds HTTP Request for Profile Picture. Adds IM for user.</li> 
+<li> <a href="http://github.com/CollectiveIndustries/UFGQ/commit/bf3d983151829ae2cea9ae81bac55ac3d6edab27">view commit &bull;</a> Fixes installer.py merge conflict</li> 
