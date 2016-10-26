@@ -31,6 +31,7 @@ key StandByLogo = "ef9fc11a-fc5e-bef6-2934-88ea97529ff8"; // Defualt texture whe
 integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
+string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
 
 // Function declarations
 
