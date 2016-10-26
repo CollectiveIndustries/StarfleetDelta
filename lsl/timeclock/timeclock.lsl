@@ -1,6 +1,6 @@
 /*
 timeclock.lsl
-Program designed to function as a timeclock to allow for Aatars on SL/OSG to clock into and out of UFGQ
+Program designed to function as a timeclock to allow for avatars on SL/OSG to clock into and out of UFGQ
     Copyright (C) 2016  Andrew Malone
 
     This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@ Program designed to function as a timeclock to allow for Aatars on SL/OSG to clo
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-// User configurable varialbes.
+// User configurable variables.
 vector LogoScale = <1.05, 1.05, 0>; //Scale is only an X/Y value
 
 
@@ -32,7 +32,7 @@ integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
 
-// Function declerations
+// Function declarations
 
 key ProfilePicReq = "";
 GetProfilePic(key id) //Run the HTTP Request then set the texture
