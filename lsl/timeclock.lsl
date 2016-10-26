@@ -3,6 +3,9 @@
 integer s1l; // calculated from profile_key_prefix in state_entry()
 string profile_key_prefix = "<meta name=\"imageid\" content=\"";
 key USER = "";
+string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
+
+vector LogoScale = <1.05, 1.05, 1.0>;
 
 	// Clock request HTTP Key
 key ClockReq = "";
@@ -35,7 +38,7 @@ default
 	{
 		s1l = llStringLength(profile_key_prefix);
 		llSay(0, "INIT: Systems starting");
-		llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+		llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
 	}
 
 	http_response(key req ,integer stat, list met, string body)
@@ -45,7 +48,7 @@ default
 			integer s1 = llSubStringIndex(body,profile_key_prefix);
 			if(s1 == -1)
 			{
-				llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+				llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
 			}
 			else
 			{
@@ -53,19 +56,19 @@ default
 				key UUID=llGetSubString(body, s1, s1 + 35);
 				if (UUID == NULL_KEY) // UUID is NULL set defualt screen
 				{
-					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
 				}
 				else //UUID is valid set profile picture
 				{
-					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 0.0>, <0,0,0>, 0.0]);
 					llSleep(5.0);  // Reset Display face after 5 seconds
-					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, <1.0, 1.0, 1.0>, <0,0,0>, 0.0]);
+					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
 				}
 			}
 		}
 		else if( req == ClockReq ) //Response was from the TimeClock
 		{
-			llSay(0,"Login request");
+			llSay(0,"Login request:\n"+body);
 		}
 	}
 
@@ -82,6 +85,7 @@ default
 			GetProfilePic(USER);
 			llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered you clocking in/out.");
 			// Set up PHP post here for Database time log
+			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER);
 			USER = "";
 		}
 	}
