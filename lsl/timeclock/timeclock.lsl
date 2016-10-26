@@ -25,21 +25,12 @@ vector LogoScale = <1.05, 1.05, 0>; //Scale is only an X/Y value
 integer s1l; // calculated from profile_key_prefix in state_entry()
 string profile_key_prefix = "<meta name=\"imageid\" content=\"";
 key USER = "";
-<<<<<<< HEAD:lsl/timeclock.lsl
-string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
-
-vector LogoScale = <1.05, 1.05, 1.0>;
-
-	// Clock request HTTP Key
-key ClockReq = "";
-=======
 key ClockReq = ""; // Clock request HTTP Key
 integer PROFILE_FACE = 1; // Profile display face
 key StandByLogo = "edea3d68-df2e-96dc-75a3-b12ab9e02563"; // Defualt texture when in standby mode
 integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
->>>>>>> e04f068b8bc9a60fa7e6970a543ff4a247d1aee6:lsl/timeclock/timeclock.lsl
 
 // Function declerations
 
@@ -60,11 +51,7 @@ default
 	{
 		s1l = llStringLength(profile_key_prefix);
 		llSay(0, "INIT: Systems starting");
-<<<<<<< HEAD:lsl/timeclock.lsl
-		llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
-=======
 		llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
->>>>>>> e04f068b8bc9a60fa7e6970a543ff4a247d1aee6:lsl/timeclock/timeclock.lsl
 	}
 
 	http_response(key req ,integer stat, list met, string body)
@@ -74,11 +61,7 @@ default
 			integer s1 = llSubStringIndex(body,profile_key_prefix);
 			if(s1 == -1)
 			{
-<<<<<<< HEAD:lsl/timeclock.lsl
-				llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
-=======
 				llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
->>>>>>> e04f068b8bc9a60fa7e6970a543ff4a247d1aee6:lsl/timeclock/timeclock.lsl
 			}
 			else
 			{
@@ -86,31 +69,19 @@ default
 				key UUID=llGetSubString(body, s1, s1 + 35);
 				if (UUID == NULL_KEY) // UUID is NULL set defualt screen
 				{
-<<<<<<< HEAD:lsl/timeclock.lsl
-					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
-=======
 					llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
->>>>>>> e04f068b8bc9a60fa7e6970a543ff4a247d1aee6:lsl/timeclock/timeclock.lsl
 				}
 				else //UUID is valid set profile picture
 				{
 					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 0.0>, <0,0,0>, 0.0]);
 					llSleep(5.0);  // Reset Display face after 5 seconds
-<<<<<<< HEAD:lsl/timeclock.lsl
-					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, DisplayFace, LogoScale, <0,0,0>, 0.0]);
-=======
 					llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
->>>>>>> e04f068b8bc9a60fa7e6970a543ff4a247d1aee6:lsl/timeclock/timeclock.lsl
 				}
 			}
 		}
 		else if( req == ClockReq ) //Response was from the TimeClock
 		{
-<<<<<<< HEAD:lsl/timeclock.lsl
-			llSay(0,"Login request:\n"+body);
-=======
 			llSay(0,"Time clock server reports:\n"+body);
->>>>>>> e04f068b8bc9a60fa7e6970a543ff4a247d1aee6:lsl/timeclock/timeclock.lsl
 		}
 	}
 
