@@ -32,16 +32,39 @@ integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
 string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
-
+integer _SOUND_INTERNAL = FALSE;
+list _SOUND_BUTTON_ = ["08ca2c4b-75eb-6056-276e-7cfde6d3a9b3","4429e529-63b4-ffc6-cbff-220722065c8c","05f95eed-e222-d17e-22c6-f4c901de120d","4460c043-ae2f-709e-1bb1-b743a149225c","f48e3570-98d7-d634-baa2-e479943755f6","1a3f0d6e-e688-cef5-935d-846f8f386a8f","09deeff1-5c8e-a627-01ac-1efcf8c41acc","88bcad6c-4cb5-e8e6-a48d-97724e6de614"];
 // Function declarations
 
 key ProfilePicReq = "";
 GetProfilePic(key id) //Run the HTTP Request then set the texture
 {
-    string URL_RESIDENT = "http://world.secondlife.com/resident/";
-    ProfilePicReq = llHTTPRequest( URL_RESIDENT + (string)id,[HTTP_METHOD,"GET"],"");
+	string URL_RESIDENT = "http://world.secondlife.com/resident/";
+	ProfilePicReq = llHTTPRequest( URL_RESIDENT + (string)id,[HTTP_METHOD,"GET"],"");
 }
 
+_CISoundServ(integer chan, string UUID, integer internal)
+{
+	//llSay(0,"DEBUG SOUND API: "+(string)chan+" UUID: "+(string)UUID+" INTERNAL "+(string)internal);
+	if (internal == TRUE)
+	{
+		llPlaySound(UUID,1.0);
+	}
+	else if(internal == FALSE)
+	{
+		llRegionSay(chan,"sound:"+UUID);
+	}
+}
+
+playRandomSound(list UUIDS)
+{
+	integer listlen = llGetListLength(UUIDS);
+
+	integer index = (integer)llFrand(listlen);
+	_CISoundServ(SOUND_API, llList2String(UUIDS,index) ,_SOUND_INTERNAL);
+	//llSound(llList2String(UUIDS,index), 1.0,TRUE,FALSE);
+	llSleep(0.1);
+}
 
 //   Faces Selection   ///
 
@@ -102,6 +125,7 @@ default
 			llSay(0, "Sorry, your viewer doesn't support touched faces.");
 		else if(face == CONSOLE_FACE ) // Not invalid Log user in IF they touched the proper face
 		{
+			playRandomSound(_SOUND_BUTTON_);
 			USER = llDetectedKey(0);
 			GetProfilePic(USER);
 			llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered you clocking in/out.");
