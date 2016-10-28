@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/CollectiveIndustries/UFGQ/tree/HEAD)
+
+[Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1-alpha...HEAD)
+
+**Fixed bugs:**
+
+- \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/UFGQ/issues/14)
+
 ## [v0.1-alpha](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1-alpha) (2016-10-28)
 [Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1...v0.1-alpha)
 
