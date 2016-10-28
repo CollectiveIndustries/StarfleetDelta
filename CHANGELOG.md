@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/CollectiveIndustries/UFGQ/tree/HEAD)
-
-[Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1...HEAD)
+## [v0.1-alpha](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1-alpha) (2016-10-28)
+[Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1...v0.1-alpha)
 
 **Fixed bugs:**
 
