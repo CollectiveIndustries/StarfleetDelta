@@ -15,7 +15,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
---- Dumping database structure for ufgq
+-- Dumping database structure for ufgq
 DROP DATABASE IF EXISTS `ufgq`;
 CREATE DATABASE IF NOT EXISTS `ufgq` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `ufgq`;
