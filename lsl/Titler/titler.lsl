@@ -186,6 +186,7 @@ default
         gLoad = 1;
         gNLQueryID = llGetNumberOfNotecardLines(gName);
     }
+
     dataserver(key query_id, string data) {
         if (query_id == gQueryID && gLoad == 1) {
             if (data != EOF) {
@@ -254,11 +255,14 @@ default
             gQueryID = llGetNotecardLine(gName, gLine);
         }
     }
+// Reset after inventory or owner change
     changed(integer change)
     {
         if(change & CHANGED_INVENTORY) llResetScript();
         else if(change & CHANGED_OWNER) llResetScript();
     }
+
+
     listen(integer chan, string name, key id, string m)
     {
         integer sel = llListFindList(gTitleName,[m]);
