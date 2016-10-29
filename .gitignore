@@ -90,7 +90,7 @@ ENV/
 .ropeproject
 
 # Editor Stuff
-.swp
+*.swp
 
 #  PHP Configuration File
 php/config.php
