@@ -6,6 +6,7 @@
 
 **Fixed bugs:**
 
+- \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/UFGQ/issues/15)
 - \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/UFGQ/issues/14)
 
 ## [v0.1-alpha](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1-alpha) (2016-10-28)
