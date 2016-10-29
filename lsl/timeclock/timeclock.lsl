@@ -35,6 +35,8 @@ integer PROFILE_FACE = 1; // Profile display face
 integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
+integer SOUND_API = -26;
+string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Function declarations
 
@@ -165,7 +167,7 @@ default
 			USER = llDetectedKey(0);
 			GetProfilePic(USER);
 			llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered the clock update.");
-			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"&name="llKey2Name(USER));
+			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"&name="+llKey2Name(USER));
 		}
 	}
 }
