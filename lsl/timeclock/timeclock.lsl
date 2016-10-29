@@ -32,8 +32,11 @@ integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
 string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
-integer _SOUND_INTERNAL = FALSE;
+integer _SOUND_INTERNAL = TRUE;
 list _SOUND_BUTTON_ = ["08ca2c4b-75eb-6056-276e-7cfde6d3a9b3","4429e529-63b4-ffc6-cbff-220722065c8c","05f95eed-e222-d17e-22c6-f4c901de120d","4460c043-ae2f-709e-1bb1-b743a149225c","f48e3570-98d7-d634-baa2-e479943755f6","1a3f0d6e-e688-cef5-935d-846f8f386a8f","09deeff1-5c8e-a627-01ac-1efcf8c41acc","88bcad6c-4cb5-e8e6-a48d-97724e6de614"];
+integer SOUND_API = -26;
+string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
+
 // Function declarations
 
 key ProfilePicReq = "";
@@ -108,11 +111,19 @@ default
 		{
 			if(stat == 200)
 			{
-				llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you out.");
+				//Set up if statment to handle server Errors here
+				if(llToLower(llGetSubString(body, 0, 5)) == "error:")
+				{
+					llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+				}
+				else
+				{
+					llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you out.");
+				}
 				USER = "";
 			}
 			else
-				llSay(0,"An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+				llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
 		}
 	}
 
@@ -129,7 +140,7 @@ default
 			USER = llDetectedKey(0);
 			GetProfilePic(USER);
 			llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered you clocking in/out.");
-			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER);
+			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"?name="+(string)llKey2Name(USER));
 		}
 	}
 }

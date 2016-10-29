@@ -8,9 +8,8 @@
 	$SelectAV = "SELECT ID FROM `ufgq`.`accounts` WHERE `UUID` = '$uuid'";
 	$OnFileInsert = "INSERT INTO ufgq.`Time Clock` (user_id) SELECT id FROM accounts a WHERE a.`UUID` = '$uuid'";
 
-	$result = mysqli_query($db,$SelectAV);
-	$count = mysqli_num_rows($result);
-	if ($count == 0)
+//Grab the number of Results from the query
+	if (0 ==  mysqli_num_rows(mysqli_query($db,$SelectAV)))
 	{
 		if(!mysqli_query($db,$NEW_AVY_SQL))
 		{
@@ -26,6 +25,7 @@
 	}
 // Once the Account is on file we can just log the user right in
 	mysqli_query($db,$OnFileInsert);
+	mysqli_commit();
 
 //	else
 //	{
