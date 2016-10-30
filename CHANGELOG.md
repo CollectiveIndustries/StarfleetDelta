@@ -10,6 +10,7 @@
 
 **Fixed bugs:**
 
+- \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/UFGQ/issues/18)
 - \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/UFGQ/issues/17)
 - \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/UFGQ/issues/15)
 - \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/UFGQ/issues/14)
