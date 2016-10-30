@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1-alpha...HEAD)
 
+**Implemented enhancements:**
+
+- \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/UFGQ/issues/16)
+
 **Fixed bugs:**
 
 - \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/UFGQ/issues/17)
