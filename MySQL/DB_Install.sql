@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   CONSTRAINT `FK_accounts_Rank` FOREIGN KEY (`RankID`) REFERENCES `Rank` (`RankID`),
   CONSTRAINT `FK_accounts_Titles` FOREIGN KEY (`TitleID`) REFERENCES `Titles` (`tid`),
   CONSTRAINT `FK_accounts_divisions` FOREIGN KEY (`DivID`) REFERENCES `divisions` (`did`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1 COMMENT='Profile information for Staff and Students of UFGQ.';
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Profile information for Staff and Students of UFGQ.';
 
 -- Dumping structure for table ufgq.divisions
 DROP TABLE IF EXISTS `divisions`;
@@ -84,26 +84,31 @@ DROP TABLE IF EXISTS `Rank`;
 CREATE TABLE IF NOT EXISTS `Rank` (
   `RankID` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
   `rname` varchar(50) DEFAULT '0',
+  `RankLogo` varchar(7) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT '★',
   PRIMARY KEY (`RankID`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1 COMMENT='Rank table';
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1 COMMENT='Rank table';
 
--- Dumping data for table ufgq.Rank: ~12 rows (approximately)
+-- Dumping data for table ufgq.Rank: ~2 rows (approximately)
 DELETE FROM `Rank`;
 /*!40000 ALTER TABLE `Rank` DISABLE KEYS */;
-INSERT INTO `Rank` (`RankID`, `rname`) VALUES
-	(1, 'Ensign'),
-	(2, 'Lt. Junior Grade (Lt. JG)'),
-	(3, 'Lieutenant'),
-	(4, 'Lt. Commander'),
-	(5, 'Commander'),
-	(6, 'Captain'),
-	(7, 'Commodore'),
-	(8, 'Rear Admiral'),
-	(9, 'Vice Admiral'),
-	(10, 'Admiral'),
-	(11, 'Fleet Admiral'),
-	(12, 'Super Duper Fleet Admiral'),
-	(13, 'Civilian');
+INSERT INTO `Rank` (`RankID`, `rname`, `RankLogo`) VALUES
+	(1, 'Ensign', '●'),
+	(2, 'Lt. Junior Grade (Lt. JG)', '○●'),
+	(3, 'Lieutenant', '●●'),
+	(4, 'Lt. Commander', '○●●'),
+	(5, 'Commander', '●●●'),
+	(6, 'Captain', '●●●●'),
+	(7, 'Commodore', '★'),
+	(8, 'Rear Admiral', '★★'),
+	(9, 'Vice Admiral', '★★★'),
+	(10, 'Admiral', '★★★★'),
+	(11, 'Fleet Admiral', '★★★★★'),
+	(12, 'Super Duper Fleet Admiral', '⓯'),
+	(13, 'Civilian', '═══════'),
+	(15, 'Cadet 1st Year', '|'),
+	(16, 'Cadet 2nd Year', '| |'),
+	(17, 'Cadet 3rd Year', '| | |'),
+	(18, 'Cadet 4th Year', '| | | |');
 /*!40000 ALTER TABLE `Rank` ENABLE KEYS */;
 
 -- Dumping structure for table ufgq.Time Clock
@@ -116,7 +121,7 @@ CREATE TABLE IF NOT EXISTS `Time Clock` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `accounts` (`ID`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=latin1 COMMENT='Cross refrences clock times with AV UUIDs';
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COMMENT='Cross refrences clock times with AV UUIDs';
 
 -- Dumping structure for table ufgq.Titles
 DROP TABLE IF EXISTS `Titles`;
@@ -126,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `Titles` (
   PRIMARY KEY (`tid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1 COMMENT='Common Group Tags';
 
--- Dumping data for table ufgq.Titles: ~10 rows (approximately)
+-- Dumping data for table ufgq.Titles: ~11 rows (approximately)
 DELETE FROM `Titles`;
 /*!40000 ALTER TABLE `Titles` DISABLE KEYS */;
 INSERT INTO `Titles` (`tid`, `tag_name`) VALUES

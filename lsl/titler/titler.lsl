@@ -24,8 +24,8 @@ string HTTP_ERROR = "An unexpected error occured while attempting to clock user 
 // Variable Init
 key USER = "";
 key TagReq = ""; // Clock request HTTP Key
-list TAG_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
-
+list TAG_PARAMS_POST = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
+list TAG_PARAMS_GET = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 /*
 Rank.viceadm=[■■■]
 Rank.rearadm=[■■]
@@ -54,6 +54,7 @@ default
     {
         llOwnerSay("INIT: Systems starting");
         TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS, "uuid="+(string)llGetOwner());
+	//TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
     }
     
     changed(integer change)
