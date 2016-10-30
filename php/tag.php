@@ -12,7 +12,7 @@
 	$Rows = mysqli_num_rows($query);
 	if ($Rows == 0 ) // Is there a record already?
 	{
-		echo "OOC Observer";
+		echo "<255,255,255>:13:Civilian\nUFGQ";
 	}
 	elseif ($Rows == 1)
 	{
@@ -26,6 +26,15 @@
 		$colorX = $list['colorX'];
 		$colorY = $list['colorY'];
 		$colorZ = $list['ColorZ'];
-		echo "<".$colorX.",".$colorY.",".$colorZ.">:".$rid.":\n".$rank."\n".$name."\n".$tag."\nUFGQ";
+		$active = $list['active'];
+		if ($active == 0)
+		{
+			echo "<255,255,255>:13:Civilian\nUFGQ";
+		}
+		else
+		{
+			echo "<".$colorX.",".$colorY.",".$colorZ.">:".$rid.":\n".$rank."\n".$name."\n".$tag."\nUFGQ";
+		}
+
 	}
 
