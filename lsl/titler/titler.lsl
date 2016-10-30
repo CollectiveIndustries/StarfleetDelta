@@ -54,7 +54,7 @@ default
 	{
 		llListen(899,"",NULL_KEY,"reset");
 		llOwnerSay("INIT: Systems starting");
-		TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS, "uuid="+(string)llGetOwner());
+		TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid="+(string)llGetOwner());
 		//TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
 	}
 	listen(integer chan, string name, key id, string msg)
