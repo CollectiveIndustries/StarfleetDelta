@@ -1,6 +1,7 @@
 <?php
-
+	header('Content-type: text/html; charset=utf-8');
 	include("config.php");
+	mysqli_set_charset($db,"utf8");
 //	ini_set('default_charset', 'UTF-8');
 	$uuid = $_POST['uuid'];
 
@@ -15,7 +16,7 @@
 	if ($Rows == 0 ) // Is there a record already?
 	{
 		//No record on file they must be a civilian\observer
-		echo "<255,255,255>:═══════\nCivilian\nUFGQ\nBUG ".$Rows. "\nuuid = ".$uuid;
+		echo "<255,255,255>:═══════\nCivilian\nUFGQ";//\nBUG ".$Rows. "\nuuid = ".$uuid;
 		//echo "<255,255,255>:".$Tag;
 	}
 	elseif ($Rows == 1)
