@@ -80,7 +80,10 @@ default
 				}
 				else
 				{
-					llSetText(body, <1,1,1>, 1.0);
+					list temp = llParseString2List(body,[":"],[]);
+					vector color = (vector)llList2String(temp, 0) / 255; //Convert RGB stored values database side to Vectors for LSL
+					string tag = llList2String(temp, 1);
+					llSetText(tag, color, 1.0);
 				}
 				USER = "";
 			}
