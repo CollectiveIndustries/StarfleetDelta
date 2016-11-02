@@ -7,12 +7,15 @@
 <html>
 	<meta charset="utf-8"/>
 	<center>
-	<body>
-	<table>
-        	<tr>
-               		<th>Rank Name</th>
-                        <th>Rank Logo</th>
-                </tr>
+		<head>
+			<link rel="stylesheet" href="UFGQ_Theme.css">
+		</head>
+		<body class="body">
+			<table class="outline">
+        			<tr class="box">
+               				<th>Rank Name</th>
+                        		<th>Rank Logo</th>
+                		</tr>
 <?php
         header('Content-type: text/html; charset=utf-8');
 

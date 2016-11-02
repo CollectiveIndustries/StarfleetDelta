@@ -1,0 +1,32 @@
+.body{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color:#FDD017;
+	background-color:#000000
+}
+
+.label{
+	font-weight:bold;
+	width:100px;
+	font-size:14px;
+}
+
+.outline{
+	border:#0000A0 solid 2px;
+}
+
+
+.box{
+	background-color:#0000A0;
+	color:#FDD017;
+/*	padding:3px;*/
+}
+.middleDiv{
+	position:absolute;
+	width:300px;
+	height:500px;
+	left:50%;
+	top:50%;
+	margin-left:-150px;/*halfofthewidth*/
+	margin-top:-250px;/*halfoftheheight*/
+}
