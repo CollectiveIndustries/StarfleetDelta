@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- \[Feature\] Population Statistics for UFGQ [\#20](https://github.com/CollectiveIndustries/UFGQ/issues/20)
 - \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/UFGQ/issues/16)
 
 **Fixed bugs:**
