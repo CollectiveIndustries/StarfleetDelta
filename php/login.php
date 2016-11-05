@@ -11,26 +11,27 @@
 
       $sql = "SELECT ID FROM accounts WHERE username = '$myusername' and password = SHA2('$mypassword', 512)";
       $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $row = mysqli_fetch_array($result);
       $active = $row['active'];
 
       $count = mysqli_num_rows($result);
 
       // If result matched $myusername and $mypassword, table row must be 1 row
 
-      if($count == 1) {
+      if($count == 1)
+      {
          session_register("myusername");
          $_SESSION['login_user'] = $myusername;
 
          redirect("welcome.php");
 	 exit();
-      }else {
-         $error = "ERROR: Your Login Name or Password is invalid<br>POST USER: ".$_POST['username']."<br>POST PASSWORD: ".$_POST['password']."<br>myusername: ".$myusername."<br>mypassword: ".$mypassword."<br> Result Count: ".$count;
+      }else{
+         $error = "ERROR: Your Login Name or Password is invalid";//POST USER: ".$_POST['username']."<br>POST PASSWORD: ".$_POST['password']."<br>myusername: ".$myusername."<br>mypassword: ".$mypassword."<br> Result Count: ".$count;
       }
    }
 ?>
-<html>
 
+<html>
    <head>
       <title>UFGQ Login Portal</title>
 
