@@ -11,7 +11,7 @@
 
 **Fixed bugs:**
 
-- \[website\] \[High Priority\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/UFGQ/issues/24)
+- \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/UFGQ/issues/24)
 - \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/UFGQ/issues/18)
 - \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/UFGQ/issues/17)
 - \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/UFGQ/issues/15)
