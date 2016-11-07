@@ -53,7 +53,8 @@ print "Upload finished."
 while ((username is None) or (username == '')):
                 username = raw_input('New Administrator account for the webpage (cannot be left blank): ')
 while ((password is None) or (password == '')):
-                password = raw_input('Password for New administrator (cannot be left blank): ')
+		print "Password for New administrator (cannot be left blank)"
+		password = getpass.getpass()
 
 # Execute the SQL Statement on the server
 cursor.execute(sql,(username,password) )
