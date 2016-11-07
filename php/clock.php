@@ -4,7 +4,7 @@
 	$uuid = $_POST['uuid'];
 	$name = $_POST['name'];
 
-	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex UFGQ IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/UFGQ/issues"
+	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex UFGQ IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/UFGQ/issues";
 
 
 // SQL statments
