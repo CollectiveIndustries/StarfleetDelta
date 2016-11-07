@@ -21,22 +21,16 @@
 - \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/UFGQ/issues/14)
 
 ## [v0.1-alpha](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1-alpha) (2016-10-28)
-[Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1...v0.1-alpha)
-
 **Fixed bugs:**
 
 - \[Time Clock\] Invalid IM Key [\#12](https://github.com/CollectiveIndustries/UFGQ/issues/12)
+- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/UFGQ/issues/4)
+- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
+- \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/UFGQ/issues/1)
 
 **Merged pull requests:**
 
 - Update timeclock.lsl [\#11](https://github.com/CollectiveIndustries/UFGQ/pull/11) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
-
-## [v0.1](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1) (2016-10-21)
-**Fixed bugs:**
-
-- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/UFGQ/issues/4)
-- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
-- \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/UFGQ/issues/1)
 
 
 
