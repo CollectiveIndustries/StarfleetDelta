@@ -11,7 +11,9 @@
 
 **Fixed bugs:**
 
+- \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/UFGQ/issues/26)
 - \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/UFGQ/issues/24)
+- \[Installer\] Plaintext password in Command arguments [\#23](https://github.com/CollectiveIndustries/UFGQ/issues/23)
 - \[Installer\] Programming Error on ufgq.accounts [\#22](https://github.com/CollectiveIndustries/UFGQ/issues/22)
 - \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/UFGQ/issues/18)
 - \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/UFGQ/issues/17)
