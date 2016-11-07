@@ -34,11 +34,8 @@
 ## [v0.1](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1) (2016-10-21)
 **Fixed bugs:**
 
-- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
-
-**Closed issues:**
-
 - \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/UFGQ/issues/4)
+- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
 - \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/UFGQ/issues/1)
 
 
