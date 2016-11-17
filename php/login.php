@@ -26,7 +26,7 @@
          redirect("welcome.php");
 	 exit();
       }else{
-         $error = "ERROR: Your Login Name or Password is invalid";//POST USER: ".$_POST['username']."<br>POST PASSWORD: ".$_POST['password']."<br>myusername: ".$myusername."<br>mypassword: ".$mypassword."<br> Result Count: ".$count;
+         $error = "ERROR: Your Login Name or Password is invalid<br>POST USER: ".$_POST['username']."<br>POST PASSWORD: ".$_POST['password']."<br>myusername: ".$myusername."<br>mypassword: ".$mypassword."<br> Result Count: ".$count;
       }
    }
 ?>

@@ -8,7 +8,8 @@
 
 
 // SQL statments
-	$NEW_AVY_SQL = "INSERT INTO `ufgq`.`accounts` (`UUID`, `username`) VALUES ('$uuid', '$name')";
+	// Insert UUID Username and Email address (AvatarName@ufgq.co)
+	$NEW_AVY_SQL = "INSERT INTO `ufgq`.`accounts` (`UUID`, `username`, `email`) VALUES ('$uuid', '$name', CONCAT(REPLACE(`$name`,' ',''),'@ufgq.co'))";
 	$SelectAV = "SELECT ID FROM `ufgq`.`accounts` WHERE `UUID` = '$uuid'";
 	$OnFileInsert = "INSERT INTO ufgq.`Time Clock` (user_id) SELECT id FROM accounts a WHERE a.`UUID` = '$uuid'";
 
