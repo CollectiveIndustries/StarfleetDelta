@@ -26,6 +26,8 @@ key USER = "";
 key TagReq = ""; // Clock request HTTP Key
 list TAG_PARAMS_POST = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 list TAG_PARAMS_GET = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
+integer listenhandle;
+string version = "3.1";
 /*
 	Rank.viceadm=[■■■]
 	Rank.rearadm=[■■]
@@ -52,19 +54,31 @@ default
 {
 	state_entry()
 	{
-		llListen(899,"",NULL_KEY,"reset");
+		listenhandle = llListen(899,"",NULL_KEY,"");  //adding a listener var to use later for closing
 		llOwnerSay("INIT: Systems starting");
 		TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid="+(string)llGetOwner());
 		//TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
 	}
 	listen(integer chan, string name, key id, string msg)
-	{
-		llResetScript();
-	}
+    	{
+        	if(msg == "reset")
+        	{
+            		llListenRemove(listenhandle);  //closing the listen before we reset the titler
+            		llResetScript();
+        	}
+        	else if(msg == "list")
+        	{
+            		llRegionSay(899,(string)llGetDisplayName(llGetOwner()) + " is using version " + version); //broadcast owner name and version number
+        	}
+    	}
 
 	changed(integer change)
 	{
-		if(change & CHANGED_OWNER) llResetScript();
+		if(change & CHANGED_OWNER) 
+		{
+		llListenRemove(listenhandle);
+		llResetScript();
+		}
 	}
 
 	http_response(key req ,integer stat, list met, string body)

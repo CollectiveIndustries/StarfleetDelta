@@ -11,7 +11,9 @@
 
 **Fixed bugs:**
 
+- \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/UFGQ/issues/26)
 - \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/UFGQ/issues/24)
+- \[Installer\] Plaintext password in Command arguments [\#23](https://github.com/CollectiveIndustries/UFGQ/issues/23)
 - \[Installer\] Programming Error on ufgq.accounts [\#22](https://github.com/CollectiveIndustries/UFGQ/issues/22)
 - \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/UFGQ/issues/18)
 - \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/UFGQ/issues/17)
@@ -19,25 +21,16 @@
 - \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/UFGQ/issues/14)
 
 ## [v0.1-alpha](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1-alpha) (2016-10-28)
-[Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1...v0.1-alpha)
-
 **Fixed bugs:**
 
 - \[Time Clock\] Invalid IM Key [\#12](https://github.com/CollectiveIndustries/UFGQ/issues/12)
+- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/UFGQ/issues/4)
+- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
+- \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/UFGQ/issues/1)
 
 **Merged pull requests:**
 
 - Update timeclock.lsl [\#11](https://github.com/CollectiveIndustries/UFGQ/pull/11) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
-
-## [v0.1](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1) (2016-10-21)
-**Fixed bugs:**
-
-- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
-
-**Closed issues:**
-
-- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/UFGQ/issues/4)
-- \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/UFGQ/issues/1)
 
 
 

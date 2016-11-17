@@ -53,7 +53,8 @@ print "Upload finished."
 while ((username is None) or (username == '')):
                 username = raw_input('New Administrator account for the webpage (cannot be left blank): ')
 while ((password is None) or (password == '')):
-                password = raw_input('Password for New administrator (cannot be left blank): ')
+		print "Password for New administrator (cannot be left blank)"
+		password = getpass.getpass()
 
 # Execute the SQL Statement on the server
 cursor.execute(sql,(username,password) )
@@ -69,12 +70,13 @@ db.close()
 _FILE_ = open(config._IN_PHP_CONFIG_, 'w')
 
 _FILE_.write("<?php\n")
-_FILE_.write("   $DB_SERVER = '%s';\n" % (config._IN_MYSQL_HOST_))
-_FILE_.write("   $DV_USERNAME = '%s';\n" % (config._IN_MYSQL_USR_))
-_FILE_.write("   $DB_PASSWORD = '%s';\n" % (config._IN_MYSQL_PASS_))
-_FILE_.write("   $DB_DATABASE = '%s';\n" % (config._IN_MYSQL_DB_))
-_FILE_.write("	 $DB_PORT = '%s';\n" % (config._IN_MYSQL_PORT_))
-_FILE_.write("   $db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD,$DB_DATABASE, $DB_PORT) or die("Error " . mysqli_error($db));\n")
+_FILE_.write("\t$DB_SERVER = '%s';\n" % (config._IN_MYSQL_HOST_))
+_FILE_.write("\t$DB_USERNAME = '%s';\n" % (config._IN_MYSQL_USR_))
+_FILE_.write("\t$DB_PASSWORD = '%s';\n" % (config._IN_MYSQL_PASS_))
+_FILE_.write("\t$DB_DATABASE = '%s';\n" % (config._IN_MYSQL_DB_))
+_FILE_.write("\t$DB_PORT = '%s';\n" % (config._IN_MYSQL_PORT_))
+_FILE_.write("\t$db = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD,$DB_DATABASE, $DB_PORT);\n")
+_FILE_.write("\tif(mysqli_connect_errno()) { die('Databse Connection Error - ' . mysqli_connect_error()); }\n")
 _FILE_.write("?>\n")
 
 _FILE_.close()
