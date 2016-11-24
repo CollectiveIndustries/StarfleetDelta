@@ -9,4 +9,9 @@ function redirect($url){
     }
 }
 
+function GetAssetName($string)
+{
+	return str_replace("INVENTORY_", "", $string);
+}
+
 ?>
