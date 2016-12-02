@@ -16,7 +16,7 @@ string Bars( float Cur, integer Bars, list Charset )
     // Input    = 0.0 to 1.0
     // Bars     = char length of progress bar
     // Charset  = [Blank,<Shades>,Solid];
-    integer Shades = llGetListLength(Charset)-1;
+    integer Shades = llGetListLength(Charset) - 1;
             Cur *= Bars;
     integer Solids  = llFloor( Cur );
     integer Shade   = llRound( (Cur-Solids)*Shades );
