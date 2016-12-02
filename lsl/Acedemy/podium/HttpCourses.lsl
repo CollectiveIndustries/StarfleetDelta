@@ -1,20 +1,20 @@
 /*
 HTTP_menu.lsl
 Program designed to function as an http menu to allow for avatars on SL/OSG to interact with the Acedemic classroom for UFGQ
-    Copyright (C) 2016  Andrew Malone
+	Copyright (C) 2016  Andrew Malone
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 // User configurable variables.
@@ -41,28 +41,28 @@ string FormSection = "menu";
 
 list order_buttons(list buttons)
 {
-    return llList2List(buttons, -3, -1) + llList2List(buttons, -6, -4) + llList2List(buttons, -9, -7) + llList2List(buttons, -12, -10);
+	return llList2List(buttons, -3, -1) + llList2List(buttons, -6, -4) + llList2List(buttons, -9, -7) + llList2List(buttons, -12, -10);
 }
 
 DialogPlus(key avatar, string message, list buttons, integer channel, integer CurMenu)
 {
-    if (12 < llGetListLength(buttons))
-    {
-        list lbut = buttons;
-        list Nbuttons = [];
-        if(CurMenu == -1)
-        {
-            CurMenu = 0;
-            menuindex = 0;
-        }
- 
-        if((Nbuttons = (llList2List(buttons, (CurMenu * 10), ((CurMenu * 10) + 9)) + ["Back", "Next"])) == ["Back", "Next"])
-            DialogPlus(avatar, message, lbut, channel, menuindex = 0);
-        else
-            llDialog(avatar, message,  order_buttons(Nbuttons), channel);
-    }
-    else
-        llDialog(avatar, message,  order_buttons(buttons), channel);
+	if (12 < llGetListLength(buttons))
+	{
+		list lbut = buttons;
+		list Nbuttons = [];
+		if(CurMenu == -1)
+		{
+			CurMenu = 0;
+			menuindex = 0;
+		}
+
+		if((Nbuttons = (llList2List(buttons, (CurMenu * 10), ((CurMenu * 10) + 9)) + ["Back", "Next"])) == ["Back", "Next"])
+			DialogPlus(avatar, message, lbut, channel, menuindex = 0);
+		else
+			llDialog(avatar, message,  order_buttons(Nbuttons), channel);
+	}
+	else
+		llDialog(avatar, message,  order_buttons(buttons), channel);
 }
 
 // Return Text to reflect the button names with there discriptions
@@ -82,10 +82,10 @@ string StridedMenuText(list items)
 //UUID Based Channel
 integer ID2Chan(key id)
 {
-    integer mainkey = 921;
-    string tempkey = llGetSubString((string)id, 0, 7);
-    integer hex2int = (integer)("0x" + tempkey);
-    return hex2int + mainkey;
+	integer mainkey = 921;
+	string tempkey = llGetSubString((string)id, 0, 7);
+	integer hex2int = (integer)("0x" + tempkey);
+	return hex2int + mainkey;
 }
 
 ParseMenu(string text)
@@ -123,7 +123,6 @@ ParseMenu(string text)
 	else if(llToLower(llList2String(llParseString2List(text,["|"],[""]),1)) == "error")
 	{
 		llSay(0,llList2String(llParseString2List(text,["|"],[""]),1));
-		
 	}
 }
 
@@ -131,23 +130,23 @@ ParseMenu(string text)
 // Main entry Point //
 default
 {
-    state_entry()
-    {
+	state_entry()
+	{
 		llSetObjectName("Course List");
 		llSetText("",<0,1,0>,1.0);
-        llSay(0, "INIT: Systems starting");
-    }
+		llSay(0, "INIT: Systems starting");
+	}
 
-    http_response(key req ,integer stat, list met, string body)
-    {
-        if( req == CLASS ) //Response was from the TimeClock
-        {
+	http_response(key req ,integer stat, list met, string body)
+	{
+		if( req == CLASS ) //Response was from the TimeClock
+		{
 			//llSay(0,body);
-            if(stat == 200 && FormSection == "menu")
-            {
-                ParseMenu(body);
-            }
-            else if(stat == 200 && FormSection == "div")
+			if(stat == 200 && FormSection == "menu")
+			{
+				ParseMenu(body);
+			}
+			else if(stat == 200 && FormSection == "div")
 			{
 				ParseMenu(body);
 			}
@@ -156,35 +155,35 @@ default
 				state class;
 			}
 			else
-                llSay(0,"Defualt State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
-        }
-    }
+				llSay(0,"Defualt State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+		}
+	}
 
 	listen(integer chan, string name, key id, string msg)
 	{
 		//llSay(0,msg);
 		// If they clicked Next it will go to the next dialog window
-        if(msg == "Next")
-        {
-            // ++menuindex will turn menuindex plus 1, making it give the next page.
-            DialogPlus(USER, "UFGQ Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, ++menuindex);//Returns only the DivIDs for the classes on the menu buttons
-        }
-        // if they clicked back it will go to the last dialog window.
-        else if(msg == "Back")
+		if(msg == "Next")
 		{
-            DialogPlus(USER, "UFGQ Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, --menuindex);//Returns only the DivIDs for the classes on the menu buttons
-            // --menuindex will turn menuindex minus 1, making it give the previous page.
+			// ++menuindex will turn menuindex plus 1, making it give the next page.
+			DialogPlus(USER, "UFGQ Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, ++menuindex);//Returns only the DivIDs for the classes on the menu buttons
 		}
-        // If they choose anything besides Back/Next it will be in this section
-        else if(FormSection == "menu")
-        {
-            // Be Safe
+		// if they clicked back it will go to the last dialog window.
+		else if(msg == "Back")
+		{
+			DialogPlus(USER, "UFGQ Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, --menuindex);//Returns only the DivIDs for the classes on the menu buttons
+			// --menuindex will turn menuindex minus 1, making it give the previous page.
+		}
+		// If they choose anything besides Back/Next it will be in this section
+		else if(FormSection == "menu")
+		{
+			// Be Safe
 			FormSection = "div";
-            llListenRemove(MenuListen);
+			llListenRemove(MenuListen);
 			menuindex=0; //Reset the Menu Index Value to 0 to start at the begining again
 			CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch="+FormSection+"&class_id="+msg);//Respond back to the website with the ClassID so we can get the class listing
 			jump end;
-        }
+		}
 		else if(FormSection == "div")
 		{
 			CourseNumber = (integer)msg;
@@ -196,19 +195,19 @@ default
 		}
 		@end;
 	}
-	
-    touch_start(integer total_number)
-    {
-        integer face = llDetectedTouchFace(0);
- 
-        if (face == TOUCH_INVALID_FACE)
-            llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
-        else 
-        {
-            USER = llDetectedKey(0);
-            CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch="+FormSection+"&uuid="+(string)USER);//grab the menu then we will parse the results offer to the user then branch to the div classes menu
-        }
-    }
+
+	touch_start(integer total_number)
+	{
+		integer face = llDetectedTouchFace(0);
+
+		if (face == TOUCH_INVALID_FACE)
+			llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. Please upgrade your Secondlife Browser.");
+		else 
+		{
+			USER = llDetectedKey(0);
+			CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch="+FormSection+"&uuid="+(string)USER);//grab the menu then we will parse the results offer to the user then branch to the div classes menu
+		}
+	}
 }
 
 
@@ -218,15 +217,17 @@ state class
 	{
 		llSetText("Class In Progress",<0,1,0>,1.0);
 		FormSection = "class_init";
-		CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_init&course_id="+(string)CourseNumber+"&uuid="+(string)USER);//Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
+		//Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
+		CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_init&course_id="+(string)CourseNumber+"&uuid="+(string)USER);
 	}
+
 	http_response(key req ,integer stat, list met, string body)
-    {
-        if( req == CLASS ) //Response was from the TimeClock
-        {
+	{
+		if( req == CLASS ) //Response was from the TimeClock
+		{
 			list temp = llParseString2List(body,["|"],[""]);
-            if(stat == 200 && FormSection == "class_init")
-            {
+			if(stat == 200 && FormSection == "class_init")
+			{
 				if(llToLower(llList2String(temp,0)) == "rank_name")
 				{
 					llSetObjectName(llList2String(temp,1)+" "+llList2String(temp,2));
@@ -240,7 +241,7 @@ state class
 					llResetScript();
 				}
 				//Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
-            }
+			}
 			else if(stat == 200 && FormSection == "class_running" && COURSE_INDEX < (LINE_TOTAL+1))
 			{
 				if(llToLower(llList2String(temp,0)) == "line")
@@ -261,8 +262,8 @@ state class
 				llSay(0,llList2String(temp,1));
 				llResetScript();
 			}
-            else
-                llSay(0,"Class State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
-        }
-    }
+			else
+				llSay(0,"Class State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+		}
+	}
 }
