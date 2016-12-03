@@ -12,6 +12,7 @@
 
 **Fixed bugs:**
 
+- \[Academics\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/UFGQ/issues/37)
 - \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/UFGQ/issues/30)
 - \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/UFGQ/issues/26)
 - \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/UFGQ/issues/24)
