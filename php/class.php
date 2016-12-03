@@ -11,12 +11,11 @@
 	$course_line = $_POST['course_line'];
 
 //Select All Classes,  DH Classes, and BASIC classes from the database
-	$DHmenu = "SELECT d.`did`, d.`dname` FROM `divisions` d INNER JOIN `accounts` a ON a.`DivID` = d.`did` WHERE a.`dh` = '1' AND a.`UUID` = '$uuid'";
 	$BasicMenu = "SELECT d.`did`, d.`dname` FROM `divisions` d WHERE d.`did` = '8'";
 	$ALLClassMenu = "SELECT `did`, `dname` FROM `divisions`";
 
-	$BasicClasses = "SELECT c.`Class Name`, c.`Class Description` FROM `courses` c WHERE `DivID` = '8'";
 	$ClassByDivId = "SELECT c.`ClassID`, c.`Class Name`, c.`Class Description` FROM `courses` c INNER JOIN `divisions` d ON d.`did` = c.`DivID` WHERE c.`DivID` = '$classID' ORDER BY c.`Class Name`";
+	$DHmenu = "SELECT d.`did`, d.`dname` FROM `divisions` d INNER JOIN `accounts` a ON a.`DivID` = d.`did` WHERE a.`dh` = '1' AND a.`UUID` = '$uuid'";
 
 //Authentication lookups This determines level of access for the user
 	$NameByUUID = "SELECT r.`rname`, IFNULL(a.`DisplayName`, a.`username`) AS `name` FROM `accounts` a INNER JOIN `Rank` r ON a.`RankID` = r.`RankID` WHERE a.UUID = '$uuid'";
@@ -27,8 +26,8 @@
 //Course Stats for the Course Selected
 	$TotalLines = "SELECT COUNT(*) AS `total` FROM `curriculum` c WHERE c.`classID` = '$CourseID'";
 
-// Grab a line from the Course on file and return it
-	$CourseLine = "SELECT c.`displayText` FROM `curriculum` c WHERE c.`classID` = '$CourseID' AND c.`lineNumber` = '$course_line'";
+// Grab a line from the Course on file and return it if the DisplayText is NULL grab the ASSET type and UUID number TYPE|UUID
+	$CourseLine = "SELECT IFNULL(c.`displayText`, CONCAT('ASSET|',CONCAT(aa.`type`,CONCAT(':',a.`uuid`)))) as `line` FROM `curriculum` c LEFT JOIN assets a ON  c.`asset_id` = a.`aid` LEFT JOIN asset_types aa ON a.`type`=aa.`atid` WHERE c.`classID` = '$CourseID' AND c.`lineNumber` = '$course_line'";
 
 //Function defines to keep code clean in this script
 	function class_menu($db,$sql)
@@ -91,7 +90,7 @@
                 {
                         while($row = mysqli_fetch_array($result))
                         {
-                                echo "LINE|".$row['displayText']."|";
+                                echo "LINE|".$row['line']."|";
                         }
                 }
                 else
@@ -119,79 +118,122 @@
                 }
         }
 
-	// Is the user a Committee Member?
-	if(!$Committee_Result = mysqli_query($db,$CommitteeLookup))
+	function IsCommittee($db,$sql)
 	{
-		die("ERROR|UUID Lookup|".mysqli_error($db));
+		if(!$result = mysqli_query($db,$sql))
+                {
+                        die("ERROR|IsCommittee|".mysqli_error($db));
+                }
+                if(mysqli_num_rows($result) > 0)
+                {
+			return TRUE;
+                }
+                else
+                {
+			return FALSE;
+                }
 	}
-	elseif(mysqli_num_rows($Committee_Result) > 0)
+
+	function IsAcademy($db,$sql)
 	{
-		//Set the menu to 3 for Full access
-		$menu = "3";
+                if(!$result = mysqli_query($db,$sql))
+                {
+                        die("ERROR|IsAcademy|".mysqli_error($db));
+                }
+                if(mysqli_num_rows($result) > 0)
+                {
+                        return TRUE;
+                }
+                else
+                {
+			return FALSE;
+                }
 	}
-	else
+	function IsDepartmentHead($db,$sql)
 	{
-		// If there are no results lets check the Acedemy Staff List and then the DH list to see if they have auxilary privlages
-		if(!$AcedemyStaff_Result = mysqli_query($db,$AcedemyLookup))
+                if(!$result = mysqli_query($db,$sql))
+                {
+                        die("ERROR|IsDepartmentHead|".mysqli_error($db));
+                }
+                if(mysqli_num_rows($result) > 0)
+                {
+                        return TRUE;
+                }
+                else
+                {
+			return FALSE;
+                }
+	}
+
+	function OtherStaff($db,$sql)
+	{
+		if(!$result = mysqli_query($db,$sql))
 		{
-			die("ERROR|UUID Lookup|".mysqli_error($db));
+			die("ERROR|OtherStaff|".mysqli_error($db));
 		}
-		elseif(mysqli_num_rows($AcedemyStaff_Result) > 0)
+		while($row = mysqli_fetch_array($result))
 		{
-			$menu = "3"; //Set Full access to Acedemy staff just like the Committee
+			// User is unauthorized so kill the script we dont really care anymore
+			die("ERROR|".$row['rname']." ".$row['name'].", Unauthorized Access Detected");
 		}
-		elseif(!$DHResults = mysqli_query($db,$DH))
+	}
+
+	function AuthLevel($db)
+	{
+		//Grab our authentication lookups and set them up here as a global value
+		global $NameByUUID;
+		global $CommitteeLookup;
+		global $DH;
+		global $AcedemyLookup;
+		if(IsCommittee($db,$CommitteeLookup))
 		{
-			die("ERROR|Committee Lookup|".mysqli_error($db));
+			return "full";
 		}
-		elseif(!mysqli_num_rows($DHResults) > 0)
+		else if(IsAcademy($db,$AcedemyLookup))
 		{
-			if(!$USERLookUp = mysqli_query($db,$NameByUUID))
-			{
-				die("ERROR|ERROR Lookup|".mysqli_error($db));
-			}
-			while($row = mysqli_fetch_array($USERLookUp))
-			{
-				// User is unauthorized so kill the script we dont really care anymore lol
-				die("ERROR|".$row['rname']." ".$row['name'].", Unauthorized Access Detected");
-			}
+			return "full";
 		}
-		else
+		else if(IsDepartmentHead($db, $DH))
 		{
-			//Set menu to 2 for DH Access
-			$menu = "2";
+			return "dh";
+		}
+		else if(IsOtherStaff($db,$NameByUUID))
+		{
+			return "none";
 		}
 	}
 
 // all the Magic happens in this section here multi-post comunication from SL to the DB
-	switch ($branch) {
-		case "menu": // Grab a list of divisions provide them to SL as a | seperated list for the menu
-			echo "DIV_MENU|";
-			switch ($menu) {
-				case "3": //Full menu
-					class_menu($db,$ALLClassMenu);
-					break;
-				case "2": //DH Menu
-					class_menu($db,$DHmenu);
-					class_menu($db,$BasicMenu);
-					break;
-				}
-			die("-EOF-");
-		case "div":
-			echo "CLASS_MENU|";
-			class_menu2($db,$ClassByDivId);
-			die("-EOF-");
-			break;
-		case "class_init":
-			GetRankName($db,$NameByUUID);
-			CountLines($db,$TotalLines);
-			die("-EOF-");
-			break;
-		case "class_running":
-			PullLine($db,$CourseLine);
-			die("-EOF-");
-			break;
-	}
+switch ($branch) {
+	case "menu": // Grab a list of divisions provide them to SL as a | seperated list for the menu
+		echo "DIV_MENU|";
+		switch (AuthLevel($db)) {
+			case "full": //Full menu
+				class_menu($db,$ALLClassMenu);
+				break;
+			case "dh": //DH Menu
+				class_menu($db,$DHmenu);
+				class_menu($db,$BasicMenu);
+				break;
+			case "none":
+				break;
+			}
+		die("-EOF-");
+	case "div":
+		echo "CLASS_MENU|";
+		class_menu2($db,$ClassByDivId);
+		die("-EOF-");
+		break;
+	case "class_init":
+		GetRankName($db,$NameByUUID);
+		CountLines($db,$TotalLines);
+		die("-EOF-");
+		break;
+	case "class_running":
+		PullLine($db,$CourseLine);
+		die("-EOF-");
+		break;
+}
 
 die(" -EOF- ");
 ?>
