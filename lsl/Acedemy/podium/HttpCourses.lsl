@@ -18,7 +18,7 @@ Program designed to function as an http menu to allow for avatars on SL/OSG to i
 */
 
 // User configurable variables.
-float MENU_TIMEOUT = 30.0; //Time in Seconds for Menu System to time out and reset
+float MEMU_TIMEOUT = 30.0; //Time in Seconds for Menu System to time out and reset
 string DISPLAY_NAME = "Course List";
 
 // Variable Init
@@ -183,7 +183,7 @@ default
             //llSay(0,body);
             if(stat == 200 && FormSection == "menu")
             {
-		llSetTimerEvent(MENU_TIMEOUT);
+		llSetTimerEvent(MEMU_TIMEOUT);
                 ParseMenu(body);
             }
             else if(stat == 200 && FormSection == "div")
