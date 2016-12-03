@@ -59,7 +59,7 @@ DialogPlus(key avatar, string message, list buttons, integer channel, integer Cu
             CurMenu = 0;
             menuindex = 0;
         }
- 
+
         if((Nbuttons = (llList2List(buttons, (CurMenu * 10), ((CurMenu * 10) + 9)) + ["Back", "Next"])) == ["Back", "Next"])
             DialogPlus(avatar, message, lbut, channel, menuindex = 0);
         else
@@ -128,14 +128,14 @@ ParseMenu(string text)
     else if(llToLower(llList2String(llParseString2List(text,["|"],[""]),1)) == "error")
     {
         llSay(0,llList2String(llParseString2List(text,["|"],[""]),1));
-        
+
     }
 }
 
-string SearchAndReplace(string input, string old, string new) 
+string SearchAndReplace(string input, string old, string new)
 {
-   return llDumpList2String(llParseStringKeepNulls((input = "") + input, [old], []), new);
-} 
+    return llDumpList2String(llParseStringKeepNulls((input = "") + input, [old], []), new);
+}
 
 // ParseText will Parse any <TEXT> tags and replace with proper values.
 
@@ -161,14 +161,14 @@ default
 {
     timer()
     {
-	llListenRemove(MenuListen);
-	llSetTimerEvent(0.0);
+        llListenRemove(MenuListen);
+        llSetTimerEvent(0.0);
     }
 
     state_entry()
     {
-	// Reset the Texture to display correctly accros the academic network and then send the All Clear status
-	// to the inworld class room handler
+        // Reset the Texture to display correctly accros the academic network and then send the All Clear status
+        // to the inworld class room handler
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Texture:4b45fb27-cf2e-1914-f513-bffddb952d46");
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Status:Available");
         llSetObjectName("Course List");
@@ -183,12 +183,12 @@ default
             //llSay(0,body);
             if(stat == 200 && FormSection == "menu")
             {
-		llSetTimerEvent(MEMU_TIMEOUT);
+                llSetTimerEvent(MEMU_TIMEOUT);
                 ParseMenu(body);
             }
             else if(stat == 200 && FormSection == "div")
             {
-		llSetTimerEvent(MEMU_TIMEOUT);
+                llSetTimerEvent(MEMU_TIMEOUT);
                 ParseMenu(body);
             }
             else if(stat == 200 && FormSection == "class")
@@ -242,14 +242,14 @@ default
         }
         @end;
     }
-    
+
     touch_start(integer total_number)
     {
         integer face = llDetectedTouchFace(0);
         USER = llDetectedKey(0);
         if (face == TOUCH_INVALID_FACE)
             llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
-        else 
+        else
         {
             USER = llDetectedKey(0);
             CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch="+FormSection+"&uuid="+(string)USER);//grab the menu then we will parse the results offer to the user then branch to the div classes menu
@@ -262,13 +262,14 @@ state class
 {
     state_entry()
     {
-	llListenRemove(MenuListen);
+        llListenRemove(MenuListen);
         API_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(),0)); //Init the API Channel
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Status:In_Use");
         llSetText("Class In Progress",<0,1,0>,1.0);
         FormSection = "class_init";
         CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_init&course_id="+(string)CourseNumber+"&uuid="+(string)USER);//Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
     }
+
     http_response(key req ,integer stat, list met, string body)
     {
         //llSay(0,body);
@@ -325,7 +326,6 @@ state class
                 llSay(0,"Class State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
                 llResetScript();
             }
-                
         }
     }
 }
