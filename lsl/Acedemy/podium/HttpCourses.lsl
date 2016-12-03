@@ -18,10 +18,11 @@ Program designed to function as an http menu to allow for avatars on SL/OSG to i
 */
 
 // User configurable variables.
-string COURSE_PAGE = "http://ci-main.no-ip.org/class.php";
-
+float MENU_TIMEOUT = 30.0; //Time in Seconds for Menu System to time out and reset
+string DISPLAY_NAME = "Course List";
 
 // Variable Init
+string COURSE_PAGE = "http://ci-main.no-ip.org/class.php";
 list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 key CLASS = "";
 key USER = ""; //Global variable for the USER Key we will need this for other sections of the script
@@ -37,8 +38,8 @@ integer menuindex = 0;
 list TopLevelMenu = [];
 string FormSection = "menu";
 
+// API For additional objects (Texture board, Lights, Particle Effects, Sounds)
 integer API_CHANNEL;
-string DISPLAY_NAME = "Course List";
 
 // Function declarations
 
@@ -82,7 +83,7 @@ string StridedMenuText(list items)
     return ReturnString;
 }
 
-//UUID Based Channel
+//Md5Checksum Encrypted channel hash
 integer ID2Chan(string id)
 {
     integer mainkey = 921;
@@ -158,8 +159,16 @@ string ParseText(string txt)
 // Main entry Point //
 default
 {
+    timer()
+    {
+	llListenRemove(MenuListen);
+	llSetTimerEvent(0.0);
+    }
+
     state_entry()
     {
+	// Reset the Texture to display correctly accros the academic network and then send the All Clear status
+	// to the inworld class room handler
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Texture:4b45fb27-cf2e-1914-f513-bffddb952d46");
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Status:Available");
         llSetObjectName("Course List");
@@ -174,10 +183,12 @@ default
             //llSay(0,body);
             if(stat == 200 && FormSection == "menu")
             {
+		llSetTimerEvent(MENU_TIMEOUT);
                 ParseMenu(body);
             }
             else if(stat == 200 && FormSection == "div")
             {
+		llSetTimerEvent(MEMU_TIMEOUT);
                 ParseMenu(body);
             }
             else if(stat == 200 && FormSection == "class")
@@ -251,6 +262,7 @@ state class
 {
     state_entry()
     {
+	llListenRemove(MenuListen);
         API_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(),0)); //Init the API Channel
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Status:In_Use");
         llSetText("Class In Progress",<0,1,0>,1.0);
@@ -260,7 +272,7 @@ state class
     http_response(key req ,integer stat, list met, string body)
     {
         //llSay(0,body);
-        if( req == CLASS ) //Response was from the TimeClock
+        if( req == CLASS ) //Response was from the WebPage
         {
             list temp = llParseString2List(body,["|"],[""]);
             if(stat == 200 && FormSection == "class_init")
