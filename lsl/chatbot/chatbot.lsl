@@ -43,10 +43,10 @@ string ANSWER(string in)
     return llGetSubString(in, begining + 6, end - 1);//select ONLY that section of chat
 }
 
-string SearchAndReplace(string input, string old, string new) 
+string SearchAndReplace(string input, string old, string new)
 {
-   return llDumpList2String(llParseString2List(input, [old], []), new);
-} 
+    return llDumpList2String(llParseString2List(input, [old], []), new);
+}
 
 default
 {
@@ -85,7 +85,7 @@ default
             newreply = SearchAndReplace(reply, "& gt;", ">"); //the first search should be & gt; (delete @)
             reply = newreply;
             newreply = SearchAndReplace(reply, "& lt;", "<"); //this first search should be & lt;
-            
+
             llSay(0,newreply);
             //llSay(0,ANSWER(body));
         }

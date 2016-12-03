@@ -17,7 +17,7 @@ string Bars( float Cur, integer Bars, list Charset )
     // Bars     = char length of progress bar
     // Charset  = [Blank,<Shades>,Solid];
     integer Shades = llGetListLength(Charset) - 1;
-            Cur *= Bars;
+    Cur *= Bars;
     integer Solids  = llFloor( Cur );
     integer Shade   = llRound( (Cur-Solids)*Shades );
     integer Blanks  = Bars - Solids - 1;
@@ -25,13 +25,13 @@ string Bars( float Cur, integer Bars, list Charset )
     while( Solids-- >0 ) str += llList2String( Charset, -1 );
     if( Blanks >= 0 ) str += llList2String( Charset, Shade );
     while( Blanks-- >0 ) str += llList2String( Charset, 0 );
-    return str; 
+    return str;
 }
 
 CountItems()
 {
-  TOTAL_INVENTORY = llGetInventoryNumber( INVENTORY_ALL );
-  --TOTAL_INVENTORY; //minus 1, the script itself isn't counted, since its used with the INVENTORY_ALL flag
+    TOTAL_INVENTORY = llGetInventoryNumber( INVENTORY_ALL );
+    --TOTAL_INVENTORY; //minus 1, the script itself isn't counted, since its used with the INVENTORY_ALL flag
 }
 
 // Returns a type cast string of the INVENTORY_* type MySQL matches these values with out the INVENTORY_ part.
@@ -109,7 +109,7 @@ default
             }
         }
     }
-    
+
     http_response(key req ,integer stat, list met, string body)
     {
         if( req == AssetReq ) //Response was from the TimeClock
@@ -117,7 +117,7 @@ default
             llSleep(1.0);
             if(stat == 200)
             {
-            //Set up if statment to handle server Errors here
+                //Set up if statment to handle server Errors here
                 if(llToLower(llGetSubString(body, 0, 5)) == "error|")
                 {
                     llSay(0,"\nSTAT: "+(string)stat+"\nRES: "+(string)body);

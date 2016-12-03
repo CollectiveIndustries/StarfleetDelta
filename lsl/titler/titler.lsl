@@ -52,57 +52,57 @@ string version = "3.1";
 // Main entry Point //
 default
 {
-	state_entry()
-	{
-		listenhandle = llListen(899,"",NULL_KEY,"");  //adding a listener var to use later for closing
-		llOwnerSay("INIT: Systems starting");
-		TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid="+(string)llGetOwner());
-		//TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
-	}
-	listen(integer chan, string name, key id, string msg)
-    	{
-        	if(msg == "reset")
-        	{
-            		llListenRemove(listenhandle);  //closing the listen before we reset the titler
-            		llResetScript();
-        	}
-        	else if(msg == "list")
-        	{
-            		llRegionSay(899,(string)llGetDisplayName(llGetOwner()) + " is using version " + version); //broadcast owner name and version number
-        	}
-    	}
+    state_entry()
+    {
+        listenhandle = llListen(899,"",NULL_KEY,"");  //adding a listener var to use later for closing
+        llOwnerSay("INIT: Systems starting");
+        TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid="+(string)llGetOwner());
+        //TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
+    }
+    listen(integer chan, string name, key id, string msg)
+    {
+        if(msg == "reset")
+        {
+            llListenRemove(listenhandle);  //closing the listen before we reset the titler
+            llResetScript();
+        }
+        else if(msg == "list")
+        {
+            llRegionSay(899,(string)llGetDisplayName(llGetOwner()) + " is using version " + version); //broadcast owner name and version number
+        }
+    }
 
-	changed(integer change)
-	{
-		if(change & CHANGED_OWNER) 
-		{
-		llListenRemove(listenhandle);
-		llResetScript();
-		}
-	}
+    changed(integer change)
+    {
+        if(change & CHANGED_OWNER)
+        {
+            llListenRemove(listenhandle);
+            llResetScript();
+        }
+    }
 
-	http_response(key req ,integer stat, list met, string body)
-	{
-		if( req == TagReq ) //Response was from the TimeClock
-		{
-			if(stat == 200)
-			{
-			//Set up if statment to handle server Errors here
-				if(llToLower(llGetSubString(body, 0, 5)) == "error:")
-				{
-					llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
-				}
-				else
-				{
-					list temp = llParseString2List(body,[":"],[]);
-					vector color = (vector)llList2String(temp, 0) / 255; //Convert RGB stored values database side to Vectors for LSL
-					string tag = llList2String(temp, 1);
-					llSetText(tag, color, 1.0);
-				}
-				USER = "";
-			}
-			else
-				llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
-		}
-	}
+    http_response(key req ,integer stat, list met, string body)
+    {
+        if( req == TagReq ) //Response was from the TimeClock
+        {
+            if(stat == 200)
+            {
+                //Set up if statment to handle server Errors here
+                if(llToLower(llGetSubString(body, 0, 5)) == "error:")
+                {
+                    llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                }
+                else
+                {
+                    list temp = llParseString2List(body,[":"],[]);
+                    vector color = (vector)llList2String(temp, 0) / 255; //Convert RGB stored values database side to Vectors for LSL
+                    string tag = llList2String(temp, 1);
+                    llSetText(tag, color, 1.0);
+                }
+                USER = "";
+            }
+            else
+                llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+        }
+    }
 }

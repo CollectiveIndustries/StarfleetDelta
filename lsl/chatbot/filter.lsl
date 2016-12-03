@@ -31,40 +31,40 @@ list talkers;
 
 listen_to(key talker)
 {
-        integer index = llListFindList( talkers, [talker] );
+    integer index = llListFindList( talkers, [talker] );
     if ( index != -1 )
-        {
+    {
         talkers = llDeleteSubList(talkers, index, index);
-         llMessageLinked(LINK_SET,0,"BYE",talker);
-        }
+        llMessageLinked(LINK_SET,0,"BYE",talker);
+    }
     else
-        {
+    {
         talkers = talkers + talker;
-         llMessageLinked(LINK_SET,0,"HI",talker);
-        }
+        llMessageLinked(LINK_SET,0,"HI",talker);
+    }
 }
 
 
 default
-{    
-    state_entry()    
+{
+    state_entry()
     {
         gOwner = llGetOwner();
         llListen(0,"",NULL_KEY,"");
     }
 
-    on_rez(integer i) 
+    on_rez(integer i)
     {
         llWhisper(0,"Owner say /chat or touch me");
         llResetScript();
     }
-    
+
     touch_start(integer num_detected)
     {
         listen_to(llDetectedKey(0));
     }
 
-        listen(integer channel, string name, key id, string msg)
+    listen(integer channel, string name, key id, string msg)
     {
         if (msg == "/chat")
         {
@@ -76,7 +76,7 @@ default
             llWhisper(0,"Resetting");
             llResetScript();
         }
-            
+
 
 
         integer index = llListFindList( talkers, [id] );

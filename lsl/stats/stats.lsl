@@ -38,12 +38,12 @@ default
         llSetTimerEvent(5.0);//5 Second refresh
         StatReq = llHTTPRequest(STAT_PAGE, STAT_PARAMS_POST, "stat="+ llToLower(llGetObjectDesc()));
     }
-    
+
     timer()
     {
         StatReq = llHTTPRequest(STAT_PAGE, STAT_PARAMS_POST, "stat="+ llToLower(llGetObjectDesc()));
     }
-    
+
     changed(integer change)
     {
         if(change & CHANGED_OWNER) llResetScript();
@@ -55,7 +55,7 @@ default
         {
             if(stat == 200)//HTTP was Sent correctly
             {
-            //Set up if statment to handle server Errors here
+                //Set up if statment to handle server Errors here
                 if(llToLower(llGetSubString(body, 0, 5)) == "error:")
                 {
                     llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
@@ -70,7 +70,7 @@ default
             {
                 llSetText("Error "+(string)stat, <1,0,0>, 1.0);
             }
-                //llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+            //llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
         }
     }
 }

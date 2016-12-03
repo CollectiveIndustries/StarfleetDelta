@@ -51,8 +51,8 @@ string HTTP_ERROR = "An unexpected error occured while attempting to clock user 
 key ProfilePicReq = "";
 GetProfilePic(key id) //Run the HTTP Request then set the texture
 {
-	string URL_RESIDENT = "http://world.secondlife.com/resident/";
-	ProfilePicReq = llHTTPRequest( URL_RESIDENT + (string)id,[HTTP_METHOD,"GET"],"");
+    string URL_RESIDENT = "http://world.secondlife.com/resident/";
+    ProfilePicReq = llHTTPRequest( URL_RESIDENT + (string)id,[HTTP_METHOD,"GET"],"");
 }
 
 /*
@@ -66,15 +66,15 @@ GetProfilePic(key id) //Run the HTTP Request then set the texture
 
 _CISoundServ(integer chan, string UUID, integer internal)
 {
-	//llSay(0,"DEBUG SOUND API: "+(string)chan+" UUID: "+(string)UUID+" INTERNAL "+(string)internal);
-	if (internal == TRUE)
-	{
-		llPlaySound(UUID,1.0);
-	}
-	else if(internal == FALSE)
-	{
-		llRegionSay(chan,"sound:"+UUID);
-	}
+    //llSay(0,"DEBUG SOUND API: "+(string)chan+" UUID: "+(string)UUID+" INTERNAL "+(string)internal);
+    if (internal == TRUE)
+    {
+        llPlaySound(UUID,1.0);
+    }
+    else if(internal == FALSE)
+    {
+        llRegionSay(chan,"sound:"+UUID);
+    }
 }
 
 /*
@@ -89,85 +89,85 @@ _CISoundServ(integer chan, string UUID, integer internal)
 
 playRandomSound(list UUIDS)
 {
-	integer listlen = llGetListLength(UUIDS);
+    integer listlen = llGetListLength(UUIDS);
 
-	integer index = (integer)llFrand(listlen);
-	_CISoundServ(SOUND_API, llList2String(UUIDS,index) ,_SOUND_INTERNAL);
-	//llSound(llList2String(UUIDS,index), 1.0,TRUE,FALSE);
-	llSleep(0.1);
+    integer index = (integer)llFrand(listlen);
+    _CISoundServ(SOUND_API, llList2String(UUIDS,index) ,_SOUND_INTERNAL);
+    //llSound(llList2String(UUIDS,index), 1.0,TRUE,FALSE);
+    llSleep(0.1);
 }
 
 
 // Main entry Point //
 default
 {
-	state_entry()
-	{
-		s1l = llStringLength(profile_key_prefix);
-		llSay(0, "INIT: Systems starting");
-		llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
-	}
+    state_entry()
+    {
+        s1l = llStringLength(profile_key_prefix);
+        llSay(0, "INIT: Systems starting");
+        llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
+    }
 
-	http_response(key req ,integer stat, list met, string body)
-	{
-		//llSay(0,"REQ: "+(string)req+"\nSTAT: "+(string)stat);
-		if(req == ProfilePicReq) //response is from the Profile picture request
-		{
-			integer s1 = llSubStringIndex(body,profile_key_prefix);
-			if(s1 == -1)
-			{
-				llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
-			}
-			else
-			{
-				s1 += s1l;
-				key UUID=llGetSubString(body, s1, s1 + 35);
-				if (UUID == NULL_KEY) // UUID is NULL set defualt screen
-				{
-					llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
-				}
-				else //UUID is valid set profile picture
-				{
-					llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 0.0>, <0,0,0>, 0.0]);
-					llSleep(5.0);  // Reset Display face after 5 seconds
-					llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
-				}
-			}
-		}
-		else if( req == ClockReq ) //Response was from the TimeClock
-		{
-			if(stat == 200)
-			{
-				//Set up if statment to handle server Errors here
-				if(llToLower(llGetSubString(body, 0, 5)) == "error:")
-				{
-					llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
-				}
-				else
-				{
-					llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you out.");
-				}
-				USER = "";
-			}
-			else
-				llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
-		}
-	}
+    http_response(key req ,integer stat, list met, string body)
+    {
+        //llSay(0,"REQ: "+(string)req+"\nSTAT: "+(string)stat);
+        if(req == ProfilePicReq) //response is from the Profile picture request
+        {
+            integer s1 = llSubStringIndex(body,profile_key_prefix);
+            if(s1 == -1)
+            {
+                llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
+            }
+            else
+            {
+                s1 += s1l;
+                key UUID=llGetSubString(body, s1, s1 + 35);
+                if (UUID == NULL_KEY) // UUID is NULL set defualt screen
+                {
+                    llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
+                }
+                else //UUID is valid set profile picture
+                {
+                    llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 0.0>, <0,0,0>, 0.0]);
+                    llSleep(5.0);  // Reset Display face after 5 seconds
+                    llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
+                }
+            }
+        }
+        else if( req == ClockReq ) //Response was from the TimeClock
+        {
+            if(stat == 200)
+            {
+                //Set up if statment to handle server Errors here
+                if(llToLower(llGetSubString(body, 0, 5)) == "error:")
+                {
+                    llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                }
+                else
+                {
+                    llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you out.");
+                }
+                USER = "";
+            }
+            else
+                llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+        }
+    }
 
-	touch_start(integer total_number)
-	{
-		integer link = llDetectedLinkNumber(0);
-		integer face = llDetectedTouchFace(0);
- 
-		if (face == TOUCH_INVALID_FACE)
-			llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
-		else if(face == CONSOLE_FACE ) // Not invalid Log user in IF they touched the proper face
-		{
-			playRandomSound(_SOUND_BUTTON_);
-			USER = llDetectedKey(0);
-			GetProfilePic(USER);
-			llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered the clock update.");
-			ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"&name="+llKey2Name(USER));
-		}
-	}
+    touch_start(integer total_number)
+    {
+        integer link = llDetectedLinkNumber(0);
+        integer face = llDetectedTouchFace(0);
+
+        if (face == TOUCH_INVALID_FACE)
+            llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
+        else if(face == CONSOLE_FACE ) // Not invalid Log user in IF they touched the proper face
+        {
+            playRandomSound(_SOUND_BUTTON_);
+            USER = llDetectedKey(0);
+            GetProfilePic(USER);
+            llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered the clock update.");
+            ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"&name="+llKey2Name(USER));
+        }
+    }
 }

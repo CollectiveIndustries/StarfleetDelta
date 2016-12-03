@@ -25,10 +25,10 @@ state available
         llSetText("", <1,1,1>, 1.0);
         llSay(0, "Terminal is now available");
         llSetPrimitiveParams([
-        PRIM_COLOR, 1, <0,1,0>, 1.0,
-        PRIM_COLOR, 2, <0,1,0>, 1.0,
-        PRIM_COLOR, 3, <0,1,0>, 1.0,
-        PRIM_COLOR, 4, <0,1,0>, 1.0
+            PRIM_COLOR, 1, <0,1,0>, 1.0,
+            PRIM_COLOR, 2, <0,1,0>, 1.0,
+            PRIM_COLOR, 3, <0,1,0>, 1.0,
+            PRIM_COLOR, 4, <0,1,0>, 1.0
         ]);
     }
     touch_start(integer num_detected)
@@ -134,7 +134,7 @@ state in_use
                 llSleep(2);
                 state available;
             }
-            else 
+            else
             {
                 llSetText("Generic Error: " + body, <1,1,1>, 1.0);
                 llSleep(2);
@@ -150,16 +150,16 @@ state off
     {
         llSay(0, "Terminal offline.");
         llSetPrimitiveParams([
-        PRIM_COLOR, 1, <0.1,0.1,0.1>, 1.0,
-        PRIM_COLOR, 2, <0.1,0.1,0.1>, 1.0,
-        PRIM_COLOR, 3, <0.1,0.1,0.1>, 1.0,
-        PRIM_COLOR, 4, <0.1,0.1,0.1>, 1.0
+            PRIM_COLOR, 1, <0.1,0.1,0.1>, 1.0,
+            PRIM_COLOR, 2, <0.1,0.1,0.1>, 1.0,
+            PRIM_COLOR, 3, <0.1,0.1,0.1>, 1.0,
+            PRIM_COLOR, 4, <0.1,0.1,0.1>, 1.0
         ]);
     }
     touch_end(integer num_detected)
     {
         integer face = llDetectedTouchFace(0);
         if(llDetectedKey(0) == llGetOwner() && face == 1)
-        state default;
+            state default;
     }
 }
