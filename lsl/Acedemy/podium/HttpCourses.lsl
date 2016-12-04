@@ -24,10 +24,11 @@ string DEFUALT_TEXTURE = "4b45fb27-cf2e-1914-f513-bffddb952d46";
 
 // Variable Init
 string COURSE_PAGE = "http://ci-main.no-ip.org/class.php";
+string BUG_PAGE = "https://github.com/CollectiveIndustries/UFGQ/issues";
 list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 key CLASS = "";
 key USER = ""; //Global variable for the USER Key we will need this for other sections of the script
-string HTTP_ERROR = "An unexpected error occured while attempting to read Academy Courses. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
+string HTTP_ERROR = "An unexpected error occured while attempting to read Academy Courses. To submit bug reports or checkup on known issues please visit:\n\n";
 
 integer CourseNumber = 0; //Sets the CourseNumber for table lookups later on in the script
 integer LINE_TOTAL = 0;
@@ -109,6 +110,7 @@ ParseMenu(string text)
         TopLevelMenu = llDeleteSubList(TopLevelMenu, -1, -1); //remove the Last entry [-EOF-]
         // Dialog menu goes here with the TopLevelMenu list for buttons Dialog channel will be User UUID Specific
         MenuChan = ID2Chan(USER);
+        TopLevelMenu = ["Issues", "Open Project Status Page"] + TopLevelMenu; //Add the main menu button to return
         MenuListen = llListen(ID2Chan(USER), "", USER, "");
         DialogPlus(USER, "UFGQ Courses\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, menuindex);//Returns only the DivIDs for the classes on the menu buttons
     }
@@ -206,7 +208,7 @@ default
                 state class;
             }
             else
-                llSay(0,"Defualt State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                llSay(0,"Defualt State Error:\n\n"+HTTP_ERROR+BUG_PAGE+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
         }
     }
 
@@ -230,6 +232,11 @@ default
             FormSection = "menu";
             CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=menu&uuid="+(string)USER);//Ask for the main menu again
             jump end;
+        }
+        else if (msg == "Issues")
+        {
+            llLoadURL(USER, "Github for current project status", BUG_PAGE);
+            llResetScript();
         }
         // If they choose anything besides Back/Next it will be in this section
         else if(FormSection == "menu")
@@ -332,7 +339,7 @@ state class
             }
             else
             {
-                llSay(0,"Class State Error:\n\n"+HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                llSay(0,"Class State Error:\n\n"+HTTP_ERROR + BUG_PAGE+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
                 llResetScript();
             }
         }
