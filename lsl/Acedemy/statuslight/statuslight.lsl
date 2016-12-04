@@ -1,3 +1,9 @@
+/*
+It should be noted that this is specifically configured for a server blade used by
+Kodos Macarthur. If this needs to be configured for another device, please
+contact him and he will get a script configured for your device.
+*/
+
 integer api_chan;
 integer listenhandle;
 
