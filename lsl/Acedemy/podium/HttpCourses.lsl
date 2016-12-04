@@ -18,7 +18,8 @@ Program designed to function as an http menu to allow for avatars on SL/OSG to i
 */
 
 // User configurable variables.
-float MEMU_TIMEOUT = 30.0; //Time in Seconds for Menu System to time out and reset
+float MEMU_TIMEOUT = 30.0; 	//Time in Seconds for Menu System to time out and reset
+float ADMIN_MENU_TIME = 3.0;	//Seconds to hold touch the podium for the Admin Menu durring a class
 string NAME_OBJECT = "Course List";
 string DEFUALT_TEXTURE = "4b45fb27-cf2e-1914-f513-bffddb952d46";
 
@@ -41,6 +42,8 @@ list TopLevelMenu = [];
 string FormSection = "menu";
 
 string INSTRUCTOR_NAME = "";
+
+integer PAUSE = FALSE;
 
 // API For additional objects (Texture board, Lights, Particle Effects, Sounds)
 integer API_CHANNEL;
@@ -286,10 +289,36 @@ state class
         FormSection = "class_init";
         CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_init&course_id="+(string)CourseNumber+"&uuid="+(string)USER);//Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
     }
+
+    touch_start(integer num_detected)
+    {
+        llResetTime();
+    }
+
+    touch_end(integer num_detected)
+    {
+        // Unlock the Admin Menu if the Instructer (USER) touched object for ADMIN_MENU_TIME amount of time and PAUSE is FALSE
+        if(llGetTime() > ADMIN_MENU_TIME && PAUSE == FALSE && llDetectedKey(0) == USER)
+        {
+            PAUSE = TRUE; // Pause the web reader
+            COURSE_INDEX--; //Drop the Course Index since we Paused the script we discarded one response
+            llSay(0,"System Paused");
+            jump break;
+        }
+        else if (llGetTime() > ADMIN_MENU_TIME && PAUSE == TRUE && llDetectedKey(0) == USER)
+        {
+            PAUSE = FALSE; // Pause the web reader
+            //Resume the Class after we touch it again
+            llSay(0,"System Resumed");
+            CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_running&course_id="+(string)CourseNumber+"&course_line="+(string)COURSE_INDEX);
+            jump break;
+        }
+        @break;
+    }
+
     http_response(key req ,integer stat, list met, string body)
     {
-        //llSay(0,body);
-        if( req == CLASS ) //Response was from the WebPage
+        if( req == CLASS && PAUSE == FALSE ) //Response was from the WebPage and our system is NOT paused.
         {
             list temp = llParseString2List(body,["|"],[""]);
             if(stat == 200 && FormSection == "class_init")
