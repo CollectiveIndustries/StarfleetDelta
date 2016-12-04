@@ -19,7 +19,8 @@ Program designed to function as an http menu to allow for avatars on SL/OSG to i
 
 // User configurable variables.
 float MEMU_TIMEOUT = 30.0; //Time in Seconds for Menu System to time out and reset
-string DISPLAY_NAME = "Course List";
+string NAME_OBJECT = "Course List";
+string DEFUALT_TEXTURE = "4b45fb27-cf2e-1914-f513-bffddb952d46";
 
 // Variable Init
 string COURSE_PAGE = "http://ci-main.no-ip.org/class.php";
@@ -37,6 +38,8 @@ integer MenuListen;
 integer menuindex = 0;
 list TopLevelMenu = [];
 string FormSection = "menu";
+
+string INSTRUCTOR_NAME = "";
 
 // API For additional objects (Texture board, Lights, Particle Effects, Sounds)
 integer API_CHANNEL;
@@ -142,18 +145,29 @@ string SearchAndReplace(string input, string old, string new)
 string ParseText(string txt)
 {
     string returnTxt;
-    returnTxt = SearchAndReplace(txt, "<INSTRUCTOR_NAME>", DISPLAY_NAME);
+    returnTxt = SearchAndReplace(txt, "<INSTRUCTOR_NAME>", INSTRUCTOR_NAME);
     if(returnTxt == "<LIGHTS_OFF>")
     {
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Lights:Dim");
-        returnTxt = SearchAndReplace(txt, "<LIGHTS_OFF>", "*"+DISPLAY_NAME+" dims the lights*");
+        returnTxt = SearchAndReplace(txt, "<LIGHTS_OFF>", "*"+INSTRUCTOR_NAME+" dims the lights*");
     }
     else if (returnTxt == "<LIGHTS_ON>")
     {
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Lights:Bright");
-        returnTxt = SearchAndReplace(txt, "<LIGHTS_ON>", "*"+DISPLAY_NAME+" turns the lights on*");
+        returnTxt = SearchAndReplace(txt, "<LIGHTS_ON>", "*"+INSTRUCTOR_NAME+" turns the lights on*");
     }
     return returnTxt;
+}
+
+INIT()
+{
+    //Set the Channel on INIT
+    API_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(),0));
+    llRegionSay(API_CHANNEL,"Texture:"+(string)DEFUALT_TEXTURE);
+    llRegionSay(API_CHANNEL,"Status:Available");
+    llRegionSay(API_CHANNEL,"Lights:Bright");
+    llSetObjectName(NAME_OBJECT);
+    llSetText("",<0,1,0>,1.0);
 }
 
 // Main entry Point //
@@ -161,18 +175,14 @@ default
 {
     timer()
     {
+        llSay(0,"Menu Timed Out. System reset.");
         llListenRemove(MenuListen);
         llSetTimerEvent(0.0);
     }
 
     state_entry()
     {
-        // Reset the Texture to display correctly accros the academic network and then send the All Clear status
-        // to the inworld class room handler
-        llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Texture:4b45fb27-cf2e-1914-f513-bffddb952d46");
-        llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(),0)),"Status:Available");
-        llSetObjectName("Course List");
-        llSetText("",<0,1,0>,1.0);
+        INIT();
         llSay(0, "INIT: Systems starting");
     }
 
@@ -269,7 +279,6 @@ state class
         FormSection = "class_init";
         CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_init&course_id="+(string)CourseNumber+"&uuid="+(string)USER);//Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
     }
-
     http_response(key req ,integer stat, list met, string body)
     {
         //llSay(0,body);
@@ -280,7 +289,7 @@ state class
             {
                 if(llToLower(llList2String(temp,0)) == "rank_name")
                 {
-                    DISPLAY_NAME = llList2String(temp,1)+" "+llList2String(temp,2);
+                    INSTRUCTOR_NAME = llList2String(temp,1)+" "+llList2String(temp,2);
                     llSetObjectName(":");
                     FormSection = "class_running";
                     LINE_TOTAL = llList2Integer(temp,4);
