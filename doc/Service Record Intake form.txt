@@ -14,7 +14,7 @@ Please fill this out and return to Admiral Charlie Duffield(Cd Duffield)
 * Nationality:  
 * Identifying Marks/Features:
 
-== UFGQ Operations Data ==
+== Starfleet Delta Operations Data ==
 * Induction Date:
 * Current Rank:
 * Current Division:
@@ -26,7 +26,7 @@ Please fill this out and return to Admiral Charlie Duffield(Cd Duffield)
 == Promotion History ==
 
 
-== UFGQ: SF Academy Courses Passed ==
+== Starfleet Delta: Academy Courses Passed ==
 
 
 == Medical/Religious Profile ==
