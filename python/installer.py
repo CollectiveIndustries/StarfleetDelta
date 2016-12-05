@@ -23,7 +23,7 @@ username = None
 password = None
 
 # Insert statement for creating a new admin user on first install.
-sql = "INSERT INTO `ufgq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
+sql = "INSERT INTO `sdq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
 
 ### Main Script ###
 
