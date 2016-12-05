@@ -25,7 +25,7 @@ string DEFUALT_TEXTURE = "4b45fb27-cf2e-1914-f513-bffddb952d46";
 
 // Variable Init
 string COURSE_PAGE = "http://ci-main.no-ip.org/class.php";
-string BUG_PAGE = "https://github.com/CollectiveIndustries/Starfleet Delta/issues";
+string BUG_PAGE = "https://github.com/CollectiveIndustries/StarfleetDelta/issues";
 list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 key CLASS = "";
 key USER = ""; //Global variable for the USER Key we will need this for other sections of the script

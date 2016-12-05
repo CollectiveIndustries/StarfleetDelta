@@ -28,7 +28,7 @@ update = "UPDATE `ufgq`.`accounts` SET `email`='%s' WHERE `ID`=%s"
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
-print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
+print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
 
 db = function.MySQL_init()
 

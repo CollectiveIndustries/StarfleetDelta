@@ -2,7 +2,7 @@
 #
 # Title: install.py
 #
-# Purpose: Installs UFGQ Webpage and Database.
+# Purpose: Installs Starfleet Delta Webpage and Database.
 #
 # Copyright (C) Andrew Malone 2015
 
@@ -29,7 +29,7 @@ sql = "INSERT INTO `ufgq`.`accounts` (`username`, `password`, `db_privlage_level
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
-print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
+print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
 
 db = function.MySQL_init()
 cursor = db.cursor()
