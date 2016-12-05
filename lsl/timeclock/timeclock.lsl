@@ -41,11 +41,11 @@ string HTTP_ERROR = "An unexpected error occured while attempting to clock user 
 // Function declarations
 
 /*
-	NAME:	 void GetProfilePic(key)
-	PURPOSE: Grabs Profile information for the Avatar with provided key
-	USAGE:	 http_response event will be called after the Request goes through
-	RETURN:	 Function has no direct value, all information is returned using the http_response event
-	AUTHOR:  Unknown
+    NAME:     void GetProfilePic(key)
+    PURPOSE: Grabs Profile information for the Avatar with provided key
+    USAGE:     http_response event will be called after the Request goes through
+    RETURN:     Function has no direct value, all information is returned using the http_response event
+    AUTHOR:  Unknown
         LICENCE: GNU GPL V3
 */
 key ProfilePicReq = "";
@@ -59,8 +59,8 @@ GetProfilePic(key id) //Run the HTTP Request then set the texture
         NAME:    void _CISoundServ(integer, string, integer)
         PURPOSE: Playes sounds provided by the UUID string locally if internal = TRUE otherwise send UUID to remote sound system on channel
         USAGE:   Using the remote sound system a string in the form "sound:UUID" will be sent on the channel this will need to be parsed and then played remotly.
-	RETURN:	 No Direct returns
-	AUTHOR:  AdmiralMorketh Sorex (c) 2014
+    RETURN:     No Direct returns
+    AUTHOR:  AdmiralMorketh Sorex (c) 2014
         LICENCE: GNU GPL V3
 */
 
@@ -82,8 +82,8 @@ _CISoundServ(integer chan, string UUID, integer internal)
         PURPOSE: Randomly selects a sound from "list" and calls the SoundServer
         USAGE:   Pass as many sound UUIDs to this function to have then randomly selected and played
         RETURN:  No Direct returns
-	AUTHOR:	 AdmiralMorketh Sorex (c) 2014
-	LICENCE: GNU GPL V3
+    AUTHOR:     AdmiralMorketh Sorex (c) 2014
+    LICENCE: GNU GPL V3
 */
 
 
@@ -145,7 +145,19 @@ default
                 }
                 else
                 {
-                    llInstantMessage(USER,"You have been clocked into UFGQ. Please remmeber to clock out at the end of your shift. If for any reason you are offline for more then 5 minutes the system will automatically clock you out.");
+                    if(body == "User Clocked In")
+                    {
+                        llInstantMessage(USER,"You have been clocked in. Please remember to clock out at the end of your shift. If for any reason you are offline for more than 5 minutes the system will automatically clock you out.");
+                    }
+                    else if(body == "User Clocked Out")
+                    {
+                        llInstantMessage(USER,"You have been clocked out. Please remember to clock in at the begining of your next shift. Thank you for your time today.");
+                    }
+                    else if (body == "New Account Created")
+                    {
+                        llInstantMessage(USER,"Welcome to Starfleet Delta Quadrant. Your account has been updated with the server and you have been clocked in as active duty. Please clock out at the end of your shift.");
+                        llGiveInventory(USER, llGetInventoryName(INVENTORY_OBJECT, 0) );
+                    }
                 }
                 USER = "";
             }
@@ -156,18 +168,23 @@ default
 
     touch_start(integer total_number)
     {
+        USER = llDetectedKey(0);
         integer link = llDetectedLinkNumber(0);
         integer face = llDetectedTouchFace(0);
-
+        integer sameGroup = llSameGroup(USER);
+        string groupKey = llList2String(llGetObjectDetails(llGetKey(), [OBJECT_GROUP]), 0);
         if (face == TOUCH_INVALID_FACE)
             llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
-        else if(face == CONSOLE_FACE ) // Not invalid Log user in IF they touched the proper face
+        else if(face == CONSOLE_FACE && sameGroup) // Not invalid Log user in IF they touched the proper face AND they are in the SAME GROUP Group MUST be active
         {
             playRandomSound(_SOUND_BUTTON_);
-            USER = llDetectedKey(0);
             GetProfilePic(USER);
             llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered the clock update.");
             ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"&name="+llKey2Name(USER));
+        }
+        else if(face == CONSOLE_FACE && !sameGroup)
+        {
+            llInstantMessage(USER,"Unfortunatly you are not in the same group as me. Please check your group tag is set to secondlife:///app/group/" + (string)groupKey + "/about and try again.");
         }
     }
 }

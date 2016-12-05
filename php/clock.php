@@ -6,12 +6,24 @@
 
 	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex UFGQ IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/UFGQ/issues";
 
-
 // SQL statments
 	// Insert UUID Username and Email address (AvatarName@ufgq.co)
 	$NEW_AVY_SQL = "INSERT INTO `ufgq`.`accounts` (`UUID`, `username`, `email`) VALUES ('$uuid', '$name', CONCAT(REPLACE('$name',' ',''),'@ufgq.co'))";
 	$SelectAV = "SELECT ID FROM `ufgq`.`accounts` WHERE `UUID` = '$uuid'";
-	$OnFileInsert = "INSERT INTO ufgq.`Time Clock` (user_id) SELECT id FROM accounts a WHERE a.`UUID` = '$uuid'";
+	$OnFileInsert = "SELECT `ClockUpdate`('$uuid') AS `status`"; //Run the Update function and return a status code
+
+	function UserClock($db,$sql)
+        {
+                if(!$result = mysqli_query($db,$sql))
+                {
+                        die("ERROR|UserClock|".mysqli_error($db));
+                }
+                while($row = mysqli_fetch_array($result))
+                {
+                        echo $row['status'];
+			return TRUE;
+                }
+        }
 
 	if (0 == mysqli_num_rows(mysqli_query($db,$SelectAV)) ) // Is there a record already?
 	{
@@ -29,7 +41,7 @@
 	}
 
 // Once the Account is on file we can just log the user right in
-	if(mysqli_query($db,$OnFileInsert))
+	if( UserClock($db,$OnFileInsert) )
 	{
 		mysqli_commit();
 	}
