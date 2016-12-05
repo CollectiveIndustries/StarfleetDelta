@@ -8,7 +8,7 @@
         <meta charset="utf-8"/>
         <center>
                 <head>
-                        <link rel="stylesheet" href="Starfleet Delta_Theme.css">
+                        <link rel="stylesheet" href="StarfleetDelta_Theme.css">
                 </head>
 <body class="body">
 	<div class="middlediv">
