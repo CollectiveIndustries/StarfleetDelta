@@ -1,6 +1,6 @@
 /*
 HTTP_menu.lsl
-Program designed to function as an http menu to allow for avatars on SL/OSG to interact with the Acedemic classroom for UFGQ
+Program designed to function as an http menu to allow for avatars on SL/OSG to interact with the Acedemic classroom for Starfleet Delta
     Copyright (C) 2016  Andrew Malone
 
     This program is free software: you can redistribute it and/or modify
@@ -25,7 +25,7 @@ string DEFUALT_TEXTURE = "4b45fb27-cf2e-1914-f513-bffddb952d46";
 
 // Variable Init
 string COURSE_PAGE = "http://ci-main.no-ip.org/class.php";
-string BUG_PAGE = "https://github.com/CollectiveIndustries/UFGQ/issues";
+string BUG_PAGE = "https://github.com/CollectiveIndustries/Starfleet Delta/issues";
 list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 key CLASS = "";
 key USER = ""; //Global variable for the USER Key we will need this for other sections of the script
@@ -115,7 +115,7 @@ ParseMenu(string text)
         MenuChan = ID2Chan(USER);
         TopLevelMenu = ["Issues", "Open Project Status Page"] + TopLevelMenu; //Add the main menu button to return
         MenuListen = llListen(ID2Chan(USER), "", USER, "");
-        DialogPlus(USER, "UFGQ Courses\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, menuindex);//Returns only the DivIDs for the classes on the menu buttons
+        DialogPlus(USER, "Starfleet Delta Courses\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, menuindex);//Returns only the DivIDs for the classes on the menu buttons
     }
     else if(llToLower(llList2String(llParseString2List(text,["|"],[""]),0)) == "class_menu")
     {
@@ -131,7 +131,7 @@ ParseMenu(string text)
         MenuChan = ID2Chan(USER);
         MenuListen = llListen(ID2Chan(USER), "", USER, "");
         TopLevelMenu = ["Return", "Main Menu"] + TopLevelMenu; //Add the main menu button to return
-        DialogPlus(USER, "UFGQ Courses\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, menuindex);//Returns only the DivIDs for the classes on the menu buttons
+        DialogPlus(USER, "Starfleet Delta Courses\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, menuindex);//Returns only the DivIDs for the classes on the menu buttons
     }
     else if(llToLower(llList2String(llParseString2List(text,["|"],[""]),1)) == "error")
     {
@@ -222,12 +222,12 @@ default
         if(msg == "Next")
         {
             // ++menuindex will turn menuindex plus 1, making it give the next page.
-            DialogPlus(USER, "UFGQ Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, ++menuindex);//Returns only the DivIDs for the classes on the menu buttons
+            DialogPlus(USER, "Starfleet Delta Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, ++menuindex);//Returns only the DivIDs for the classes on the menu buttons
         }
         // if they clicked back it will go to the last dialog window.
         else if(msg == "Back")
         {
-            DialogPlus(USER, "UFGQ Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, --menuindex);//Returns only the DivIDs for the classes on the menu buttons
+            DialogPlus(USER, "Starfleet Delta Class Listing\n\n"+StridedMenuText(TopLevelMenu), llList2ListStrided(TopLevelMenu,0,-1,2), MenuChan, --menuindex);//Returns only the DivIDs for the classes on the menu buttons
             // --menuindex will turn menuindex minus 1, making it give the previous page.
         }
         else if (msg == "Return")

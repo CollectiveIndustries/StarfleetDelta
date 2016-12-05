@@ -33,7 +33,7 @@
 
 <html>
    <head>
-      <title>UFGQ Login Portal</title>
+      <title>Starfleet Delta Login Portal</title>
 
       <style type = "text/css">
          body {
@@ -67,7 +67,7 @@
 
       <div align = "center">
          <div style = "width:300px; border: solid 1px #0000A0;" align = "center">
-            <div style = "background-color:#0000A0; color:#FDD017; padding:3px;"><b>UFGQ Login Portal</b></div>
+            <div style = "background-color:#0000A0; color:#FDD017; padding:3px;"><b>Starfleet Delta Login Portal</b></div>
 
             <div style = "color:#FDD017; margin:30px">
 

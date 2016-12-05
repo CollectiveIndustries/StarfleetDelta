@@ -1,6 +1,6 @@
 /*
 stats.lsl
-Script is for displaying status for Divisions and Ranks for UFGQ
+Script is for displaying status for Divisions and Ranks for Starfleet Delta
     Copyright (C) 2016  Andrew Malone
 
     This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@ Script is for displaying status for Divisions and Ranks for UFGQ
 
 // User configurable variables.
 string STAT_PAGE = "http://ci-main.no-ip.org/stats.php";
-string HTTP_ERROR = "An unexpected error occured while attempting to get Group Statistics. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
+string HTTP_ERROR = "An unexpected error occured while attempting to get Group Statistics. Please visit https://github.com/CollectiveIndustries/Starfleet Delta/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Variable Init
 key USER = "";

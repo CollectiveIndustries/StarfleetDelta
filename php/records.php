@@ -8,7 +8,7 @@
         <meta charset="utf-8"/>
         <center>
                 <head>
-                        <link rel="stylesheet" href="UFGQ_Theme.css">
+                        <link rel="stylesheet" href="Starfleet Delta_Theme.css">
                 </head>
 <body class="body">
 	<div class="middlediv">
@@ -18,7 +18,7 @@
 	<input style = "background-color:#6D6968;" type="text" name="name" value="YourName Resident"><br><br>
 	<select style = "background-color:#6D6968;">
 		<?php
-			$result = mysqli_query($db,"SELECT `ClassID`,`Class Name`  FROM `ufgq`.`courses`");
+			$result = mysqli_query($db,"SELECT `ClassID`,`Class Name`  FROM `Starfleet Delta`.`courses`");
 			while($row = mysqli_fetch_array($result))
 			{   //Creates a loop to loop through results
 				echo "<option>" . $row['ClassID'] . " ". $row['Class Name'] . "</option>";

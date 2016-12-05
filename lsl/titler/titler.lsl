@@ -1,6 +1,6 @@
 /*
 timeclock.lsl
-Program designed to function as a timeclock to allow for avatars on SL/OSG to clock into and out of UFGQ
+Program designed to function as a timeclock to allow for avatars on SL/OSG to clock into and out of Starfleet Delta
 	Copyright (C) 2016  Andrew Malone
 
 	This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@ Program designed to function as a timeclock to allow for avatars on SL/OSG to cl
 
 // User configurable variables.
 string TAG_PAGE = "http://ci-main.no-ip.org/tag.php";
-string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
+string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/Starfleet Delta/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Variable Init
 key USER = "";

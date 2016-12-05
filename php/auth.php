@@ -4,11 +4,11 @@
 	$uuid = $_POST['uuid'];
 	$code = $_POST['code'];
 
-	$ERROR = "\n\nPersonel Autherization Error\n\nnhttps://github.com/CollectiveIndustries/UFGQ/issues";
+	$ERROR = "\n\nPersonel Autherization Error\n\nnhttps://github.com/CollectiveIndustries/Starfleet Delta/issues";
 
 
 // SQL statments
-	// Insert UUID Username and Email address (AvatarName@ufgq.co)
+	// Insert UUID Username and Email address (AvatarName@Starfleet Delta.co)
 	$SelectAV = "SELECT r.rname, a.DisplayName, d.dname FROM `accounts` a INNER JOIN `divisions` d ON a.`DivID` = d.`did` INNER JOIN `Rank` r ON a.`RankID` = r.`RankID` WHERE a.`cCode` = '$code' AND a.`active`='1' AND a.`UUID` = '$uuid'";
 
 	$result = mysqli_query($db,$SelectAV);

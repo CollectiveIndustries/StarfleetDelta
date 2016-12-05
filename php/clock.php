@@ -4,12 +4,12 @@
 	$uuid = $_POST['uuid'];
 	$name = $_POST['name'];
 
-	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex UFGQ IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/UFGQ/issues";
+	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex Starfleet Delta IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/Starfleet Delta/issues";
 
 // SQL statments
-	// Insert UUID Username and Email address (AvatarName@ufgq.co)
-	$NEW_AVY_SQL = "INSERT INTO `ufgq`.`accounts` (`UUID`, `username`, `email`) VALUES ('$uuid', '$name', CONCAT(REPLACE('$name',' ',''),'@ufgq.co'))";
-	$SelectAV = "SELECT ID FROM `ufgq`.`accounts` WHERE `UUID` = '$uuid'";
+	// Insert UUID Username and Email address (AvatarName@Starfleet Delta.co)
+	$NEW_AVY_SQL = "INSERT INTO `Starfleet Delta`.`accounts` (`UUID`, `username`, `email`) VALUES ('$uuid', '$name', CONCAT(REPLACE('$name',' ',''),'@Starfleet Delta.co'))";
+	$SelectAV = "SELECT ID FROM `Starfleet Delta`.`accounts` WHERE `UUID` = '$uuid'";
 	$OnFileInsert = "SELECT `ClockUpdate`('$uuid') AS `status`"; //Run the Update function and return a status code
 
 	function UserClock($db,$sql)
