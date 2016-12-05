@@ -4,7 +4,7 @@
 	$uuid = $_POST['uuid'];
 	$name = $_POST['name'];
 
-	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex Starfleet Delta IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/Starfleet Delta/issues";
+	$ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex Starfleet Delta IT Department with the provided Error Message\nFor bug Reports/Updates\nhttps://github.com/CollectiveIndustries/StarfleetDelta/issues";
 
 // SQL statments
 	// Insert UUID Username and Email address (AvatarName@Starfleet Delta.co)

@@ -19,7 +19,7 @@
 <?php
         header('Content-type: text/html; charset=utf-8');
 
-	$query = "SELECT rname, RankLogo FROM `Starfleet Delta`.`Rank`"; //You don't need a ; like you do in SQL
+	$query = "SELECT rname, RankLogo FROM `Rank`"; //You don't need a ; like you do in SQL
 	$result = mysqli_query($db,$query);
 
 //	echo "<table>"; // start a table tag in the HTML

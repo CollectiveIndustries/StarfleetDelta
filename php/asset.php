@@ -11,7 +11,7 @@
 	$AssetUpload = "INSERT INTO `assets` (`uuid`,`type`,`name`) VALUES('$uuid',(SELECT `atid` FROM `asset_types` WHERE `type` LIKE '%$type%'), '$name')";
         if(!$result = mysqli_query($db,$AssetUpload))
 	{
-		echo "ERROR|".mysqli_error($db)."\nINSERT INTO `assets` (`uuid`,`type`,`name`) VALUES('$uuid',(SELECT `atid` FROM `asset_types` WHERE `type` LIKE '%$type%'), '$name')";
+		echo "ERROR|".mysqli_error($db);
 	}
 	else
 	{
