@@ -1,42 +1,42 @@
 # Change Log
 
-## [Unreleased](https://github.com/CollectiveIndustries/UFGQ/tree/HEAD)
+## [Unreleased](https://github.com/CollectiveIndustries/StarfleetDelta/tree/HEAD)
 
-[Full Changelog](https://github.com/CollectiveIndustries/UFGQ/compare/v0.1-alpha...HEAD)
+[Full Changelog](https://github.com/CollectiveIndustries/StarfleetDelta/compare/v0.1-alpha...HEAD)
 
 **Implemented enhancements:**
 
-- \[Acedemics\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/UFGQ/issues/35)
-- \[Acedemics\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/UFGQ/issues/32)
-- \[Feature\] Population Statistics for UFGQ [\#20](https://github.com/CollectiveIndustries/UFGQ/issues/20)
-- \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/UFGQ/issues/16)
-- \[Feature\] Time Clock [\#9](https://github.com/CollectiveIndustries/UFGQ/issues/9)
+- \[Acedemics\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
+- \[Acedemics\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/StarfleetDelta/issues/32)
+- \[Feature\] Population Statistics for Starfleet Delta [\#20](https://github.com/CollectiveIndustries/StarfleetDelta/issues/20)
+- \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/StarfleetDelta/issues/16)
+- \[Feature\] Time Clock [\#9](https://github.com/CollectiveIndustries/StarfleetDelta/issues/9)
 
 **Fixed bugs:**
 
-- \[Academics\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/UFGQ/issues/37)
-- \[Acedemics\] Podium Init [\#36](https://github.com/CollectiveIndustries/UFGQ/issues/36)
-- \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/UFGQ/issues/30)
-- \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/UFGQ/issues/26)
-- \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/UFGQ/issues/24)
-- \[Installer\] Plaintext password in Command arguments [\#23](https://github.com/CollectiveIndustries/UFGQ/issues/23)
-- \[Installer\] Programming Error on ufgq.accounts [\#22](https://github.com/CollectiveIndustries/UFGQ/issues/22)
-- \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/UFGQ/issues/18)
-- \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/UFGQ/issues/17)
-- \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/UFGQ/issues/15)
-- \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/UFGQ/issues/14)
+- \[Academics\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/StarfleetDelta/issues/37)
+- \[Acedemics\] Podium Init [\#36](https://github.com/CollectiveIndustries/StarfleetDelta/issues/36)
+- \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/StarfleetDelta/issues/30)
+- \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/StarfleetDelta/issues/26)
+- \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/StarfleetDelta/issues/24)
+- \[Installer\] Plaintext password in Command arguments [\#23](https://github.com/CollectiveIndustries/StarfleetDelta/issues/23)
+- \[Installer\] Programming Error on ufgq.accounts [\#22](https://github.com/CollectiveIndustries/StarfleetDelta/issues/22)
+- \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/StarfleetDelta/issues/18)
+- \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/StarfleetDelta/issues/17)
+- \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/StarfleetDelta/issues/15)
+- \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/StarfleetDelta/issues/14)
 
-## [v0.1-alpha](https://github.com/CollectiveIndustries/UFGQ/tree/v0.1-alpha) (2016-10-28)
+## [v0.1-alpha](https://github.com/CollectiveIndustries/StarfleetDelta/tree/v0.1-alpha) (2016-10-28)
 **Fixed bugs:**
 
-- \[Time Clock\] Invalid IM Key [\#12](https://github.com/CollectiveIndustries/UFGQ/issues/12)
-- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/UFGQ/issues/4)
-- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/UFGQ/issues/2)
-- \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/UFGQ/issues/1)
+- \[Time Clock\] Invalid IM Key [\#12](https://github.com/CollectiveIndustries/StarfleetDelta/issues/12)
+- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/StarfleetDelta/issues/4)
+- \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/StarfleetDelta/issues/2)
+- \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/StarfleetDelta/issues/1)
 
 **Merged pull requests:**
 
-- Update timeclock.lsl [\#11](https://github.com/CollectiveIndustries/UFGQ/pull/11) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
+- Update timeclock.lsl [\#11](https://github.com/CollectiveIndustries/StarfleetDelta/pull/11) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
 
 
 
