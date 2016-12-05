@@ -26,26 +26,26 @@ default
             if (llList2String(message, 1) == "Dim")
             {
                 llSetLinkPrimitiveParamsFast(LINK_THIS, [
-                PRIM_POINT_LIGHT, TRUE, <1,1,1>, .2, 20.0, 2.0,
-                PRIM_FULLBRIGHT, -1, FALSE,
-                PRIM_GLOW, -1, .2
-                ]);
+                                                 PRIM_POINT_LIGHT, TRUE, <1,1,1>, .2, 20.0, 2.0,
+                                                 PRIM_FULLBRIGHT, -1, FALSE,
+                                                 PRIM_GLOW, -1, .2
+                                             ]);
             }
             else if (llList2String(message, 1) == "Bright")
             {
                 llSetLinkPrimitiveParamsFast(LINK_THIS, [
-                PRIM_POINT_LIGHT, TRUE, <1,1,1>, 1.0, 20, 2.0,
-                PRIM_FULLBRIGHT, -1, TRUE,
-                PRIM_GLOW, -1, 1.0
-                ]);
+                                                 PRIM_POINT_LIGHT, TRUE, <1,1,1>, 1.0, 20, 2.0,
+                                                 PRIM_FULLBRIGHT, -1, TRUE,
+                                                 PRIM_GLOW, -1, 1.0
+                                             ]);
             }
             else if (llList2String(message, 1) == "Off")
             {
                 llSetLinkPrimitiveParamsFast(LINK_THIS, [
-                PRIM_POINT_LIGHT, FALSE, <1,1,1>, 1.0, 20, 2.0,
-                PRIM_FULLBRIGHT, -1, FALSE,
-                PRIM_GLOW, -1, 0.0
-                ]);
+                                                 PRIM_POINT_LIGHT, FALSE, <1,1,1>, 1.0, 20, 2.0,
+                                                 PRIM_FULLBRIGHT, -1, FALSE,
+                                                 PRIM_GLOW, -1, 0.0
+                                             ]);
             }
         }
     }
