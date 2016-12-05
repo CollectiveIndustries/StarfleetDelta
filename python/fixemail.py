@@ -21,8 +21,8 @@ from module import config, function
 ######## variable init #######
 
 # Insert statement for creating a new admin user on first install.
-select = "SELECT id, CONCAT(REPLACE(`username`,' ',''),'@ufgq.co') AS Mail FROM `ufgq`.`accounts` WHERE `email` = ''"
-update = "UPDATE `ufgq`.`accounts` SET `email`='%s' WHERE `ID`=%s"
+select = "SELECT id, CONCAT(REPLACE(`username`,' ',''),'@StarfleetDelta.com') AS Mail FROM `ufgq`.`accounts` WHERE `email` = ''"
+update = "UPDATE `sdc`.`accounts` SET `email`='%s' WHERE `ID`=%s"
 
 ### Main Script ###
 
