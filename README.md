@@ -1,5 +1,5 @@
-# UFGQ
-Repository for UFGQ Webpage data base and all in world scripts
+# Starfleet Dela
+Repository for Starfleet Delta Webpage, Database, and all in world scripts
 
 The Officer Rank Structure is as follows:
 
@@ -15,4 +15,4 @@ The Officer Rank Structure is as follows:
 - 9 Admiral
 - 10 Fleet Admiral
 
-Any other information pertaining to the repository will also go here a [Wiki Page](https://github.com/CollectiveIndustries/UFGQ/wiki/Home) has been setup for other relivent information pertaining to the actual web site and structure.
+Any other information pertaining to the repository will also go here a [Wiki Page](https://github.com/CollectiveIndustries/StarfleetDelta/wiki/Home) has been setup for other relivent information pertaining to the actual web site and structure.
