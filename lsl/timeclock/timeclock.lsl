@@ -1,6 +1,6 @@
 /*
 timeclock.lsl
-Program designed to function as a timeclock to allow for avatars on SL/OSG to clock into and out of Starfleet Delta
+Program designed to function as a timeclock to allow for avatars on SL/OSG to clock into and out of UFGQ
     Copyright (C) 2016  Andrew Malone
 
     This program is free software: you can redistribute it and/or modify
@@ -36,7 +36,7 @@ integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
 list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
 integer SOUND_API = -26;
-string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/StarfleetDelta/issues to submit bug reports or checkup on known issues.\n\n";
+string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Function declarations
 
@@ -46,7 +46,7 @@ string HTTP_ERROR = "An unexpected error occured while attempting to clock user 
     USAGE:     http_response event will be called after the Request goes through
     RETURN:     Function has no direct value, all information is returned using the http_response event
     AUTHOR:  Unknown
-        LICENCE: GNU GPL V3
+    LICENCE: GNU GPL V3
 */
 key ProfilePicReq = "";
 GetProfilePic(key id) //Run the HTTP Request then set the texture
@@ -56,12 +56,12 @@ GetProfilePic(key id) //Run the HTTP Request then set the texture
 }
 
 /*
-        NAME:    void _CISoundServ(integer, string, integer)
-        PURPOSE: Playes sounds provided by the UUID string locally if internal = TRUE otherwise send UUID to remote sound system on channel
-        USAGE:   Using the remote sound system a string in the form "sound:UUID" will be sent on the channel this will need to be parsed and then played remotly.
+    NAME:    void _CISoundServ(integer, string, integer)
+    PURPOSE: Playes sounds provided by the UUID string locally if internal = TRUE otherwise send UUID to remote sound system on channel
+    USAGE:   Using the remote sound system a string in the form "sound:UUID" will be sent on the channel this will need to be parsed and then played remotly.
     RETURN:     No Direct returns
     AUTHOR:  AdmiralMorketh Sorex (c) 2014
-        LICENCE: GNU GPL V3
+    LICENCE: GNU GPL V3
 */
 
 _CISoundServ(integer chan, string UUID, integer internal)
@@ -78,10 +78,10 @@ _CISoundServ(integer chan, string UUID, integer internal)
 }
 
 /*
-        NAME:    void playRandomSound(list)
-        PURPOSE: Randomly selects a sound from "list" and calls the SoundServer
-        USAGE:   Pass as many sound UUIDs to this function to have then randomly selected and played
-        RETURN:  No Direct returns
+    NAME:    void playRandomSound(list)
+    PURPOSE: Randomly selects a sound from "list" and calls the SoundServer
+    USAGE:   Pass as many sound UUIDs to this function to have then randomly selected and played
+    RETURN:  No Direct returns
     AUTHOR:     AdmiralMorketh Sorex (c) 2014
     LICENCE: GNU GPL V3
 */
@@ -138,6 +138,7 @@ default
         {
             if(stat == 200)
             {
+                //llSay(0,body);
                 //Set up if statment to handle server Errors here
                 if(llToLower(llGetSubString(body, 0, 5)) == "error:")
                 {
