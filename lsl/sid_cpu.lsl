@@ -12,18 +12,18 @@ string dateurl;
 key date_req;
 
 integer contains(string value, string mask) {
-    integer tmpy = (llGetSubString(mask,  0,  0) == "%") | 
-                  ((llGetSubString(mask, -1, -1) == "%") << 1);
+    integer tmpy = (llGetSubString(mask,  0,  0) == "%") |
+                   ((llGetSubString(mask, -1, -1) == "%") << 1);
     if(tmpy)
         mask = llDeleteSubString(mask, (tmpy / -2), -(tmpy == 2));
- 
+
     integer tmpx = llSubStringIndex(value, mask);
     if(~tmpx) {
         integer diff = llStringLength(value) - llStringLength(mask);
         return  ((!tmpy && !diff)
-             || ((tmpy == 1) && (tmpx == diff))
-             || ((tmpy == 2) && !tmpx)
-             ||  (tmpy == 3));
+                 || ((tmpy == 1) && (tmpx == diff))
+                 || ((tmpy == 2) && !tmpx)
+                 ||  (tmpy == 3));
     }
     return FALSE;
 }
@@ -56,7 +56,7 @@ state available
         llSay(0, "This terminal is now linked to the Starfleet Interactive Database.");
         llSetTexture("cbe05b00-d0f6-6692-6d24-eeecef8ea04e", 1);
         llSetLinkPrimitiveParamsFast(LINK_THIS, [
-        PRIM_COLOR, 2, <0,1,0>, 1.0
+            PRIM_COLOR, 2, <0,1,0>, 1.0
         ]);
         listenhandle = llListen(0,"","","");
     }
@@ -118,7 +118,7 @@ state offline
     {
         llListenRemove(listenhandle);
         llSetLinkPrimitiveParamsFast(LINK_THIS, [
-        PRIM_COLOR, 2, <1,0,0>, 1.0
+            PRIM_COLOR, 2, <1,0,0>, 1.0
         ]);
     }
     touch_end(integer num)
