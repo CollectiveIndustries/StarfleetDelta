@@ -1,4 +1,5 @@
 key requestURL;
+
 string POST_URL = "http://ci-main.no-ip.org/commlink.php";
 
 // ###############################################
@@ -20,9 +21,7 @@ list parsePostData(string message)
         integer split = llSubStringIndex(currentField,"=");     // Find the "=" sign
         if(split == -1) { // There is only one field in this part of the message.
             postData += [llUnescapeURL(currentField),""];
-        }
-        else
-        {
+        } else {
             postData += [llUnescapeURL(llDeleteSubString(currentField,split,-1)), llUnescapeURL(llDeleteSubString(currentField,0,split))];
         }
     }
@@ -30,23 +29,24 @@ list parsePostData(string message)
     return postData;
 }
 
-integer contains(string value, string mask)
-{
-    integer tmpy = (llGetSubString(mask,  0,  0) == "%") | ((llGetSubString(mask, -1, -1) == "%") << 1);
+integer contains(string value, string mask) {
+    integer tmpy = (llGetSubString(mask,  0,  0) == "%") |
+                   ((llGetSubString(mask, -1, -1) == "%") << 1);
     if(tmpy)
         mask = llDeleteSubString(mask, (tmpy / -2), -(tmpy == 2));
 
     integer tmpx = llSubStringIndex(value, mask);
-    if(~tmpx)
-    {
+    if(~tmpx) {
         integer diff = llStringLength(value) - llStringLength(mask);
-        return  ((!tmpy && !diff) || ((tmpy == 1) && (tmpx == diff))|| ((tmpy == 2) && !tmpx) ||  (tmpy == 3));
+        return  ((!tmpy && !diff)
+                 || ((tmpy == 1) && (tmpx == diff))
+                 || ((tmpy == 2) && !tmpx)
+                 ||  (tmpy == 3));
     }
     return FALSE;
 }
 
-string strReplace(string str, string search, string replace)
-{
+string strReplace(string str, string search, string replace) {
     return llDumpList2String(llParseStringKeepNulls((str = "") + str, [search], []), replace);
 }
 
@@ -58,7 +58,7 @@ string SearchAndReplace(string input, string old, string new)
 integer DEBUG = FALSE;
 integer LISTEN_;
 key REQ;
-
+integer COMM_CHANNEL = 55;
 init()
 {
     llListenRemove(LISTEN_);
@@ -70,7 +70,8 @@ init()
     }
     llOwnerSay(llList2String(["Entering Run Level 5","Entering Run Level 3"],DEBUG));
     requestURL = llRequestURL(); // Request that an URL be assigned to me.
-    LISTEN_ = llListen(0,"",llGetOwner(),"");
+    LISTEN_ = llListen(COMM_CHANNEL,"",llGetOwner(),"");
+    llOwnerSay("Comm channel is: "+(string)COMM_CHANNEL+"\nTo change your input channel use \\"+(string)COMM_CHANNEL+"#input NUMBER");
 }
 
 default
@@ -122,15 +123,21 @@ default
         //llOwnerSay(msg);
         list tmpmsg = llParseString2List(msg, [" "], []);
         string test4div = llList2String(tmpmsg, 0);
-        if (contains(test4div, "@%"))
+        if (contains(test4div, "#input%"))
+        {
+            COMM_CHANNEL = llList2Integer(tmpmsg, 1);
+            llListenRemove(LISTEN_);
+            LISTEN_ = llListen(COMM_CHANNEL,"",llGetOwner(),"");
+            llOwnerSay("Channel has been updated: "+(string)COMM_CHANNEL);
+        }
+        else if (contains(test4div, "@%"))
         {
             tmpmsg = llDeleteSubList(tmpmsg, 0, 0);
             REQ = llHTTPRequest(POST_URL, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "debug="+(string)DEBUG+"&owner_uuid="+(string)llGetOwner()+"&msg="+(string)llDumpList2String(tmpmsg, " ")+"&branch=div_lock&div_lookup="+(string)llDeleteSubString(test4div, 0, 0));
         }
         else
         {
-            if(DEBUG)
-            {
+            if(DEBUG) {
                 llSay(0,"NON DIV LOCK");
             }
             REQ = llHTTPRequest(POST_URL, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "debug="+(string)DEBUG+"&owner_uuid="+(string)llGetOwner()+"&msg="+(string)msg);
