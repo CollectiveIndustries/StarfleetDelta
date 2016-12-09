@@ -8,6 +8,7 @@
 
 - \[Acedemics\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
 - \[Acedemics\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/StarfleetDelta/issues/32)
+- \[Combadge\] Database scripted Commlinks [\#31](https://github.com/CollectiveIndustries/StarfleetDelta/issues/31)
 - \[Feature\] Population Statistics for Starfleet Delta [\#20](https://github.com/CollectiveIndustries/StarfleetDelta/issues/20)
 - \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/StarfleetDelta/issues/16)
 - \[Feature\] Time Clock [\#9](https://github.com/CollectiveIndustries/StarfleetDelta/issues/9)
