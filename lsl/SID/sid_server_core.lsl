@@ -3,9 +3,6 @@
 integer listenhandle;
 integer adminhandle;
 integer NETWORK_CHANNEL;
-integer mainlight;
-integer statlight;
-integer powerbtn;
 
 key destination;
 string reqtype;
@@ -100,9 +97,6 @@ default
     {
         llSay(0, "Booting up.");
         owner = llGetOwner();
-        mainlight = 1;
-        statlight = 2;
-        powerbtn = 3;
         if(debug) llSay(0, "Initializing, please wait...");
         if(debug) llSay(0, "Ready.");
         NETWORK_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(), 0));
@@ -118,15 +112,6 @@ state online
         if(debug) llSay(0, llGetObjectDesc() + " SID Core Online");
         listenhandle = llListen(NETWORK_CHANNEL, "", "", "");
         adminhandle = llListen(-2468, "", "", "");
-        llSetLinkPrimitiveParamsFast(LINK_THIS, [
-        PRIM_COLOR, mainlight, <0.4,1,0.4>, 1.0,
-        PRIM_COLOR, statlight, <0,1,0>, 1.0,
-        PRIM_GLOW, statlight, 0.05,
-        PRIM_FULLBRIGHT, statlight, 1,
-        PRIM_COLOR, powerbtn, <0,1,0>, 1.0,
-        PRIM_GLOW, powerbtn, 0.05,
-        PRIM_FULLBRIGHT, powerbtn, 1
-        ]);
     }
     listen(integer chan, string name, key id, string msg)
     {
@@ -177,8 +162,7 @@ state online
     }
     touch_end(integer num)
     {
-        integer face = llDetectedTouchFace(0);
-        if(llDetectedKey(0) == owner && face == powerbtn)
+        if(llDetectedKey(0) == owner)
         state offline;
     }
     http_response(key req ,integer stat, list met, string body)
@@ -207,19 +191,10 @@ state offline
     {
         llListenRemove(listenhandle);
         if(debug) llSay(0, llGetObjectDesc() + " SID Core Offline");
-        llSetLinkPrimitiveParamsFast(LINK_THIS, [
-        PRIM_COLOR, mainlight, <0.2,0.5,0.2>, 1.0,
-        PRIM_COLOR, statlight, <0.1,0.1,0.1>, 1.0,
-        PRIM_GLOW, statlight, 0.0,
-        PRIM_FULLBRIGHT, statlight, 0,
-        PRIM_COLOR, powerbtn, <0.25,0,0>, 1.0,
-        PRIM_GLOW, powerbtn, 0.0,
-        PRIM_FULLBRIGHT, powerbtn, 0
-        ]);
     }
     touch_end(integer num)
     {
-        if(llDetectedKey(0) == owner && llDetectedTouchFace(0) == powerbtn)
+        if(llDetectedKey(0) == owner)
         state online;
     }
 }
