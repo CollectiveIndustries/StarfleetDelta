@@ -11,6 +11,7 @@
 - \[Combadge\] Database scripted Commlinks [\#31](https://github.com/CollectiveIndustries/StarfleetDelta/issues/31)
 - \[Feature\] Population Statistics for Starfleet Delta [\#20](https://github.com/CollectiveIndustries/StarfleetDelta/issues/20)
 - \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/StarfleetDelta/issues/16)
+- \[Time Clock\] \[Feature\] 5 Minute Inactivity Timer [\#10](https://github.com/CollectiveIndustries/StarfleetDelta/issues/10)
 - \[Feature\] Time Clock [\#9](https://github.com/CollectiveIndustries/StarfleetDelta/issues/9)
 
 **Fixed bugs:**
