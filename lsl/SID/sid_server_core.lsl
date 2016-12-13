@@ -100,18 +100,7 @@ default
         if(debug) llSay(0, "Initializing, please wait...");
         if(debug) llSay(0, "Ready.");
         NETWORK_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(), 0));
-        state online;
-    }
-}
-        
-
-state online
-{
-    state_entry()
-    {
-        if(debug) llSay(0, llGetObjectDesc() + " SID Core Online");
         listenhandle = llListen(NETWORK_CHANNEL, "", "", "");
-        adminhandle = llListen(-2468, "", "", "");
     }
     listen(integer chan, string name, key id, string msg)
     {
@@ -160,11 +149,6 @@ state online
             }
         }
     }
-    touch_end(integer num)
-    {
-        if(llDetectedKey(0) == owner)
-        state offline;
-    }
     http_response(key req ,integer stat, list met, string body)
     {
         if(req == TagReq)
@@ -183,18 +167,4 @@ state online
             }
         }
     }                
-}
-
-state offline
-{
-    state_entry()
-    {
-        llListenRemove(listenhandle);
-        if(debug) llSay(0, llGetObjectDesc() + " SID Core Offline");
-    }
-    touch_end(integer num)
-    {
-        if(llDetectedKey(0) == owner)
-        state online;
-    }
 }
