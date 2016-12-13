@@ -120,10 +120,12 @@ default
         llSay(0, "Asset sorting system Init Level 1");
         llSetText("Touch To Upload Assets to the Asset Server", <0, 1, 0>, 1.0);
     }
+
     changed(integer change)
     {
         llResetScript();
     }
+
     touch_start(integer index)
     {
         llSay(0, " Activating Init level 5.");

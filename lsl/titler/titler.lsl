@@ -28,24 +28,6 @@ list TAG_PARAMS_POST = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-f
 list TAG_PARAMS_GET = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 integer listenhandle;
 string version = "3.1";
-/*
-	Rank.viceadm=[■■■]
-	Rank.rearadm=[■■]
-	Rank.comdr=[■]
-	Rank.fltcpt=⚫⚫⚫⚫⚫
-	Rank.cpt=⚫⚫⚫⚫
-	Rank.cmdr=⚫⚫⚫
-	Rank.ltcmdr=⚪⚫⚫
-	Rank.lt=⚫⚫
-	Rank.ltjg=⚪⚫
-	Rank.ens=⚫
-	Rank.cdt4y=[ | | | | ]
-	Rank.cdt3y=[ | | | ]
-	Rank.cdt2y=[ | | ]
-	Rank.cdt1y=[ | ]
-	Rank.adm=[■■■■]
-	Rank.fltadm[■■■■■]
-*/
 
 // Function declarations
 
