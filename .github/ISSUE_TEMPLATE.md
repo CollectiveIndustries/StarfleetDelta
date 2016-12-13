@@ -1,8 +1,30 @@
-## SDQ Issue Tracker
+## SDQ Bug Report and Feature Request Form
 
-Please try and do the following in your bug/issue report:
+<!--- Provide a general summary of the issue in the Title above -->
 
- * Give a descriptive summary as to what the bug/issue is
- * Give the steps necessary to recreate the bug/issue.
- * Tell us what behavior you expected, if any, when performing these steps.
- * Leave your SL Name so we know who to contact.
+## Expected Behavior
+<!--- If you're describing a bug, tell us what should happen -->
+<!--- If you're suggesting a change/improvement, tell us how it should work -->
+
+## Current Behavior
+<!--- If describing a bug, tell us what happens instead of the expected behavior -->
+<!--- If suggesting a change/improvement, explain the difference from current behavior -->
+
+## Possible Solution
+<!--- Not obligatory, but suggest a fix/reason for the bug, -->
+<!--- or ideas how to implement the addition or change -->
+
+## Steps to Reproduce (for bugs)
+<!---           Provide an unambiguous set of steps to           -->
+<!---                       reproduce this bug.                  -->
+1.
+2.
+3.
+4.
+
+## Context
+<!--- How has this issue affected you? What are you trying to accomplish? -->
+<!--- Providing context helps us come up with a solution that is most useful in the real world -->
+
+## Your SL Name
+<!--- Please let us know your SL name so we can contact you inworld, in addition to here. -->
