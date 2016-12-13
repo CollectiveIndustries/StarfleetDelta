@@ -1,28 +1,31 @@
-
 string ACCOUNT_LIST = "http://ci-main.no-ip.org/online.php";
-key queryID; // the id key 
+key queryID; // the id key
 key REQ;
 integer DEBUG = FALSE;
 list ACCOUNT_IDS = [];
+
+list PostParams = [HTTP_VERBOSE_THROTTLE, FALSE, HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 
 default
 {
     state_entry()
     {
         llSay(0,"Starting Script.");
-        REQ = llHTTPRequest(ACCOUNT_LIST, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "debug="+(string)DEBUG+"&branch=lookup");
+        REQ = llHTTPRequest(ACCOUNT_LIST, PostParams, "debug="+(string)DEBUG+"&branch=lookup");
         //llSetTimerEvent(10.0);
     }
 
     timer()
     {
         llSetTimerEvent(0.0);
-        REQ = llHTTPRequest(ACCOUNT_LIST, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "debug="+(string)DEBUG+"&branch=lookup");
+        REQ = llHTTPRequest(ACCOUNT_LIST, PostParams, "debug="+(string)DEBUG+"&branch=lookup");
     }
 
     http_response(key req ,integer stat, list met, string body)
     {
-        if(DEBUG){llSay(0,body);}
+        if(DEBUG) {
+            llSay(0,body);
+        }
         // Fall back for any error messages that come back.
         if(req==REQ)
         {
@@ -47,8 +50,10 @@ default
             string message;
             if( info == "0" ) //Offline
             {
-                if(DEBUG){llSay(0, "secondlife:///app/agent/" + (string)llList2Key(ACCOUNT_IDS,0) + "/about is now marked as Offline");}
-                llHTTPRequest(ACCOUNT_LIST, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "debug="+(string)DEBUG+"&branch=remove&uuid="+(string)llList2Key(ACCOUNT_IDS,0));
+                if(DEBUG) {
+                    llSay(0, "secondlife:///app/agent/" + (string)llList2Key(ACCOUNT_IDS,0) + "/about is now marked as Offline");
+                }
+                llHTTPRequest(ACCOUNT_LIST, PostParams, "debug="+(string)DEBUG+"&branch=remove&uuid="+(string)llList2Key(ACCOUNT_IDS,0));
                 ACCOUNT_IDS = llDeleteSubList(ACCOUNT_IDS,0,0); //Drop the First Entry
                 queryID = llRequestAgentData( llList2Key(ACCOUNT_IDS,0), DATA_ONLINE ); // returns if the owner is online or not
             }

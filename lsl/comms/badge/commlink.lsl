@@ -68,10 +68,26 @@ init()
         llSetObjectName("DEBUG: "+llKey2Name(llGetOwner()) + ": Comm System V3");
         DEBUG = TRUE;
     }
-    llOwnerSay(llList2String(["Entering Run Level 5","Entering Run Level 3"],DEBUG));
+    //llOwnerSay(llList2String(["Entering Run Level 5","Entering Run Level 3"],DEBUG));
     requestURL = llRequestURL(); // Request that an URL be assigned to me.
     LISTEN_ = llListen(COMM_CHANNEL,"",llGetOwner(),"");
-    llOwnerSay("Comm channel is: "+(string)COMM_CHANNEL+"\nTo change your input channel use \\"+(string)COMM_CHANNEL+"#input NUMBER");
+}
+
+CommMsg(string msg)
+{
+    list tmpmsg = llParseString2List(msg, [" "], []);
+    string test4div = llList2String(tmpmsg, 0);
+
+    if (contains(test4div,"$%"))
+    {
+        list temp = llParseString2List(strReplace(msg,"$",""),["|"],[]);
+        if(llList2String(temp,0) == "ADMIN" && llList2String(temp,1) == "TITLE" && llList2String(temp,2) == "RESET")
+        {
+            llWhisper(899,"reset");
+        }
+    }
+    else
+        llOwnerSay(msg);
 }
 
 default
@@ -80,11 +96,9 @@ default
     {
         llSleep(0.5); // Just in case it doesn't attach instantly
         integer IsAttached = (llGetAttached() > 0);  // TRUE if attached, FALSE otherwise
-        llOwnerSay( llList2String(["Im a commlink I need to be attached to the Avatar. In your inventory right click and ADD. Entering Run Level 0","Commlink Attached Standby."],IsAttached) );
-        if(IsAttached) {
-            init();
-        }
-        else {
+        if(!IsAttached)
+        {
+            llOwnerSay( "Im a commlink I need to be attached to the Avatar. In your inventory right click and ADD. Entering Run Level 0" );
             llDie();
         }
     }
@@ -98,6 +112,7 @@ default
     {
         if (id)     // is a valid key and not NULL_KEY
         {
+            llOwnerSay("Comm channel is: "+(string)COMM_CHANNEL+" To change your input channel use /"+(string)COMM_CHANNEL+"#input NUMBER");
             llOwnerSay("Syncing with Database....");
             init();
         }
@@ -113,7 +128,7 @@ default
     {
         if(change & (CHANGED_REGION | CHANGED_REGION_START | CHANGED_TELEPORT | CHANGED_OWNER))
         {
-            llOwnerSay("System changed. Entering Run Level 6");
+            //llOwnerSay("System changed. Entering Run Level 6");
             init();
         }
     }
@@ -187,7 +202,7 @@ default
         else if (method == "POST")
         {
             // An incoming message was received.
-            llOwnerSay(body);
+            CommMsg(body);
             llHTTPResponse(id,200,"You passed the following:\n" + llDumpList2String(parsePostData(body),"\n"));
         }
         else
