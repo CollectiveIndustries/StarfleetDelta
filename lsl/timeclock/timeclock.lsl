@@ -20,7 +20,7 @@ Program designed to function as a timeclock to allow for avatars on SL/OSG to cl
 // User configurable variables.
 vector LogoScale = <1.05, 1.05, 0>; //Scale is only an X/Y value
 integer _SOUND_INTERNAL = TRUE; // SOUND API TRUE for local prim sound FALSE for remote sound device
-list _SOUND_BUTTON_ = ["08ca2c4b-75eb-6056-276e-7cfde6d3a9b3","4429e529-63b4-ffc6-cbff-220722065c8c","05f95eed-e222-d17e-22c6-f4c901de120d","4460c043-ae2f-709e-1bb1-b743a149225c","f48e3570-98d7-d634-baa2-e479943755f6","1a3f0d6e-e688-cef5-935d-846f8f386a8f","09deeff1-5c8e-a627-01ac-1efcf8c41acc","88bcad6c-4cb5-e8e6-a48d-97724e6de614"];
+list _SOUND_BUTTON_ = ["08ca2c4b-75eb-6056-276e-7cfde6d3a9b3", "4429e529-63b4-ffc6-cbff-220722065c8c", "05f95eed-e222-d17e-22c6-f4c901de120d", "4460c043-ae2f-709e-1bb1-b743a149225c", "f48e3570-98d7-d634-baa2-e479943755f6", "1a3f0d6e-e688-cef5-935d-846f8f386a8f", "09deeff1-5c8e-a627-01ac-1efcf8c41acc", "88bcad6c-4cb5-e8e6-a48d-97724e6de614"];
 key ERROR_SOUND = ""; // Error sound
 key StandByLogo = "ef9fc11a-fc5e-bef6-2934-88ea97529ff8"; // Defualt texture when in standby mode
 string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
@@ -34,7 +34,7 @@ key ClockReq = ""; // Clock request HTTP Key
 integer PROFILE_FACE = 1; // Profile display face
 integer LIGHT_FACE = 2; // Light Face
 integer CONSOLE_FACE = 3;// Console Face
-list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0,0,0>, 0.0];
+list StandbyParams = [PRIM_TEXTURE, PROFILE_FACE, StandByLogo, LogoScale, <0, 0, 0>, 0.0];
 integer SOUND_API = -26;
 string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/UFGQ/issues to submit bug reports or checkup on known issues.\n\n";
 
@@ -52,7 +52,7 @@ key ProfilePicReq = "";
 GetProfilePic(key id) //Run the HTTP Request then set the texture
 {
     string URL_RESIDENT = "http://world.secondlife.com/resident/";
-    ProfilePicReq = llHTTPRequest( URL_RESIDENT + (string)id,[HTTP_METHOD,"GET"],"");
+    ProfilePicReq = llHTTPRequest( URL_RESIDENT + (string)id, [HTTP_METHOD, "GET"], "");
 }
 
 /*
@@ -69,11 +69,11 @@ _CISoundServ(integer chan, string UUID, integer internal)
     //llSay(0,"DEBUG SOUND API: "+(string)chan+" UUID: "+(string)UUID+" INTERNAL "+(string)internal);
     if (internal == TRUE)
     {
-        llPlaySound(UUID,1.0);
+        llPlaySound(UUID, 1.0);
     }
     else if(internal == FALSE)
     {
-        llRegionSay(chan,"sound:"+UUID);
+        llRegionSay(chan, "sound:" + UUID);
     }
 }
 
@@ -92,7 +92,7 @@ playRandomSound(list UUIDS)
     integer listlen = llGetListLength(UUIDS);
 
     integer index = (integer)llFrand(listlen);
-    _CISoundServ(SOUND_API, llList2String(UUIDS,index) ,_SOUND_INTERNAL);
+    _CISoundServ(SOUND_API, llList2String(UUIDS, index) , _SOUND_INTERNAL);
     //llSound(llList2String(UUIDS,index), 1.0,TRUE,FALSE);
     llSleep(0.1);
 }
@@ -108,12 +108,12 @@ default
         llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
     }
 
-    http_response(key req ,integer stat, list met, string body)
+    http_response(key req , integer stat, list met, string body)
     {
         //llSay(0,"REQ: "+(string)req+"\nSTAT: "+(string)stat);
-        if(req == ProfilePicReq) //response is from the Profile picture request
+        if(req == ProfilePicReq)   //response is from the Profile picture request
         {
-            integer s1 = llSubStringIndex(body,profile_key_prefix);
+            integer s1 = llSubStringIndex(body, profile_key_prefix);
             if(s1 == -1)
             {
                 llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
@@ -121,20 +121,20 @@ default
             else
             {
                 s1 += s1l;
-                key UUID=llGetSubString(body, s1, s1 + 35);
-                if (UUID == NULL_KEY) // UUID is NULL set defualt screen
+                key UUID = llGetSubString(body, s1, s1 + 35);
+                if (UUID == NULL_KEY)   // UUID is NULL set defualt screen
                 {
                     llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
                 }
-                else //UUID is valid set profile picture
+                else     //UUID is valid set profile picture
                 {
-                    llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 0.0>, <0,0,0>, 0.0]);
+                    llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_TEXTURE, PROFILE_FACE, UUID, <1.0, 1.0, 0.0>, <0, 0, 0>, 0.0]);
                     llSleep(5.0);  // Reset Display face after 5 seconds
                     llSetLinkPrimitiveParamsFast(LINK_THIS, StandbyParams);
                 }
             }
         }
-        else if( req == ClockReq ) //Response was from the TimeClock
+        else if( req == ClockReq )     //Response was from the TimeClock
         {
             if(stat == 200)
             {
@@ -142,28 +142,30 @@ default
                 //Set up if statment to handle server Errors here
                 if(llToLower(llGetSubString(body, 0, 5)) == "error:")
                 {
-                    llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                    llSay(0, HTTP_ERROR + "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
                 }
                 else
                 {
                     if(body == "User Clocked In")
                     {
-                        llInstantMessage(USER,"You have been clocked in. Please remember to clock out at the end of your shift. If for any reason you are offline for more than 5 minutes the system will automatically clock you out.");
+                        llInstantMessage(USER, "You have been clocked in. Please remember to clock out at the end of your shift. If for any reason you are offline for more than 5 minutes the system will automatically clock you out.");
                     }
                     else if(body == "User Clocked Out")
                     {
-                        llInstantMessage(USER,"You have been clocked out. Please remember to clock in at the begining of your next shift. Thank you for your time today.");
+                        llInstantMessage(USER, "You have been clocked out. Please remember to clock in at the begining of your next shift. Thank you for your time today.");
                     }
                     else if (body == "New Account Created")
                     {
-                        llInstantMessage(USER,"Welcome to Starfleet Delta Quadrant. Your account has been updated with the server and you have been clocked in as active duty. Please clock out at the end of your shift.");
+                        llInstantMessage(USER, "Welcome to Starfleet Delta Quadrant. Your account has been updated with the server and you have been clocked in as active duty. Please clock out at the end of your shift.");
                         llGiveInventory(USER, llGetInventoryName(INVENTORY_OBJECT, 0) );
                     }
                 }
                 USER = "";
             }
             else
-                llSay(0,HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+            {
+                llSay(0, HTTP_ERROR + "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
+            }
         }
     }
 
@@ -175,17 +177,19 @@ default
         integer sameGroup = llSameGroup(USER);
         string groupKey = llList2String(llGetObjectDetails(llGetKey(), [OBJECT_GROUP]), 0);
         if (face == TOUCH_INVALID_FACE)
+        {
             llInstantMessage(USER, "Sorry, your viewer doesn't support touched faces. In order to clock in you may need to upgrade your browser or contact your Department head to keep track of your hours.");
-        else if(face == CONSOLE_FACE && sameGroup) // Not invalid Log user in IF they touched the proper face AND they are in the SAME GROUP Group MUST be active
+        }
+        else if(face == CONSOLE_FACE && sameGroup)     // Not invalid Log user in IF they touched the proper face AND they are in the SAME GROUP Group MUST be active
         {
             playRandomSound(_SOUND_BUTTON_);
             GetProfilePic(USER);
-            llInstantMessage(USER,"System is processing your request. Another IM will be sent once the system has registered the clock update.");
-            ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+(string)USER+"&name="+llKey2Name(USER));
+            llInstantMessage(USER, "System is processing your request. Another IM will be sent once the system has registered the clock update.");
+            ClockReq = llHTTPRequest(CLOCK_PAGE, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid=" + (string)USER + "&name=" + llKey2Name(USER));
         }
         else if(face == CONSOLE_FACE && !sameGroup)
         {
-            llInstantMessage(USER,"Unfortunatly you are not in the same group as me. Please check your group tag is set to secondlife:///app/group/" + (string)groupKey + "/about and try again.");
+            llInstantMessage(USER, "Unfortunatly you are not in the same group as me. Please check your group tag is set to secondlife:///app/group/" + (string)groupKey + "/about and try again.");
         }
     }
 }

@@ -35,12 +35,12 @@ listen_to(key talker)
     if ( index != -1 )
     {
         talkers = llDeleteSubList(talkers, index, index);
-        llMessageLinked(LINK_SET,0,"BYE",talker);
+        llMessageLinked(LINK_SET, 0, "BYE", talker);
     }
     else
     {
         talkers = talkers + talker;
-        llMessageLinked(LINK_SET,0,"HI",talker);
+        llMessageLinked(LINK_SET, 0, "HI", talker);
     }
 }
 
@@ -50,12 +50,12 @@ default
     state_entry()
     {
         gOwner = llGetOwner();
-        llListen(0,"",NULL_KEY,"");
+        llListen(0, "", NULL_KEY, "");
     }
 
     on_rez(integer i)
     {
-        llWhisper(0,"Owner say /chat or touch me");
+        llWhisper(0, "Owner say /chat or touch me");
         llResetScript();
     }
 
@@ -73,7 +73,7 @@ default
         }
         if ((msg == "/reset") && (id == gOwner))
         {
-            llWhisper(0,"Resetting");
+            llWhisper(0, "Resetting");
             llResetScript();
         }
 
@@ -83,7 +83,7 @@ default
         if (index != -1)
         {
             mesg = llToLower(msg);
-            llMessageLinked(LINK_SET,0,msg,id);
+            llMessageLinked(LINK_SET, 0, msg, id);
         }
     }
 

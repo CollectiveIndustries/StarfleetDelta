@@ -11,7 +11,7 @@ default
 {
     state_entry()
     {
-        llSetPrimitiveParams([PRIM_COLOR, 1, <0,0,1>, 1.0]);
+        llSetPrimitiveParams([PRIM_COLOR, 1, <0, 0, 1>, 1.0]);
         llSay(0, "Initializing, please wait...");
         llSleep(3.0);
         state available;
@@ -22,13 +22,13 @@ state available
 {
     state_entry()
     {
-        llSetText("", <1,1,1>, 1.0);
+        llSetText("", <1, 1, 1>, 1.0);
         llSay(0, "Terminal is now available");
         llSetPrimitiveParams([
-            PRIM_COLOR, 1, <0,1,0>, 1.0,
-            PRIM_COLOR, 2, <0,1,0>, 1.0,
-            PRIM_COLOR, 3, <0,1,0>, 1.0,
-            PRIM_COLOR, 4, <0,1,0>, 1.0
+            PRIM_COLOR, 1, <0, 1, 0>, 1.0,
+            PRIM_COLOR, 2, <0, 1, 0>, 1.0,
+            PRIM_COLOR, 3, <0, 1, 0>, 1.0,
+            PRIM_COLOR, 4, <0, 1, 0>, 1.0
         ]);
     }
     touch_start(integer num_detected)
@@ -82,8 +82,8 @@ state in_use
 {
     state_entry()
     {
-        llSay(0,"Terminal now in use by " + llGetDisplayName(user));
-        llSetPrimitiveParams([PRIM_COLOR, 4, <1,0,0>, 1.0]);
+        llSay(0, "Terminal now in use by " + llGetDisplayName(user));
+        llSetPrimitiveParams([PRIM_COLOR, 4, <1, 0, 0>, 1.0]);
         llListenRemove(gListener);
         gListener = llListen(-2468, "", "", "");
         users += llGetDisplayName(user);
@@ -99,7 +99,7 @@ state in_use
     listen(integer chan, string name, key id, string msg)
     {
         llListenRemove(gListener);
-        authrequest = llHTTPRequest(authurl, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid="+ (string)user + "&code="+(string)msg);
+        authrequest = llHTTPRequest(authurl, [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"], "uuid=" + (string)user + "&code=" + (string)msg);
     }
     http_response(key request_id, integer stat, list metadata, string body)
     {
@@ -107,7 +107,7 @@ state in_use
         {
             if (stat == 200)
             {
-                list result = llParseString2List(body,["|"], []);
+                list result = llParseString2List(body, ["|"], []);
                 string status = llList2String(result, 0);
                 if (status == "OK")
                 {
@@ -130,13 +130,13 @@ state in_use
             }
             else if (stat == 500)
             {
-                llSetText("Error 500", <1,1,1>, 1.0);
+                llSetText("Error 500", <1, 1, 1>, 1.0);
                 llSleep(2);
                 state available;
             }
             else
             {
-                llSetText("Generic Error: " + body, <1,1,1>, 1.0);
+                llSetText("Generic Error: " + body, <1, 1, 1>, 1.0);
                 llSleep(2);
                 state available;
             }
@@ -150,16 +150,18 @@ state off
     {
         llSay(0, "Terminal offline.");
         llSetPrimitiveParams([
-            PRIM_COLOR, 1, <0.1,0.1,0.1>, 1.0,
-            PRIM_COLOR, 2, <0.1,0.1,0.1>, 1.0,
-            PRIM_COLOR, 3, <0.1,0.1,0.1>, 1.0,
-            PRIM_COLOR, 4, <0.1,0.1,0.1>, 1.0
+            PRIM_COLOR, 1, <0.1, 0.1, 0.1>, 1.0,
+            PRIM_COLOR, 2, <0.1, 0.1, 0.1>, 1.0,
+            PRIM_COLOR, 3, <0.1, 0.1, 0.1>, 1.0,
+            PRIM_COLOR, 4, <0.1, 0.1, 0.1>, 1.0
         ]);
     }
     touch_end(integer num_detected)
     {
         integer face = llDetectedTouchFace(0);
         if(llDetectedKey(0) == llGetOwner() && face == 1)
+        {
             state default;
+        }
     }
 }

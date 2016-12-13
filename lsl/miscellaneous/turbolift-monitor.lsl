@@ -11,7 +11,7 @@ default
     {
         if(llList2String(llParseString2List(msg, ["::"], []), 0) == "LIFT")
         {
-                        llSay(0, "Incoming lift at " + llList2String(llParseString2List(msg, ["::"], []), 1) + " - " +  llList2String(llParseString2List(msg, ["::"], []), 2));
+            llSay(0, "Incoming lift at " + llList2String(llParseString2List(msg, ["::"], []), 1) + " - " +  llList2String(llParseString2List(msg, ["::"], []), 2));
         }
     }
 }

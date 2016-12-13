@@ -25,14 +25,14 @@ default
 {
     state_entry()
     {
-        llSay(0,"Grabbing Top 5 active members. Please wait......");
-        TOP_CLOCK_REQ = llHTTPRequest(TOP_CLOCK_PAGE,POST_PARAMS,"");
+        llSay(0, "Grabbing Top 5 active members. Please wait......");
+        TOP_CLOCK_REQ = llHTTPRequest(TOP_CLOCK_PAGE, POST_PARAMS, "");
         llSetTimerEvent(300.0);
     }
 
     timer()
     {
-        TOP_CLOCK_REQ = llHTTPRequest(TOP_CLOCK_PAGE,POST_PARAMS,"");
+        TOP_CLOCK_REQ = llHTTPRequest(TOP_CLOCK_PAGE, POST_PARAMS, "");
     }
 
     http_response(key req, integer stat, list met, string body)
@@ -40,12 +40,12 @@ default
         if(TOP_CLOCK_REQ == req && stat == 200)
         {
             //llSay(0,body);
-            llSay(4711,llList2String(llParseString2List(body,["?"],[]),1));
+            llSay(4711, llList2String(llParseString2List(body, ["?"], []), 1));
 
         }
         else if (TOP_CLOCK_REQ == req && stat != 200)
         {
-            llSay(0,body+"\n"+(string)stat);
+            llSay(0, body + "\n" + (string)stat);
         }
     }
 }

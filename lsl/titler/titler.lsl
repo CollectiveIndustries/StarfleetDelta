@@ -54,9 +54,9 @@ default
 {
     state_entry()
     {
-        listenhandle = llListen(899,"",NULL_KEY,"");  //adding a listener var to use later for closing
+        listenhandle = llListen(899, "", NULL_KEY, ""); //adding a listener var to use later for closing
         llOwnerSay("INIT: Systems starting");
-        TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid="+(string)llGetOwner());
+        TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid=" + (string)llGetOwner());
         //TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
     }
     listen(integer chan, string name, key id, string msg)
@@ -68,7 +68,7 @@ default
         }
         else if(msg == "list")
         {
-            llRegionSay(899,(string)llGetDisplayName(llGetOwner()) + " is using version " + version); //broadcast owner name and version number
+            llRegionSay(899, (string)llGetDisplayName(llGetOwner()) + " is using version " + version); //broadcast owner name and version number
         }
     }
 
@@ -81,20 +81,20 @@ default
         }
     }
 
-    http_response(key req ,integer stat, list met, string body)
+    http_response(key req , integer stat, list met, string body)
     {
-        if( req == TagReq ) //Response was from the TimeClock
+        if( req == TagReq )   //Response was from the TimeClock
         {
             if(stat == 200)
             {
                 //Set up if statment to handle server Errors here
                 if(llToLower(llGetSubString(body, 0, 5)) == "error:")
                 {
-                    llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                    llOwnerSay(HTTP_ERROR + "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
                 }
                 else
                 {
-                    list temp = llParseString2List(body,[":"],[]);
+                    list temp = llParseString2List(body, [":"], []);
                     vector color = (vector)llList2String(temp, 0) / 255; //Convert RGB stored values database side to Vectors for LSL
                     string tag = llList2String(temp, 1);
                     llSetText(tag, color, 1.0);
@@ -102,7 +102,9 @@ default
                 USER = "";
             }
             else
-                llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+            {
+                llOwnerSay(HTTP_ERROR + "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
+            }
         }
     }
 }

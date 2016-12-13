@@ -26,26 +26,30 @@ integer delta = FALSE;
 
 string SimplifyVector(vector input)
 {
-    integer vx=(integer)input.x;
-    integer vy=(integer)input.y;
-    integer vz=(integer)input.z;
-    return "<"+(string)vx+", "+(string)vy+", "+(string)vz+">";
+    integer vx = (integer)input.x;
+    integer vy = (integer)input.y;
+    integer vz = (integer)input.z;
+    return "<" + (string)vx + ", " + (string)vy + ", " + (string)vz + ">";
 }
 
 // String Searcher, using % as wildcard
-integer contains(string value, string mask) {
-    integer tmpy = (llGetSubString(mask,  0,  0) == "%") | 
-                  ((llGetSubString(mask, -1, -1) == "%") << 1);
+integer contains(string value, string mask)
+{
+    integer tmpy = (llGetSubString(mask,  0,  0) == "%") |
+                   ((llGetSubString(mask, -1, -1) == "%") << 1);
     if(tmpy)
+    {
         mask = llDeleteSubString(mask, (tmpy / -2), -(tmpy == 2));
- 
+    }
+
     integer tmpx = llSubStringIndex(value, mask);
-    if(~tmpx) {
+    if(~tmpx)
+    {
         integer diff = llStringLength(value) - llStringLength(mask);
         return  ((!tmpy && !diff)
-             || ((tmpy == 1) && (tmpx == diff))
-             || ((tmpy == 2) && !tmpx)
-             ||  (tmpy == 3));
+                 || ((tmpy == 1) && (tmpx == diff))
+                 || ((tmpy == 2) && !tmpx)
+                 ||  (tmpy == 3));
     }
     return FALSE;
 }
@@ -69,9 +73,9 @@ default
 {
     state_entry()
     {
-        chan = (integer)(llFrand(1000000)+10)*-1;
-        llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_COLOR, 2, <1,1,0>, 1.0]);
-        NETWORK_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(),0));
+        chan = (integer)(llFrand(1000000) + 10) * -1;
+        llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_COLOR, 2, <1, 1, 0>, 1.0]);
+        NETWORK_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(), 0));
         llSay(0, "Initializing, please wait...");
         llSetTexture(defaulttexture, 1);
         llPreloadSound("3ceeea7f-c729-ce67-8e1f-3d8da8c7821b"); // Automatic Defense
@@ -95,10 +99,10 @@ state available
         llSleep(2.25);
         llSay(0, "This terminal is now linked to the Starfleet Interactive Database.");
         llSetTexture("cbe05b00-d0f6-6692-6d24-eeecef8ea04e", 1);
-        llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_COLOR, 2, <0,1,0>, 1.0]);
+        llSetLinkPrimitiveParamsFast(LINK_THIS, [PRIM_COLOR, 2, <0, 1, 0>, 1.0]);
         llTriggerSound("5c29a400-a4f9-f47e-dbf6-17d14fedc981", 1.0);
-        listenhandle = llListen(NETWORK_CHANNEL,"","","");
-        inputhandle = llListen(0,"","","");
+        listenhandle = llListen(NETWORK_CHANNEL, "", "", "");
+        inputhandle = llListen(0, "", "", "");
     }
     listen(integer channel, string name, key id, string msg)
     {
@@ -255,13 +259,22 @@ state available
         }
         else if (contains(msg, "SID%"))
         {
-            if(debug) llSay(0, "Message received from computer core.");
+            if(debug)
+            {
+                llSay(0, "Message received from computer core.");
+            }
             list parsed = llParseString2List(msg, ["|"], []);
             string reqtype = llList2String(parsed, 1);
             string result = llList2String(parsed, 2);
-            if(debug) llSay(0, "Message successfully received from computer core!");
-            if(debug) llSay(0, msg);
-            llSay(0,result);
+            if(debug)
+            {
+                llSay(0, "Message successfully received from computer core!");
+            }
+            if(debug)
+            {
+                llSay(0, msg);
+            }
+            llSay(0, result);
         }
         else if (contains(msg, "Alert"))
         {
@@ -280,7 +293,7 @@ state available
         {
             menuhandle = llListen(chan, "", "", "");
             llDialog(llDetectedKey(0), "Security Relay", ["Alert", "Cancel"], chan);
-        }            
+        }
     }
     timer()
     {
@@ -297,7 +310,7 @@ state offline
         llListenRemove(listenhandle);
         llTriggerSound("f49a4c7a-5a40-6d6f-3be6-693501fd2b72", 1.0);
         llSetLinkPrimitiveParamsFast(LINK_THIS, [
-        PRIM_COLOR, 2, <1,0,0>, 1.0
+            PRIM_COLOR, 2, <1, 0, 0>, 1.0
         ]);
         llSetTexture(defaulttexture, 1);
     }

@@ -7,7 +7,7 @@ string ASSET_PAGE = "http://ci-main.no-ip.org/asset.php";
 list ASSET_PARAMS_POST = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded", HTTP_VERBOSE_THROTTLE, FALSE ];
 string ASSET_POST_STRING = "";
 key AssetReq = "";
-list CHAR_SET = ["   ","▏","▎","▍","▌","▋","▊","▉","█"]; //UTF-8 Compatible string
+list CHAR_SET = ["   ", "▏", "▎", "▍", "▌", "▋", "▊", "▉", "█"]; //UTF-8 Compatible string
 
 // Function declarations
 
@@ -19,12 +19,21 @@ string Bars( float Cur, integer Bars, list Charset )
     integer Shades = llGetListLength(Charset) - 1;
     Cur *= Bars;
     integer Solids  = llFloor( Cur );
-    integer Shade   = llRound( (Cur-Solids)*Shades );
+    integer Shade   = llRound( (Cur - Solids) * Shades );
     integer Blanks  = Bars - Solids - 1;
     string str;
-    while( Solids-- >0 ) str += llList2String( Charset, -1 );
-    if( Blanks >= 0 ) str += llList2String( Charset, Shade );
-    while( Blanks-- >0 ) str += llList2String( Charset, 0 );
+    while( Solids-- > 0 )
+    {
+        str += llList2String( Charset, -1 );
+    }
+    if( Blanks >= 0 )
+    {
+        str += llList2String( Charset, Shade );
+    }
+    while( Blanks-- > 0 )
+    {
+        str += llList2String( Charset, 0 );
+    }
     return str;
 }
 
@@ -40,27 +49,49 @@ CountItems()
 string get_type_info(integer inputInteger)
 {
     if (inputInteger == INVENTORY_TEXTURE)
+    {
         return "INVENTORY_TEXTURE";
+    }
     else if (inputInteger == INVENTORY_SOUND)
+    {
         return "INVENTORY_SOUND";
+    }
     else if (inputInteger == INVENTORY_LANDMARK)
+    {
         return "INVENTORY_LANDMARK";
+    }
     else if (inputInteger == INVENTORY_CLOTHING)
+    {
         return "INVENTORY_CLOTHING";
+    }
     else if (inputInteger == INVENTORY_OBJECT)
+    {
         return "INVENTORY_OBJECT";
+    }
     else if (inputInteger == INVENTORY_NOTECARD)
+    {
         return "INVENTORY_NOTECARD";
+    }
     else if (inputInteger == INVENTORY_SCRIPT)
+    {
         return "INVENTORY_SCRIPT";
+    }
     else if (inputInteger == INVENTORY_BODYPART)
+    {
         return "INVENTORY_BODYPART";
+    }
     else if (inputInteger == INVENTORY_ANIMATION)
+    {
         return "INVENTORY_ANIMATION";
+    }
     else if (inputInteger == INVENTORY_GESTURE)
+    {
         return "INVENTORY_GESTURE";
+    }
     else
-        return "INVENTORY_UNKNOWN";//Catch all at the bottom to grab everything that falls through the switch
+    {
+        return "INVENTORY_UNKNOWN";    //Catch all at the bottom to grab everything that falls through the switch
+    }
 }
 
 UploadRequest()
@@ -72,10 +103,10 @@ UploadRequest()
         key uuid = llGetInventoryKey(name);
         if (uuid)    // if the uuid is valid ...
         {
-            ASSET_POST_STRING = "uuid="+(string)uuid+"&name="+(string)name+"&type="+(string)get_type_info(llGetInventoryType(name));
-            llSetText("Uploading Assets\n"+Bars(((float)INDEX/TOTAL_INVENTORY),10,CHAR_SET),<0.0,1.0,0.0>,1.0);
+            ASSET_POST_STRING = "uuid=" + (string)uuid + "&name=" + (string)name + "&type=" + (string)get_type_info(llGetInventoryType(name));
+            llSetText("Uploading Assets\n" + Bars(((float)INDEX / TOTAL_INVENTORY), 10, CHAR_SET), <0.0, 1.0, 0.0>, 1.0);
             AssetReq = llHTTPRequest(ASSET_PAGE, ASSET_PARAMS_POST, ASSET_POST_STRING);
-            llSay(0,"INDEX = "+(string)INDEX);
+            llSay(0, "INDEX = " + (string)INDEX);
         }
     }
 }
@@ -86,8 +117,8 @@ default
     state_entry()
     {
         llAllowInventoryDrop(TRUE);
-        llSay(0,"Asset sorting system Init Level 1");
-        llSetText("Touch To Upload Assets to the Asset Server",<0,1,0>,1.0);
+        llSay(0, "Asset sorting system Init Level 1");
+        llSetText("Touch To Upload Assets to the Asset Server", <0, 1, 0>, 1.0);
     }
     changed(integer change)
     {
@@ -95,24 +126,24 @@ default
     }
     touch_start(integer index)
     {
-        llSay(0," Activating Init level 5.");
+        llSay(0, " Activating Init level 5.");
         CountItems();
-        llSay(0,"Invenntory Total = "+(string)TOTAL_INVENTORY);
+        llSay(0, "Invenntory Total = " + (string)TOTAL_INVENTORY);
         string name = llGetInventoryName(INVENTORY_ALL, INDEX);
         if (name)        // if a texture exists ...
         {
             key uuid = llGetInventoryKey(name);
             if (uuid)    // if the uuid is valid ...
             {
-                ASSET_POST_STRING = "uuid="+(string)uuid+"&name="+(string)name+"&type="+(string)get_type_info(llGetInventoryType(name));
+                ASSET_POST_STRING = "uuid=" + (string)uuid + "&name=" + (string)name + "&type=" + (string)get_type_info(llGetInventoryType(name));
                 AssetReq = llHTTPRequest(ASSET_PAGE, ASSET_PARAMS_POST, ASSET_POST_STRING);
             }
         }
     }
 
-    http_response(key req ,integer stat, list met, string body)
+    http_response(key req , integer stat, list met, string body)
     {
-        if( req == AssetReq ) //Response was from the TimeClock
+        if( req == AssetReq )   //Response was from the TimeClock
         {
             llSleep(1.0);
             if(stat == 200)
@@ -120,21 +151,23 @@ default
                 //Set up if statment to handle server Errors here
                 if(llToLower(llGetSubString(body, 0, 5)) == "error|")
                 {
-                    llSay(0,"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                    llSay(0, "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
                     UploadRequest();
                 }
                 else
                 {
                     //Handle upload response and then move to the next one on the list
-                    list temp = llParseString2List(body,["|"],[]);
-                    if(llToLower(llList2String(temp,0)) == "ok")
+                    list temp = llParseString2List(body, ["|"], []);
+                    if(llToLower(llList2String(temp, 0)) == "ok")
                     {
                         UploadRequest();
                     }
                 }
             }
             else
-                llSay(0,"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+            {
+                llSay(0, "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
+            }
         }
     }
 }

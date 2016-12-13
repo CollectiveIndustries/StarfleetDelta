@@ -13,7 +13,7 @@ default
 {
     state_entry()
     {
-        api_chan = ID2Chan(llMD5String(llGetObjectDesc(),0));
+        api_chan = ID2Chan(llMD5String(llGetObjectDesc(), 0));
         listenhandle = llListen(api_chan, "", "", "");
     }
     listen(integer channel, string name, key id, string msg)

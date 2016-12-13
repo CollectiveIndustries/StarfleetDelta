@@ -19,7 +19,7 @@ default
 {
     state_entry()
     {
-        api_chan = ID2Chan(llMD5String(llGetObjectDesc(),0));
+        api_chan = ID2Chan(llMD5String(llGetObjectDesc(), 0));
         listenhandle = llListen(api_chan, "", "", "");
         llOwnerSay("Listening for traffic on channel " + (string)api_chan);
     }
@@ -32,18 +32,18 @@ default
             if (llList2String(message, 1) == "In_Use")
             {
                 llSetLinkPrimitiveParamsFast(LINK_THIS, [
-                                                 PRIM_COLOR, 3, <1,0,0>, 1.0,
-                                                 PRIM_COLOR, 5, <1,0,0>, 1.0
+                                                 PRIM_COLOR, 3, <1, 0, 0>, 1.0,
+                                                 PRIM_COLOR, 5, <1, 0, 0>, 1.0
                                              ]);
-                llSetText("Class in session", <1,0,0>, 1.0);
+                llSetText("Class in session", <1, 0, 0>, 1.0);
             }
             else if (llList2String(message, 1) == "Available")
             {
                 llSetLinkPrimitiveParamsFast(LINK_THIS, [
-                                                 PRIM_COLOR, 3, <0,1,0>, 1.0,
-                                                 PRIM_COLOR, 5, <0,1,0>, 1.0
+                                                 PRIM_COLOR, 3, <0, 1, 0>, 1.0,
+                                                 PRIM_COLOR, 5, <0, 1, 0>, 1.0
                                              ]);
-                llSetText("Classroom available for use", <0,1,0>, 1.0);
+                llSetText("Classroom available for use", <0, 1, 0>, 1.0);
             }
         }
     }

@@ -32,19 +32,23 @@ integer ID2Chan(string id)
 }
 
 // String searcher function, using % for wildcard
-integer contains(string value, string mask) {
-    integer tmpy = (llGetSubString(mask,  0,  0) == "%") | 
-                  ((llGetSubString(mask, -1, -1) == "%") << 1);
+integer contains(string value, string mask)
+{
+    integer tmpy = (llGetSubString(mask,  0,  0) == "%") |
+                   ((llGetSubString(mask, -1, -1) == "%") << 1);
     if(tmpy)
+    {
         mask = llDeleteSubString(mask, (tmpy / -2), -(tmpy == 2));
- 
+    }
+
     integer tmpx = llSubStringIndex(value, mask);
-    if(~tmpx) {
+    if(~tmpx)
+    {
         integer diff = llStringLength(value) - llStringLength(mask);
         return  ((!tmpy && !diff)
-             || ((tmpy == 1) && (tmpx == diff))
-             || ((tmpy == 2) && !tmpx)
-             ||  (tmpy == 3));
+                 || ((tmpy == 1) && (tmpx == diff))
+                 || ((tmpy == 2) && !tmpx)
+                 ||  (tmpy == 3));
     }
     return FALSE;
 }
@@ -56,11 +60,11 @@ string getTime()
     seconds = seconds % 60;
     integer hours = minutes / 60;
     minutes = minutes % 60;
- 
+
     string stringHours   = llGetSubString("0" + (string)hours,   -2, -1);
     string stringMinutes = llGetSubString("0" + (string)minutes, -2, -1);
     string stringSeconds = llGetSubString("0" + (string)seconds, -2, -1);
- 
+
     string time = stringHours + ":" + stringMinutes;
     return time;
 }
@@ -71,7 +75,7 @@ string getStardate()
     integer minutes = seconds / 60;
     seconds = seconds % 60;
     integer hours = minutes / 60;
-    
+
     list dateComponents = llParseString2List(llGetDate(), ["-"], []);
     string year  = llList2String(dateComponents, 0);
     string yearshort = llDeleteSubString((string)year, 0, 1);
@@ -96,8 +100,14 @@ default
     {
         llSay(0, "Booting up.");
         owner = llGetOwner();
-        if(debug) llSay(0, "Initializing, please wait...");
-        if(debug) llSay(0, "Ready.");
+        if(debug)
+        {
+            llSay(0, "Initializing, please wait...");
+        }
+        if(debug)
+        {
+            llSay(0, "Ready.");
+        }
         NETWORK_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(), 0));
         listenhandle = llListen(NETWORK_CHANNEL, "", "", "");
     }
@@ -107,7 +117,10 @@ default
         {
             destination = llList2Key(llParseString2List(msg, ["|"], []), 1);
             reqtype = llList2String(llParseString2List(msg, ["|"], []), 2);
-            if(debug) llSay(0, "Processing request type: " + reqtype + " on " + llGetObjectDesc());
+            if(debug)
+            {
+                llSay(0, "Processing request type: " + reqtype + " on " + llGetObjectDesc());
+            }
             if (reqtype == "TIME")
             {
                 llRegionSayTo(destination, NETWORK_CHANNEL, "SID|" + reqtype + "|" + "The time is " + getTime());
@@ -119,7 +132,10 @@ default
             else if (reqtype == "STARDATE")
             {
                 llRegionSayTo(destination, NETWORK_CHANNEL, "SID|" + reqtype + "|" + "The stardate is " + getStardate());
-                if(debug) llSay(0, "Sending results for " + reqtype + " to " + (string)destination);
+                if(debug)
+                {
+                    llSay(0, "Sending results for " + reqtype + " to " + (string)destination);
+                }
             }
             else if (reqtype == "DIAGNOSTIC")
             {
@@ -129,18 +145,27 @@ default
             else if (reqtype == "WHOAMI")
             {
                 key userid = llList2Key(llParseString2List(msg, ["|"], []), 3);
-                TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid="+(string)userid);
+                TagReq = llHTTPRequest(TAG_PAGE, TAG_PARAMS_POST, "uuid=" + (string)userid);
             }
         }
         else if(llList2String(llParseString2List(msg, ["|"], []), 0) == "ADMIN")
         {
             string setting = llToLower(llList2String(llParseString2List(msg, ["|"], []), 1));
             string value = llToLower(llList2String(llParseString2List(msg, ["|"], []), 2));
-            if(debug) llSay(0, "Processing admin command: " + setting + ":" + (string)value);
+            if(debug)
+            {
+                llSay(0, "Processing admin command: " + setting + ":" + (string)value);
+            }
             if (setting == "debug")
             {
-                if (value == "off") debug = FALSE;
-                else if (value == "on") debug = TRUE;
+                if (value == "off")
+                {
+                    debug = FALSE;
+                }
+                else if (value == "on")
+                {
+                    debug = TRUE;
+                }
             }
             else if (setting == "reboot")
             {
@@ -148,7 +173,7 @@ default
             }
         }
     }
-    http_response(key req ,integer stat, list met, string body)
+    http_response(key req , integer stat, list met, string body)
     {
         if(req == TagReq)
         {
@@ -156,7 +181,10 @@ default
             {
                 if(llToLower(llGetSubString(body, 0, 5)) == "error:")
                 {
-                    if(debug)llWhisper(0, HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
+                    if(debug)
+                    {
+                        llWhisper(0, HTTP_ERROR + "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
+                    }
                 }
                 else
                 {
@@ -165,5 +193,5 @@ default
                 }
             }
         }
-    }                
+    }
 }
