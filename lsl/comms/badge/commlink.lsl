@@ -1,8 +1,19 @@
-key requestURL;
 
+//User configurable Global Variables
 string POST_URL = "http://ci-main.no-ip.org/commlink.php";
+integer DEBUG = FALSE;
+integer COMM_CHANNEL = 55;
 
-// ###############################################
+// Internal Global Variables
+
+key requestURL;
+integer LISTEN_;
+key REQ;
+
+
+
+// Function Declerations
+
 // Routine to parse a string sent through the
 // http server via post.
 //       parsePostData(theMessage)
@@ -31,6 +42,8 @@ list parsePostData(string message)
     // Return the strided list.
     return postData;
 }
+
+
 
 integer contains(string value, string mask)
 {
@@ -63,10 +76,6 @@ string SearchAndReplace(string input, string old, string new)
     return llDumpList2String(llParseString2List(input, [old], []), new);
 }
 
-integer DEBUG = FALSE;
-integer LISTEN_;
-key REQ;
-integer COMM_CHANNEL = 55;
 init()
 {
     llListenRemove(LISTEN_);
