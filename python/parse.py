@@ -206,4 +206,4 @@ for e in exams:
 					o = [] # reset list of answers at the end of each section since the Answer is always last
 
 	else: # and so we skip it and tell the user which one was skipped using the WARNING color
-		print("%sSkipping Exam: %s%s" % (color.WARNING,name,color.END))
+		print("%sWARNING: Skipping Exam: %s%s" % (color.WARNING,name,color.END))
