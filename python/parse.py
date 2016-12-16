@@ -25,15 +25,26 @@ import warnings
 
 warnings.filterwarnings('error',category=MySQLdb.Warning)
 
+EXAMS_LOC =   "../doc/sdq_exams/*.txt"
+CLASSES_LOC = "../doc/sdq_classes/*.txt"
+
 # Regular Expression Groups #
 
+	## Description Tag for Classes ##
 DESC = "\A<DESC:.*>"
 
-	## UUID number matching Regular Expression to find any UUIDs in the text with an ASSET TYPE. ##
+	## UUID for locating ASSET TYPES ##
 TEXTURE_TAG = "\A<TEXTURE:[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}>"
 SOUND_TAG = "\A<SOUND:[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}>"
 
+	## Exams Regex groups ##
+OPTION_TAG = "\A[A-D]:.*"
+QUESTION_TAG = "\A[0-9]{1,2}\.\s.*"
+ANSWER_TAG = "\A[A-D]$"
+
 # SQL section #
+
+	## CLASSES ##
 INSERT_CLASS = "INSERT INTO `courses` (`AutherID`,`Class Name`, `Class Description`) VALUES ('%s','%s','%s')"
 LOOKUP_AUTHER = "SELECT `ID` FROM `accounts` WHERE `username` = '%s'"
 
@@ -46,11 +57,12 @@ INSERT_LINE = "INSERT INTO `curriculum` (`classID`,`lineNumber`,`displayText`) V
 ASSET_ID = "SELECT a.`aid` FROM `assets` a WHERE a.`uuid`='%s'"
 INSERT_ASSET_LINE = "INSERT INTO `curriculum` (`classID`,`asset_id`,`lineNumber`) VALUES ('%s','%s','%s')"
 
+	## EXAMS ##
+INSERT_EXAM_LINE = "INSERT INTO `exams` (`course_id`, `question_number`, `question`, `a`, `b`, `c`, `d`, `answer`) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s')"
+
+
+	## Tables we are going to need to TRUNCATE ##
 TABLES = ["assets","courses","curriculum","exams","gradebook","scores"]
-
-CONVERT = "ALTER TABLE `curriculum` COLLATE='latin1_swedish_ci', CONVERT TO CHARSET latin1"
-
-# Class definitions #
 
 # Text output color definitions
 class color:
@@ -65,14 +77,10 @@ class color:
 
 ## Function Delerations ##
 
-# run a Commit
+	## run a Commit ##
 def sql(statement):
 	try:
 		num_rows = cursor.execute(statement)
-#		if num_rows == 0:
-#			print(color.HEADER)
-#			print("SQL %s: %s" % (num_rows,statement))
-#			print(color.END)
 	except Warning as w:
 		print(color.WARNING+"\nWARNING: "+statement+"\n"+format(w)+color.END)
 	except Exception as e:
@@ -80,14 +88,10 @@ def sql(statement):
 		exit(1)
 	db.commit()
 
-# Run a Fetch
+	## Run a Fetch ##
 def fetch(statement):
 	try:
 		num_rows = cursor.execute(statement)
-#		if num_rows == 0:
-#                        print(color.HEADER)
-#                        print("FETCH %s: %s" % (num_rows,statement))
-#                        print(color.END)
         except Warning as w:
                 print(color.WARNING+"\nWARNING: "+statement+"\n"+format(w)+color.END)
         except Exeception as e:
@@ -96,12 +100,13 @@ def fetch(statement):
 	return cursor.fetchone()
 
 
-# precompile all the RegEx
+# Precompile all the RegEx
 desc = re.compile(DESC)
 texture = re.compile(TEXTURE_TAG)
 sound = re.compile(SOUND_TAG)
-
-
+option = re.compile(OPTION_TAG)
+question = re.compile(QUESTION_TAG)
+answer = re.compile(ANSWER_TAG)
 
 ### Main Script ###
 
@@ -127,8 +132,8 @@ for t in TABLES:
 sql("SET FOREIGN_KEY_CHECKS = 1")
 print(color.OKGREEN+"OK"+color.END)
 
-# get a list of files and save to list called Classes
-classes = [file for file in glob.glob("../doc/sdq_classes/*.txt")]
+# Glob all the Classes into a list
+classes = [file for file in glob.glob(CLASSES_LOC)]
 
 # open each file and prepare for reading.
 for c in classes:
@@ -145,8 +150,6 @@ for c in classes:
 	with open(c,'rb') as file:
 		line_number = 1 # Reset the line counter on each file open
 		for line in file: # Read through the file line by line
-			line = line.replace("","")
-			line = line.replace("","")
 			if desc.match(line) is not None:
 				txt = line.replace("<DESC:", "")
 				txt = txt.replace(">","")
@@ -156,38 +159,51 @@ for c in classes:
 				CID = fetch(CLASS_ID % (name))[0] # Grab the Class ID number for the class we just added
 
 			elif sound.match(line) is not None:
-#				print("%sLINE: %s = %s%s"%(color.OKBLUE,line_number,line.strip('\n'),color.END))
 				uuid = line.replace("<SOUND:","")
 				uuid = uuid.replace(">","")
 				type = fetch(ASSET_TYPE % ('SOUND'))[0]
 				sql(INSERT_ASSET % (type,uuid.strip("\n"),'SOUND'))
 				asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
                                 sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
-#				if line_number == 3:
-#					print(line)
-#					print(INSERT_ASSET_LINE % (CID,asset_id,line_number))
 				line_number += 1
 
 			elif texture.match(line) is not None:
-#				print("%sLINE: %s = %s%s"%(color.OKBLUE,line_number,line.strip('\n'),color.END))
 				uuid = line.replace("<TEXTURE:","")
                                 uuid = uuid.replace(">","")
 				type = fetch(ASSET_TYPE % ('TEXTURE'))[0]
 				sql(INSERT_ASSET % (type,uuid.strip("\n"),'TEXTURE')) # SOUND
 				asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
 				sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
-#				if line_number == 3:
-#					print(line)
- #                                       print(INSERT_ASSET_LINE % (CID,asset_id,line_number))
 				line_number += 1 # Line Index + 1 IF its not the DESC line
 
 			else:
 				sql(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
-#				if line_number == 3:
-#					print(line)
- #                                       print(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
 				line_number += 1
-sql(CONVERT)
 db.commit()
-#		print(color.HEADER+"TOTAL LINES"+color.END)
-#		print(line_number) # End of class
+
+# START Exams Parsing #
+
+# Glob all the Exams into a list
+exams = [file for file in glob.glob(EXAMS_LOC)]
+for e in exams:
+	file = e.split("/")[-1]  # grab the actual file name with out the path
+	name = file.split(".")[0] # chop the extension off
+	cid = fetch(CLASS_ID % (name))
+	if cid is not None: # if the CID is not avalible we dont need to add an Exam as we dont have a class for it to be linked to.....
+		print(color.OKGREEN+"EXAM: "+name+color.END)
+		with open(e,'rb') as file:
+			o = [] #reset list
+			for line in file:
+				if question.match(line) is not None:
+					q = MySQLdb.escape_string(line.rstrip())
+					q_number = q.split(".")[0]
+					q_text = re.sub('\A\s','',q.split(".")[1]) # Strip the white space off the front of the line
+				elif option.match(line) is not None:
+					o.append(MySQLdb.escape_string(re.sub('\A[A-D]:','', line.rstrip()))) # append question to list remove A: B: C: D: from the line and the \n off the end
+				elif answer.match(line) is not None:
+					a = MySQLdb.escape_string(line.rstrip())
+					sql(INSERT_EXAM_LINE % (cid[0],q_number,q_text,o[0],o[1],o[2],o[3],a)) # push the Q & A to the SQL server
+					o = [] # reset list of answers at the end of each section since the Answer is always last
+
+	else: # and so we skip it and tell the user which one was skipped using the WARNING color
+		print("%sSkipping Exam: %s%s" % (color.WARNING,name,color.END))
