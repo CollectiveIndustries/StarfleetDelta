@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- \[Academics\] Notecard uploader [\#42](https://github.com/CollectiveIndustries/StarfleetDelta/issues/42)
 - \[Acedemics\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
 - \[Acedemics\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/StarfleetDelta/issues/32)
 - \[Combadge\] Database scripted Commlinks [\#31](https://github.com/CollectiveIndustries/StarfleetDelta/issues/31)
