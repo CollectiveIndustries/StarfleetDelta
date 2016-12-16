@@ -12,7 +12,7 @@ import os, shutil
 def MySQL_init():
     ## Set up the Connection using config.d/NAME.conf returns a standard DB Object
     try:
-        db = MySQLdb.connect(config._IN_MYSQL_HOST_,config._IN_MYSQL_USR_,config._IN_MYSQL_PASS_)
+        db = MySQLdb.connect(host=config._IN_MYSQL_HOST_,user=config._IN_MYSQL_USR_,passwd=config._IN_MYSQL_PASS_,db=config._IN_MYSQL_DB_)
         return db
     except MySQLdb.Error:
         print "There was a problem in connecting to the database."
