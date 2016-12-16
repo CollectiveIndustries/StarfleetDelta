@@ -1,0 +1,63 @@
+1. What is commonly done at sublight speeds?
+A:Travel inside planetary systems
+B:Conducting scans
+C:Most ship battles
+D:All of the above
+D
+2. What is not part of a typical Impulse Drive unit?
+A:Fusion reactor
+B:Accelerator generator
+C:Injector coil
+D:Thrust nozzle
+C
+3. Another function of the fusion reactor is?
+A:As a waste disposal unit
+B:Backup power supply
+C:Generate plasma for the warp drive
+D:All of the above
+B
+4. True/False You never shut down the Accelerator generator.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+5. What is not considered a secondary component?
+A:Magnetic Constrictors
+B:Impulse Capacitance Cell
+C:Radioactive Disposal Vent
+D:Torque Buffers
+A
+6. What is the main difference between an Impulse Drive and a Maneuvering Thruster
+A:There is no difference
+B:Thrusters are smaller than the Impulse Unit
+C:The thruster is designed for short bursts of thrust
+D:B & C
+D
+7. True/False A Gravity Wave Impulse Drive is also used on Federation Starships.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+8. True/False An Ion Drive is also used on Federation Starships.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+9. What is the supposedly the theoretical maximum speed of an impulse drive alone?
+A:Fifty percent lightspeed
+B:Seventy  percent lightspeed
+C:Eighty percent lightspeed
+D:Ninety percent lightspeed
+D
+10. True/False On all Starships “Full impulse” is always going to be the same speed.
+A: True
+B:False
+C:N/A
+D:N/A
+B
+
+
+

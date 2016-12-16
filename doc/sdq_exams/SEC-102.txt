@@ -1,0 +1,60 @@
+1. True/False Phasers can only fire a narrow beam. 
+A:True
+B:False
+C:N/A
+D:N/A
+B
+2. Type 2 Phasers are smaller and lighter than the Type 1 Phasers.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+3. The Type 2 phaser is a required piece of equipment for most away teams.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+4. Compression Rifles can fire a silent shot.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+5. The Infinity Modulator, like the Phaser, has an unlimited power supply. 
+A:True
+B:False
+C:N/A
+D:N/A
+B
+6. A scavenger rifle is very accurate. 
+A:True
+B:False
+C:N/A
+D:N/A
+B
+7. Stasis weapons are lethal if used repeatedly on the same target. 
+A:True
+B:False
+C:N/A
+D:N/A
+A
+8. Photon Burst weapons are rarely used by the Federation and require approval to be used. 
+A:True
+B:False
+C:N/A
+D:N/A
+A
+9. The Compression Rifle is the weapon of choice for close quarters combat.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+10. The Teflon Pulse Disruptor fires energy composed of Teflon particles (Same word for both)
+A:True
+B:False
+C:N/A
+D:N/A
+B

@@ -1,0 +1,61 @@
+1. The boundaries of physics are clearly defined.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+2.Classical physics became a separate science when
+A:Columbus rediscovered the American Continent
+B:during the Archaic period sometime BCE
+C:Early modern Europeans used these experimental and quantitative methods...
+D:Dr. Zefram Cochrane starts with his ship to the first human Warp-Flight
+C
+3. Optics is concerned with visible light only(*not in the material*)
+A:True
+B:False
+C:N/A
+D:N/A
+B
+4. Quantum theory and _______________  find applications in all areas of modern physics.
+A:theory of relativity
+B:quantum mechanism
+C:wave length
+D:all above
+A
+5. Applied physics is similar to engineering
+A:True
+B:False
+C:N/A
+D:N/A
+B
+6. Physics is only theory. You can construct a stable traffic bridge without any knowledge of physic.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+7. A scientific law is a concise verbal or mathematical statement of a relation that expresses a fundamental principle of a theory.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+8. What does physics aims to describe.
+A:Only the objects visible by human eye.
+B:The various phenomena that occur in nature in terms of simpler phenomena.
+C:Theoretical stuff, needles for daily life
+D:all above
+B
+9. Magnetism and electricity are two different aspects of the same thing.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+10. Theory of Everything is ...
+A:what physics hope to find as an ultimate reason for why nature is as it is.
+B:the answer to the Ultimate Question of Life, The Universe, and Everything
+C:a and b
+D:nothing of it
+C
+

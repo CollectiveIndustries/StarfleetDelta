@@ -1,0 +1,60 @@
+1. True/False The Engineering Division is the cornerstone of UFGQ operations?
+A:True
+B:False
+C:N/A
+D:N/A
+A
+2. Who was the first Unofficial “Chief Engineer”?
+A:Lt. Commander Charles (Trip) Tucker
+B:Lt. Commander Data
+C:Lily Sloane
+D:Commander William Riker
+C
+3. Aboard what ship did Lt. Commander Charles (Trip) Tucker serve?
+A:USS Valiant NCC-74210
+B:Deep Space 9
+C:USS Enterprise NCC-1701
+D:USS Enterprise NX-01
+D
+4. What is the chain of command within the Engineering Division?
+A:CO, XO, Chief, Engineer
+B:Chief, XO, Engineer, CO
+C:CO, Chief, XO, Engineer
+D:None of the Above
+A
+5. Which of the following do not fall under the purview of the Engineering Division?
+A:EPS conduits/relays
+B:Phaser cannons and arrays
+C:Shield emitters
+D:Logistics and Personnel
+D
+6. Who may call periodic meetings of the UFGQ Engineering Division?
+A:XO
+B:CO
+C:Either XO or CO
+D:Chief Engineer
+C
+7. True/False  All Engineers are encouraged to participate and make suggestions regarding Role Play Events?
+A:True
+B:False
+C:N/A
+D:N/A
+A
+8. The Sandbox is for the purpose of which of the following?
+A:Building and constructing Engineering projects prior to Service implementation
+B:Loading and Unloading only
+C:Firing weapons at random
+D:UFGQ Children to play and romp at will
+A
+9. True/False The rules of the sandbox are posted near the transporter in the Welcome Center?
+A:True
+B:False
+C:N/A
+D:N/A
+B
+10. Aboard what Ship did Nog serve as Chief Engineer?
+A:USS Defiant
+B:USS Enterprise
+C:Deep Space 9
+D:USS Valiant
+D

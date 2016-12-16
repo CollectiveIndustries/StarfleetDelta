@@ -1,0 +1,60 @@
+1. How many separate operation officer positions are there on a Starship?
+A:3
+B:4
+C:5
+D:6
+B
+2. The Helm officer should never repeat a command back to the Captain.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+3. The Helm also also monitors the _____ and ______ systems.
+A:weapons, environmental
+B:communications, weapons
+C:warp, impulse
+D:All of the above
+C
+4. Main Ops is one of the most _____ and ______ positions on the bridge
+A:hardest, annoying
+B:slowest, quietest
+C:basic, easiest
+D:critical, busiest
+D
+5. Who keeps track of where personnel is on the ship"
+A:Helm
+B:Communications
+C:Main Ops
+D:Personal
+C
+6. Technically Main Ops is in charge of all power and resource allocations.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+7. Only the CO and XO can give a legal command to Main Ops.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+8. Routine communications would include things like,
+A:Crew messages to their families
+B:Communications for pre-approved shuttle docking
+C:Transmissions of logs and status reports
+D:All of the above
+D
+9. If we are being jammed the Comm officer can?
+A:Alter and rotate their outgoing signal frequency
+B:Study the jamming signal for its characteristics
+C:Get some Peanut Butter and make sandwiches
+D:Both A and B, the Head Chef would do C.
+D
+10. The jobs that Auxiliary Ops can do include:
+A:any of the jobs that Main Ops normally does
+B:assist with communication and message decryption
+C:Fly the Starship
+D:All of the above
+D

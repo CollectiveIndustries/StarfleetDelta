@@ -1,0 +1,60 @@
+1. TRUE OR FALSE Civilian roles are limited to “supporting roles” and rarely interface directly with fleet personnel.
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+B
+2. TRUE OR FALSE If a civilian is given an assignment and can not complete the assignment. The civilian should inform the leader of the mission as soon as possible.
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+A
+3. TRUE OR FALSE Since the fleet has a medical division, a civilian doctor will never have the authority to override a starfleet doctor’s orders
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+B
+4. TRUE OR FALSE During a red alert, a low ranking officer  gives you an order to “sit down and remain silent”. You are perfectly within your rights to ignore the order.
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+B
+5. TRUE OR FALSE A Civilian should promptly salute an officer.
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+B
+6. TRUE OR FALSE The following greeting is in correct form:  “Good day Admiral Taurus and Madame President.”
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+B
+7. TRUE OR FALSE A Civilian female will be addressed before an officer as in the following: “Good day Mrs and Admiral Taurus”
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+B
+8. TRUE OR FALSE Retired Admiral Clark  walks up and joins the conversation. You may address the retired Admiral as any of the following:  “Sir”, Mr. Clark or Admiral Clark.
+A:TRUE
+B:FALSE
+C:N/A
+D:N/A
+A
+9. Which of the follow is most correct. You are introduced to Commander Jane Smith on the bridge. You greet her with.
+A:Hi Jane, pleasure to meet you.
+B:Pleasure to meet you Jane.
+C:Pleasure to meet you Commander.
+D:Pleasure to meet you Commander Smith.
+D
+10. Which of the follow is most correct. An officer is introduced to you. After the introductions  she should responds with.
+A:Hi Hon.
+B:Pleasure to meet you Jane.
+C:Pleasure to meet you Sir.
+D:Pleasure to meet you.
+C

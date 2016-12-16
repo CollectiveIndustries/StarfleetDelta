@@ -1,0 +1,60 @@
+1.  The Intelligence branch Gathers and analyses information
+A:True
+B:False
+C:N/A
+D:N/A
+A
+2.  Past Heroes of the Intelligence branch are famous throughout the galaxy, and their adventures are well documented.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+3. In which year did Starfleet Intelligence report that Romulans were using Klingon starship designs?
+A:2128
+B:2161
+C:2268
+D:2350        
+C
+4. The intelligence branch has perhaps been best known for its role during the Dominion War.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+5.  Section 31 is a real agency, authorised by U.F.G.Q. Command to do whatever it likes in the Gamma Quadrant. 
+A:True
+B:False
+C:N/A
+D:N/A
+B
+6. What should you do if you think you are being recruited by Section 31?
+A:Ask what the current pay rate and benefits are.
+B:Beg them to recruit your friend instead.
+C:Send in a divisional transfer request.
+D:Tell someone in U.F.G.Q:SF Intelligence division or the Admiral.
+D
+7.  Name the 2 sub-divisions within the Intelligence Division.  
+A:Administration, Section 31
+B:Administration, Operations
+C:Administration Personal
+D:Operations, Diplomatic
+B
+8. What are the Operation Division's main responsibilities? 
+A:Performing the actual missions
+B:Gathering intelligence
+C:Conducting counterintelligence operations
+D:All of the Above
+D
+9. Intel Officers reports on findings from new planets in the Quadrant, What are the things that they should be reporting?
+A:Life forms / Population Levels
+B:Environment /  Plant life
+C:Social / Economic / Political status
+D:All of the Above
+D
+10. All Intelligence Officers are given Level 5 Access 
+A:True
+B:False
+C:N/A
+D:N/A
+B

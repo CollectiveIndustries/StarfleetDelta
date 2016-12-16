@@ -1,0 +1,60 @@
+1. What do you get upon successful completion of this class?
+A:Your very own shuttle.
+B:Student License
+C:Only a passing grade
+D:Your pilots license
+B
+2. True/False You will be cleared to fly any shuttle without supervision.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+3. Fill in the blanks, This class will teach you about basic physics in ____ that use ____ and rely on ____.
+A:shuttles, air surfaces, atmosphere
+B:aircraft, shield harmonics, atmosphere
+C:aircraft, air surfaces, atmosphere
+D:shuttles, shield harmonics, open space
+C
+4. True/False - Yaw changes in direction of the craft's nose up and down.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+5. In flying what is pitch
+A:Something you do with a baseball
+B:The high or lor quality of sound
+C:A change in the aircraft nose, up or down
+D:All of the above
+C
+6. On a heading  of 0 mark 0 you ship would be traveling?
+A:Up
+B:Down
+C:Forward
+D:Backward
+C
+7. What is not one of the four forces working on a craft at any one time?
+A:Lift
+B:Thrust
+C:Drag
+D:Yoda
+D
+8. True/False - In open space you never have to worry about gravity or drag on your ship.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+9. Fill in the blank -  _______ our advances and technology _________ ,
+A:Because of, accidents never happen
+B:Despite, accidents do happen
+C:Because of, accidents do happen
+D:Despite, accidents never happen
+B
+10. True/False - If you are still within the planetary radius the computer should lock onto you and transport you automatically to safety.
+A:True
+B:False
+C:N/A
+D:N/A
+A

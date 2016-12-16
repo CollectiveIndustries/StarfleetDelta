@@ -1,0 +1,60 @@
+1. How many Hazard Teams were there aboard USS Voyager NCC-74656?
+A:1
+B:4
+C:2
+D:3
+C
+2. Who was second in command of Hazard Team “A”?
+A:Alexander Munro
+B:Les Foster
+C:Telsia Murphy
+D:Chell
+A
+3. The Hazard Team was created by whom?
+A:Captain Janeway
+B:Lieutenant Commander Tuvok
+C:Captain Jean Luc Picard
+D:Captain Benjamin Sisko
+B
+4. Who was Alexander Munro promoted by
+A:Captain Janeway
+B:Lieutenant Commander Tuvok
+C:Captain Jean Luc Picard
+D:Captain Benjamin Sisko
+A
+5. Who was the leader of the Hazard Team?
+A:Alexander Munro
+B:Les Foster
+C:Telsia Murphy
+D:Chell
+B
+6. In what year was he born?
+A:2339
+B:2340
+C:2341
+D:2342
+A
+7. Ensign Telsia Murphy was born where?
+A:Rigel 7
+B:Earth
+C:Bellatrix V
+D:Vulcan
+C
+8. Crewman Chell was a member of which resistance group?
+A:Marquis
+B:Section 31
+C:Orion Syndicate
+D:None of the above
+A
+9. After the return of Voyager, the team was split up and reassigned to several different posts across  Federation space. The core Hazard Team were assigned to which Starship?
+A:USS Prometheus
+B:USS Enterprise NCC-1701-E
+C:USS Equinox
+D:USS Excelsior
+B
+10. Who pioneered survival inside a transporter beam?
+A:Montgomery Scott
+B:Geordi La Forge
+C:Data
+D:Archer
+A
