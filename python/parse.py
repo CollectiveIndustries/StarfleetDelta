@@ -38,7 +38,7 @@ INSERT_CLASS = "INSERT INTO `courses` (`AutherID`,`Class Name`, `Class Descripti
 LOOKUP_AUTHER = "SELECT `ID` FROM `accounts` WHERE `username` = '%s'"
 
 ASSET_TYPE = "SELECT type.`atid` FROM `asset_types` type WHERE type.`type` = '%s'"
-INSERT_ASSET = "REPLACE INTO `assets` (`type`,`uuid`,`name`) VALUES ('%s','%s','%s')"
+INSERT_ASSET = "INSERT IGNORE INTO `assets` (`type`,`uuid`,`name`) VALUES ('%s','%s','%s')"
 
 CLASS_ID = "SELECT `ClassID` FROM `courses` WHERE `Class Name` = '%s'"
 INSERT_LINE = "INSERT INTO `curriculum` (`classID`,`lineNumber`,`displayText`) VALUES ('%s','%s','%s')"
@@ -47,6 +47,8 @@ ASSET_ID = "SELECT a.`aid` FROM `assets` a WHERE a.`uuid`='%s'"
 INSERT_ASSET_LINE = "INSERT INTO `curriculum` (`classID`,`asset_id`,`lineNumber`) VALUES ('%s','%s','%s')"
 
 TABLES = ["assets","courses","curriculum","exams","gradebook","scores"]
+
+CONVERT = "ALTER TABLE `curriculum` COLLATE='latin1_swedish_ci', CONVERT TO CHARSET latin1"
 
 # Class definitions #
 
@@ -66,18 +68,26 @@ class color:
 # run a Commit
 def sql(statement):
 	try:
-		cursor.execute(statement)
+		num_rows = cursor.execute(statement)
+#		if num_rows == 0:
+#			print(color.HEADER)
+#			print("SQL %s: %s" % (num_rows,statement))
+#			print(color.END)
 	except Warning as w:
 		print(color.WARNING+"\nWARNING: "+statement+"\n"+format(w)+color.END)
 	except Exception as e:
 		print(color.FAIL+"\nERROR: "+statement+"\n"+format(e)+color.END)
-		exit(2)
+		exit(1)
 	db.commit()
 
 # Run a Fetch
 def fetch(statement):
 	try:
-		cursor.execute(statement)
+		num_rows = cursor.execute(statement)
+#		if num_rows == 0:
+#                        print(color.HEADER)
+#                        print("FETCH %s: %s" % (num_rows,statement))
+#                        print(color.END)
         except Warning as w:
                 print(color.WARNING+"\nWARNING: "+statement+"\n"+format(w)+color.END)
         except Exeception as e:
@@ -111,8 +121,8 @@ print(color.HEADER+"Attempting to clean system........"+color.END)
 sql("SET FOREIGN_KEY_CHECKS = 0")
 for t in TABLES:
 	print(color.WARNING+t+color.END)
-	sql("TRUNCATE %s"%(t))
-	sql("ALTER TABLE %s AUTO_INCREMENT = 1"%(t))
+	sql("TRUNCATE %s" % (t))
+	sql("ALTER TABLE %s AUTO_INCREMENT = 1" % (t))
 
 sql("SET FOREIGN_KEY_CHECKS = 1")
 print(color.OKGREEN+"OK"+color.END)
@@ -153,6 +163,9 @@ for c in classes:
 				sql(INSERT_ASSET % (type,uuid.strip("\n"),'SOUND'))
 				asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
                                 sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
+#				if line_number == 3:
+#					print(line)
+#					print(INSERT_ASSET_LINE % (CID,asset_id,line_number))
 				line_number += 1
 
 			elif texture.match(line) is not None:
@@ -163,11 +176,18 @@ for c in classes:
 				sql(INSERT_ASSET % (type,uuid.strip("\n"),'TEXTURE')) # SOUND
 				asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
 				sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
+#				if line_number == 3:
+#					print(line)
+ #                                       print(INSERT_ASSET_LINE % (CID,asset_id,line_number))
 				line_number += 1 # Line Index + 1 IF its not the DESC line
 
 			else:
 				sql(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
+#				if line_number == 3:
+#					print(line)
+ #                                       print(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
 				line_number += 1
-		db.commit()
+sql(CONVERT)
+db.commit()
 #		print(color.HEADER+"TOTAL LINES"+color.END)
 #		print(line_number) # End of class
