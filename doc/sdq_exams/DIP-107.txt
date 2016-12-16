@@ -35,7 +35,7 @@ C:24
 D:48
 A
 7. How many previous hosts did the Daz symbiont have before joining Jadzia?
-A. 10
+A:10
 B:5
 C:2
 D:7

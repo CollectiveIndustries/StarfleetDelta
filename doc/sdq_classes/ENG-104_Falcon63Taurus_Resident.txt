@@ -1,4 +1,4 @@
-<DESC:Ships Named Federation Pre-Fed.>
+<DESC:Ships Named Enterprise Pre-Fed.>
 *Dims the lights and smiles at each cadet*
 <LIGHTS_OFF>
 <SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>

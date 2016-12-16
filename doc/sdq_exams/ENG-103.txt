@@ -41,7 +41,7 @@ C:N/A
 D:N/A
 B
 8. True or False? You can establish a Warp field everywhere in universe
-A : True
+A:True
 B:False
 C:N/A
 D:N/A
@@ -58,4 +58,3 @@ B:The Otto-Motor
 C:Coaxial Warp drive
 D:A and C
 D
-

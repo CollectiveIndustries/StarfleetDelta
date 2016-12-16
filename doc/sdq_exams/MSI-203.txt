@@ -4,7 +4,7 @@ B:False
 C:N/A
 D:N/A
 B
-2.Classical physics became a separate science when
+2. Classical physics became a separate science when
 A:Columbus rediscovered the American Continent
 B:during the Archaic period sometime BCE
 C:Early modern Europeans used these experimental and quantitative methods...

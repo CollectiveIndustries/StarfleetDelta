@@ -22,7 +22,7 @@ B:False
 C:N/A
 D:N/A
 A
-5.The Ma’veq is a ceremonial long double edge Klingon sword, used in the killing of disgraced Klingons after they have been beaten in battle.
+5. The Ma’veq is a ceremonial long double edge Klingon sword, used in the killing of disgraced Klingons after they have been beaten in battle.
 A:True
 B:False
 C:N/A

@@ -11,12 +11,12 @@ C:N/A
 D:N/A
 B
 3. Fill in the blank. There is  __________  lifeforms in the universe.
-A:a vast array of
-B:few different
-C:only humanoid
-D:only carbon based
+A:A vast array of
+B:Few different
+C:Only humanoid
+D:Only carbon based
 A
-4: The first contact with Vulcans was made easier because they looked human.
+4. The first contact with Vulcans was made easier because they looked human.
 A:True
 B:False
 C:N/A

@@ -40,7 +40,7 @@ B:False
 C:N/A
 D:N/A
 B
-8: One of the most well-known temporal paradoxes is?
+8. One of the most well-known temporal paradoxes is?
 A:The Predestination Paradox
 B:The Poga Paradox
 C:The Dali Paradox

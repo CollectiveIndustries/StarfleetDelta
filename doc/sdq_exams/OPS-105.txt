@@ -34,25 +34,25 @@ B:Jean-Luc Picard
 C:Spock
 D:Trelane
 A
-7.  Who sent a subspace message to Klaestron IV?
+7. Who sent a subspace message to Klaestron IV?
 A:Jean-Luc Picard
 B:Commander Benjamin Sisko
 C:Dax
 D:none of the above
 B
-8  In 2369 who had blocked all subspace communication  to Starfleet Headquarters?
+8. In 2369 who had blocked all subspace communication  to Starfleet Headquarters?
 A:Major Kira
 B:Dax
 C:Chief O'Brien
 D:Benjamin Sisko
 A
-9.  Which year did earth develop subspace communication?
+9. Which year did earth develop subspace communication?
 A:2151
 B:2551
 C:5121
 D:1251
 A
-10.  The Vulcans been utilizing subspace communications as early as the Earth year?
+10. The Vulcans been utilizing subspace communications as early as the Earth year?
 A:1957
 B:1795
 C:1975
