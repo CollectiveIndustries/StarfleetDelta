@@ -1,0 +1,94 @@
+<DESC:Civilian Etiquette>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+Welcome to SDQ Academy
+Our class today is ACM-102 / Civilian Etiquette.
+*Takes a deep breath and proceeds*
+At the end of this course you will be able to perform the following:
+You’ll be able to define the role of the civilian, State the roles civilians may take in the fleet and finally,
+you’ll be able to prove you understand the “rules of engagement” civilians should use when dealing with fleet personnel.
+This course was created as an introduction for civilians, however any one can certainly attend.
+While this course does not cover specifics of, say, the operation of communications devices, it will address what is expected of civilian participants.
+It’s a short course, so please hold your questions till the end of the presentation. At that time, I’ll be happy to discuss any relevant topic.
+<TEXTURE:e3fc7f44-21da-a3c3-acdf-dc06c726804f>
+Okay everyone, let’s get started
+Objective 1: Define the role of civilians.
+Civilian roles often accommodate those who, for many reasons, cannot participate in regularly scheduled Role Plays, but want to be a part of the emersion.
+Civilians are beneficial!
+They can enhance the experience, assist with projects. They offer a fresh look at situations….outside of the more structured “duty roles” of the established fleet.
+They can be main players on the bridge or play supporting roles. In either case civilians will interface with crew and officers.
+So it is important to understand basic protocols of communication.
+<TEXTURE:698db6e9-01db-4aae-2dfb-5269717ebdb5>
+Objective 2: State where civilians may be found in the fleet.
+Civilians may work about the ship in supporting roles.
+Civilian family members (including children) are sometimes aboard fleet ships
+despite the fact that the ship may routinely face situations that could easily end with the complete destruction of it’s destruction with all hands.
+To those of us in the fleet, we must remember that civilian activities are voluntary.  No civilian is required to keep a schedule or do a job.
+However we still treat them with courtesy and respect due their position.
+As we go forward consider this regarding civilians:
+“The history of civil-military relations can be traced to the writings of Sun Tzu  and Carl von Clausewitz, (Earth) both argued that military and exploratory  organizations were primarily the servants of the state.”
+In many cultures, civilians run the government. Respect every civilian as if that person is the leader of a world.
+You will always experience exceptions to this rule. For example, a civilian under arrest or in the brig will be treated as a prisoner.
+<TEXTURE:a90a469f-629c-9ed5-7751-3ceeb4560181>
+Civilians play an important part in the fleet as they make up the universe’s population in general.
+They add diversity and choice.
+There are many civilian professions, ie: scientist, trader, technician, medic, doctor, privateers, diplomats and “special representatives”.
+Therefore as officers and crew of the fleet, we will treat any encountered civilian with dignity and respect due a citizen/leader of the federation.
+Objective 3: State the “rules of engagement” when civilians interact with SF personnel.
+Whenever addressing another person, using manners and respect is never out of fashion.
+Regardless of your character’s views on the Fleet, the men and women who chose to serve did so to preserve your right to have your views.
+In most instances and circumstances of life, a formal address is appreciated as a gesture of respect. This is true for retired, as well as active fleet personnel.
+It is a good idea to familiarize yourself with the following “do’s and don’ts,” but don’t get too bogged down in the specifics of them.
+Start mentally preparing now, and your transition to “Role Play mind set” will be much easier.
+<TEXTURE:283d2ec7-1054-304d-bebf-014cd516aa00>
+DO AS YOU’RE TOLD by members of the fleet. Situations may be time critical. A debate of the pros and cons, may be out of the question.
+DO Take orders, as if you are part of the crew and will be expected to follow a defined chain of command.
+DO remember that Starfleet is not a military organization. There is no need to salute.
+DO reply to a comm message  by stating your unit or section, name, and "How may I help you sir. For example:  “Engineering. Smith. How may I help you sir?”
+DO be organized.  Know in advance the mission overview you have volunteered for.
+DON'T get in the way or hinder bridge activities.
+DON'T be offended. All else being equal ... people in uniform have higher precedence than people not in uniform.
+When introduced, you will take a back seat to the officer(s) For example, “Good afternoon Admiral Jones and Ms Smith” .
+The same rule holds true for a social invitation. You will see “ Admiral Linda Weston and Mr. Thomas Weston”
+However should the civilian hold a title of respect, of leadership. The reverse may be true. Be aware of the special situations and guests aboard your ship.
+DO greet a retired officer with proper etiquette. Use the person's title. For instance, you might greet Commander Taylor by saying, "Good morning, Commander Taylor
+Female officers are to be addressed as “Sir” but may be addressed as “Ma’am” if that is what that officer prefers, this works for any adult female, Fleet or civilian."
+For most officer ranks, generally the lower ranks, the use of "Sir" is also acceptable. In the workplace, however, many retired personnel may prefer to go by Mr. or Ms.
+One exception to using the rank while addressing a retired officer is if the retired officer has taken a civilian job with the military.
+Then, while on the job, he would only be referred to by standard honorifics (eg. Mr. or Ms.) to avoid confusion with active military personnel.
+<TEXTURE:bc0f0baa-72fa-f8c2-639e-80bd9caf315d>
+For enlisted ranks, the standard title of Mr., Ms., or Mrs. generally applies. However, you will often hear a retired NCO (non-commissioned officer), such as a chief , referred to by his rank, again out of respect.
+DO use proper addressing methods to any military personnel.
+Whether retired or serving active duty, items should be plainly addressed, using standard, civilian honorifics.
+However, many in the military prefer to have their ranks on the envelope.
+In the case of retired officers, the standard is to write the rank, followed by the full name, followed by (ret). For example, an envelope might be addressed to Captain Samuel Taylor (ret).
+As a civilian, it is not required to use rank and titles when addressing fleet personal. But we must respect the rank and or title of the Fleet personnel we are addressing.
+With a personal relationship is established it is often permissible to address an officer by the first name,
+HOWEVER, DO NOT go up to an officer you do not know and start calling them by their first name.
+Also during a RP’s it is always best to address an officer by rank and last name, as in "Commander Davis."
+The society of Starfleet may be defined as an idealized socialism in which Gene Roddenberry believed was an ideal to which humanity should strive - everyone is equal,
+there is no poverty, and the 'pursuit of material wealth is outmoded’.
+After he passed on, creative minds looked at the ramifications and decided to show how this society would fare in interactions with dissimilarly minded species,
+and the effect it would have on the ever-present rogue element of humanity (there have always been and will always be people who want to seek new places and experiences,
+and not all of them are suited to a structured life in the fleet).
+Given this and add the fact that the civilian role is not defined as a “duty role” the civilian character may be at times, “unpredictable”.
+The bottom line is this: Be creative. Have fun. Enjoy your role as Fleet or civilian.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

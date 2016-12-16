@@ -1,0 +1,99 @@
+<DESC:Chemistry>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-201 / Chemistry
+*Takes a deep breath and proceeds*
+<TEXTURE:3c392bc7-d50b-92db-53b5-420e5a843bd7>
+Chemistry has a reputation for being a complicated and boring science, but for the most part, that reputation is undeserved.
+Fireworks and explosions are based on chemistry, so it's definitely not a boring science.
+If you take classes in chemistry, you'll apply math and logic, which can make studying chemistry a challenge if you are weak in those areas.
+However, anyone can understand the basics of how things work... and that's the study of chemistry. In a nutshell, the importance of chemistry is that it explains the world around you.
+Chemistry explains how food changes as you cook it, how it rots, how to preserve food, how your body uses the food you eat, and how ingredients interact to make food.
+You need to understand basic chemistry so you can understand how vitamins, supplements, and drugs can help or harm you.
+Part of the importance of chemistry lies in developing and testing new medical treatments and medicines.
+<TEXTURE:659acf84-0e75-1c21-de48-cb17ba4934bc>
+Chemistry is the study of matter and energy and the interactions between them. This is also the definition for physics, by the way.
+Chemistry and physics are specializations of physical science.
+Chemistry tends to focus on the properties of substances and the interactions between different types of matter, particularly reactions that involve electrons.
+Physics tends to focus more on the nuclear part of the atom, as well as the subatomic realm. Really, they are two sides of the same coin.
+You could use chemistry in most fields, but it's commonly seen in the sciences and in medicine.
+Chemists, physicists, biologists, and engineers study chemistry. Doctors, nurses, dentists, pharmacists, physical therapists, and veterinarians all take chemistry courses.
+Science teachers study chemistry. Fire fighters and people who make fireworks learn about chemistry. So do truck drivers, plumbers, artists, hairdressers, chefs... the list is extensive.
+<TEXTURE:179ad653-fd69-818c-4ebe-9865aa0ec09f>
+What Do Chemists Do?  Whatever they want. Some chemists work in a lab, in a research environment, asking questions and testing hypotheses with experiments.
+Other chemists may work on a computer developing theories or models or predicting reactions. Some chemists do field work.
+Others contribute advice on chemistry for projects. Some chemists write. Some chemists teach. The career options are extensive.
+An important point to remember is that chemistry is a science, which means its procedures are systematic and reproducible and its hypotheses are tested using the scientific method.
+Chemists, scientists who study chemistry, examine the properties and composition of matter and the interactions between substances.
+Chemistry is closely related to physics and to biology. As is true for other sciences, mathematics is an essential tool for the study of chemistry.
+Scientific Method Step 1: Make Observations
+A lot of people think that the scientific method starts with forming a hypothesis.
+The reason for this misconception may be because many observations are made informally.
+After all, when you are looking for a project idea, you think through all of the things you have experienced (observations you have made) and try to find one that would be suitable for an experiment.
+Although the informal variation of Step 1 works, you will have a richer source of ideas if you pick a subject and write down observations until a testable idea comes up.
+For example, let's say you want to do an experiment, but you need an idea. Take what is around you and start writing down observations.
+Write down everything! Include colors, timing, sounds, temperatures, light levels... you get the idea.
+Scientific Method Step 2: Formulate a Hypothesis
+A hypothesis is a statement that can be used to predict the outcome of future observations.
+The null hypothesis, or no-difference hypothesis, is a good type of hypothesis to test. This type of hypothesis assumes no difference between two states.
+Here is an example of a null hypothesis: 'the rate at which grass grows is not dependent on the amount of light it receives'.
+Even if I think that light affects the rate at which my grass grows (probably not as much as rain, but that's a different hypothesis),
+it is easier to disprove that light has no effect than to get into complicated details about 'how much light', or 'wavelength of light', etc.
+However, these details can become their own hypotheses (stated in null form) for further experimentation.
+It is easiest to test separate variables in separate experiments. In other words, don't test the effects of light and water at the same time until after you have tested each separately.
+Scientific Method Step 3: Design an Experiment
+There are many different ways to test a single hypothesis.
+If I wanted to test the null hypothesis, 'the rate of grass growth is not dependent on quantity of light',
+I would have grass exposed to no light (a control group... identical in every way to the other experimental groups except for the variable being tested), and grass with light.
+I could complicate the experiment by having differing levels of light, different types of grasses, etc.
+Let me stress that the control group can only differ from any experimental groups with respect to the one variable.
+For example, in all fairness I could not compare grass in my yard in the shade and grass in the sun... there are other variables between the two groups besides light,
+such as moisture and probably pH of the soil. Keep your experiment simple.
+Scientific Method Step 4: Test the Hypothesis
+In other words, perform an experiment! Your data might take the form of numbers, yes/no, present/absent, or other observations.
+It is important to keep data that 'looks bad'. Many experiments have been sabotaged by researchers throwing out data that didn't agree with preconceptions.
+Keep all of the data! You can make notes if something exceptional occurred when a particular data point was taken.
+Also, it is a good idea to write down observations related to your experiment that aren't directly related to the hypothesis.
+These observations could include variables over which you have no control, such as humidity, temperature, vibrations, etc., or any noteworthy happenings.
+Step 5: Accept or Reject the Hypothesis
+For many experiments, conclusions are formed based on informal analysis of the data.
+Simply asking, 'Does the data fit the hypothesis', is one way to accept or reject a hypothesis.
+However, it is better to apply a statistical analysis to data, to establish a degree of 'acceptance' or 'rejection'.
+Mathematics is also useful in assessing the effects of measurement errors and other uncertainties in an experiment.
+Accepting a hypothesis does not guarantee that it is the correct hypothesis!
+This only means that the results of your experiment support the hypothesis.
+It is still possible to duplicate the experiment and get different results next time.
+It is also possible to have a hypothesis that explains the observations, yet is the incorrect explanation. Remember, a hypothesis can be disproven, but never proven!
+Hypothesis Rejected? Back to Step 2
+If the null hypothesis was rejected, that may be as far as your experiment needs to go.
+If any other hypothesis was rejected, then it is time to reconsider your explanation for your observations.
+At least you won't be starting from scratch... you have more observations and data than ever before!
+<TEXTURE:8289b501-11dc-a92f-11b2-6ccd8c34a906>
+Why Study Chemistry?
+Because understanding chemistry helps you to understand the world around you.
+Cooking is chemistry. Everything you can touch or taste or smell is a chemical.
+When you study chemistry, you come to understand a bit about how things work.
+Chemistry isn't secret knowledge, useless to anyone but a scientist.
+It's the explanation for everyday things, like why laundry detergent works better in hot water or how baking soda works or why not all pain relievers work equally well on a headache.
+If you know some chemistry, you can make educated choices about everyday products that you use.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

@@ -1,0 +1,97 @@
+<DESC:History and Sceince of Warp Drive>
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:4b45fb27-cf2e-1914-f513-bffddb952d46>
+Welcome to the Engineering Division in SDQ!
+Our class today is ENG-101 / History and Science of Warp Drive
+*Takes a deep breath and proceeds*
+For centuries, humanity has sought to improve its ability to travel.
+Never content where we are, one of humanity's most endearing qualities is that we are constantly looking, searching, exploring, and expanding our knowledge.
+At first, travel speed was restricted only by available power.
+Walking and running can only go so fast. From walking, we graduated to taming animals, and riding horses.
+We harnessed the horses to wheeled machines, then created engines in the machines to power them ever faster.
+<TEXTURE:18fcb078-a7ee-9564-4779-e940d224f8e7>
+Once humanity conquered aerodynamics and put these machines in the air, we encountered our first barrier: the speed of sound.
+It turns out that an object can only travel so fast, before the compression waves created in the air (which are heard as sound) become a literal barrier that is difficult to penetrate.
+The sound barrier was penetrated through new and innovative designs in airfoils, which enabled faster-than-sound travel with relative ease. However, soon a new barrier was encountered.
+<TEXTURE:29595c66-10a4-460f-915c-853a0d1ef5d>
+In 1917, Albert Einstein published a theory of special relativity which described the universe, space-time, and their interrelation.
+Included in this theory were several problems for space travel. First, Einstein predicted that travel faster than light was impossible.
+Considering that the nearest star system to Earth, Alpha Centauri, is over 4 light-years away, it would mean that even this short out-and-back trip would take a minimum of nine years.
+Secondly, special relativity states that when traveling with any appreciable speed, time slows down, or dilates.
+This would mean that for a simple trip to a neighboring star system, you might take this ten-year journey and come back to find all your loved ones, even children and grandchildren, had already died of old age.
+Both of these problems would make creating a space empire or federation nearly impossible,
+and would need to be overcome before the Federation could ever be what it is today.
+Enter Warp theory.
+WARP THEORY
+<TEXTURE:902e4b75-c898-3c48-d7e9-5db13ee4d7cc>
+Nothing in space-time can travel faster than light. Not a bullet, not a photon, and certainly not a starship.
+Since nothing can travel faster than light in space-time, then to travel faster than light we would need to operate outside of normal space-time.
+In 2063, Zefram Cochrane became the first human to make a successful Warp flight. A passing Vulcan science ship observed the jump into warp, and initiated first contact with us.
+It was the Vulcan policy to not initiate first contact with any species that has not achieved Warp drive capability, to allow them to evolve at their own pace.
+This was adopted into Starfleet as General Order #1: the Prime Directive. Thus, Warp-capability is generally the measure we use to determine whether or not a culture is ready for alien interaction.
+Any culture that has not achieved this is off-limits.
+A Warp drive is completely different from other forms of engines: it is why modern starships will have at least three different forms of propulsion: Warp drive, impulse drive, and thrusters.
+Impulse drive is conventional power from large-scale atomic-fusion rockets, usually behind the ship as they primarily provide forward thrust.
+Thrusters are smaller rockets that are on all sides of the ship, and require less power.
+These are primarily used for intricate maneuvers into tight spaces, like a Galaxy-class starship pulling into a dry-dock.
+However, maneuvering thrusters aren't powerful enough to provide any appreciable speed, nor to maintain that speed for any length of time.
+<TEXTURE:f8ffb03d-2066-1f1e-21aa-39357561b7a1>
+Warp drive operates by creating a bubble around the starship, then propelling the bubble. The bubble is just outside of normal space, which is also known as "subspace."
+This is not to be confused with a wormhole, which crosses between planes of normal space.
+Subspace, like a wormhole, is a fourth-dimensional concept where the starship is slightly out of normal space, but still at the same three-dimensional coordinates where it just was.
+In other words, it creates a bubble in the fabric of spacetime itself. If that's a little too much for you, don't worry -- that's not on the exam.
+Also of interest, though, is that subspace weapons operate on this same principle, but they do unspeakable damage to the space-time fabric: damage which our current science has yet to fully understand.
+The Khitomer Accords and multiple other treaties have banned all subspace weapons. Conventional weaponry is damaging enough.
+What you need to know about Warp drive is this: it is this subspace bubble that is propelled through space.
+Since this subspace bubble is outside of normal space-time, it itself can be propelled at a higher velocity than is otherwise possible.
+Some people think of it in this fashion: The starship doesn't move, it creates a bubble and pulls the rest of the universe around itself.
+That's not entirely accurate, but it is one way of thinking about how Warp drive works. Completely different from any other form of propulsion out there.
+WARP FACTORS
+<TEXTURE:d6cb399e-b3f6-71e9-daad-721c1b72ca4a>
+In the early days of warp travel, warp speeds were simply the speed of light cubed, or to the third power.
+In other words, Warp 2 was calculated as 2X2X2, or 2^3 (two to the third power), which is eight.
+Warp 2 was eight times the speed of light. Likewise, warp 3 was 27 times the speed of light (3x3x3), and warp 10 was 1000 times the speed of light. James T. Kirk was once pulled along at warp 14.1.
+The modern Warp scale has been reconfigured to recognize nine warp "factors" -- or, plateaus at which Warp travel requires significantly less power than otherwise predicted.
+This has enabled current Warp systems to be more efficient. Included in the recalibration, however, was the notion of Warp 10 being "infinite."
+Warp 1 remained the same: travel at the speed of light.
+This is the first warp factor. Travel at this speed is excruciatingly slow by modern standards.
+At this speed, it would take 4.5 years to travel from Earth to Alpha Centauri.
+For comparison, let's look at Warp 9.
+Warp 9 is travel at 1,516 times the speed of light -- or, 1.63 trillion kilometers per hour.
+Beyond Warp 9, the power required for travel is extreme, as are the demands placed on all ship's systems and resources.
+At this speed, a starship would complete a 20-light-year trip in only five days.
+Very useful for warping into a crisis, but not generally considered good practice, as it consumes resources at an alarming pace and wears on starship parts much faster than necessary.
+Also, at higher Warp speeds, long-range sensors have a harder time functioning, as the distortion of subspace from normal space also becomes more pronounced.
+One could drop out of Warp 9 and encounter an entire Borg fleet that they weren't expecting. In short, Warp 9 is generally used in emergencies only.
+Warp factors of 5-7 tend to be the most used Warp factors, as they represent a fair compromise between speed and resource consumption.
+Lower speeds, such as Warp 3 or 4, are often used by science vessels, or exploratory vessels, or vessels with science mission objectives.
+The Captain usually determines the appropriate Warp factor, balancing the needs of all departments: from scientific and tactical observations, to resource management, and engineering concerns.
+WARP SPEED LIMIT
+<TEXTURE:cbe512a8-2176-7b11-1b59-74e0d0c4e3dc>
+In the 2360s, a damaging effect on space-time was discovered at speeds above Warp 5.
+This was a crisis, as the very fabric of space-time had been observed deteriorating from centuries of abuse.
+As a stopgap measure, a Warp 5 speed limit was placed on all Starfleet vessels.
+However, this crippled the fleet: since other starships could not be counted on for assistance, the fleet had to maintain a higher state of readiness in deployment.
+The same studies that provoked the finding of the defect and the Warp 5 speed limit also shed light on a cure.
+For this reason, the new Intrepid-class of starships incorporated as a main feature folding warp nacelles.
+These enabled the starship to reconfigure its warp field geometry, and prevent this damage to the space-time fabric.
+Subsequent innovations rendered these folding nacelles obsolete; the rest of Starfleet has been retrofitted to be able to reconfigure their Warp field geometry.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

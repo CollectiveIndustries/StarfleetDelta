@@ -1,0 +1,73 @@
+<DESC:Introduction to Xenobiology>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-103 / Intro to Xenobiology
+*Takes a deep breath and proceeds*
+<TEXTURE:f12ff8b7-90f4-6bc5-4e31-b345d14d1d0b>
+Xenobiology is the study of all aspects of life, intelligence, and civilization indigenous to environments across the universe.
+It is also referred to as Exobiology or Astrobiology.
+Xenobiology is a science that specializes in studying the universe's life forms, such as animals, plants, fungi and bacterium.
+It is a major subdiscipline within the xenological sciences.
+In the 20th and 21st centuries Terra had sent spacecraft to other neighboring planets to sample and compile a wealth of information about various species and their development,
+just as we now visit other planets and collect information to be used for treatment and research of various lifeforms.
+The dictionary describes Xenobiology as a multidisciplinary field dealing with the nature, existence, and search for extraterrestrial life (life beyond Earth).
+Astrobiology encompasses areas of biology, astronomy, and geology.
+<TEXTURE:3d8406e8-a9e4-e040-b722-d52804b5aaad>
+The evolutionary origins of traumatic insemination are disputed.
+Although it evolved independently in many invertebrate species, traumatic insemination is most highly adapted and thoroughly studied in bedbugs,
+particularly Cimex lectularius. Traumatic insemination is not limited to male-female couplings, or even couplings of the same species.
+Both homosexual and inter-species traumatic inseminations have been observed. Traumatic insemination has been likened to human sadomasochism, stabbing, and rape behaviors.
+However, such coercive sex practices are common in nature and provide sperm competition, enable bypassing the mating plug, and overcome female resistance to being mated.
+Most living creatures we know about are made up of complex carbon compounds immersed in liquid water.
+Chemists long have been aware of literally hundreds of amino acids in addition to the normal 20 which make up all protein molecules coded by DNA in humanoid biology.
+No one knows exactly why these particular 20 were selected by evolution for the job.
+There seems nothing to prevent each extraterrestrial carbon/water DNA/protein life chemistry from having its own unique set of amino acid building blocks.
+It also necessarily includes the concept of artificial life or inorganic life forms, since any life form that might naturally evolve elsewhere can be created in a laboratory using current technology.
+The prime example of this is an android called Data.  Data was created by a scientist by the name of Noonien Soon.
+Soong's early work was highly regarded with his work on the positronic brain.
+<TEXTURE:97d0b8b6-1197-6f4c-750a-9517d71a950d>
+It is useful at this point to ask exactly how biochemical biology is relevant to our study of alien beings.
+A xenologist who speaks of “lifeforms” most generally refers to an entity or material system that metabolizes both matter-energy and information.
+(Metabolism is any mechanism which accepts a set of inputs and then processes them to produce a specific set of outputs.)
+A few might also demand that each metabolism be survival-oriented or geared for reproduction,
+but it is clear that the lifeform concept is vastly broader than traditional notions based on Earthly life.
+Xenobiologists would argue that while all biochemical biological entities must be lifeforms, not all life forms need be biochemical in constitution.
+<TEXTURE:6a50f73f-7085-3b36-ef36-442642226dd9>
+Life requires metabolism, a systematic manipulation of matter-energy and information.
+But manipulation can only be accomplished by the application of force. Physicists tell us there are just four fundamental forces in nature.
+Most powerful is the nuclear or strong “chromodynamic” force,
+responsible both for binding protons and neutrons together in atomic nuclei and for holding subnuclear “quarks” together within individual protons, neutrons and other particles.
+Less strong is the electromagnetic force, which provides the attraction or repulsion between charged objects and predominates in the chemical reactions of terrestrial biochemistry.
+The weak force mediates many processes of radioactive decay.
+Finally there is gravity, by far the weakest force, which manifests itself in the universal attraction of all matter-energy.
+We can imagine four broad classes of metabolic entities – chromodynamic or nuclear lifeforms, electromagnetic life forms (e.g., all Earth life, including humans), weak lifeforms, and gravitational lifeforms.
+Each is most likely to evolve in those environments where the forces upon which they most depend predominate over all others.
+Xenobiologists spend most of their time in the laboratory researching and studying the varying physical makeup of different species.
+For example, the Klingon peoples have a second set of major organs as a "fail safe" in case of injury in battle, and the joined Trill host will not survive upon removal of the symbiont.
+The xenobiologist is a key position in the medical industry as we travel the universe meeting new species.
+They are the scientists responsible for designing and discovering new treatments, procedures, and medications that are effective on the different species.
+<TEXTURE:a54fa38-fccb-e1b9-fa93-083160ad5490>
+As a Xenobiologist you will work very closely with the Doctors both in the sick bay and in the field when treating patients.
+You will not treat patients directly, but must be a knowledgeable advisor the the doctors.
+You must be aware of the physical differences as well as the psychological differences of each species in order to effectively treat and heal the patient.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

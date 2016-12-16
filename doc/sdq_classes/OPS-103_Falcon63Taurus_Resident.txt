@@ -1,0 +1,89 @@
+<DESC:Personal Shuttle Basic Training>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:ac597b92-800a-bb09-d058-1d8f552e6332>
+Welcome to the Operations Division of SDQ!
+Our class today is OPS-103 / Personal Shuttle Basic Training
+*Takes a deep breath and proceeds*
+Hello, and welcome to the Flight Ops class Basic Training for Personal Shuttle.
+In this class you will learn the basic Operational procedures you will need to pilot not only a shuttle but any other classification of ship.
+<TEXTURE:59907254-58a9-adb0-ec98-d262117e6754>
+Overview of the Spacecraft
+In starship classification, shuttlecraft, or shuttles, are auxiliary craft typically attached to a starship or a starbase.
+Most shuttles are short-range starships, possessing only impulse drive or a limited warp capability.
+We utilize shuttle crafts for a variety of situations like where the transporter cannot be used for landings, or to transport items or personal from one location to another were it would be impartial to use a larger ship
+Shuttlecraft range in size from the larger, longer-range, and more versatile type of shuttle, known as a runabout, to the small and short-range type of shuttle, known as a shuttlepod.
+Most Starfleet shuttlecraft from the 23rd century onward had warp nacelles, indicating warp capability.
+Pre-Takeoff Procedures
+A flight plan is  a pre-determined course of action or path a starship or squadron would take during a specific flight or mission.
+Flight plans can be entered into a starship's auto-navigation system to assist with helm operations.
+A flight plan is filed with a space station or area of departure prior to takeoff – for example, shuttlecraft leaving the shuttle bay of a starship were to file a flight plan with the ship before departing.
+You always want to stick to the filed flight plan as close as you can , that way if something were to go wrong others would know where to search.
+<TEXTURE:f1f01b1f-57f4-decf-acc9-75440184e4a1>
+Prior to beginning any flight operations, it is necessary to undertake a pre-flight check of the shuttle.
+As you approach to the shuttle scan the area in and around the craft as you may notice things from afar that you would not notice up close.
+Notwithstanding the importance of thoroughly checking the shuttle prior to each flight, it is all too common to see pilots walking round going through the motions but seeing nothing.
+Walk around and inspect your  shuttle and the area around it. Check for anything that you may have a concern with. Are all the moorings and tie downs free? Is the airspace free around the area? Any loose panels?
+Second is a preflight cockpit check list. Check your seat position adjust it so you are able to comfortably reach all the controls.
+Remove the control locks and run the controls to check that they are functioning properly, then set the trim to the takeoff position.
+Power up the shuttle then do a check of every system:
+Communications
+Sensors internal and external
+Environmental controls
+Shields
+Impulse engines
+Warp engines
+Weapon systems
+Only after all systems checks are done and the shuttle is operating at standard levels should you take off.
+<TEXTURE:dd207da5-fee2-1729-b8e2-8714ff968e85>
+Takeoff Procedures
+It is always recommended to hover a few meters after lift off to get a feel for the craft.
+Do the engines sound right? any vibrations? Get a feel of the controls, every ship has a different flight characteristic.
+For your first flight in a ship move forward slowly “play” with the controls move right, left, up, and down. Feel how the ship reacts
+Navigation Procedures
+Navigation is the science of locating the position and plotting the course of ships, aircraft, and spacecraft; in the latter case, the proper term is sometimes referred to as astrogation.
+Before take off enter your flight plan into the ship’s navigation computer to plot your course.
+Make sure your star charts for your flight path are up to date.
+Always run scans of the area to check for things that you may need to adjust your course to avoid.
+Landing Procedures
+You want to notify the base or ship that you are approaching.
+Shutdown procedures per a checklist just like the one used in your preflight checks
+Post-flight inspection and securing the shuttle.
+Record-keeping and logbook entries
+If you don’t have the  check-off lists, you’re asking for a possible problem. If you say you have them memorized all in your head, you’re asking for a possible problem.
+If you do have some of these check off lists, and you do check them MOST of the time, you are asking for a problem. And if you just jump into your craft, start her up and go, I can almost guarantee that you will soon have a problem.
+Emergency Procedures
+The best emergency procedure is not to have an emergency in the first place.
+The best way to prevent an emergency is to go through your pre and post flight checks every single time.
+That way you make sure you and your ship are operating at peak efficacy
+A few years ago, a good friend of mine, jumped into a shuttle, which he had just landed a short time before, fired up his engine, opened the throttle and took off.
+About 100 feet in the air his engine stopped! He dropped the nose, flew straight ahead, came in too steep and wiped out the nose and some of the cabin area.
+Fortunately he was not injured! He forgot one of the most important checks to make, he didn’t check to make sure his antimatter flow valve was turned on.
+He had turned it off when he had previously landed. Having a check off list, and taking the time to use it, would have avoided this near catastrophe.
+However things do go wrong and you need to be prepared.
+You should always have an emergency kit on-board that should include basic medical supplies, emergency rations of food and water enough for each passenger for  several days.
+An auxiliary emergency communications beacon is also recommended.
+The first thing that you need to go in any sort of emergency is call for help.
+You need know how to deal with a variety of problems and you may need to do emergency repairs in flight.
+So having a basic knowledge of the ship's systems is highly recommended.
+Remember the pilot in command is responsible for safe operation.
+Every time you look into a mirror, you see the person responsible for your and your passengers safety.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

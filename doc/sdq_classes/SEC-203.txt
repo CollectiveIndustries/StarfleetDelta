@@ -1,0 +1,200 @@
+<DESC:Starfleet General Orders>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-203 / Starfleet General Orders
+*Takes a deep breath and proceeds*
+In the history of militaries, there has always been a set of rules governing operations of individual warriors.
+In the 18th century the United States military on earth established General Orders specifically for sentries or guards.
+Some are unwritten, like "stay awake."
+The most famous and most important was "I will guard everything within the limits of my post and quit my post only when properly relieved."
+Starfleet, upon its creation, adopted the concept but made the orders more general.
+As the Federation spread and explored, it became an issue as to how much involvement Starfleet personnel should have in pre-warp civilizations.
+Consequently, General Order #1 for Starfleet, the most important one, and nicknamed the Prime Directive, dealt explicitly with relations with sentient species.
+A sub order, the Omega Directive, is classified and select personnel are allowed access to it, and must not share with those without access.
+(although it seems the federation rumor mill is in full effect, and everyone seems to know)
+There are a total 39 general orders that cover many aspects of starfleet activities.
+These orders are tied to the Federation Charter and the Uniformed Code of Military Justice.
+In the Manual for Court Martial, General Orders are Part 4.The General Orders are punitive, as such violations of them can result in punishment.
+**Pauses to take a breath**
+<TEXTURE:7e00aaab-869d-d088-f1df-a688d37e4551>
+The following are the Starfleet General Orders:
+General Order 1 ("Prime Directive")
+As the right of each sentient species to live in accordance with its normal cultural evolution is considered sacred,
+no Starfleet personnel, Federation citizen and/or representative may interfere with the normal and healthy development of alien life and culture.
+Such interference includes introducing superior knowledge, strength, or technology to a world whose society is incapable of handling such advantages wisely.
+Starfleet personnel may not violate this Prime Directive, even to save their lives and/or their ship/installation,
+unless they are acting to right an earlier violation or an accidental contamination of said culture.
+This directive takes precedence over any and all other considerations, and carries with it the highest moral obligation.
+General Order 1A
+(“Omega Directive”) TOP SECRET — CAPTAIN'S RANK AND ABOVE ONLY (Unless authorized by Starfleet Command)
+General Order 2
+No Starfleet personnel shall unnecessarily use force, either collectively or individually, against members of the United Federation of Planets,
+their duly authorized representatives, spokespersons, or designated leaders, or members of any sentient non-member race, for any reason whatsoever.
+General Order 3
+The sovereignty of each Federation member being respected in all things,
+Starfleet personnel shall observe any and all statutes, laws, ordinances, and rules of governance currently in effect within the jurisdiction of a member planet.
+Violators of such ordinances will be subject to such punishments or corrections as shall be determined by local governmental bodies.
+General Order 4
+If contact is made with hitherto undiscovered intelligent lifeforms, under no circumstance shall Starfleet personnel,
+either by word or deed, inform said lifeforms that worlds other than their own or intelligent life-forms
+other than their own exist outside the confines of their own space or answer questions by said lifeforms pertaining to the existence of other species outside said space.
+General Order 5
+In cases of extreme emergency, Federation special representatives are empowered to assume emergency powers
+to deal with a condition or circumstance that is deemed hazardous to the welfare of Federation citizenry.
+Within the scope of these emergency powers, duly authorized civilian personnel may assume temporary command of Starfleet vessels, installations,
+and/or personnel to deal with the emergency. Starfleet personnel must submit to their authority for the duration of the crisis.
+General Order 6
+The request for emergency assistance from Federation citizenry or non-aligned persons demands unconditional priority from Starfleet personnel.
+Such personnel shall immediately respond to said request, postponing all other activities.
+This responsibility extends to current governments at odds, actively or passively, with the Federation.
+<TEXTURE:fd33a262-232e-60de-c122-a7f2f64d290a>
+General Order 7
+No Starfleet vessel shall visit the planet Talos IV under any circumstances, emergency or otherwise.
+This order supersedes General Order 6. Any transgression of this general order shall be punishable by death.
+General Order 8
+Upon sighting a warship within Federation space and identifying it as belonging to a foreign power,
+the commander of the Starfleet vessel/installation shall determine the reason(s) for that craft's presence in the vicinity.
+If there is conclusive evidence that the vessel has hostile intentions, the Federation vessel may take appropriate action to safeguard the lives
+and property of Federation members or other non-aligned persons under current Federation protection.
+In such cases, the commander may use their discretion in deciding whether to use force to disable the hostile vessel. However,
+care should be taken to avoid unnecessary loss of sentient life.
+General Order 9
+A commander of a Starfleet vessel or installation, military or auxiliary,
+may grant political asylum to any individual without first being given express permission to do so by a representative of the Federation government.
+However, said decision may and can be overturned by a superior officer or representative of the Federation government pending a reviewal of circumstances.
+General Order 10
+If there exists eyewitness testimony by senior officers or similar verifiable evidence that an individual, military or civilian, has violated the Prime Directive,
+said individual may be relieved of duty by a duly sworn representative of the Federation government and placed under immediate arrest.
+The governmental representative shall then take such action as he deems necessary to minimize the results of the violation.
+General Order 11
+Starfleet officers with command-level rank or higher are granted full authority to negotiate conditions of agreement and/or treaties
+with legal representatives of non-Federation planets. In such circumstances,
+the acting officer carries de facto powers of a Federation Special Ambassador.
+Any and all agreements arranged in this manner are subject to approval by the Chief of Starfleet Operations, the Commander of Starfleet, and the Federation Council.
+General Order 12
+When approaching a vessel with which communication has not been established, all Starfleet vessels are to maintain maximum safety precautions
+regardless of the origin of said vessel, be it a foreign power, an hitherto unknown ship, or a Starfleet vessel.
+<TEXTURE:6e21605a-f48c-773d-8201-94819b1776cd>
+**Just checking to see if you are awake**
+General Order 13
+Except when orders state to the contrary or in accordance with General Order 6,
+Starfleet personnel will respect the territorial integrity of independent planetary systems and governments within and without the confines of the Federation's borders,
+and will not violate territorial space belonging to such worlds.
+General Order 14
+Starfleet personnel may intervene in local planetary affairs to restore general order and to secure the lives and property of Federation citizens
+only upon receiving a direct order to do so from a civilian official with the effective title of governor or higher.
+General Order 15
+No officer of command or flag rank shall travel into a potentially hazardous area without suitable armed escort.
+General Order 16
+Starfleet personnel may extend technological, medical, or other scientific assistance to members of foreign powers or previously unrecognized sentient species
+only if such assistance in no way compromises the Prime Directive or the security of the Federation or Starfleet.
+General Order 17
+The commanding officers of Starfleet vessel and installations are to consider the lives of their crew members and/or civilian population as sacred.
+In any potentially hostile situation, the captain will place the lives of his crew above the fate of his ship.
+General Order 18
+Upon being accused of treason against the Federation, Starfleet personnel may demand a trial conducted by the Federation judiciary or representative Judge Advocate General for that sector. 
+If the individual is acquitted, Starfleet Command shall have no further legal recourse against the accused in said matter.
+General Order 19
+Except in times of declared emergency, Starfleet personnel may under no circumstances convey personnel or material between planets or planetary systems
+when there is reason to believe that said personnel or material may be used to conduct aggression,
+whether against Federation members or other non-aligned worlds.
+This order applies to independent worlds within the Federation as well as to Federation members.
+General Order 20
+Officers and personnel of Starfleet Command may employ whatever means necessary to prevent the possession, transportation,
+sale, or commercial exchange of sentient beings held against their wishes within the boundaries of Federation space.
+This includes temporary violations of General Order 13, but not of the Prime Directive.
+General Order 21
+No Starfleet personnel, either officer or enlisted, may offer his services to an independent foreign government without the express authorization of the Federation Council.
+General Order 22
+As the rights of individual expression and free discourse are considered sacred, Starfleet personnel may debate the policies, decisions,
+and actions of their governmental representatives privately at any time,
+to the extent that such discussions do not violate their command oath or specific duties to the Federation per these General Orders or Starfleet regulations.
+General Order 23
+When verifiable proof is presented to the senior commanding officer of a Starfleet vessel or post
+that a Federation representative may currently be acting or have acted in the past to violate the Prime Directive,
+the officer may relieve said representative of office,
+then assume the full powers of that office pending a full investigation by governmental officials.
+<TEXTURE:7902bc29-8041-de3d-3b1e-83fa345e036e>
+General Order 24
+If a commanding officer deems that a planet has been culturally contaminated to a point where correction is no longer viable
+and said culture now poses a direct threat to Starfleet personnel or Federation civilians,
+he may order the destruction of a planet's surface to occur within a time limit set upon invocation.
+General Order 25
+Civilian and military personnel whether a citizen of the Federation, a non-aligned world,
+or a foreign power taken into custody by Starfleet personnel during times of extreme emergency
+shall be accorded proper treatment consistent with their rank or station,
+insofar as such treatment does not compromise the security of the Federation or Starfleet.
+General Order 26
+No member of a ship's complement or other ground-based installation can be held directly accountable for the actions of their superiors.
+Similarly, no member of a ship's company or other Starfleet personnel will share in disciplinary measures taken against the Commanding Officer(s)
+if said individuals were not directly involved in the actions leading to disciplinary measures.
+This order extends to conditions involving proven violations of the Prime Directive, where proof of such violations exist. However,
+failure to attempt to halt the actions of said superiors is a violation of the order and as such is punishable by general court-martial.
+General Order 27
+No member of Starfleet shall be required by the assignment of standard duties and responsibilities to undergo extended separation from his family,
+if family members can be reasonably provided for aboard ship or as a part of an existing Starfleet installation.
+General Order 28
+No officer of command rank shall be removed from command status unless such action has the complete
+and unqualified agreement of at least three senior officers present, unless relieved by a court martial, board of inquiry, or Commander,
+Starfleet. Whenever possible, such officers shall include the ship's First Officer, Chief Medical Officer, Counselor, and one junior officer of command station.
+General Order 29
+The primary responsibility of the commander of any Starfleet vessel or installation is the welfare and safety of his crew, including any civilian members.
+No action may be taken that creates an unwarranted threat to the safety of those individuals under the officer's charge,
+except in the line of duty and when otherwise unavoidable. This is a concurrent order with General Order 17.
+General Order 30
+Starfleet Command recognizes the right of each ship commander to interpret the specifications of the Prime Directive as he sees fit,
+consistent with the conditions of other existing general orders in effect, and based upon circumstances that may arise in dealing with newly discovered sentient races.
+However, said decision may and can be overturned by a superior officer or representative of the Federation government pending a reviewal of circumstances.
+General Order 31
+The conditions and specifications of the Prime Directive shall henceforth apply to all sentient lifeforms discovered, whether they are of natural or artificial origin.
+General Order 32
+Federation officers may violate Neutral Zone areas as designated by treaty only if such action is required to save
+the lives of Federation citizens under conditions of extreme emergency as required by General Order 6.
+General Order 33
+If a commanding officer deems that an individual or group of individuals pose a direct threat to the safety of Starfleet personnel,
+Federation citizens, or those under current Federation protection, they may take any actions necessary to safeguard the lives of those threatened.
+In such cases, the commander may use their discretion in deciding whether to use force. However, care should be taken to avoid unnecessary loss of sentient life.
+General Order 34
+All Starfleet personnel and/or Federation civilian contractors shall follow a superior's order to the best of their ability,
+unless said orders should conflict with the regulation laid out in these orders.
+Special dispensations are granted in emergency situations as per specific orders, with the exceptions of General Orders 1, 2, 3, or 7.
+General Order 35
+Should the entire personnel of a Starfleet vessel or installation become severely incapacitated or deceased due to an environmental or medical contaminant,
+said vessel is to be destroyed within a 24-hour period from initial discovery of cause to prevent spread of the epidemic agent.
+General Order 36
+No Federation vessel, whether civilian or Starfleet, is allowed to visit a planet or star system placed under quarantine by Starfleet or the Federation Council
+unless the visitation falls under the jurisdictional actions accredited by General Orders 1, 5, and 6.
+General Order 37
+Starfleet personnel shall respect binding contracts, agreements,
+and bondings made by the Federation government and/or Starfleet itself and shall operate within the boundaries & governances of said treaties,
+especially in matters dealing with the co-signatories of said treatise.
+General Order 38
+In the event of the death, absence, or incapacitation of the commanding officer of record,
+command of a ship or installation falls to the next highest-ranking crewmember, regardless of position in the command structure.
+When two officers in the line of succession are of comparable rank, command first falls upon the officer with command experience;
+barring that requirement, command will fall upon the officer with seniority.
+General Order 39
+( Refer to MED-203 / Psychology Class )
+An officer or crewmember may be removed from active duty status if they are judged to be incapable of fulfilling their obligations as a member of Starfleet,
+whether for medical or psychological reasons, by either the Chief Medical Officer or by the two ranking command staff officers.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

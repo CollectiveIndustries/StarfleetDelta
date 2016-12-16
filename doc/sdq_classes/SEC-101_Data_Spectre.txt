@@ -1,0 +1,258 @@
+<DESC:Hazard Team Part 1 - History>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-101 / Hazard Team Part 1 - History
+*Takes a deep breath and proceeds*.
+This is a three part lecture which will be held separately and will include previous Hazard Team Officers,
+a close look at the weapons used and the Alien species encountered by the Hazard Team so far.
+This lecture deals with the Hazard Team Officers.
+So let us begin…
+After the USS Voyager had been lost in the Delta Quadrant for five years, trying to get home.
+As the ship is alone and vulnerable, security chief Lieutenant Commander Tuvok assembles a Hazard Team.
+A group of officers and crew to be trained to take on the more dangerous tasks that traditional away teams can not face.
+USS Voyager NCC74656 Hazard Team
+<TEXTURE:8de82f56-43a8-9e64-579c-8ad02875728c>
+The original incarnation of the Hazard Team had several members on the A-squad and B-squad,
+however the A-squad is the most relevant for the means of this lecture.
+The team was the driving factor behind the defeat of the Vorsoth.
+<TEXTURE:7104d81c-3756-922d-4368-fce8b2b71001>
+We will start with Ensign Alexander Munro second in command of the Hazard Team,
+Alexander Munro was picked for his scouting and infiltration skills as well as his leadership and command ability.
+However Lieutenant Commander Tuvok considered him somewhat impulsive and reckless and required some seasoning to become a successful leader of the Hazard Team.
+Proficient with both regulation and alien weapons, Munro is a successful tactician whatever the objective or environment.
+In his youth, his father died, leaving him with "deep feelings of responsibility" towards his family, especially his younger siblings.
+In High School, he was the captain of his rugby team.
+He'd even won the "Most Valuable Player" (MVP) award in 2365.
+His senior year, he was accepted into Starfleet Academy, and had to leave before the final championship match.
+At the Academy, he performed well, passing his classes, but he did have trouble with discipline, leaving several notes on his record.
+In 2371, on his first assignment aboard the USS Voyager, to find a renegade Maquis ship which contained an undercover Starfleet officer, the ship was pulled 70,000 light-years into the Delta Quadrant.
+After the crew had set a course for Earth, he served as a Security officer aboard the ship.
+In 2376, when "The Hazard Team" was created by Lieutenant Commander Tuvok, he was naturally chosen as second in command under Lieutenant Les Foster.
+Only a few weeks later, Munro and the Hazard Team were training in the Holodeck in a simulation of a Borg vessel.
+After failing because he shot a computer panel when he lost his patience, the team "died" and the simulation ended.
+Tuvok told him that he needed to learn, as his battle plans were often "tactless".
+Shortly thereafter, while Voyager was answering a distress call from an alien vessel, Munro came with Tuvok onto the bridge.
+When Voyager destroyed the vessel, the ship was pulled through an iso dimensional rift.
+After helping avert a warp core breach, and assisting in fighting off a raid by Scavenging pirates, he led one of two teams sent aboard an Etherian starship to find out what was going on.
+After the dangerous mission with the Etherians, Scavengers and the Vorsoth, Alexander Munro was promoted by Captain Janeway to the rank of Lieutenant.
+In 2378, while Voyager was trying to get home through a Borg transwarp conduit, they temporarily entered a Borg Sphere.
+While inside, Munro lead a team to disable the sphere, which they completed, and Voyager successfully returned to the Alpha Quadrant and Earth.
+<TEXTURE:681eefcb-490c-70ac-7b82-5384986cdcf6>
+Lieutenant Les Foster was Commander of the Beta security team, regarded to be the best aboard the USS Voyager,
+Lieutenant Foster was Tuvok's choice for leader of the Hazard Team.
+With an unwavering sense of duty and loyalty,
+as well as full knowledge of Starfleet regulations, he was a trusted officer to carry out the best interests of Starfleet on away missions.
+Although a capable leader of the team, Foster lacked a sense of humor that is shared amongst the team.
+Les Foster was a human man, and member of Starfleet.
+He is most noted for being the first leader of the Hazard Team.
+Born in 2339, Foster was raised in Australia and lived a tough, simple life. His family, like others on Earth, were "Manualists".
+They believed that modern technology made people weak and manual labor was important to character building, hence their motto "labor omnia vincit" ("labor conquers all").
+He joined Starfleet at a young age and went into service as a marine, fighting in the Cardassian Wars.
+Afterwards, he returned to Starfleet for officer training. To his disgust, many of his former squad mates joined the Maquis to illegally fight the Cardassians in 2370.
+When offered the Voyager assignment to help capture some of these Maquis, he gladly signed up as leader of Voyager's Beta Squad Security Team.
+Upon the ship's transport to the Delta Quadrant, Foster helped train some of the Maquis he wanted to capture.
+Eventually, he got to know them again and became friends with many of them.
+When Lieutenant Commander Tuvok created the Hazard Team in 2376, Foster was at the top of his candidate list and was assigned as leader of the team.
+On a mission to gather a needed element to help the ship escape a dampening field, Foster was captured and partially assimilated by the Borg.
+He was later rescued by his protégé Alexander Munro, who took up the team's leadership duties while Foster was recuperating in the ship's Sickbay.
+It is presumed that Foster returned to the Alpha Quadrant when Voyager transported through the Borg's transwarp hub.
+He was likely reassigned to a security position of some kind in Starfleet, since he did not join the rest of the team aboard the USS Enterprise-E in 2380.
+<TEXTURE:2afd8abd-9a68-5de1-672b-1a81b38781b5>
+Crewman Telsia Murphy with an unusual mastery over fear,
+Telsia Murphy was a stable member of the Hazard Team and a close friend on Ensign Munro.
+Proficient with many types of weaponry, especially long range weapons, Telsia was an excellent addition to the team and served when needed as the Hazard Team's sniper.
+She also joined Munro as a scout on other missions.
+Ensign Telsia Murphy was born in a poor, crime-ridden Orion slum on Bellatrix V.
+She learned to fight for what she wanted from an early age, having been orphaned and raised in a culture where women were considered little more than property.
+Through a mentor, she managed to gain entrance to Starfleet Academy,
+but struggled the entire time and dropped out in her last year, only to surface later as a member of the Maquis.
+As a Maquis, her specialty was stealth infiltration, using a combination of her skills she learned in Starfleet Academy and as a young thief on the streets of her home city.
+When the Maquis and Voyager crew's merged, she was one of the more bitter voices of discontent but eventually became an excellent and proficient member of the crew.
+She and her superior, Alexander Munro, had always shared an intimate friendship.
+While they were aboard Voyager together, they both had feelings for each other, but never acted on them.
+When Lieutenant Commander Tuvok created the Hazard Team, Murphy was a perfect fit with her natural talents of stealth infiltration and dead-eye accuracy with a particle weapon.
+She played a large role and proved her valor when Voyager was trapped by The Forge,
+and later she and the rest of the Maquis crew-members were given full commission status in Starfleet and promoted to the rank of Ensign.
+Telsia, along with the rest of the Hazard Team, would also be influential in helping Voyager return home to the Alpha Quadrant in the ship's last battle with the Borg.
+Upon the crew's return to Earth, Telsia was assigned to be the Chief of Security aboard the Dallas.
+Unfortunately, an alien force known as the Exomorphs raided the ship and killed most of it's crew.
+<TEXTURE:aeaad3b0-1c0a-00fa-4c9a-194df97c9b98>
+Crewman Chell a member of the Maquis resistance before being forced to join the Voyager crew,
+Chell was a Bolian with an excellent understanding of technology from all races.
+This skill  earned him the role as a field technician of the Hazard Team.
+Although reluctant to engage in combat situation, and often mocked by Crewman Biessman, Chell was a valuable member of the team in alien environments.
+Chell was a Bolian who came from an upper class family on Boliax, where he was born on Asmira, the primary continent.
+Growing up in an upper class family, he came to resent their attitudes about the poor, and gained an aptitude for technical engineering.
+He applied to Starfleet Academy, but was rejected. He applied two more times, and was finally accepted, however he left the Academy a year later, distraught by the amount of work.
+His skills as an engineer and his work with plasma technology earned him a prestigious mention in a publication named the Who's Who of Plasma Technology.
+Drawn by their desire to "right the Federation's wrongs", even if it meant breaking the rules, he joined the Maquis.
+He served aboard a ship under the command of Chakotay, when he was pulled into the Delta Quadrant.
+Soon after, he and his fellow rebels were forced to integrate into the crew of the USS Voyager.
+Often very nervous and quirky, Chell did not make friends very easily.
+Fortunately, Alexander Munro recognized Chell's inability to approach people and befriended the Bolian, finding similar interests.
+When the Hazard Team was formed in 2376, Chell was encouraged to try out by Munro and Austin Chang.
+Passing, he was assigned as the team's field technician, and played significant roles in both establishing communication with the Etherians, as well as the defeat of the Vorsoth.
+Not long after this, he was granted a Starfleet commission by Captain Janeway and promoted to the rank of Ensign.
+In 2378, Chell was to assume the duties of Neelix in the mess hall of the ship, even going so far as to announce his propositions to the menu.
+Fortunately (for he, and probably the crew) he was one of the Hazard Team members to board a Borg sphere,
+and his skills greatly assisted Voyager escape the Delta Quadrant and return home.
+Upon his return, Chell was assigned to the Guernica system at a research outpost where he served for two years.
+<TEXTURE:3334e6a3-9743-faab-2d14-489c4576dd9b>
+Crewman Austin Chang a close friend of Ensign Munro, Austin Chang could be quite quiet and reserved when it came to socializing with other members of the crew.
+Chang served as the Hazard Team's demolitions expert, and was more than willing to turn large obstacles into tiny fragments.
+He was the member of choice when attempting to force entry into an enemy colony or structures.
+Austin Michael Chang was a half-Human, half-Rigellian Starfleet officer, born on August 22, 2350 in Taynor-Ban-Fal, on Rigel XII.
+Although his appearance is mostly Human after his mother,
+his father was a Rigellian scientist that studied warp field theory, and was in popular demand throughout the Federation.
+This meant his childhood was filled with moving from one world, to another, never long enough to make real friends.
+One such planet was Rigel VII. He also spent a few formative years at the Keernai colony on Chyribdis.
+Having had a private life up until then, the Keernai's belief that talking in public is extremely rude, and a social taboo, didn't particularly phase him.
+To escape the planet-to-planet life, he enlisted in the Starfleet Corps of Engineers, specializing in demolition.
+After a few years, he joined Starfleet Academy, where he received an Engineering Degree, and trained heavily in the security field.
+One of the life long friends he met there was Alexander Munro.
+<TEXTURE:0f27d59a-2238-7519-9917-8875d4aebcc5>
+Crewman Juliet Jurot although she was a full Betazoid,
+Juilet Jurot attended the Vulcan Science Academy where she learned to train her mental and telepathic powers.
+During this time she also trained in basic medicine, and therefore was a perfect candidate for field medic when the Hazard Team aboard Voyager.
+Loyal to her superiors and the Federation, Jurot put the wellbeing of others above her own.
+Juliet Jurot was a Betazoid, born in Quantana Bay, Betazed on June 3, 2352.
+Juliet was interested in Medicine from a young age, her compassion evident even as a child.
+When it came time to choose a medical school, she chose the best: the Vulcan Science Academy, an odd choice for someone with the strong emotions of a Betazoid.
+As a result of her training, she is a study in contrasts, she acquired something of their demeanor and ideals.
+While she is compassionate and empathic like most Betazoids, she is often quiet, cold and logical.
+She enlisted in Starfleet Academy's Medical Fast Track program designed to get medics into service quickly and was assigned to the USS Voyager.
+When the Hazard Team was formed, she was chosen to be the field medic.
+She is the one member of the combat team meant to save lives rather than end them.
+She firmly believes in the Vulcan axiom that the good of the many outweigh the good of the few and would freely sacrifice her life to save others.
+Jurot played a large role in the incursion of the Vorsoth, suppressing it's mental attacks and helping with the destruction of the Forge's dampening field.
+She and fellow Hazard Team member Austin Chang also developed deep feelings for each other, and were seen often together on the ship.
+They eventually began to date until the ship's return to the home.
+Not long after, she was promoted to the rank of Ensign.
+In 2378, she returned home to the Alpha Quadrant with the rest of the Voyager crew.
+Upon her return, she revisited Vulcan and the Science Academy, and greatly enhanced her medical skills.
+<TEXTURE:e2aa7047-7324-dd62-d782-12000ef2f3a8>
+Crewman Rick Biessman a former member of the Maquis before joining the Voyager crew,
+Rick Biessman was a highly skilled marksman and served as the Hazard Team's heavy weapons specialist.
+He was arrogant and had a tendency to take pleasure in the defeat of his enemies, sometimes leading himself to take on unfavourable odds.
+However his skills were a vital asset to the success of Hazard Team missions.
+Kendrick "Rick" Biessman was a Human Maquis member, that was given the rank of Crewman aboard the USS Voyager when it was thrown to the Delta Quadrant in 2371.
+He was born on Mars on July 17, 2349, and became a the Heavy Weapons Specialist of the Hazard Team's Alpha Squad.
+Biessman was raised in one of the enhanced gravity dome-cities of Mars.
+They were densely populated and, unlike Mars "natives" who lived outside the domes in Mars' natural low gravity, he developed the necessary muscle mass to leave Mars comfortably.
+His father was a construction worker at the Utopia Planetia Fleet Yards where he worked on the construction of the USS Enterprise-D.
+Here, seeing all the various starships being built, young Rick developed a desire to join Starfleet and someday become a Captain.
+Against his father's wishes, he joined Starfleet Academy rather than carry on the family tradition of shipbuilding.
+However, once in Starfleet, his short temper soon got him thrown out.
+Rather than return home in disgrace and face his father, he wandered the Alpha Quadrant taking odd jobs until he joined the Maquis, mainly just for the opportunity for a good fight.
+Biessman was one of the Maquis being led by Chakotay when the ship was thrusted to the Delta Quadrant on stardate 48315.6.
+At the behest of Chakotay, he agreed to be integrated into the Starfleet setting with the rank of Crewman, and joined the crew of the USS Voyager.
+Once on Voyager, he proved to be valuable in a fire-fight and became a well respected security officer.
+Lieutenant Commander Tuvok recognized this, and allowed him on the Hazard Team as its Heavy Weapons Specialist.
+When the ship was captured by the Vorsoth, he became deeply involved in conflict with both the Borg (due to their killing of his friend, Kenn Lathrop) and the Vorsoth's Harvesters.
+Because he was seemingly out of control with rage (a self described "quantum torpedo ready to blow"),
+team leader Ensign Munro took him off the A-squad until he "blew off some steam."
+When the ship was invaded by the Harvesters, Biessman showed heroism and daring in the defense of the ship, and the rescue of Ensign Munro.
+For this, he was assigned back on the team's A-squad (which would go to the Forge ahead of the main boarding party)
+in preparation for the final confrontation with the Vorsoth aboard the Forge.
+While still showing his comedic personality like he usually did on missions, Biessman was also notably more serious than usual when he was on the Forge.
+Biessman and his team were being overrun by Harvesters until he decided to stand up and single handedly fight off most of the Harvesters until backup arrived.
+While heroically defending his team, he was killed in battle, sacrificing his life for his friends.
+His body was then transported aboard Voyager, and was either returned to his family on Earth, or committed to the stars in the Delta Quadrant.
+<TEXTURE:9a86735d-509b-061f-334e-883219a8cd45>
+Crewman Thomas Odell a member of the Hazard Team Beta Squad,
+Thomas Odell was physically strong and skilled with most weapons making him a valuable scout for the team.
+He was a trained tactician and showed no fear or hesitation in combat, making him extremely reliable on missions.
+Odell was a friendly crewmember who is well liked by the rest of the Hazard Team.
+<TEXTURE:7113e7e4-efaa-c5c9-5e83-ee4ab8c30f44>
+Crewman Perfecto Oviedo a member of the Hazard Team Beta Squad, Perfecto Oviedo also served as the quartermaster for the Hazard Team,
+distributing weapons and also creating Holodeck simulations to test new weaponry recovered from alien environments.
+Oviedo was also responsible for modifying and enhancing weapons to be more effective for Hazard Team use.
+<TEXTURE:ea46f666-e416-5a87-8e2c-4b3621c13683>
+USS Enterprise NCC 1701-E Hazard Team
+After the return of Voyager, the team was split up and reassigned to several different posts across Federation space.
+Munro and his friends and co-workers Telsia Murphy, Chell, and Austin Chang then reported to Starfleet Academy to receive their new postings.
+They were all angry that Starfleet didn't see a need for a Hazard Team in the Alpha Quadrant, and split them up.
+Munro was assigned to teach Small Unit Tactics at the Academy.
+In 2380, while training with star pupil Korban, Captain Jean-Luc Picard was monitoring Munro's performance on a holodeck training exercise.
+The Captain found Lieutenant Munro talented, and liked the idea of an elite force of tactical officers to perform highly dangerous and hazardous duties,
+so he requested that Munro be transferred to the USS Enterprise-E, along with a staff of Hazard Team personnel.
+The manifest included not only new qualifiers for the team, but many members that had originally served on Voyager.
+Shortly thereafter, he received his first mission. The Enterprise had been sent to respond to a distress call from the USS Dallas, where Telsia Murphy had been assigned.
+Unfortunately, most of the crew was killed, but Telsia and a few others managed to stay alive inside a transporter beam (a survival method pioneered by the great Montgomery Scott).
+Alex Munro and Telsia Murphy finally indulge in their feelings for each other.
+Munro then requested Telsia's transfer to the Enterprise, where she became the second-in-command of the Hazard Team under him.
+It was then that he began reexamining his feelings for her, after fearing the worst when he heard about the Dallas.
+Because of the mission at hand, however, Munro was unable to commit to her.
+Over the course of the mission, Munro helped expose a race called the Attrexians as being hypocritical tyrants to the Idryll people.
+He also assisted in exposing a rogue Romulan militant group, known as the Empty Crown, which attempted to dominate the galaxy by use of ancient Idryll technology.
+His mission took him from the hull of the Enterprise itself, to a military base deep inside Romulan space.
+After he and the team were victorious, Munro expressed his feelings to Telsia, and the two had both committed to each other.
+Ensign Telsia Murphy now served as second-in-command, and maintained a cool head even in the most bleak of situations.
+She and Munro had grown very close, and completely relied on one another to accomplish their mission.
+Upon Telsia's rescue from the Dallas, Lieutenant Munro, having since been assigned to his new ship,
+requested that Telsia (along with her shipmate Jorge Gonzalez) be transferred to the Enterprise and into the Hazard Team, Captain Picard obliged his request.
+Telsia's role was large in uncovering the scandal involving the Idyll and the Attrexians, and also put her tactical duties to the test when certain Idyll attacked and boarded the Enterprise.
+Telsia assisted with the defense of several decks, including the entirety of Main Engineering.
+After the mission of the team was completed (which involved the defeat of the Empty Crown and the exposition of the Attrexians),
+Telsia and Munro kissed for the first time, and conveyed their devotion to each other
+Ensign Austin Chang, the Hazard Team's demolitionist, was now less introverted and more accepting of social situations.
+This lead to a passion to develop in Chang which allowed him to take the defense of his team and ship much more seriously.
+Chang was later reassigned, along with his friends Telsia Murphy and Alex Munro to the Enterprise-E.
+It was there that he reconnected with Jurot.
+Initially annoyed at her new logical attitude (she had spent more time on Vulcan),
+they both began to be drawn to one another yet again, and have been seen around the Enterprise in each other's quarters.
+Chang remains a great friend to Munro, and is one of the most trusted members of the Hazard Team.
+Ensign Chell realized that serving at a research outpost on a backwater planet was not the most idyllic of assignments and was happy to be transferred back to the Hazard Team.
+He was also ecstatic at the fact of serving aboard a Sovereign class starship.
+In 2380, after Captain Jean-Luc Picard took notice of Lieutenant Munro and learned of what the Hazard Team was, Chell was reassigned to the Enterprise-E on Munro's request.
+He played a large role in the Idryll-Attrexian crisis,
+where he helped translate ancient Idyll artifacts and assisted bravely in the defense of the Enterprise when it was boarded by Idyll invaders.
+Recently, the botanist aboard the Enterprise has become fascinated with Chell's floral findings in the Delta Quadrant, and has expressed an interest in dating him.
+Ensign Juliet Jurot
+In 2380, after Lieutenant Munro caught the attention of Captain Jean-Luc Picard, Jurot and other former members of the Hazard Team were assigned to the USS Enterprise-E.
+Upon reconnecting with Austin Chang, they at first resisted each other.
+After enduring missions together again, they rekindled their relationship.
+With the reforming of the hazard team on the Enterprise E the following officers joined the team from the Enterprise's crew
+<TEXTURE:99f5b907-4c03-8fbb-6aa9-d5f69df098e9>
+Crewman Kourban
+Kourban is a Klingon who was impressed by Starfleet's actions in the Dominion War and therefore enrolled at Starfleet Academy,
+where he caught the eye of Professor Alexander Munro.
+When the Hazard Team was reformed aboard the Enterprise, he was immediately picked for the role of heavy weapons weapons specialist and quartermaster.
+As a Klingon he performs exceptionally on the battlefield and is well trained with the Klingon Bat'leth sword.
+He could usually be found in the ship's Armory, testing new weapons.
+<TEXTURE:e9c9f847-95d3-198b-059e-f03590834573>
+Ensign Jorge Gonzalez
+Was one of the crewmembers from the USS Dallas who was evacuated to the Attrexian Space Station when the starship came under attack by the Exomorphs.
+After helping Lieutenant Munro help save the Attrexians on the station,
+he returned to the Enterprise where an impressed Munro requested his transfer to the Hazard Team as a covert operations expert.
+<TEXTURE:63a0c002-eec3-b61c-3e90-e4f4859a6b48>
+Ensign Sydney Stockman
+She was a fresh graduate from Starfleet Academy's class of 2380,
+and specialized as the team's pilot for certain away missions that could not be reached via transporter.
+Young and idealistic, Sydney never ceased to be the closest thing to a Hazard Team cheerleader
+<TEXTURE:037a0c58-8df8-fa06-2a14-8c5519dfbb6b>
+Ensign Jack Franklin
+When the Hazard Team was reformed aboard the USS Enterprise,
+Captain Picard assigned one of his crewmembers, Jack Franklin to the team as part of their support squad.
+An expert on Excelsior class starships, Franklin was a natural choice to join the mission to investigate the adrift USS Dallas.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

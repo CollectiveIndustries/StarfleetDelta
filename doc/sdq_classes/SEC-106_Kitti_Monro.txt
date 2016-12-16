@@ -1,0 +1,197 @@
+<DESC:Introduction to the SDQ Intelligence Corps>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-106 / Introduction to the SDQ Intelligence Corps
+*Takes a deep breath and proceeds*
+During this class we will tell you more about the Intelligence Corps, its mission and structure.
+If you are considering a career in Intelligence, I hope that this class will help you to make a positive decision.
+In this class we will cover the following topics:
+- An Introduction to Intelligence
+- A Brief History of the Intelligence Branch
+- Section 31
+- The Branch Structure
+- Working in SDQ intelligence.
+- Security classifications
+After we have discussed all these topics there will be a short test.
+If you have any questions or remarks during the course of the lecture, please hold them until the end.
+<TEXTURE:da0de3da-038f-b50b-e4b7-1b4ee6d6b02b>
+AN INTRODUCTION TO INTELLIGENCE
+Intelligence is the act of gathering, collating and analyzing information about opponents and enemies.
+Knowing what our enemies are planning and knowing what they know about us can help us to prevent or better prepare a defense against any plots or schemes.
+It’s an invisible wall of defense built with knowledge.
+SDQ Intelligence is at the front line of this secret battle to ensure that SDQ  and the residents that live on the sim,
+are secure against any and all attacks against its people from external threats.
+Silently gathering, analyzing and acting on information from all over the Gamma Quadrant,
+using every means necessary, listening posts, undercover operatives, sensor arrays, and contacts to avert conflict.
+To better inform and support the fleet and commanders, to give an advantage with superior information, enabling it to misinform, misdirect or stop enemy activity against SDQ
+Intelligence agents are the unsung heroes of the battles that were averted, and of the battles won through improved knowledge.
+Working tirelessly to protect the Federation and all it stands for with minimal use of force and with very little or no acknowledgement.
+Their brave deeds and dangerous adventures are rarely recorded publicly.
+Many give their lives and are never heralded for the hero’s they are, serving to protect in the interest of security, order and peace.
+A BRIEF HISTORY OF THE INTELLIGENCE BRANCH
+Starfleet Intelligence started life almost at the same time as Starfleet itself, in the wake of Earth’s war with the Romulan Empire in 2161. Along with the formation of the United Federation of Planets, Starfleet Intelligence was formed.
+Their charter was to uphold and defend the Constitution of the United Federation of Planets, and investigate any potential threats to the laws or the security of the Federation.
+Initially the branch concentrated its efforts on setting up listening posts along the Neutral Zone, and intercepting intelligence on Romulan fleet movements.
+Pretty soon the branch found itself having to redirect its efforts as new species such as the Klingons quickly emerged,
+proving to be just as serious a threat to the Federation as the Romulans were.
+Many of today’s Intelligence practices and procedures were developed during those early encounters with the Romulans and Klingons.
+With species so culturally and physically different to that of human’s it became necessary to develop new medical techniques to surgically alter a person’s appearance,
+allowing them to successfully infiltrate both Romulan and Klingon Society.
+Over years the Intelligence branch has proven its worth time and time again.
+In being able to bring to light many plots against the Federation, and discovering the experimental weapons which might later have been used against the Federation.
+<TEXTURE:e8adb912-141c-21d4-6ccc-eae37c08cdaf>
+In 2268, Starfleet Intelligence reported that Romulans were using Klingon starship designs.
+They also enlisted Captain James T. Kirk, surgically altered to appear as a Romulan,
+to steal a prototype for an advanced Romulan cloaking device.
+Removing a potential Romulan advantage, thereby maintaining the fragile peace between Romulans and the Federation, and ending the Romulan / Klingon alliance.
+<TEXTURE:42f3795c-ba60-3510-221d-3cc77a7a1e80>
+In 2369, Starfleet Intelligence believed that the Cardassian Union was developing a new form of metagenic weapon that could be used to wipe out all life on a planet,
+but leave the infrastructure intact, and ripe for occupation.
+Captain Picard, Lt. Worf and Dr. Crusher were re-assigned to an undercover mission crossing the Cardassian border to destroy a biological weapons installation,
+in the process forcing the Cardassians to retreat.
+<TEXTURE:09dc8299-6ac7-58ee-4d4a-dd993bcb8321>
+The intelligence branch has perhaps been best known for its role during the Dominion War.
+When it played an important role in gathering information about the Dominion's operations and infrastructure.
+One of its biggest coups was the location of a Dominion sensor array in early 2374,
+which the Dominion had been using to observe allied operations across five sectors of space.
+Life for the Intelligence Branch in the Delta Quadrant is proving to be no less exciting.
+Once again leading the way in our quest to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before.
+<TEXTURE:04833bd0-4591-4338-971c-d5575bb5872e>
+SECTION 31
+Article 1 of the 'Federation Constitution' sets forth the basic Federation Government, including the duties of each division and agency.
+Part 4 of Article 1 describes the functions and responsibilities of Starfleet and its components. Chapter 7 of Part 4 of Article 1 details Starfleet Intelligence.
+Section 31 of Chapter 7, Part 4, Article 1 states:
+"Starfleet Intelligence shall, from time to time, and as deemed reasonably prudent and necessary to protect the security and safety of the Federation,
+conduct both domestic and foreign intelligence and counterintelligence activities."
+Virtually everyone who reads Section 31, including Federation council members, assume that it is a general description and authorization of the duties of Starfleet Intelligence.
+The reference to 'domestic' espionage activities, and the very idea of 'spying' on Federation citizens has never been considered,
+since it's well known that no one in the Federation government would stoop to such activities.
+Spying on suspected foreign agents who may have infiltrated Starfleet is one thing...
+but anything else, such as covert surveillance of innocent Federation citizens, is unthinkable.
+If the rumors are true, then there may be a division that names itself after Section 31.
+This mythical branch is thought to devote itself almost exclusively to the section it has named itself after.
+An organization that conducts ultra-secret intelligence activities both inside and outside the Federation,
+specifically aimed at ferreting out spies and traitors from within the Federation and Starfleet.
+Protecting the Federation from within by doing exactly that which for most would be unthinkable.
+Perhaps the most compelling evidence for such an organization would be that of Doctor Julian Bashir, who claimed to have been recruited by Section 31 for various covert missions.
+Whilst researching the morphogenic virus which had infected Odo, Dr Bashir thought he had found evidence suggesting that the disease had been engineered by Section 31.
+This led to an unsuccessful attempt to expose the organization.
+Of course SDQ would never fund or condone such an organization,
+and if they do exist and have managed to find their way this deep into the Gamma Quadrant,
+it would be without the support of the Federation or Starfleet.
+If you believe you have had contact with anyone from Section 31,
+or if you have evidence of their existence, please report immediately to the Intelligence Division.
+CORPS STRUCTURE
+<TEXTURE:c9096215-602b-a1db-9fd1-f2455c7c0fff>
+The Intelligence corps, falls under the Security Division much like any other division.
+It operates with a clear command structure.
+Security has overall command over Intel operations.
+Unless otherwise directed by the counsel or the admiralty.
+In this case the Intel officer working under a security clearance of, Level 1 ** Ultra Top Secret ** would report directly to the counsel or the admiralty.
+Intel oversees two sub-department, which are
+-    Administration
+-    Operations
+Responsible overall is of course the Chief of Starfleet Intelligence (CSI),
+who approves and oversees the design, implementation, and enforcement of all branch policies, procedures, and internal operations,
+answering directly to the Security Chief.
+The CSI is supported by two deputies who in turn are responsible for the two sub-divisions.
+Intelligence Administration Department.
+This is the smaller of the two divisions, and often thought to be the least exciting.
+Main duties are to keep the division running smoothly, ensuring:
+* All equipment at HQ operates properly.
+* Agents are posted where needed and have the support they require.
+* All necessary reports are filed on time and with the right Commander / department.
+* Federation and Starfleet are updated regularly regarding all activities and discoveries.
+* All information obtained is reviewed and correctly classified
+Intelligence Operations Department
+This is what everyone thinks of when they think of spies and intelligence operatives.
+Clever agents infiltrating enemy ranks, counterintelligence operatives giving misinformation in the right places to prevent harm to the Federation,
+deep undercover agents, living on distant outposts, deciphering transmissions....
+All missions are handled by agents in the Directorate of Operations.  Certainly the more exciting duties of the two divisions.
+Main duties of the Directorate of Operations (Ops) include:
+* Performing the actual missions
+* Gathering intelligence
+* Conducting counterintelligence operations
+Both department are tasked with the responsibility of assisting the CSI with the management of the branch roster,
+and periodically reviewing the divisional classes offered by SDQ Academy.
+WORKING IN SDQ  INTELLIGENCE
+Joining the Intelligence division is not easy.
+The requirements are deliberately stringent, since the nature of the work gives an opportunity for agents to flout or subvert the ideals and principles of the Federation.
+It's important that we only recruit people whose ethical qualifications are unimpeachable, and whose service record reflects a loyal and trustworthy bearing.
+All Intelligence Officers have one primary mission within the branch, to investigate and report back any and all information regarding the many planets (sims) within the Gamma Quadrant.
+Officers are frequently away for long periods of time, traveling to and from planets and rendezvous.
+Officers are required to assess the needs of each mission, and to decide whether or not a mixed skill team is required, or if a solo ‘covert’ mission would be more suitable.
+A full report must be submitted about each planet, giving as much detail as possible about anything found, including;
+- Life forms
+- Plant life
+- Environment
+- Social / Economic / Political status
+- Population Levels
+- Technology status
+these reports are published and then catalogued for the SDQ Database, and then passed to the Diplomatic Corps to consider for future contact.
+Reporting is not an easy task, and its importance should never be underestimated.
+All Officers are given the tools and training necessary to enable them to report succinctly and effectively
+SDQ command can then assess the planets status and assign a ship to investigate further if needed, or make First Contact when appropriate.
+There are many other tasks within the Branch,
+and Officers may find themselves handling more mundane and routine tasks as well as the more exciting missions on unknown worlds.
+The Intelligence branch is no exception to the rules of Administration, and all Officers must be prepared to submit many reports,
+since reports are at the very heart of the branch.
+SECURITY CLASSIFICATIONS (and access levels)
+Starfleet is generally very open with its data, allowing both Officers and enlisted men free access to the majority of its enormous library database.
+However some data must be kept secret to protect Federation security.
+Starfleet and Starfleet Intelligence uses 4 primary levels of security classification.
+Clearance levels are usually tied to rank, but individual clearance levels can be applied if position or mission warrants a higher level than rank permits.
+Higher levels are generally awarded by the Directorate of Administration, on recommendation by the CSI or Admiralty.
+Level 4 ** Open Access (OA) **
+Information at this level isn't secure at all.
+It's made freely available to anyone who can use an LCARS terminal or similar data retrieval system.
+Probably around 98% of Starfleet's information fits this category.
+Level 3 ** Secret **
+Secret information would cause harm to Starfleet or the Federation if it were released to unauthorized persons.
+Examples include most information relating to fleet movements, starship strengths, war games results and precise weapons characteristics.
+(Typical Rank level, Lt. Commander)
+Level 2 ** Top Secret **
+Top secret information would cause significant harm to Starfleet or the Federation and would compromise security if it were released to unauthorized persons.
+For example, key scientific data relating to military research and development projects, such as starship propulsion and weapons systems,
+or Starfleet's overall strategic plans for defending the Federation are considered Top Secret.
+(Typical Rank level, Captain)
+Level 1 ** Ultra Top Secret **
+Also known as 'Omega-class information', could cause extreme harm to Starfleet or the Federation if it were released.
+If obtained by a threat species, it could significantly compromise Federation security, or Starfleet's ability to defend itself.
+Examples include, details of the most sensitive espionage operations conducted by Starfleet Intelligence.
+Keys to Starfleet Codes and Ciphers and critical scientific and technological data.
+Several secondary classifications further restrict, limit or guide the dissemination of Federation data files.
+(Typical Rank level, Admiral)
+* Federation Council Only (FCO) *
+Information with this designation, which is usually *Secret* or *Top Secret*, is authorized for limited release to members of the Federation Council.
+Councilors of course should be aware that they are not to distribute or disseminate this information in any way.
+Not even to their closest staff members.
+* Critical Weapons Data (CWD) *
+Usually applied to *Top Secret* or *Ultra Top Secret* information,
+CWD indicates the data relates to the characteristics, limitations and advancement of Starfleet's weapons.
+* Sensitive Source Information (SSI) *
+Sometimes intelligence reports and similar data must, by their nature, reveal their sensitive sources.
+Revealing contact and informant names might expose them to the enemy.
+Likewise information which reveals the capabilities of Starfleet's sensors and analytical technology could provide invaluable data to a Threat species.
+This classification indicates that the file in questions reveals facts about its sources and must be treated with the greatest caution.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

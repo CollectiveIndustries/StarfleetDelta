@@ -1,0 +1,119 @@
+<DESC:History of the Science Division>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-204 / History of the Science Division
+*Takes a deep breath and proceeds*
+<TEXTURE:619fb656-bc68-ae86-ab94-b94cdcacb1ee>
+During this class we will look at the History of the Science Division.
+We will first look at the history of the division and then a look at a few notable federation scientists.
+The Science Division is a corps of officers who specialize in both scientific and medical research as well as control functions on aboard starbases, starships within Starfleet.
+The Science Division was founded in the early 2120’s along with the rest of Starfleet.
+Which at that time was the primary space defense and exploration organization of United who reported to the United Earth Space Probe Agency (UESPA).
+Which itself was under the jurisdiction of the Command Council located on Earth.
+<TEXTURE:6aea46ec-0e0e-4f1e-b109-fe51b1475cd6>
+The Science Division included specializations such as sensors, research, theoretical and physical laboratory work, biological studies, medicine and surgery and also as technicians. 
+Between 2140 and 2160, a Science Officer was distinguishable from other Officers by the blue division stripes worn on their uniforms.
+With its foundation in 2161, the majority of Starfleet, including the Science Division, fell under the jurisdiction of the United Federation of Planets.
+<TEXTURE:b0f5e32c-9b93-0207-673d-9ee8948ad30>
+Along with the transfer, the uniform of a Science Officer changed, with the color blue continuing to be a constant throughout the many variations in Starfleet Uniforms.
+By 2245, Science Officers, both medical and scientific alike, wore a blue tunic with black trousers.
+<TEXTURE:0c4801a2-32be-7a5d-ada8-ead2637746c6>
+In 2273 the Science Division separated into two individual divisions, Starfleet Medical and Starfleet Science.
+Science Officers were noted by the orange color of their uniform bands, epaulets and accessories whereas Medical Officers wore green.
+In 2280 the division split remained with the Science Officers wearing grey and the Medical Officers remaining in green.
+<TEXTURE:3a7c8196-2de9-f4ff-b1e3-8e4fc5d4335b>
+However in 2310, Starfleet decided to merge Starfleet Medical and Starfleet Science, with both parties wearing blue uniforms once again.
+The blue was later replaced with a teal green color in 2353.
+The Medical/Science Division remained intact until 2360 where it once again split into Starfleet Medical and Starfleet Science.
+Starfleet Science continued to wear teal as its division color, Starfleet Medical returned to its original blue division color.
+According to information obtained from the USS Voyager in 2377,
+it is understood that Starfleet Medical and Starfleet Science will once again merge sometime during the 29th Century.
+If they are the same division or not, Science and Medical continue to work closely together.
+Depending on the size of the ship you are assigned to Medical and Sciences may have the same division head.
+A smaller ship or base may combine the divisions.
+WEARING OF NON DIVISIONAL COLORS
+It is common practice for members of the Science Division to wear the color of the Science Division,
+although it has been known for Science Officers to wear the colors of other divisions.
+For example if a Science Officer was to become a Department Head, they may wear the colors of the Command Division.
+Science is one of the main fundamental aspect of starfleet.
+This can been seen by looking at the various scientific vessels that have served starfleet over the years such as
+<TEXTURE:3defb429-0b85-0c6e-9883-fe017127168e>
+the Miranda Class,
+Miranda-class starships were a type of light cruiser introduced by Starfleet in the late 23rd century and remained in use through to the late 24th century.
+The mission profile of the Miranda-class varied from performing various scientific roles to conducting patrol duties.
+<TEXTURE:a59aab22-e550-f1ee-8183-9a30104d2371>
+Oberth Class
+The Oberth-class was a mid-sized Federation starship in service during the 23rd and 24th centuries.
+It was used primarily by Starfleet and civilian scientists alike, as a scout and science vessel.
+<TEXTURE:8f460aa9-d8eb-6988-c646-dc9b56f79c15>
+and the Nova Class.
+The class was designed for use as a science and scout vessel to replace the older Oberth Class.
+Ships of the type were commonly assigned to planetary research and analysis missions.
+<TEXTURE:9a7bde33-b31e-c5ae-0b34-c4978c65afa0>
+Also throughout the Federation's history, major scientific breakthroughs are recorded beginning with Zefram Cochrane's first warp flight aboard the Phoenix.
+<TEXTURE:4dda2946-6231-6d38-6743-045dcf4201a6>
+On April 5th 2063, the first warp flight of the Phoenix attracted the attention of a passing Vulcan ship, the T'Plana-Hath, resulting in Earth's first contact with an alien race.
+Modern Vulcan philosophy revolves around the concept of logic.
+The highest objective of a traditional Vulcan life is to either control or suppress all emotion, thus rendering a purely logical being.
+This difficult task is attained through meditation and discipline.
+As Vulcans approach or reach maturity, it is customary to train under the tutelage of a Vulcan master in the Kolinahr ritual,
+to purge themselves of any remaining lack of emotional control.
+<TEXTURE:dab9fa68-5413-0ac4-4760-c6ae0187b059>
+The father of Vulcan philosophy is Surak,
+who helped lead the Vulcan people out of a time of savagery and violence into their new era of peace.
+His introduction of logic and emotional discipline ushered in the Time of Awakening
+<TEXTURE:2132a883-970e-428e-e969-21a27522ebc1>
+In 2285 David Marcus,
+son of the legendary Captain James T Kirk, created Project Genesis.
+A scientific research project whose goal was to develop a process whereby uninhabitable planets could be made suitable for humanoid life.
+This process involved reducing the target planet to subatomic particles, then reassembling them according to a pre-programmed matrix.
+The project, spearheaded by Dr. Carol Marcus, was successfully tested inside a cavern on the Regula planetoid.
+Khan Noonien Singh initiated a second test when he stole the Genesis Device and detonated it inside the Mutara Nebula, forming the Genesis Planet.
+Despite the fact that initial tests had shown promise for the Genesis process, the planet created by Khan's actions proved to be unstable.
+This was shown to be a function of the highly volatile protomatter that had been incorporated into the Genesis process.
+Other notable Science Officers are:
+<TEXTURE:dd2525a5-e35a-905b-f32b-64ee049d9926>
+Jean-Luc Picard,
+Captain of the USS Enterprise, the flagship of the federation, had an interest in Archaeology
+<TEXTURE:1960f328-2b30-8bf2-1f9c-9b4e275e3ffa>
+Kathryn Janeway,
+Captain of the USS Voyager, was once the Chief Science Officer aboard the USS Al-Batani,
+and most noted in history to be the first Captain to successfully traverse the Delta Quadrant.
+Encountering dozens of new planets and civilizations over the course of seven years
+<TEXTURE:bc7fe75f-9748-7d25-2ead-cd8295bf838b>
+Seven of Nine,
+a former Borg Drone, liberated from the collective by the crew of the USS Voyager in 2374.
+Whilst serving aboard the ship, she constructed the USS Voyager's astrometrics lab,
+which used Borg technology to plot routes that trimmed several years off of Voyager's journey.
+The lab became an important asset to Voyager.
+Using the astrometrics lab, Seven discovered the Hirogen communications network, which allowed Voyager to temporarily receive messages from the Alpha Quadrant.
+<TEXTURE:992131e8-d832-61aa-c77c-916ff4d5d26d>
+And of course there is Ambassador Spock,
+once the Chief Science Officer aboard the USS Enterprise and now a noted Ambassador for the Federation.
+<TEXTURE:982e6a07-c2a8-a414-d040-ee30aee8a5b4>
+The understanding of science helps us to develop and maintain the federation, to help us prepare for the unknown.
+The Science Division also plays a vital role to all the other Divisions.
+For Instance without science, Security would not have the weapon power nor the defensive technology we use today.
+Such things as transporters, warp technology and replicators, which we take for granted today, would not be possible.
+Also, without a basic understanding of certain aspects of science, the other divisions would not be able to function, even if that aspect of science does not directly related to their division.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

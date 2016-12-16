@@ -1,0 +1,122 @@
+<DESC:Famous Doctors of Starfleet>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-102 / Famous Doctors of Starfleet
+*Takes a deep breath and proceeds*
+Over the centuries Starfleet has boasted some of the best Medical Doctors in the Universe.  This class will teach you a little about the most noted Doctors in the fleet.
+<TEXTURE:a5197443-b9b0-4817-0b45-3676d033ec36>
+DR. PHLOX
+We will start with one of the most versatile Physicians in Starfleet history, Dr Phlox.
+Phlox was born on the planet Denobula sometime in the late 21st century.
+Sometime prior to 2149, Doctor Phlox joined the Interspecies Medical Exchange and was assigned to Starfleet Medical on Terra.
+Over the course of his career, Phlox obtained a dozen scientific degrees,
+including six in interspecies veterinary medicine, and others in dentistry,
+hematology, botanical pharmacology, and psychiatry.
+Phlox was brought on board Enterprise NX-01 for the maiden voyage in April of 2151 at the request of Captain Jonathan Archer.
+Phlox became one of Archer's most trusted advisers and on many occasions his counselor. He also frequently played devil's advocate for Archer.
+There were a few issues that they came into conflict over, but this only strengthened their friendship.
+He used very unorthodox medical practices due to the relatively primitive medical technology of the early 2150s.
+He frequently used animals in various ways to assist in his patient's' healing. His sickbay on Enterprise was quite a menagerie.
+Some of the creatures are food for other animals which are used as a source for medical drugs.
+As all Denobulans, Phlox only requires 6 days of sleep per year.
+This is typically done as a brief hibernation period.  Back on his home planet, Phlox has 3 wives, all of which have 3 other husbands, and 5 children.
+Denobulans have great control of their facial muscles being able to open their mouths wider than humans
+and when threatened have the ability to inflate their heads to scare off would-be attackers.
+<TEXTURE:d21b38bc-7725-8a66-f925-86335b531c79>
+DR LEONARD MCCOY
+One of the most famous Doctors was none other than Dr Leonard McCoy.
+Born in 2227 on Earth and posted as CMO on the USS Enterprise 1401 in 2266 under the command of Captain James T. Kirk.
+McCoy was an accomplished surgeon, physician, psychologist, and exobiologist, and was also considered an expert in space psychology.
+He served Starfleet for a total of 27 years.
+McCoy was given the nickname "Bones" early on in his career.
+This nickname derives from an old Earth epithet for physicians, primarily surgeons, called "sawbones".
+Bones was very suspicious of technology, especially the transporter, saying that he didn't want his molecules scattered all over space.
+Although he was a great believer in the body's own natural ability to heal and felt that a little suffering was good for the soul,
+he also held 23rd century medicine in high esteem and frequently lamented how barbarous medicine used to be in the past.
+He was well known for his quick wit and cantankerous nature towards the Enterprise's second in command and Science Officer Mr Spock.
+On stardate 41153.7, the 137-year old Admiral Leonard McCoy inspected the USS Enterprise-D during its first mission.
+He commented on the great significance of the ship's name to Lieutenant Commander Data, telling Data "You treat her like a lady... and she'll always bring you home."
+<TEXTURE:6fdfb45b-41dd-a080-096a-ae6f2fbcc8f9>
+DR BEVERLY CRUSHER
+Beverly Howard was born in Copernicus City on Earth's moon Luna October 13, 2324.
+Her parents died when she was a young age and she was raised by her grandmother Felisa Howard on Arvada III.
+Grandmother Felisa was a healer, using herbs, grasses, tree chemicals, and roots as medicines sparking Beverly's interest in medicine.
+She was highly intelligent and graduated at the top of her class from Starfleet Academy Medical School in 2350.
+Beverly married Lt Jack Crusher, who served under Captain Jean-Luc Picard on the USS Stargazer.
+They had one son, Wesley.
+Jack was killed in an accident on the Stargazer in 2354.  Beverly later joined the USS Enterprise D under the command of her old friend Captain Picard.
+She was a talented dance, having won several trophies for her performances.
+Beverly and Jean-Luc grew very fond and affectionate toward each other; although neither wanted to admit how they felt.
+It was revealed that in an alternate future Dr Crusher and Captain Picard had been married and divorced.
+Early in her Enterprise D career, in 2355, she was promoted to Head of Starfleet Medical, returning to the Enterprise one year later after finding it hard to stay away.
+<TEXTURE:cbb61c06-96ab-fe40-5b3d-6fcd04789572>
+DR KATHERINE PULASKI
+Born on Earth, Katherine had an extensive career in Starfleet Medical originally serving on the USS Repulse, under Captain Taggert.
+She joined the USS Enterprise D in 2365 during the reassignment of Dr Crusher to Starfleet Medical Head of Staff.
+She was a traditional doctor, and often considered archaic, as was her predecessor Dr McCoy.
+Like Dr McCoy, Dr Pulaski hated transporters, preferring to take the shuttle whenever possible.
+Katherine was married and divorced three times and had a long standing relationship with one Kyle Riker, father of William T Riker.
+She was a published writer with a book titled "Linear Models of Viral Propagation" which was considered standard text for research on the subject for several years.
+Her interests included poker and Klingon Literature.
+She had a severe personality conflict with Commander Data of the USS Enterprise,
+considering him merely a machine and she could not understand why he wished to be human.
+Katherine often spoke of him in the third person, even while he was present, and even referred to Data as 'it".
+She maintained a strained working relationship with Captain Picard, as her stubborn, brusque manner annoyed him.
+<TEXTURE:09019582-e750-b434-91e9-733a13c93842>
+DR JULIAN BASHIR
+Julian Bashir was an only child, born in late 2341 on Earth.
+As a child, Julian fell behind in school, and was evaluated as having learning difficulties. Because of this, his parents, Richard and Amsha Bashir, had him subjected to genetic engineering.
+In 2348, just before Julian's seventh birthday, the Bashir family left Earth for Adigeon Prime.
+At first, he was excited to see all the aliens in the hospital, but then they gave him a room and started a series of treatments.
+These treatments, known as "accelerated critical neural pathway formation," were a method of genetic engineering that involved the resequencing of his DNA.
+Over the course of two months, his genetic structure was manipulated to accelerate the growth of the neuronal networks in his cerebral cortex, and a new Julian Bashir was born.
+The focus of his "enhancements" were to increase his mental abilities: his IQ jumped five points a day for over two weeks.
+Further treatments led to improvements in his hand-eye coordination, reflexes, vision, stamina, height and weight.
+In the end everything but his name had been altered in some way.
+Due to his genetic enhancements Julian, in many ways, possessed a superior physiology to other Humans.
+His intellect was the most obvious example of this, as he was able to perform computations faster than a computer and his recall was almost absolute.
+Physically he was also enhanced, although his physical abilities are mostly less remarkable.
+His hand-eye coordination is greatly enhanced to the point where he can hit the smallest part of a dart board with ease at over eight feet,
+his hearing is also enhanced beyond that of a normal human, and his reflexes are closer to a Vulcan.
+He also has limited control of his vital signs, although he loses control if significantly weakened.
+Bashir graduated second in his class at Starfleet Medical, having purposely missed a question on his final exam.
+He also took "engineering extension" courses during his time there.  He had his choice of assignments, but chose Deep Space Nine for the opportunity to practice "frontier medicine".
+<TEXTURE:c07c232b-f2c0-4e1c-9aa2-652e41dc4603>
+THE DOCTOR
+The Doctor was the USS Voyager's Emergency Medical Holographic program or EMH.
+The EMH Mark I was a computer program with a holographic interface in the form of a human male doctor.
+This program was specifically designed to function in emergency situations only.
+Developed to be an emergency supplement to the medical team on starships and was only meant to run for a maximum of 1500 hours.
+It had little personality and interpersonal skills.
+It was capable of treating any known injury or disease and was programmed with the medical knowledge of every member-world and that of over 5 million surgical procedures.
+It was even capable of learning and adapting in order to create new medical treatments.
+The lack of a live physician in the on the Voyager, combined with its sudden relocation to the sparse Delta Quadrant necessitated The Doctor to run his program full time.
+The Doctor even acquired many hobbies and interests, developed close personal relationships with particular crew members, and even fell in love.
+Attempting to develop a realistic personality, the Doctor not only manufactured a holographic family, he had an increasing number of other 'human' experiences.
+This resulted in the Doctor's program evolving to become more lifelike, with emotions and ambitions.
+The Doctor later acquired a mobile holographic emitter from the 29th Century.
+Although he had previously been confined to Sickbay or the Holodeck, the mobile emitter allowed the Doctor to move about freely,
+making him ideal for missions where the environment would be harmful or otherwise fatal to the crew.
+<TEXTURE ad01b97e-25c3-5f66-253e-d587f52a1e70>
+Throughout the history of Starfleet, the Doctors of Starfleet have played an integral role in history exploring the galaxy, eradicating diseases and treating species of all shapes and sizes.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

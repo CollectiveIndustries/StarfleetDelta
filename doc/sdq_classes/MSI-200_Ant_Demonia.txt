@@ -1,0 +1,214 @@
+<DESC:Introduction to Science>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-200 / Intro to Science
+*Takes a deep breath and proceeds*
+In this class I will try to answer some questions about the Science Division of the UFGQ
+What is SCIENCE?
+*Smiles and looks around the room*
+Science, from the Latin word Scientia, meaning "knowledge",
+is a systematic enterprise of gathering knowledge about the world and then organizing and condensing that knowledge into testable laws and theories.
+As knowledge has increased, some methods have proved more reliable than others, and today the scientific method is the standard for science.
+It includes the use of careful observation, experimentation, measurement, mathematics, and replication —
+to be considered a science, a body of knowledge must stand up to repeated testing by independent observers.
+In the modern world, scientific research is a major activity in all developed worlds,
+and scientists are expected to publish their discoveries in refereed journals, scientific periodicals where referees check the facts in an article before it is published.
+Even after publication, new scientific ideas are not generally accepted until the work has been replicated.
+Teaching is the sharing of the basics of scientific inquiry, the procurement of an overview of the knowledge of a field of research and the current state of research, and support for their deepening.
+And KNOWLEDGE?
+The Webster Dictionary defines Science as "Knowledge attained through study or practice,"
+"Knowledge covering general truths of the operation of general laws, especially as obtained and tested through scientific method and concerned with the physical world."
+Now, what does that definition really mean?
+I'll tell you, it refers to a system of acquiring knowledge.
+<TEXTURE:7cb2c246-ded8-9a2f-d4e6-69d4219d681e>
+I quote Fadm Taurus, the CO of our academy from one of his speeches:
+"The definition of knowledge is a matter of on-going debate. Plato defined knowledge as “Justified True Belief”, which is, in order to know that a given proposition is true.
+One must not only believe the relevant true proposition, but one must also have justification for doing so.
+Another definition specifies that a statement must meet three criteria in order to be considered knowledge: it must be Justified, True, and Believed.
+In other words just because you know the facts on a subject does not necessarily make you knowledgeable on it.
+Albert Einstein once said “Information is not knowledge”. It is how we use the information we have that makes us knowledgeable."
+*Steps around the podium and perches on an empty desk*
+<TEXTURE:8f2c7d7e-255f-2497-4161-b61bfa0fa4be>
+So what is OUR JOB?
+We try to explain our universe. We try to find new methods to solve problems.
+Our field starts with the development of a new scanner for radiation and ends with the search for the reason of our own being.
+To find their field of interest, or better their area of expertise, we have the following overview for new Member of this Division:
+The Science Division is made up of five groups, Formal Science, Natural Science, Applied Science, Cognitive Science and Social Science.
+FORMAL SCIENCE
+The Formal Sciences Group’s a branch of knowledge that is concerned with formal systems,
+for instance, logic, mathematical, systems theory, computer science, information theory, decision theory, statistics, and some aspects of linguistics.
+The formal sciences are made up of symbols and theoretical rules -
+which are based on actions and reactions. They can often be transferred into reality through the use of the applied sciences and thus, are proved to be very useful.
+It is fair to say is that there is no system (that we know of) which contains no inputs or outputs.
+Problems occur in formal science mostly when dealing with subjectiveness.
+For example, a computer program will find it hard handling emotion, unless you are able to define the effects in relation to an envelope's threshold.
+The difference between formal science and natural science is that the formal scientists concern themselves mostly with storing,
+encoding, decoding and manipulating input & output of data whereas the natural scientists concern themselves solely with relevance of the observable data alone.
+A good example of this how natural and social scientists seem to think a hypothesis and evaluation is a fixed requirement for use within a scientific method.
+A hypothesis usually defines falsifiable terms in order to 'prove' or 'disprove' a prediction which can be based on subjective conjecture, observations
+or even just an "educated guess" and an evaluation usually 'tests' the falsifiable terms, to see if the prediction was 'correct' or 'incorrect'.
+Formal science does not attempt to "guess" what "will happen" during a test.
+It does not believe in 'proving' or 'disproving' a biased prediction 'right' or 'wrong' and thus only relies on the most objective factors.
+Formal scientists believe that people can make their own mind up and draw their own conclusions from the actions and consequences themselves.
+In short, they tend to look at on what happens rather than attempting to justify why it happens.
+Mathematics, logic, words and symbols are frequently used by natural scientists, thus formal science often provides a natural scientist's toolkit.
+Fields within Formal Science include:
+*Computer Sciences
+*Mathematics
+*Statistics
+*Systems Sciences
+NATURAL SCIENCE
+Natural sciences form the basis for the living and the dead applied sciences.
+Together, the natural and applied sciences are distinguished from the social sciences on the one hand, and the liberal arts on the other.
+Though mathematics, statistics, and computer science are not considered natural sciences
+(mathematics traditionally considered among the liberal arts and statistics among the humanities, for instance),
+they provide many tools and frameworks used within the natural sciences.
+Alongside this traditional usage, the phrase natural sciences is also sometimes used more narrowly to refer to its everyday usage, that is, related to natural history.
+In this sense "natural sciences" may refer to the biology and perhaps also the earth sciences, as distinguished from the physical sciences, including astronomy, physics, and chemistry.
+Within the natural sciences, the term hard science is sometimes used to describe those sub-fields that rely on experimental,
+quantifiable data or the scientific method and focus on accuracy and objectivity.
+These usually include physics, chemistry and biology.
+By contrast, soft science is often used to describe the scientific fields that are more reliant on qualitative research, including the social sciences.
+Natural Science is commonly used as an umbrella term to refer to a plurality of fields outside of the social sciences.
+These include:
+*Astronomy
+*Biology
+*Chemistry
+*Earth Sciences
+*Physics
+CROSS-DISCIPLINES
+The distinctions between the natural science disciplines are not always sharp, and they share a number of cross-discipline fields.
+Physics plays a significant role in the other natural sciences, as represented by astrophysics, geophysics, physical chemistry and biophysics.
+Likewise chemistry is represented by such fields as biochemistry, geochemistry and astrochemistry.
+APPLIED SCIENCE
+Applied science is the application of scientific knowledge transferred into a physical environment.
+Examples include testing a theoretical model through the use of formal science, or solving a practical problem through the use of natural science.
+Fields of engineering are closely related to applied sciences.
+Applied science is important for technology development. Its use in industrial settings is usually referred to as research and development (R&D).
+Applied science differs from fundamental science, which seeks to describe the most basic objects and forces, having less emphasis on practical applications.
+Fields within Applied Science include:
+*Agronomy
+*Architecture
+*Education
+*Engineering
+*Health Sciences
+*Management
+*Military Sciences
+*Spatial Science
+COGNITIVE SCIENCE
+Cognitive science is the interdisciplinary study of mind and intelligence, for example, how information is represented and transformed in a brain or in a machine.
+It consists of multiple research disciplines,
+including psychology, artificial intelligence, philosophy, neuroscience, learning sciences, linguistics, anthropology, sociology, and education.
+It spans many levels of analysis, from low-level learning and decision mechanisms to high-level logic and planning; from neural circuitry to modular brain organization.
+The term cognitive science was coined by Christopher Longuet-Higgins in his 1973 commentary on the Lighthill report,
+which concerned the then-current state of Artificial Intelligence research.
+Fields within Cognitive Science include:
+*Anthropology
+*Cognitive Science of Mathematics
+*Cognitive Science of Religion
+*Cognitive Linguistics
+*Cognitive Neuropsychology
+*Cognitive Neuroscience
+*Cognitive Psychology
+SOCIAL SCIENCE
+The social sciences are the fields of academic scholarship which explore aspects of human society.
+Social sciences may draw upon empirical methods and attempt to emulate the standards of conventional scientific practice.
+By contrast, other social scientists employ critical analysis or hermeneutic methods to study objects of enquiry they regard as inconsistent with the conventional approach.
+Social science is commonly used as an umbrella term to refer to a plurality of fields outside of the natural sciences.
+These include:
+*Anthropology
+*Economics
+*Education
+*Geography
+*History
+*Law
+*Linguistics
+*Political Sciences
+*Psychology
+*Sociology
+You see we are the division with the largest field of interest. You can find science officers at a starship, station and of course here at the academy.
+Science interlinks with the other divisions in a numerous of ways.
+Just because you choose a career in Science does not mean that you will not make Captain of your own Starship nor does it mean that you can't become a leading engineer someday.
+With a background in science, the universe is yours to obtain.
+Equal what your special field at science division is.
+Never, in any case, let the Prime-Directive out of your mind.
+To protect life in all forms has priority.
+Never risk the lives aboard of your Ship, Station, our comrades, or the life a life form you found for an experiment.
+Watch and learn and do not forget to take sometimes a look out of the window to enjoy our universe.
+And OUR ROLES?
+In order to be a science officer aboard a starship, one needs to be in the Science division.
+JUNIOR SCIENCE OFFICER
+The role of the Junior Science officer is to carry out standard scientific duties aboard both STARBASES and STARSHIPS alike.
+They are also to provide support to their relevant Departmental Head and in some cases directly to both the Assistant Chief Science Officer and the Chief Science Officer.
+Junior Science Officers are also required to supply the DEPARTMENTAL HEADS with all reports, observations, and speculations that might affect the safety of their vessel/ station.
+The Junior Science Officers are also required to assist on away missions as directed by the CSO.
+In order to be a Junior Science Officer, the candidate needs to meet the following requirements:
+*Rank of Ensign or above
+*Completed all mandatory classes at Starfleet Academy
+*Completed Intro to Science 101
+*Completed at least 3 further classes within the College of Science
+ASSISTANT CHIEF SCIENCE OFFICER
+The Assistant Chief Science Officer (ACSO) plays the same vital role to the CSO as the First Officer does for the Captain of a starship or the Commander of a Starbase.
+It is the responsibility of the ACSO to coordinate and assign relevant scientific duties to the Heads of the individual Scientific Departments.
+In the absence of a CSO, the ACSO will provide the Ship's Captain/ Station Commander and the First Officer/ Executive Officer with all reports,
+observations, and speculations that might affect the safety of their vessel/ station.
+They will also recommend Scientific Personnel for away missions.
+In order to be a Assistant Chief Science Officer, the candidate needs to meet the following requirements:
+*Rank of Lieutenant or above
+*Completed all mandatory classes at Starfleet Academy
+*Completed Intro to Science 1011
+*Completed all science classes within the chosen department at the College of Science.
+*Complete the Officer Track
+CHIEF SCIENCE OFFICER
+The Chief Science Officer (CSO) is the Senior Science Officer aboard a starship or starbase with the broad responsibility of coordinating the Science Department.
+The CSO is also required to supply the Ship's Captain/ Station Commander and the First Officer/ Executive Officer with all reports, observations,
+and speculations that might affect the safety of their vessel/ station.
+The CSO is also responsible for assigning the appropriate Science Officers to away missions, ensuring that the requirements of the mission are met.
+The CSO may also have a secondary role within the starbase or the starship on which they serve.
+In order to be a Chief Science Officer, the candidate needs to meet the following requirements:
+*Rank of Lieutenant Commander or above
+*Completed all mandatory classes at Starfleet Academy
+*Completed Intro to Science 101
+*Completed all science classes within the chosen department at the College of Science.
+*Complete the Officer Track
+DEPARTMENTAL HEADS
+The Departmental Heads are responsible for organizing their individual departments under the direct command of the CSO.
+The DH’s are also responsible for monitoring the performance of all staff within their department.
+In order to be a Departmental Head, the candidate needs to meet the following requirements:
+*Rank of Lieutenant JG or above
+*Completed all mandatory classes at Starfleet Academy
+*Completed Intro to Science 101
+*Completed all science classes within the chosen department at the College of Science.
+*Complete the Officer Track
+And OUR DUTIES?
+Overall, Science Officers are responsible for observing and theorizing explanations for strange or at least seemingly unexplainable circumstances.
+Additionally, all members of the Science Division have to help coordinate and develop role playing scenarios for the exploration of the Gamma Quadrant,
+including the current solar system we reside in, the Magellan System.
+All Officers in this division are order to:
+- send a Monthly Officer Activity Report (MOAR) to the Science Division CO (the DEPARTMENTAL HEAD) by the 20 of a month
+- answer the monthly Attendance at the forum
+- answer the monthly Division Role Call at the forum
+- if there are assigned to a ship or station answer the monthly Roll Call of their ship or station
+- take active part on the live of the UFGQ
+Every ideas for additional classes or roleplay or material for the science division are always welcome.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

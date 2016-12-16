@@ -1,0 +1,113 @@
+<DESC:Hazard Team Part 2 - Alien Species>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-103 / Hazard Team Part 2 - Alien Species
+*Takes a deep breath and proceeds*
+This is the last lecture in the three part course.
+Let us begin…
+<TEXTURE:ade0458d-b32d-6203-18dd-87c5c08271af>
+Borg
+The Borg are a force unmatched in the Galaxy.
+The race is comprised of 'Drones', all of whom belonged to different species but were assimilated into the Borg Collective after their ship or planet were attacked.
+The Borg's ultimate goal is to achieve perfection by assimilating the knowledge and skills of other cultures.
+A feature of Borg Drones making them extra formidable are their adaptable shielding, allowing them to become invulnerable to enemy weaponry.
+A more in depth class about the Borg is available.
+<TEXTURE:50765262-8ccb-898c-59a3-9112bb902d63>
+Etherians
+The Etherians are a mysterious race who base their ship and weaponry on stasis technology.
+The Etherians trapped within The Forge live aboard a 'sleeper ship' in stasis,
+and were originally traveling to a new star system in order to start a new colony.
+Although initial first contact with the Etherians led to conflict, they have become allies with Voyager within The Forge.
+<TEXTURE:450ac26e-5c5d-d7bd-3381-23d8ac375f10>
+Klingons
+The Klingon Empire is a galactic power in the Beta Quadrant with a society based on honor and glory, and holds some of the finest warriors known.
+A Klingon Bird of Prey has become trapped within The Forge.
+It's crew have banded together in a loose alliance with the Malons, Hirogens, and the Terrans,
+who scavenge new ships to the region for supplies in order to survive.
+A more in depth class about Klingons is available.
+<TEXTURE:f8a85fe7-ecf2-dd01-2ccc-89a5f4076358>
+Malons
+Not known for combat skills, the Malon are from the Delta Quadrant with a small area of space and are well known for dumping harmful toxic waste in space.
+A Malon ship has become trapped within The Forge.
+It's crew have banded together in a loose alliance with the Klingons, Hirogens, and the Terrans,
+who scavenge new ships to the region for supplies in order to survive.
+<TEXTURE:a65a417c-e6f6-d310-555d-e10f1dadc54d>
+Hirogen
+A warrior species whose culture has become to hunt prey whether they are enemy individuals or starships,
+the Hirogen are found all over the Delta Quadrant.
+A Hirogen vessel has become trapped within The Forge.
+It's crew have banded together in a loose alliance with with the Malons, Klingons, and the Terrans.
+who scavenge new ships to the region for supplies in order to survive.
+<TEXTURE:425f5f6b-7bd4-9ef3-5712-ce712aabe468>
+Terrans
+Actually Humans from a mirror universe first encountered by the original Starship Enterprise, the Terran Empire is a violent mirror to the Federation.
+A Constitution-class vessel has become trapped within The Forge.
+It's crew have banded together in a loose alliance with the Malons, Hirogens, and the Klingons,
+who scavenge new ships to the region for supplies in order to survive.
+<TEXTURE:cfbdc8b9-8416-338e-5f4e-913da5fd031d>
+Species 8472
+From an area of fluidic space outside of our galaxy,
+the technologically superior Species 8472 were previously engaged in a conflict with the Borg, and were only defeated thanks to the help of the USS Voyager.
+A group of Species 8472 boarded and attacked a Borg vessel shortly before it became trapped within The Forge, and became stranded.
+They continued to attack the Borg aboard the ship however.
+<TEXTURE:355f40fe-c182-2673-88f7-bd50c8b7721f>
+Gunship Bots
+These mechanical robots are the 'crew' of the Dreadnought Gunship found by Voyager within The Forge.
+They serve and protect the ship, and many different models of robots exist from Warrior Bots to flying Scout Bots to suit all the needs that may arise aboard the gunship.
+<TEXTURE:1e788ccd-fced-2125-ad50-98c78ae63ece>
+Vorsoth
+Architects of The Forge and designed by a long dead civilization,
+the Vorsoth trap tactically worthy ships within a dampening field and send out Harvesters to collect crew and valuable technology from trapped ships.
+From which it can create a master race of warriors to take on and expand throughout the known universe.
+<TEXTURE:6978aecf-0fdd-3260-ec61-81606fb5793f>
+Romulans
+An offshoot from the Vulcan people,
+the Romulan Star Empire is surrounded in secrecy and has a history of being aggressive but non confrontational towards the Federation.
+Although the Dominion War saw the two powers come together as allies, and the Enterprise's key role in the Reman incident earnt the respect of many key Romulan figures,
+many factions in military still believe that the Federation cannot be trusted.
+A more in depth class about Romulans is available.
+<TEXTURE:c4cda4fe-c207-08e0-3f70-5d1f69be8fa6>
+Andorians
+First contact with the Andorians was made in the mid 22nd century when the paranoid race were at a heightened state of tension with the Vulcans.
+Andoria was actually one of the Federation's founding members,
+but many Andorians prefer lives as mercenaries, and are not unwilling to pick or join a fight out in the frontier,
+whether it involves Federation members or not.
+A more in depth class about Andorians is available.
+.
+<TEXTURE:dace7e37-89e7-a617-ab93-9611ac4a76f4>
+Attrexians
+Warp capable with planets spanning several star systems both side of the Romulan Neutral Zone,
+the Attrexians are a mining race who remain neutral with all major empires in order to secure trading agreements, trading their minerals for new technology.
+These types of trade agreements have left the Attrexian Society based on a mix-match of technology, not all of which is understood by Attrexian engineers.
+<TEXTURE:776af3c9-d69c-d80d-ed20-093cd7d30ff6>
+Idryll
+All that remains of an ancient star empire, the Idryll have been incorporated as a labour class on Attrexian worlds, ranging from scientific minds to formidable warriors.
+Although most Idryll are happy with their role in Attrexian society.
+Some believe that myths of their age old superiority means that Attraxion worlds are rightfully theres, and have set out to ancient ruins to find proof.
+<TEXTURE:3e0a0d9c-4c80-7d2a-e87e-cf7d8a25967a>
+Exomorphs
+Appearing almost out of nowhere, the Exomorphs began an overwhelming attack on ships, stations and planets in Attrexian space.
+All communication attempts have failed and there seems to be no end to their slaughter.
+With variations of these aliens being from small lurkers to large commanders,
+the Exomorphs sport claws and some even have the ability to spit venom, making them a dangerous opponent at short range.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

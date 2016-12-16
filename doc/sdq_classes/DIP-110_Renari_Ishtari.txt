@@ -1,0 +1,89 @@
+<DESC:Xenomorphic Relations>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in USDQ!
+Our class today is DIP-110 / Xenomorphic Relations
+*Takes a deep breath and proceeds*
+Xenomorphic persons are those races in the galaxy that are not human.
+They vary in shape and form, beliefs and civil structures.
+Many Starfleet personnel, from cadets to admirals, have had contact with many such lifeforms.
+Commonly seen are beings such as the Vulcans and Klingons, regularly in service aboard starships today.
+<TEXTURE:d3719ead-0351-0e9a-fabf-32e23780dc14>
+Klingons, for example, are warriors by nature. Cunning and strong-willed,
+they often try to exert themselves through ritual displays of strength and endurance.
+Having great respect for said strength, they respond well to confidence. Quick to anger, they can be rash at times,
+which has proven to make relations with them very shaky at times.
+<TEXTURE:095b295c-75e9-37e6-e177-ec3e2f386410>
+By contrast, the Vulcans take pride in the solace of logic and reasoning.
+Many of the Federation's best scientists hail from Vulcan.
+Among the first races Starfleet made contact with, they share many of the same goals we have.
+From an early age Vulcans are taught to see the world with the serenity of logic rather than the chaos that can arise from emotional states.
+<TEXTURE:190d105f-8a8c-2c1d-aed4-ca8b19f82970>
+Another commonly encountered race are the Ferengi.
+Subversive by nature, they ply their skills in the art of trade. They believe that everything in the universe has significant value if presented to the right person.
+As long as there is profit to be made, a Ferengi will try everything to acquire it.
+Though they would make a valuable addition to the Federation, the Ferengi have yet to take the incentive to offer their alliance, preferring instead to remain as their own Trade Federation.
+Although there have been Ferengi starfleet officers.
+<TEXTURE:8fe5558f-037f-adc3-615d-579910bfdd17>
+Those are a few of the hominoid species that you know about, but there is a vast array of lifeforms in the universe that you will encounter in starfleet.
+How you react to them can determine the future relation with that species.
+Some of these may be first contact situations that you will be prepared for and some may be with species that you know may know about.
+Lets look at a few examples from history and how  they were handled.
+<TEXTURE:7adb3353-d8d4-9dff-6222-44b4fc98ebb4>
+Earth's First Contact with an alien culture.
+We all know the story of how the vulcans made contact with humans after the first warp drive experiment by Zefram Cochrane.
+There was still some xenophobia on earth even though the outward appearance of a Vulcan is the same as a Terran other than the ears.
+Making the first contact with earth relatively easy.
+Now think what if it had been an Andorian ship that was passing by instead of a Vulcan one.
+How would the first contact have been different meeting a blue skinned alien with antennae?
+The humans could very well have panicked and attacked starting a war. But Andorians are still a humanoid.
+The term humanoid is most commonly used to refer to beings with a body plan that is generally like that of a human, including upright stance that is bipedal.
+Some beings are not humanoid at all and may look totally different than anything you are accustomed to, but you still need to act with respect.
+<TEXTURE:ce889969-f303-3289-fb36-413f71926c91>
+Take the example of the Horta, a silicon based life form.
+Essentially a rock it was first thought to be a monster that was attacking and killing the miners on Janus VI.
+But after communication was established by, at the time, Commander Spock, it was discovered that the Horta female was the last of her kind protecting her eggs that were about to hatch.
+If the miners had managed to kill her and destroyed the eggs it would have wiped out an entire race that is now a valued member of the federation.
+So you can see how having a preconception on how a being looks talks or acts can cause problems.
+The most important thing to bear in mind when interacting with other races in the galaxy is to try as best as possible to respect and understand the way they live.
+Not every being will respond the same way under a given situation, and it is important to remember this.
+As a member of The United Federation of Planets, it is your role to establish, if possible, peaceful contact with the countless races we have discovered, and have yet to find.
+One of the first, and easiest, mistakes made when contacting another race is personal bias.
+In a diplomatic venture one must never allow personal feelings to overcome the mission at hand.
+<TEXTURE:086b3892-7df0-8927-12f0-30202a47b8c9>
+An example of this is Admiral James T. Kirk.
+It was well know that he did not like Klingons, because the death of his son.
+But it was Kirk who was the one called upon to negotiate a peace with the Klingons.
+He even went as far as allowing himself to be tried and put in prison after the murder of the Klingon chancellor.
+By doing that he averted an all out war and gave the Enterprise crew time to investigate and uncover the plot to assassinate the chancellor, and find the true murderer.
+Because of his actions, and not letting his personal feelings override the mission, he made the first Khitomer accords possible.
+It is also important to dispel in your mind any negative rumors you may have heard about a particular race.
+Because, like any rumor, if you haven't experienced it for yourself, there is no guarantee at all of its validity.
+<TEXTURE:37b587a2-bcbe-7011-1d6a-61902be79005>
+As an example of this we can look to the Vulcans and the rumor that they do not have emotions.
+As we know Vulcans have very strong emotions, but that most Vulcans, through mental conditioning, control their emotions and do not let them show.
+This one rumor has caused countless problems over the years. Sometimes straining the relationship between Earth and Vulcan.
+Respect.
+Understanding.
+Truth.
+Without these diplomacy will fail every time, and it is Starfleet's goal to see that all the races in and around her are able to coincide with as little friction as we can muster..
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

@@ -1,0 +1,150 @@
+<DESC:Starship Combat>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-104 / Starship Combat
+*Takes a deep breath and proceeds*
+Good day everyone, Welcome to a very important class.
+Before I begin on the subject at hand. There is something I want to make sure is very clear.
+This class is of a subject matter of the utmost seriousness.
+If I see any lack of seriousness or maturity and you will be ejected from this class for an undetermined length of time.
+You have been warned. It’s with a heavy heart that I teach this, but one cannot deny it’s importance.
+So far any questions?
+Very well, Let’s proceed.
+Today’s subject is of course Starship combat.
+It is something that every security and commanding officer needs to master.
+The United Federation of Planets is an organization that is founded on peace and diplomacy. And that mandate has thankfully held true since it’s founding 550 years ago.
+The now famous Captain Jonathan Archer was wary of the newly commissioned NX Class Enterprise carrying weapons. With Earth’s violent history and the new idealism of Earth Starfleet in space exploration,
+weaponry on his ship seemed counterproductive to what he was trying to achieve.
+He would later admit that he was oh so wrong, and he needed those weapons and more. Earth Starfleet would learn painful lessons in the dangers of outer space.
+Earth Starfleet was a peaceful organization, the Klingon Empire was not, The Romulan Star Empire was not, nor were a myriad of other races.
+The NX class would develop what would be the ancestors of standard Starship weapons today. But at the very core of the principles of these weapons, they would remain largely unchanged.
+As a result of these painful lessons, Starfleet ships have a tradition of being powerful in battle despite their peaceful missions.
+Always remember, that while Federation ships are armed and powerful, they are first and foremost for defensive purposes.
+Never abuse this power or you’ll disgrace not only yourself and your crew but the United Federation of Planets as a whole. But you’re not here for a history lesson nor an ethics course.
+So to the meat of the matter.
+First we’ll take a look at the standard weaponry of most Federation starships.
+<TEXTURE:d0ef4af5-5aa4-5bc2-0bdf-3b8b5c2521fa>
+PHASERS
+The primary weapon on Starships is the Phaser. By now you should all know what phasers are.
+While other races have adopted disruptor technology as their main weapons, the Federation chose in preference, phaser technology.
+From the primitive phase cannons in the 22nd century to the turret like emitters in the 23rd century.
+It has evolved with now the phaser arrays, literally hundreds of elements grouped together into ribbon like arrays. These have a number of advantages, they are as follows.
+Survivability- For a phaser grouping to be totally disabled, every single element in the array needs to be knocked out.
+Controllability- Every element is an emitter, you can fire at multiple targets simultaneously or concentrate all the array’s energy to a single target.
+Wide Coverage- The orientation of the vessel is less important as Phaser arrays provide nearly 360 coverage, limited by the hull.
+Accuracy- The efficiency of phaser technology means that a very specific point in space can be hit with absolute precision.
+Efficiency- Ratio of energy consumption to effect is excellent.
+Renewable- Phasers can be used indefinitely, provided the warp core is functioning enough to provide power to the phaser arrays.
+Naturally no technology is perfect. There are a few disadvantages with the phaser, especially when compared to the Disruptor.
+Expensive- More costly and time consuming to produce.
+Recharge- Though theoretically infinite, lacking any need for ammunition. Continuous use will exhaust power allocated to phasers and require a recharge period.
+Output- The Phaser has less damage potential than a Disruptor of equal size.
+Warp- Phasers cannot be used while traveling at warp.
+Range Bleed- Like most energy weapons. A phaser’s damage decreases the further it travels.
+<TEXTURE:1c7a55eb-b2ee-1ea7-68e5-db41468de39d>
+PHOTON TORPEDOES
+The secondary weapons of most Federation ships is the Photon Torpedo.
+This weapon is nearly as old as the Phaser itself. Yet it remains one of the most efficient weapons in Starfleet.
+From its ancestor the Photonic Torpedo in the 22nd Century to the modern Photon Torpedo, it remains largely unchanged since then.
+There have been new types developed of course, such as the Quantum Torpedo and the Romulan Plasma torpedo.
+Starfleet though still uses as standard issue. the Photon Torpedo, as it has proven itself time and again to be one of the most useful and used weapons in the galaxy.
+With over 5 centuries of development, it is generally accepted that the Photon Torpedo has reached the peak of it’s evolution and any further improvements would be minimal.
+Yet it is still in general use today, Let’s look as to the reasons why.
+Powerful- Photon Torpedoes are the ‘heavy guns’ on any Starship. Able to destroy a starship with only a few shots.
+Low Energy Requirements- Unlike phasers, Photon Torpedoes has it’s own warhead and is not dependent on the warp core to cause damage.
+Accurate- While not as accurate as the phaser, it’s guidance systems ensure a good chance of hitting the target.
+Warp capable- Photon Torpedoes has a warp stabilizer, which means it can be fired while the ship travels at warp speed.
+Consistent Damage- The Photon Torpedo does not suffer ‘damage bleeding’ as it travels, It’s damage potential remains constant regardless of range.
+Cheap – Photon Torpedoes are cheap and easy to mass produce.
+Of course, even the mighty Photon Torpedo has disadvantages.
+Ammunition- There’s a limited store of Photon Torpedoes on a ship. Once depleted it must be replenished at a supply base.
+Narrow arcs- Photon Torpedo tubes are directed fore and aft. Giving roughly 90’ firing arch on those sides.
+Minimum range- The explosive power of a Photon Torpedo is great enough that fired too close, it will damage the launching ship as well.
+In combat, weapons are not enough.
+A tactical officer is to make the most out of a ship’s weapons. But that is only the beginning; equally important are a ship’s defensive shields and tactics to make the best use of these tools.
+<TEXTURE:e056fe47-be8c-723d-688c-9d269495bb9f>
+DEFENSIVE SHIELDS
+The main defensive systems on any starship are it’s shields. In a nutshell, Shields are a variation of a force field that surrounds the ship’s hull.
+The main function of shields are to separate the ship from outside hazards like weapons fire, Radiation, etc. The amount of power needed to generate these shields is tremendous.
+During Red Alert Status, a lot of non essential systems are taken offline in order to have as much power as possible after powering the weapon’s systems and engines to keep the deflectors shields activated and strong.
+Though what is often overlooked is that there’s not just a single ‘skin’ surrounding the ship. Shields are segmented into 6 sections. Fore, Aft, Dorsal, Ventral, Port and Starboard.
+And the tricky part of a tactical and operations officer is to keep the shields balanced to ensure maximum all around protection.
+Shields are capable of being extended and retracted relative to the generators.
+Though the two most common shapes are either a bubble like shape which offers protection with a considerable distance from the hull. However in this mode, shield strength is weaker.
+<TEXTURE:55e7d819-d79d-f3ea-8ef1-8517b59fd2ef>
+The second shape is basically a form fitting ‘skin’ that traces the shape of the hull.
+Shield strength is maximized in this configuration however the negligible gap between the shielding and the hull gives weapon impacts the possibility of ‘bleeding’ some of the impact through the shielding.
+One more detail with shield configuration. All shields weaken as it absorbs impacts.
+However the unaffected shield weaken a lot less than the side taking weapon hits. Even if one side collapses, the ship still has 5 other sides still providing shielding.
+In the case of a collapse, The operations offer can divert power from the remaining shielding to restore the collapsed shielding.
+Conversely, if you’re expecting a very powerful force that is about to impact the ship, all power can be diverted to one shield to offer the most protection.
+Needless to be said, you’ll want a top notch Operations Officer in order to cope with this balancing act.
+ARMOR
+When the shields collapse the hull is also armored to help absorb damage, but this is your last line of defense. Even with the advances of ablative armor today. They’re really a last ditch defense.
+Direct impacts on the hull are highly damaging with the shock often rupturing power conduits, disable systems and eventually breaching the hull.
+DO NOT RELY ON THE SHIP’S ARMOR FOR PROTECTION!
+DAMAGE CONTROL
+In battle, your engineering team is just as important as your tactical and operations officers.
+Though your shields will absorb a lot of the damage, the shock can sometimes cause internal damage. As your shields weaken, more internal damage will occur, be sure to listen to your Engineer.
+On that note, it's not shameful to run away from battle if you cannot win or if you suffer too much damage to continue. UFGQ needs living experienced officers more than heros.
+And don't forget it's a lot quicker and cheaper to repair a damaged ship then to build a whole new one as well.
+TACTICS
+Now that weapons and shield functions have been explained. How do you use these?
+Just charge in, all weapons blazing?
+Tempting as this is, this is usually the worst thing to do. Your phasers while renewable, eventually have to be recharged, which takes time, you have a finite number of torpedoes on board.
+Your shields will collapse if they keep getting hit. All of these will culminate into you being in a lot of trouble.
+Don’t forget, ships are large often holding hundreds of people. Starship combat is more akin to a game of chess, because often your opponent will have similar systems on their ship as well.
+So what do you do?
+To put it mildly, there is no textbook on starship tactics as no two situations are ever identical. However a few base practices tend to be a good idea when it comes to tactics.
+Your ship is large, but in the vacuum of space even the sizable Galaxy class starship has speed.
+Use of the impulse engines is as vital in combat as much as your weapons and shields are. Close the distance, or carve a distance from your target.
+Phasers are more powerful up close then at a distance, and it’s harder to miss up close.
+Are your phaser arrays depleted and need a recharge?  Evasive maneuvers and or photon torpedoes until your phaser banks are recharged.
+Uh oh- dorsal shielding is about to collapse!  Your Ventral shields are still strong. Full axis rotation and continue the barrage with ventral mounted phasers.
+Make full use the firing arcs of your weapons, especially with the wide arcs of your ship’s phasers.
+Their shields are down, but they are still attacking?  Target your opponent’s weapon hardpoints to limit their attack power., or their impulse engines so you can get out of range and escape.
+TACTICS Addendum.
+One thing that causes a lot of confusion are attack / defense patterns.
+What these are are preprogrammed sequences that would achieve the best result in a certain situation,
+The general syntax of these are [ Creator’s Name – Greek character] I.E. Attack Pattern Picard Alpha.
+Existing Attack / Defense patterns can be access with the UFGQ library. But in a lot of cases these patterns are custom made.
+An example Attack Pattern – Attack Pattern Snowpaw-Gamma.
+Ship goes to full impulse, up until it pass along the side with the target, unleashing a full barrage of point blank phasers, turning 90 degrees away from the target, firing 3 aft photon torpedoes.
+INTELLIGENCE
+Know your enemy and know yourself and 1000 victories will be yours –Sun Tzu
+An ancient Chinese military philosopher coined this proverb and even over 2 millennia later it still holds true today.
+There are so many unpredictable variables that no two encounters are identical. Use your sensors, a tactical analysis of your opponent is vital. And could give you the edge in combat.
+For example Klingon Ships have most of their weapons facing forward, so using that knowledge, stay behind them. That model of Romulan ship has a design flaw with their cloaking device.
+Use that knowledge against them. Going into any battle blind will put you at a horrible disadvantage.
+There is no greater example than at the battle of Viridian III where an obsolete Klingon B’Rel class Bird of Prey managed to fatally cripple the USS Enterprise-D.
+And ironically, despite being in a hopeless situation it was a known fact that this model Bird of Prey had a design flaw that even a crippled star ship managed to destroy the fully functional ship.
+ENVIRONMENT
+Let my armies be the rocks, and the trees, And the birds in the sky. –Charlesmange
+Your environment is equally important. Mastery of your environment will also give an edge that can make the difference.
+Nebulae, Asteroid fields, Planet types, Different phenomena, all change the environment around your ship.
+Once more the prime example is the Battle of Regula I.
+An barely functioning Constitution Class used the masking and shield inhibiting nature of the Mutara nebula, in order to even out the odds with a fully functioning Miranda class ship, and won the battle.
+CONCLUSION
+The ones who survive starship combat are the ones who can adapt to the situation at hand and innovate.
+Starship combat is more an art then it is a science. So in so many words, and all of them trying to tell you one thing. Use your head.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

@@ -1,0 +1,106 @@
+<DESC:Introduction to SDQ Medical>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+!
+Our class today is MSI-100 / Introduction to SDQ Medical.
+*Takes a deep breath and proceeds*
+MEDICAL MISSION:
+<TEXTURE:3290cbe0-a2b0-e9ee-c7fe-3f3ac677788c>
+There is the obvious side of the medical profession - treating the sick and wounded.
+As a Starfleet doctor, caring for the sick and wounded is one of your most important duties.
+We are determined to save ALL life forms, regardless of race, personal views and alliance
+status.
+You, as medical personnel, are expected to be alert and on-call at all times.
+Whenever you are on the sim, you are required to respond to all medical emergencies in as
+swiftly as possible and in a professional manner.
+Being a member of Starfleet Medical, you will not only treat the ill and injured,
+but there are many other positions where you will possible be needed.
+You could work in the sickbay, provide Cadet medical examinations, work on a ship's bridge,
+join an away mission, do medical research or manage large scale emergencies.
+Your role will depend, of course, on your level of training.
+DIVISION STRUCTURE:
+The medical division is divided into three main sub-divisions: General Medicine, Counseling, and Research.
+All sub-divisions are headed up by the Chief Medical Officer or CMO.
+The general medicine sub-division is responsible for the majority of SDQ's roleplay scenarios, as well as all Cadet medical exams.
+The counseling subdivision provides for mental health care, when it is considered appropriate.
+It should be noted that SDQ Counselors are not qualified to help with any RL (real-life) issues, only those that are roleplayers as IC (in character).
+The research sub-division performs the medical research and organizes the information on all known species, primarily through its Xenobiology Lab.
+ROLES AND CHAIN OF COMMAND:
+Following is a list of the chain of command for the SDQ Medical Division from the Chief Medical Officer to the Interns.
+Medical Senior Staff
+-Chief Medical Officer or CMO
+-General Medicine/Counseling/Research Leads (Assistant Chief Medical Officers)
+Medical Officers
+-Doctor/Nurse
+-Counselor
+-Xenobiologist
+-Medical Intern/Counseling Intern/Research Intern
+The Chief Medical Officer is the head of all medical operations within SDQ.  They are responsible for all officers below them, and are head of the Medical Council.
+The sub-division leads act as the Assistant Chief Medical Officers and assist the CMO with managing all medical operations within SDQ.
+They are the most senior officers in their particular sub-division.  They regulate how their sub-division is organized and report to the CMO.
+The doctor and nurse are the personnel that make up the clinical sub-division.
+They have have completed all necessary Academy medical training and provide healthcare for all of SDQ.
+A Counselor is the mainstay of the Counseling sub-division.
+They have completed the necessary Academy medical training and counseling role play in an IC (in character) setting.
+They are not, once again, qualified to deal with real-life issues.
+The Xeno biologist is the technician that works in the Research sub-division.
+They have completed the necessary Academy medical training and use their skills to research new and known species to ensure that the medical care provided is cutting edge.
+Interns are the new officers who are currently undertaking their training in their chosen field of medicine.
+They are usually assigned a qualified mentor who will guide them through their studies to become a qualified medical officer.
+TOOLS OF THE TRADE:
+There are a number of tools and equipment that you will use as a medical officer.
+From Hyposprays to Bio-beds, you will be required to learn how to use the equipment so as to provide medical care in a timely manner.
+In addition to learning the equipment, you will need to be familiar with illnesses of a variety of species,
+as well as the treatments necessary to assist them with their ailment or injury.
+MISSION STATEMENT:
+This brings us to our Mission Statement, the Hippocratic Oath.
+The Hippocratic Oath was written by a Terran physician, Hippocrates,
+who was considered to be one of the most revered figures in the history of Earth and the father of modern medicine.
+He lived in Ancient Greece between 460 and 370 BCE.  He was said to be a direct descendant of Asclepius, the son of Apollo.
+The oath was revised over the centuries to accommodate current practices, but it's premise remains the same.
+It is the oath that all medical personnel vow to live by, and you will be required to take this vow upon graduation of your medical training.
+The Hippocratic Oath is as follows:
+I swear by Apollo the Physician and Asclepius and Hygieia and Panaceia and all the gods, and goddesses,
+making them my witnesses, that I will fulfill according to my ability and judgment this oath and this covenant:
+To hold him who has taught me this art as equal to my parents and to live my life in partnership with him,
+and if he is in need of money to give him a share of mine,
+and to regard his offspring as equal to my brothers in male lineage and to teach them this art–if they desire to learn it–without fee and covenant;
+to give a share of precepts and oral instruction and all the other learning to my sons and to the sons of him
+who has instructed me and to pupils who have signed the covenant and have taken the oath according to medical law, but to no one else.
+I will apply dietetic measures for the benefit of the sick according to my ability and judgment;
+I will keep them from harm and injustice.
+I will neither give a deadly drug to anybody if asked for it, nor will I make a suggestion to this effect.
+In purity and holiness I will guard my life and my art.
+I will not use the knife, not even on sufferers from stone, but will withdraw in favor of such men as are engaged in this work.
+Whatever houses I may visit, I will come for the benefit of the sick, remaining free of all intentional injustice,
+of all mischief and in particular of sexual relations with both female and male persons, be they free or slaves.
+What I may see or hear in the course of treatment or even outside of the treatment in regard to the life of men, which on no account one must spread abroad,
+I will keep myself holding such things shameful to be spoken about.
+If I fulfill this oath and do not violate it, may it be granted to me to enjoy life and art, being honored with fame among all men for all time to come;
+if I transgress it and swear falsely, may the opposite of all this be my lot.
+*Pauses to take a breath before continuing*
+I hope that you have learned some of the basics you will need to serve as a medical officer for SDQ.
+The aim is to give you the basics so that you can at least start to think like a Starfleet Medical Officer and build your career for the future.
+It may seem a little overwhelming, but with a little studying and perseverance,
+you will succeed in the Medical Division of United Federation Gamma Quadrant.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

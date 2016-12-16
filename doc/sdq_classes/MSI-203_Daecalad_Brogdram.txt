@@ -1,0 +1,118 @@
+<DESC:Physics>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-203 / Physics
+*Takes a deep breath and proceeds*
+Physics.
+This word came from the ancient Greek, a culture on planet earth. It came from the word physis and means "nature".
+Physics is a natural science that involves the study of matter and its motion through space and time, along with related concepts such as energy and force.
+Physics is the general analysis of nature, conducted in order to understand how the universe behaves. The boundaries of physics are not clearly defined.
+Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry.
+Physics also makes significant contributions through advances in new technologies that arise from theoretical breakthroughs.
+History of Physics:
+<TEXTURE:5a5f4c02-df00-ae14-0ec2-d69b6643c3f4>
+Physics was a part of natural philosophy along with chemistry, certain branches of mathematics, and biology,
+but during the Scientific Revolution in the 17th century on planet earth, the natural sciences emerged as unique research programs in their own right.
+In the Archaic period 650 BCE - 480 BCE, Natural philosophy on earth has its origins in the old Greek culture.
+Pre-Socratic philosophers like Thales refused supernatural, religious or mythological explanations for natural phenomena and proclaimed that every event had a natural cause.
+They proposed ideas verified by reason and observation and many of their hypotheses proved successful in experiment, for example atomism.
+Classical physics became a separate science when early modern Europeans used these experimental and quantitative methods to discover what are now considered to be the laws of physics.
+For example Kepler, Galileo and Newton, discovered and unified the different laws of motion.
+Experimental physics had its debuts with experimentation concerning statics by medieval Muslim physicists like al-Biruni and Alhazen.
+During the industrial revolution, as energy needs increased, so did research, which led to the discovery of new laws in thermodynamics, chemistry and electromagnetics.
+Modern physics started with the works of Max Planck in quantum theory and Einstein in relativity, and continued in quantum mechanics pioneered by Heisenberg, Schrödinger and Paul Dirac.
+<TEXTURE:7077ee6a-b2e1-eb3b-5bcd-2258f034db4d>
+Philosophy of physics
+Physics was known as natural philosophy until the late 18th century. It stems in many ways from ancient Greek philosophy.
+Starting with Thales first attempt to characterize matter, to Democritus deduction that matter should be reduced to an invariant state, the Ptolemaic astronomy of a crystalline firmament,
+and Aristotle's book Physics (an early book on physics, which attempted to analyze and define motion from a philosophical point of view),
+various Greek philosophers advanced their own theories of nature.
+In the 19th century physics was realized as a discipline distinct from philosophy and the other sciences.
+Physics, as with the rest of science, relies on philosophy of science to give an adequate description of the scientific method.
+The scientific method employs from the earlier reasoning as well as a empirical evidence reasoning and the use of Bayesian inference to measure the validity of a given theory
+The development of physics has answered many questions of early philosophers. But it has also raised new questions.
+Study of the philosophical issues surrounding physics, the philosophy of physics, involves issues such as the nature of space and time,
+determinism, and metaphysical outlooks such as empiricism, naturalism and realism.
+Many physicists have written about the philosophical implications of their work, for instance Laplace, who championed causal determinism,
+and Erwin Schrödinger, who wrote on quantum mechanics.
+The mathematical physicist Roger Penrose has been called a Platonist by Stephen Hawking, a view Penrose discusses in his book,
+The Road to Reality. Hawking refers to himself as an "unashamed reductionist" and takes issue with Penrose's views.
+<TEXTURE:1d0bff00-1967-4ede-3159-e155d478629e>
+Classical physics
+Classical physics includes the traditional branches and topics that were recognized and well-developed before the beginning of the 20th century:
+Classical mechanics is concerned with bodies acted on by forces and bodies in motion and may be divided into
+- statics (study of the forces on a body or bodies at rest)
+- kinematics (study of motion without regard to its causes),
+- dynamics (study of motion and the forces that affect it);
+Mechanics may also be divided into solid mechanics and fluid mechanics (known together as continuum mechanics),
+the latter including such branches as hydrostatics, hydrodynamics, aerodynamics, and pneumatics.
+Acoustics, the study of sound, is often considered a branch of mechanics,
+because sound is due to the motions of the particles of air or other medium through which sound waves can travel and thus can be explained in terms of the laws of mechanics.
+Among the important modern branches of acoustics is ultrasonics, the study of sound waves of very high frequency beyond the range of human hearing.
+Optics, the study of light, is concerned not only with visible light but also with infrared and ultraviolet radiation, which exhibit all of the phenomena of visible light except visibility, e.g.,
+reflection, refraction, interference, diffraction, dispersion, and polarization of light.
+Heat is a form of energy, the internal energy possessed by the particles of which a substance is composed;
+thermodynamics deals with the relationships between heat and other forms of energy.
+Electricity and magnetism have been studied as a single branch of physics since the intimate connection between them was discovered in the early 19th century;
+an electric current gives rise to a magnetic field and a changing magnetic field induces an electric current.
+Electrostatics deals with electric charges at rest, electrodynamics with moving charges, and magnetostatics with magnetic poles at rest.
+<TEXTURE:0e1e479b-8eea-7f4d-2336-2b79bcf8898d>
+Modern physics
+Much of the modern physics is concerned with the behavior of matter and energy on the very large or very small scale or under extreme conditions.
+Examples are atomic and nuclear physics, which matter on the smallest scale at which chemical elements can be identified.
+On a more smaller scale is the physics of elementary particles. It is concerned with the most basic units of matter.
+This branch of physics is also known as high-energy physics because of the extremely high energies necessary to produce many types of particles in large particle accelerators.
+On this scale, ordinary, commonsense notions of space, time, matter, and energy are no longer valid.
+The two main theories of modern physics present a different picture of the concepts of spacetime, and matter from that presented by classical physics.
+Quantum theory is concerned with the discrete, rather than continuous, nature of many phenomena at the atomic and subatomic level,
+and with the complementary aspects of particles and waves in the description of such phenomena.
+The theory of relativity is concerned with the description of phenomena that take place in a frame of reference that is in motion with respect to an observer.
+The special theory of relativity is concerned with relative uniform motion in a straight line and the general theory of relativity with accelerated motion and its connection with gravitation.
+Both quantum theory and the theory of relativity find applications in all areas of modern physics.
+<TEXTURE:29595c66-10a4-460f-915c-853a0d1ef5df>
+Applied physics
+In general, applied physics is the physics research which is intended for a particular use.
+It differs from engineering because an applied physicist does not design something, but rather is using physics research with the aim of developing new technologies or solving a problem.
+Physics is used heavily in engineering.
+For example, statics, a subfield of mechanics, is used in the building of bridges and other structures.
+The knowledge of physics helps to create better and more realistic flight simulators, video games, and movies, and is often critical in forensic investigations.
+With the standard consensus that the laws of physics are universal and do not change with time, physics can be used to study things that would ordinarily be mired in uncertainty.
+For example, in the study of the origin of a planet, one can reasonably model earth's mass, temperature, and rate of rotation, over time.
+It also allows for simulations in engineering which drastically speed up the development of a new technology.
+Scientific method
+Physicists working on a scientific method to test the validity of a physical theory.
+Physicists use a scientific method to test the validity of a physical theory,
+using a methodical approach to compare the implications of the theory in question with the associated conclusions drawn from experiments and observations conducted to test it.
+Experiments and observations are collected and compared with the predictions and hypotheses made by a theory,
+thus aiding in the determination or the validity/invalidity of the theory.
+A scientific law is a concise verbal or mathematical statement of a relation that expresses a fundamental principle of a theory, like Newton's law of universal gravitation.
+Physics covers a wide range of phenomena, from the largest known objects like superclusters of galaxies,
+to the smallest known parts from elementary particles, the quarks, neutrinos and electrons.
+The most basic objects composing all other things. Sometimes physics is called the "fundamental science".
+Physics aims to describe the various phenomena that occur in nature in terms of simpler phenomena. Thus, physics aims to both connect the things observable to humans to root causes, and then connect these causes together.
+One example may be the observation that certain rocks (Lodestone) were attracted to one another by an invisible force.
+What the ancient Chinese were observing was later called magnetism. The ancient Greeks observes that that objects, like amber, when rubbed with fur would cause also a invisible attraction between the two.
+This was later called electricity. Further work in the 19th century revealed that these two forces were just two different aspects of one force, the electromagnetism.
+This process of "unifying" forces continues today, and electromagnetism and the weak nuclear force are now considered to be two aspects of the electroweak interaction.
+Physics hopes to find an ultimate reason (Theory of Everything) for why nature is as it is.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

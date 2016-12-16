@@ -1,0 +1,144 @@
+<DESC:Introduction to Trill>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-107 / Intro to Trill
+*Takes a deep breath and proceeds*
+<TEXTURE:9af3b938-0b37-8fd4-bfdd-5de879d5dff9>
+Trill is a M-class planet in the Trill system in the Alpha Quadrant.
+Trill's first contact with alien life was in the early 21st century, when a Vulcan ship landed, proposing friendship and cultural information exchange.
+Trill society was deeply divided by this development, with many fearing the outsiders represented a threat to the symbionts.
+The ruling council eventually allowed for limited contact with Vulcan's, but no other alien races.
+This first contact also led to increased security around and secrecy regarding the symbionts. Circa 2063, Trill was visited by the L'Dira.
+Trill's refusal to deal with the unknown race led to an attack on the planet, killing over fifty.
+This tragic error in understanding convinced the ruling council to increase their knowledge of the galaxy.
+The planet joined the United Federation of Planets some time around the early 23rd century; before that the planet's military was the Trill Private Service.
+Madza Bral, a Trill politician, was elected Federation President not long afterwards.
+It is the homeworld of two sentient species, the humanoid Trill and the non-humanoid Trill symbiont.
+The Trill are a humanoid species native to the planet Trill.
+A small proportion of the Trill population co-exists with a sentient symbiotic organism known as a symbiont inside their bodies.
+The resulting joined Trill have personalities which are a synthesis of the two beings including the memories, and to some extent the personalities, of the previous hosts of the symbiont.
+The Trill are distinguished by two rows of spots going down each side of their body, from head to toe.
+One of the main neurotransmitters in the Trill brain is isoboromine.
+Joined Trill are also extremely allergic to insect bites; the biochemical connections between the host and symbiont can not tolerate the reaction caused by the insect's venom.
+One Trill peculiarity is that they are known for having cold hands.
+The brain of a joined Trill has two cerebral nuclei and two different brain wave patterns.
+<TEXTURE:c9797503-b4dd-0004-3d55-f27af2e44870>
+The Symbiont was a sentient vermiform life form from the planet Trill.
+The symbiont appears worm-like in shape, although larger than most common Earthworms.
+It can live in pools on the planet Trill or within a Trill humanoid host.
+It is transferred from one humanoid Trill host to another upon the death of the host. Humans could also be used as a host to a Symbiont,
+however the Symbiont could not remain in their bodies for long without physically harming the Human host.
+The Symbiont took with it all memories of the previous Trill hosts. Upon joining, the new Trill host gained these memories.
+<TEXTURE:7e5bc0ea-c242-b110-87ee-e64a2eff96db>
+The Symbionts lived in the Caves of Mak'ala on Trill and were cared for by the Guardians.
+They communicated with each other via electrical impulses transmitted through the milky water they inhabited.
+While typically symbionts only communicated with and took Trill as hosts, it was possible for them to communicate with Humans at least through extended contact.
+This was done through matching the symbionts bioelectric patterns with those of the other individual.
+However, this required direct tissue contact between the nerves of the person with those of the symbiont.
+Trill humanoids have a lifespan of around 130 years however a joined trill will die once its symbiont is removed.
+The Trill symbiont is known to survive the lives of several hosts and has been known to live several hundred years.
+Despite the relatively unusual nature of being a joined species,
+that aspect of their culture was widely unknown until 2367 when the Odan symbiont had to be given a new host during the middle of tense negotiations on Peliar Zel.
+Such a public example of the dual nature of the Trill brought to the forefront what had previously been a very private matter to Trill for several millennia.
+In contrast to the greater revelation of their nature, the Trill are not a secretive species. To them, the joined nature their culture is normal and not something they would think to comment on without prompting.
+Indeed, joined Trill can be seen as particularly genial and many have served the Federation as distinguished ambassadors, including Odan and Dax.
+Trills don't look for romance the way Humans do.
+They consider it quite a nuisance and view it as a weakness of the young.
+Although a Trill host may have romantic feelings on occasion, it is the symbionts wish to live on a higher plane and to try to rise above those sorts of temptations.
+Trill law forbids re-association between subsequent hosts of joined persons who were romantically involved.
+Trills who are found guilty of re-association are expelled from Trill society, and their symbionts die with their current host.
+Trill Science Ministry:
+The Trill are a technologically advanced species and the Trill Science Ministry is a leading center of learning and experimentation.
+The Trill Science Ministry is an educational institute and one of the premiere institutes of science in the Federation, on par with the Vulcan Science Academy.
+Located on the Trill homeworld, the Ministry was a leader in the field of spatial and subspace anomalies in the 2370s, in particular the study of wormholes.
+Notable scientists at the Ministry included Lenara Kahn, Hanor Pren, and Bejal Otner, all of whom visited Deep Space 9 in 2372 to conduct experiments in the creation of artificial wormholes.
+The Ministry later found a way to collapse the Alpha Quadrant terminus of the Bajoran wormhole without harming the Prophets.
+This attempt was sabotaged by a Changeling posing as Dr. Julian Bashir on DS9.
+<TEXTURE:8c3e8e4b-0369-1b95-648f-bf3c82b2c84e>
+Dax:
+The Dax symbiont played a big part in the history of the Federation for many years, but became well known when  he was joined with a Starfleet officer by the name of Jadzia.
+She was born in 2341 on the Trill homeworld. Growing up, Jadzia was always a shy and quiet child.
+She lived with her mother, father and sister on Trill and was always very driven by her ambitions to one day be joined to a symbiont.
+She spent much of her early life focusing on achieving her goals. She was the only member of her family who would ever become joined to a symbiont.
+Prior to her joining, Jadzia attended Starfleet Academy and applied to the Trill Symbiosis Commission for joining after graduation.
+While at the Academy, she earned Premier Distinctions in astrophysics, exoarchaeology, exobiology and zoology.
+After working hard, Jadzia was initially rejected for joining and eliminated from the program by her field docent, Curzon Dax in 2364.
+She successfully re-applied that same year and became the only Trill in history to successfully complete the program after having been rejected.
+This experience would haunt her for years to come and is one reason why she never had positive feelings about returning to Trill.
+She never could understand why she was washed out of the program by Curzon.  She was joined to Dax in 2367 after the death of its previous host, Curzon.
+After being approved for joining, she had heard of Curzon's deteriorating health and requested that she receive the Dax symbiont after Curzon's death.
+Later, during her zhian'tara, she learned that Curzon's reasons for rejecting her original application were personal, since he had actually fallen in love with her.
+After being joined to Dax, Jadzia's training and experiences made the adjustment to having seven different lifetimes of memories and experiences relatively easy.
+After joining, Jadzia picked up on the habits of her 7 previous hosts, such as clasping her hands behind her back, taking up Klingon martial arts, an interest in Klingon culture and playing Ferengi tongo, just to name a few.
+Jadzia became an important figure during the Dominion War.
+With the threat of invasion, Jadzia commanded the Defiant in a mission to mine the Bajoran Wormhole.
+She was ordered to do this in order to prevent further Dominion reinforcements from coming through. Ultimately, this action was the catalyst that began the Dominion War.
+After Deep Space 9 was taken by the Cardassian/Dominion fleet, Jadzia piloted the Defiant to safety. Soon after, she became involved in several battles with the Dominion aboard the Defiant.
+During a mission to destroy a ketracel-white facility in Cardassian space, the Dax symbiont was badly injured from the explosion.
+Jadzia, along with the rest of her crew, was rescued soon after by the Rotarran.
+Joining:
+On average, only 300 symbionts are available for hosting each year.
+Because there are many more humanoid Trill than symbionts, prospective hosts are weeded out by a demanding selection procedure, overseen by the Symbiosis Commission.
+The competition for the few symbionts is fierce and attracts the brightest and most highly motivated of Trill society.
+Often the would-be hosts excel in their chosen fields and it is not uncommon for them to hold several degrees or distinctions prior to their joining.
+Prospective hosts may eventually become initiates under the supervision of a field docent, a joined Trill who evaluates the prospective host's suitability for joining and makes a recommendation to the Commission.
+A negative recommendation usually means the initiate is cut from the joining program.
+The Symbiosis Commission is the Trill organization responsible for nearly all aspects of the joining of a Trill host and symbiont.
+The Guardians work for the Commission and care for the symbionts before they are joined in the Caves of Mak'ala.
+The Caves of Mak'ala are underground caverns on the planet Trill that house deep, expansive salt-water pools that are the natural habitat of the Trill's symbiont.
+Common knowledge in Trill society dictates that only 1 in 1000 Trill make acceptable hosts;
+in fact, this figure is vastly inflated, and is closer to 1 in 2, but the myth is perpetuated very carefully in order to avoid the widespread chaos which would arise if the information were made public.
+Unless the joined Trill objects, a prospective host may request a specific symbiont.
+If a host is weak, the personality of the symbiont will overwhelm it.
+The joined Trill has several tools at their disposal for dealing with various aspects of their previous hosts.
+The telepathic ceremony of Zhian'tara allows a current host to divest the symbiont of the personality and all the memories of a previous host, which are temporarily hosted in volunteers.
+The transferring process is performed and supervised by a symbiont guardian, an unjoined Trill telepath.
+The ceremony creates a chance for closure by having the new host address the previous hosts directly as a means of distinguishing their voices and cementing the sense of finality of its latest transition.
+Similarly, the Rite of Emergence can focus the voice of a single previous host among the memories of the other, allowing for a more direct converse in times of need for the current host.
+The Zhian'tara ritual is roughly similar to the Vulcan fal-tor-pan ritual, since both enable the respective species to perform a synaptic pattern displacement, the transfer of what could be considered as a soul.
+The joining takes place by means of a pouch that is on the stomach of the host.
+The symbiont is placed in the pouch and works its way into the abdomen of it's host, where is begins to connect with the host's central nervous system.
+The two are biologically interdependent but at 93 hours after their joining, neither can survive without the other.
+After the joining, the Trill host keeps their given first name but carries the symbiont's name as their last name.
+When addressed, the host is referred to by their given, or first, name as the host is the one that is functioning in society and the symbiont is a parasite joined to this host.
+<TEXTURE:fa81e350-dd2d-90b3-5256-e40d799b797e>
+The Symbiosis Commission:
+In the 21st century, Trill was governed by a ruling council, composed solely of joined Trills, and primarily males.
+The council was lead by a head councilor, addressed as "Mr. Speaker".
+The council met in the council chambers, at the time one of the oldest and largest spaces in the capital city, adorned with acelon desks and capped by an opaque dome.
+As early as the mid-21st century, debate raged over abandoning the historic chamber for more modern building.
+The Commission oversees the selection process for potential hosts and symbionts.
+Host initiates must pass all required tests and have their application approved by the Commission in order to become joined.
+Even then the Commission remains an authority in the joined Trill's life.
+They continue to care for the symbionts and give counseling for hosts; this includes requiring that joined Trill perform the Zhian'tara as a means of dealing with the memories of previous hosts.
+Joined Trill may serve the Commission by acting as field docent to prospective hosts.
+The Commission also controls all information regarding the symbionts.
+Though nearly half of the population is capable of being joined,
+they claim that only one Trill in a thousand is capable, thus making the rare symbionts privileges to be earned, as opposed to commodities to be purchased or fought over.
+This nearly became public knowledge after an attempted joining between the Dax symbiont and Joran Belar, a violent sociopath.
+After Joran's execution, the Commission used a chemical memory block on the symbiont to suppress the killer's personality, and erased all records of the incident from their archives.
+By the 24th century, Trill government was run by a President and a Senate, both housed in the Trill Senate Tower, in the city of Leran Manev.
+That government nearly collapsed when a terrorist attack killed or seriously wounded thousands of symbionts, including that of the president, Lirisse Maz.
+The Maz symbiont was successfully unjoined, and Lirisse Durghan was able to maintain her position.
+Although little is known about the Trill species and their lifestyle, they have played a large part in Starfleet history throughout the centuries.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

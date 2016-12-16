@@ -1,0 +1,307 @@
+<DESC:Planetary Classification>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-205 / Planetary Classification
+*Takes a deep breath and proceeds*
+A planet is a celestial body in orbit around a star or stellar remnants that has sufficient mass for self-gravity and is nearly spherical in shape.
+A planet must not share its orbital region with other bodies of significant size
+(except for its own satellites),
+and must be below the threshold for thermonuclear fusion of deuterium.
+If a celestial body meets those requirements, it is considered a planet; at that point,
+the planet is further classified by its atmosphere and surface conditions into one of twenty-two known categories.
+Classifications of Planets:
+<TEXTURE:5be516c1-d5c2-16e9-d7cc-96212b2a2dd3>
+CLASS A - Geothermal
+AGE - 0-2 billion years
+DIAMETER - 1,000-10,000 km
+LOCATION - Ecosphere/Cold zone
+SURFACE - Partially molten
+ATMOSPHERE - Primarily hydrogen compounds
+EVOLUTION - Cools to become class C
+LIFE FORMS - None
+EXAMPLE - Gothos
+Class A planets are very small, barren worlds rife with volcanic activity.
+This activity traps carbon dioxide in the atmosphere and keeps temperatures on Class A planets very hot, no matter the location in a star system.
+When the volcanic activity ceases, the planet "dies" and is then considered a Class C planet.
+<TEXTURE:e8fb2387-57a0-3461-007b-25d7ef5b7c75>
+CLASS B - Geomorteus
+AGE - 0-10 billion years
+DIAMETER - 1,000-10,000 km
+LOCATION - Hot zone
+SURFACE - Partially molten, high surface temperature
+ATMOSPHERE - Extremely tenuous, few chemically active gases
+LIFE FORMS - None
+EXAMPLE - Mercury
+Class B planets are generally small worlds located within a star system's Hot Zone.
+Highly unsuited for humanoid life, Class B planets have thin atmospheres composed primarily
+of helium and sodium.
+The surface is molten and highly unstable; temperatures range from 450° in the daylight, to nearly -200° at night.
+No life forms have ever been observed on Class B planetoids.
+<TEXTURE:4c61543a-db17-11a2-cfad-abbc4081f58b>
+CLASS C - Geoinactive
+AGE - 2-10 billion years
+DIAMETER - 1,000-10,000 km
+LOCATION - Ecosphere/Cold zone
+SURFACE - Low surface temperature
+ATMOSPHERE - Frozen
+LIFE FORMS - None
+EXAMPLES - Pluto, Psi 2000
+When all volcanic activity on a Class A planet ceases, it is considered Class C.
+Essentially dead, these small worlds have cold, barren surfaces and possess no geological activity.
+<TEXTURE:830b1ae9-95d0-4784-2707-4db59402fba0>
+CLASS D - Planetoid
+AGE - 2-10 billion years
+DIAMETER - 100-1,000 km
+LOCATION - Hot zone/Ecosphere/Cold zone; found primarily in orbit of larger planets or in asteroid fields
+SURFACE - Barren and cratered
+ATMOSPHERE - None or very tenuous
+LIFE FORMS - None
+EXAMPLES - Moon (Sol IIIa), Lunar V (Bajor VIIe)
+These are rocky or icy objects, also known as asteroids or comets respectively, which didn’t grow large enough to form planets.
+Many moons are considered Class D, as are larger objects that often lie in the outer reaches of a star system, known as the Kuiper Belt.
+Most are not suitable for humanoid life, though many can be colonized via pressure domes.
+<TEXTURE:f4a8a622-4bdb-e25d-badc-32f1958c6b84>
+CLASS E - Geoplastic
+AGE - 0-2 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Molten, high surface temperature
+ATMOSPHERE - Hydrogen compounds and reactive gases
+EVOLUTION - Cools to become class F
+LIFE FORMS - Carbon-cycle (Excalbian)
+EXAMPLE - Excalbia
+Class E planets represent the earliest stage in the evolution of a habitable planet.
+The core and crust is completely molten, making the planets susceptible to solar winds and
+radiation and subject to extremely high surface temperatures.
+The atmosphere is very thin, composed of hydrogen and helium.
+As the surface cools, the core and crust begin to harden, and the planet evolves into a Class F world.
+<TEXTURE:60c12df9-3540-51b9-3b1c-3c00ae184b2a>
+CLASS F - Geometallic
+AGE - 1-3 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Volcanic eruptions due to molten core
+ATMOSPHERE - Hydrogen compounds
+EVOLUTION - Cools to become a class G
+LIFE FORMS - Silicon-based (Horta)
+EXAMPLE - Janus IV
+A Class E planet makes the transition to Class F once the crust and core have begun to harden.
+Volcanic activity is also commonplace on Class F worlds; the steam expelled from volcanic eruptions eventually condenses into water,
+giving rise to shallow seas in which simple bacteria thrive.
+When the planet's core is sufficiently cool, the volcanic activity ceases and the planet is considered Class G world.
+<TEXTURE:b805fff2-dcac-61e6-3d5c-d2df8b0117c3>
+CLASS G - Geocrystalline
+AGE - 3-4 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Still crystallizing
+ATMOSPHERE - Carbon dioxide, some toxic gases
+EVOLUTION - Cools to become class K, L, M, N, O or P
+LIFE FORMS - Primitive single-celled organisms
+EXAMPLE - Delta Vega
+After the core of a Class F planet is sufficiently cool, volcanic activity lessens and the planet is considered Class G.
+Oxygen and nitrogen are present in some abundance in the atmosphere, giving rise to increasingly complex organisms such as primitive vegetation like algae,
+and animals similar to sponges and jellyfish.
+As the surface cools, a Class G planet can evolve into a Class H, K, L, M, N, O, or P world.
+<TEXTURE:09988230-c8ca-563d-9f59-6571f5964d24>
+CLASS H - Desert
+AGE - 4-10 billion years
+DIAMETER - 8,000-15,000 km
+LOCATION - Hot zone/Ecosphere/Cold zone
+SURFACE - Hot and acrid, little or no surface water
+ATMOSPHERE - May contain heavy gases and metal vapors
+LIFE FORMS - Drought- and radiation-resistant plants, animal life
+EXAMPLES - Rigel XII, Tau Cygna V, Vulcan
+A planet is considered Class H if less than 20% of its surface is water.
+Though many Class H worlds are covered in sand, it is not required to be considered a desert; it must, however, receive little in the way of precipitation.
+Drought-resistant plants and animals are common on Class H worlds, and many are inhabited by humanoid populations.
+Most Class H worlds are hot and arid, but conditions can vary greatly.
+<TEXTURE:2075a1d8-553d-95d2-5978-f962d7b17f8b>
+CLASS I - Ice Giant
+AGE - 2-10 billion years
+DIAMETER - 140,000-10 million km
+LOCATION - Cold zone
+SURFACE - Tenuous, comprised of gaseous hydrogen and hydrogen compounds; radiates heat
+ATMOSPHERE - Zones vary in temperature, pressure and composition; water vapor may be present
+LIFE FORMS - Unknown
+Example - Q'tahl
+Also known as Uranian planets, these gaseous giants have vastly different compositions from other giant worlds;
+the core is mostly rock and ice surrounded by a tenuous layers of methane, water, and ammonia.
+Additionally, the magnetic field is sharply inclined to the axis of rotation.  Class I planets typically form on the fringe of a star system.
+<TEXTURE:853dc543-891c-fb14-ab97-c0cbd025025e>
+CLASS J - Gas Giant
+AGE - 2-10 billion years
+DIAMETER - 50,000-140,000 km
+LOCATION - Cold zone
+SURFACE - Tenuous, comprised of gaseous hydrogen and hydrogen compounds; radiates some heat
+ATMOSPHERE - Zones vary in temperature, pressure and composition
+LIFE FORMS - Hydrocarbon-based (Jovian)
+EXAMPLES - Jupiter, Saturn
+Class J planets are massive spheres of liquid and gaseous hydrogen, with small cores of metallic hydrogen.
+Their atmospheres are extremely turbulent, with wind speeds in the most severe storms reaching 600 kph.
+Many Class J planets also possess impressive ring systems, composed primarily of rock, dust, and ice.
+They form in the Cold Zone of a star system, though typically much closer than Class I worlds.
+<TEXTURE:c9f80ee1-8e0d-f401-3aa7-a2922105861e>
+CLASS K - Adaptable
+AGE - 4-10 billion years
+DIAMETER - 5,000-10,000 km
+LOCATION - Ecosphere
+SURFACE - Barren, little or no surface water
+ATMOSPHERE - Thin, mostly carbon dioxide
+LIFE FORMS - Primitive single celled organisms; adaptable for humanoid colonization through the use of pressure domes
+EXAMPLES - Mars, Mudd
+Though similar in appearance to Class H worlds, Class K planets lack the robust atmosphere of their desert counterparts.
+Though rare, primitive single-celled organisms have been known to exist, though more complex life never evolves.
+Humanoid colonization is, however, possible through the use of pressure domes and in some cases, terraforming.
+<TEXTURE:e5071813-0c28-122e-b38d-dd55254a6161>
+CLASS L - Marginal
+AGE - 4-10 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Rocky and barren, little surface water
+ATMOSPHERE - Oxygen/argon, high concentration of carbon dioxide
+LIFE FORMS - Limited plant life; suitable for humanoid colonization
+EXAMPLE - Indri VIII
+Class L planets are typically rocky, forested worlds devoid of animal life.
+They are, however, well-suited for humanoid colonization and are prime candidates for terraforming.
+Water is typically scarce, and if less than 20% of the surface is covered in water, the planet is considered Class H.
+<TEXTURE:fc45a472-fa82-d273-614b-248b31a2339e>
+CLASS M - Terrestrial
+AGE - 3-10 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Surface water abundant; if water or ice covers more than 80% of surface, planet is considered Class O or Class P
+ATMOSPHERE - Nitrogen, oxygen, trace elements
+LIFE FORMS - Extensive vegetation, animal life, humanoids
+EXAMPLES: Earth, Risa, Bajor, Betazed
+Class M planets are robust and varied worlds composed primarily of silicate rocks, and are highly suited for humanoid life.
+To be considered Class M, between 20% and 80% of the surface must be covered in water;
+it must have a breathable oxygen- nitrogen atmosphere and temperate climate.
+<TEXTURE:46c1001f-dcce-2b57-134f-9ee473179613>
+CLASS N - Reducing
+AGE - 3-10 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - High surface temperature due to greenhouse effect; water exists only as vapor
+ATMOSPHERE - Extremely dense, carbon dioxide and sulfides
+LIFE FORMS - Unknown
+EXAMPLE - Venus
+Though frequently found in the Ecosphere, Class N planets are not conducive to life.
+The terrain is barren, with surface temperatures in excess of 500° and an atmospheric pressure more than 90 times that of a Class-M world.
+Additionally, the atmosphere is very dense and
+composed of carbon dioxide; water exists only in the form of thick, vaporous clouds that shroud most of the planet.
+<TEXTURE:9d5c7aab-db21-8471-bf47-7d7a8059da8b>
+CLASS O - Pelagic
+AGE - 3-10 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Liquid water covers 80% or more of surface area
+ATMOSPHERE - Nitrogen, oxygen, trace elements
+LIFE FORMS - Aquatic vegetation, animal life, humanoids
+EXAMPLE - Azati Prime, Ka'Tula Prime, Zirat
+Any planet with more than 80% of the surface covered in water is considered Class O.
+These worlds are usually very warm and possess vast cetacean populations in addition to tropical vegetation and animal life.
+Though rare, humanoid populations have also formed on Class O planets.
+<TEXTURE:9ab0f2b0-46ee-b116-7eb9-b0e3747e9aca>
+CLASS P - Glaciated
+AGE - 3-10 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Ecosphere
+SURFACE - Water ice covers 80% or more of surface area
+ATMOSPHERE - Nitrogen, oxygen, trace elements
+LIFE FORMS - Hardy vegetation, animal life, humanoids
+EXAMPLE - Andoria, Exo III, Rebena Te Ra, Rura Penthe
+Any planet whose surface is more than 80% frozen is considered Class P.
+These glaciated worlds are typically very cold, with temperatures rarely exceeding the freezing point.
+Though not prime conditions for life, hearty plants and animals are not uncommon,
+and some species, such as the Aenar and the Andorians, have evolved on Class P worlds.
+<TEXTURE:cc74c835-c6be-3f84-599c-731fc38b4edc>
+CLASS Q - Variable
+AGE - 2-10 billion years
+DIAMETER - 4,000-15,000 km
+LOCATION - Hot zone/Ecosphere/Cold zone
+SURFACE - Ranges from molten to water and/or carbon dioxide ice, due to eccentric orbit or variable output of star
+ATMOSPHERE - Ranges from tenuous to very dense
+EXAMPLE - Genesis Planet
+These rare planetoids typically develop with a highly eccentric orbit, or near stars with a variable output.
+As such, conditions on the planet's surface are widely varied.
+Deserts and rainforests exist within a few kilometers of each other, while glaciers can simultaneously lie very near the equator.
+Given the constant instability, is virtually impossible for life to exist on Class-Q worlds.
+<TEXTURE:06c08642-56f2-9686-8a04-3ae6f71475c3>
+CLASS R - Rogue
+AGE - 2-10 billion years
+DIAMETER - 4,000-15,000 km
+LOCATION - Interstellar space, cometary halos
+SURFACE - May be temperate due to geothermal venting
+ATMOSPHERE - Primarily volcanic outgassing
+LIFE FORMS - Non-photosynthetic plants, animal life
+EXAMPLE - Dakala, Veneihm, Founders' Homeworld (prior to              	2371)
+A Class R planet usually forms within a star system, but at some point in its evolution, the planet is expelled, likely the result of a catastrophic asteroid impact.
+The shift radically changes the planet's evolution; many planets merely die,
+but geologically active planets can sustain a habitable surface via volcanic outgassing and geothermal venting.
+<TEXTURE:2320d472-87e4-117f-b217-aefa63190adc>
+CLASSES S-Gas Supergiant and T - Gas Ultragiant
+AGE - 2-10 billion years
+DIAMETER - 10-50 million km (Class S),
+50-120 million km (Class T)
+LOCATION - Cold zone
+SURFACE - Tenuous, composed of gaseous hydrogen and hydrogen compounds; radiates considerable heat
+ATMOSPHERE - Zones vary in temperature, pressure and composition; water vapor may be present
+LIFE FORMS - Unknown
+Example - Diadem, Tethe-Alla V
+Aside from their immense size, Class S planets are very similar to their Class J counterparts,
+with liquid metallic hydrogen cores surrounded by a hydrogen and helium atmosphere.
+Class T planets represent the upper limits of planetary masses.
+Most exist within a star system's Cold Zone and are very similar to Class S and J planets.
+However, Class T planets occasionally form within a star system's Hot Zone.
+If they are sufficiently massive (13 times more massive than Jupiter),
+deuterium ignites nuclear fusion within the core, and the planet becomes a red dwarf star, creating a binary star system.
+<TEXTURE:89d2b4ce-8b53-fc74-c55f-893c9ef3af3e
+CLASS X - Chthonian,
+AGE - 2-10 billion years
+DIAMETER - 1,000-10,000 km (Class X), 10,000-15,000 km (Class Y)
+LOCATION - Hot zone
+SURFACE - Temperature can exceed 500 Degrees Kelvin
+ATMOSPHERE - Turbulent. Saturated with toxic chemicals and thermionic radiation
+LIFE FORMS - None
+Examples - Osirus, Mimetic (Delta Quadrant)
+Class X planets are the result of a failed Class S, U planet in a star system's Hot Zone.
+Instead of becoming a gas giant or red dwarf star,
+a Class X planet was stripped of its hydrogen/ helium atmosphere.
+The result is a small, barren world similar to a Class B planet, but with no atmosphere and an extremely dense, metal-rich core.
+<TEXTURE:0e3c71f8-b4cf-a6a1-a25c-7dfb9fd7d81a>
+CLASS Y - Demon
+AGE - 2-10 billion years
+DIAMETER - 10,000-15,000 km
+LOCATION - Hot zone
+SURFACE - Temperature can exceed 500 Degrees Kelvin
+ATMOSPHERE - Turbulent. Saturated with toxic chemicals and thermionic radiation
+LIFE FORMS - None
+Perhaps the most environmentally unfriendly planets in the galaxy,
+Class Y planets are toxic to life in every way imaginable.
+The atmosphere is saturated with toxic radiation, temperatures are extreme, and atmospheric storms are amongst the most severe in the galaxy,
+with winds in excess of 500 kph. Simply entering orbit is a dangerous prospect.
+No known environment is less hospitable to humanoid life than a Class Y planetary body.
+CLASS X and Z
+Reserved for other designations of "demon" planets.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck.

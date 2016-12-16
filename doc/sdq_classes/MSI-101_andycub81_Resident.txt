@@ -1,0 +1,65 @@
+<DESC:History of Nursing>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-101 / History of Nursing.
+*Takes a deep breath and proceeds*
+Nursing is a healthcare profession focused on the care of individuals, families, and communities so they may attain,
+maintain, or recover optimal health and quality of life from conception to death.
+From the beginning, there have always been those who take great care in tending the wounded and bringing the ill back to health.
+In fifth century BC, Earth, Hippocrates was one of the first people in the world to study health care, earning him the title of "the father of modern medicine".
+Hence, the Hippocratic Oath, taken by all medical professionals in Starfleet.
+The first instructional school for nurses on Earth was established in 1850 clearing the path for medical institutions all around the globe.
+In relatively short time, the International Council of Nurses was formed in 1899 to oversee nursing education and practice.
+<TEXTURE:d5d13c7b-3b11-327d-8290-5d99b873f194>
+Florence Nightingale, born in 1820, was perhaps the most famous nurse in history, She was a celebrated English nurse, writer and statistician.
+Nightingale laid the foundation of professional nursing with the establishment, in 1860,
+of her nursing school at St Thomas Hospital in London, the first secular nursing school on Earth.
+The annual International Nurses Day is celebrated all over Earth on her birthday.
+<TEXTURE:182e39f6-fb43-e613-9bc0-3b42852374b9>
+Notable nurses from the past also include Christine Chapel of the USS Enterprise served with distinction under Dr. Leonard McCoy from 2266 to the 2280s.
+Chapel had abandoned a career in bio-research for a position in Starfleet,
+in the hopes that a deep-space assignment would one day reunite her with her fiancé,
+Dr. Roger Korby, a scientist of renown, incommunicado from his expedition to Exo III since 2261.
+<TEXTURE:451f5e67-36f0-64df-d31b-57c2ef759012>
+Nurse Alyssa Ogawa was stationed on the USS Enterprise-D in 2367 and later, the USS Enterprise-E under Dr. Beverly Crusher.
+Ogawa was present during several surgeries involving a Trill Ambassador, which was the first Federation observations of the Trill symbiont in 2367.
+<TEXTURE:3290cbe0-a2b0-e9ee-c7fe-3f3ac677788c>
+Starfleet Medical is a department of Starfleet dedicated to biological research and treatment of officers.
+Based out of San Francisco on Earth, Starfleet Medical oversees all Starfleet medical personnel and facilities.
+In the 23rd century, an office was established known as the Starfleet Surgeon General which held some command authority over Starfleet Medical,
+including the power to relieve starship medical officers for incompetence.
+Nurses work in many different areas independently and as part of a team to assess, plan and implement care.
+They are important as they are the ones who are charged with carrying out the orders of the physician.
+They are hands on and are usually the ones who are first to notice complications and begin interventions in such situations.
+Nurses are educated to anticipate and meet the needs of the whole person rather than just the presenting health problem.
+When doctors diagnose and treat the disease, it is nurses who take pre-and post-operative care of the patient.
+Professional nurses do not blindly follow orders; they are critical thinker and problem solvers.
+Nurses have many additional roles and play key roles in meeting the needs of patients, patient safety, medication safety,
+communication and serving as part of the health care team. This role allows nurses to contribute to quality improvement in health care around the clock.
+Nurse's up-to-date knowledge on disease and illness helps them to contribute on creating awareness about health practice, disease and prevention
+Nurses in rehabilitation settings help patients adapt to their disabilities, achieve their greatest potential, and work toward productive lives.
+Being able to function is to maintaining or regaining independence and quality of life, particularly after an illness or injury.
+Nurses also have a key role in Health care Research, especially in the areas of primary care, outcomes research, translation of research into practice, and quality of care.
+Nurses are uniquely qualified to blend communication, clinical, and administrative skills which are necessary to conduct clinical research.
+As medical practitioners we are duty bound the help those suffering or in need.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

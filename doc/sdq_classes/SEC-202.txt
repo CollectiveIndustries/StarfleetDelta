@@ -1,0 +1,179 @@
+<DESC:Federation Charter>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-202 / Federation Charter
+*Takes a deep breath and proceeds*
+<TEXTURE:a257698d-2501-bf21-03a6-023880dfcc70>
+The Charter of the United Federation of Planets (or Federation Charter for short)
+was the document that was ratified by the original members of the United Federation of Planets at that organization's founding in 2161.
+Jonathan Archer was one of the signers of the charter.
+The basis of the charter was the same as that of the one used by all the nations of earth during the founding of the United Nations back in the 20th century on earth after World War II.
+The preamble announces the determination of member nations to save succeeding generations from the scourge of intergalactic war;
+reaffirm faith in the fundamental lifeform rights;
+establish conditions under which justice and mutual respect of law is maintained;
+promote social progress;
+practice benevolent tolerance and live together in peace;
+united to maintain peace and security;
+only use armed forces for common defense;
+and employment of galactic machinery for economic and social advancement.
+There are 110 Articles of the current charter.
+I will not go over all 110 Articles in this class, but we will go over a few of the key ones.
+The current charter was signed on the planet Babel on 11 October 2161.
+It is the highest law of the Federation and is included as Part 5 of the UFGQ Manual for Martial Law
+We, the intelligent lifeforms of the United Federation of Planets,
+determined to save succeeding generations from the scourge of intergalactic war which has brought untold horror and suffering to our planetary social systems,
+and to reaffirm faith in the fundamental intelligent lifeform rights, in the dignity and worth of the intelligent lifeform person,
+to the equal rights of male and female and of planetary social systems large and small,
+and to establish conditions under which justice and mutual respect for the obligations arising from treaties and other sources of interplanetary law can be maintained,
+and to promote social progress and better standards of life in larger freedom,
+And to these ends to practice benevolent tolerance and live together in peace with one another as good neighbors, and to unite our strength to maintain intergalactic peace and security,
+and to ensure by the acceptance of principles and the institution of methods that armed force shall not be used except in the common defense,
+And to employ intergalactic machinery for the promotion of the economic and social advancement of all intelligent lifeforms,
+Have resolved to combine our efforts to accomplish these aims.
+Accordingly, the respective social systems, through representatives assembled on the planet Babel, who have exhibited their full powers to be in good and due form,
+have agreed to the present Charter, and do hereby establish an interplanetary organization to be known as
+the United Federation of Planets.
+<TEXTURE:7381cdb2-62c0-0c74-2acb-a500efade815>
+Chapter I: Purposes and Principles
+Article 1
+The purposes of the United Federation of Planets are:
+To maintain interplanetary peace and security within its acknowledged and accepted borders, and to that end:
+to take effective collective measures for the prevention of threats to the peace,
+the suppression of acts of aggression,
+and to bring about by peaceful means,
+and employing the principles of justice and intergalactic law,
+adjustment or settlement of interplanetary disputes which might lead to a breach of the peace;
+To develop friendly relations among planets based on respect for the principles of equal rights and self-determination of intelligent lifeforms,
+and to other appropriate measures to strengthen universal peace;
+To achieve interplanetary cooperation in solving intergalactic problems of economic, social, cultural, or humanitarian character;
+in promoting and encouraging respect for intelligent lifeform rights; and for fundamental freedoms for all without distinction as to culture, sex, life form, or religious belief;
+and To be a center for conciliation of the actions of all social systems in the attainment of these common ends.
+Article 2
+The Federation and its members, in pursuit of the purposes stated, shall act in accordance with the following principles:
+The Federation is based on the sovereign equality of all its members;
+In order to ensure to all of them equal rights and benefits resulting from membership,
+all members shall fulfill in good faith the obligations assumed by them in accordance with the present Charter;
+All members shall settle their interplanetary disputes by peaceful means in such manner that intergalactic peace, security, and justice, are not endangered;
+In all interplanetary relations, all members shall refrain from the threat, or use, of force against the territorial integrity or political independence of any planetary social system,
+or in any manner inconsistent with the purposes of the United Federation;
+All members shall give the United Federation every assistance in any action taken in accordance with the present Charter,
+and shall refrain from assisting any planetary social system against which the Federation is taking preventive or enforcement action;
+The United Federation shall ensure that planetary social systems which are not members of the Federation act in accordance with these principles as necessary
+for the maintenance of intergalactic peace and security;
+Nothing within the present Charter shall authorize the Federation to intervene in matters which are essentially the domestic jurisdiction of any planetary social system,
+or shall require the members to submit such matters to settlement under the present Charter; but this principle shall not prejudice the application of enforcement measures under Chapter VII.
+Chapter II: Membership
+Article 3
+The original members of the United Federation of Planets shall be those planetary social systems which,
+having participated in the interplanetary conference on interplanetary Federation at Babel,
+or having previously signed the declaration of the United Federation of Planets of 11 October 2161,
+sign the present Charter and ratify them in accordance with Article 110.
+Article 4
+Membership in the United Federation is open to any other peaceful planetary social systems which accept the obligations contained in the present Charter and,
+in the judgment of the Federation, are capable and willing to carry out these obligations;
+The admission of any such planetary social system to membership in the United Federation of Planets
+is contingent upon the decision of the supreme assembly upon recommendation of the Federation Council.
+Article 5
+The Supreme Assembly may suspend the rights and privileges of membership of any member of the United Federation against which the Federation Council has taken preventive or enforcement action.
+The Federation Council may restore these rights and privileges of membership at its discretion.
+Chapter IV: The Supreme Assembly
+Composition
+Article 9
+The Supreme Assembly shall consist of all the members of the United Federation of Planets.
+Each member shall be entitled to have not more than five (5) representatives in this body;
+Functions and Powers
+Article 10
+The Supreme Assembly may discuss any questions on any matters within the scope of the present Charter
+or relating to the powers and functions of any agencies provided for in the present Charter and, except as provided in Article 12,
+may make recommendations to the members and the Federation Council or both on any such questions or matters;
+Article 11
+The Supreme Assembly may consider the general principles of cooperation in maintaining interplanetary peace and security, including disarmament and the regulation of armaments,
+and may make recommendations with regard to such principles to the members or the Federation Council or to both;
+The Supreme Assembly may discuss any questions relative to the maintenance of intergalactic peace and security put to it by any member or the Federation Council,
+or a nonmember planetary social system in accordance with Article 25 Paragraph 2 and, except as provided in Article 12,
+may make recommendations with regard to any such questions to the members, the Federation Council, or the pleading planetary social system,
+or to all of them. Any such question on which action is necessary shall be referred to the Federation Council by the supreme assembly either before or after discussion;
+The Supreme Assembly may call situations which are likely to endanger the interplanetary and intergalactic peace and security to the attention of the Federation Council;
+Voting
+Article 18
+Each member of the Supreme Assembly shall have one (1) vote;
+Decisions of the Supreme Assembly on important decisions shall be made on a two-thirds (2/3) majority vote of the members present and voting.
+These questions shall include: recommendations with respect to the maintenance of interplanetary peace and security;
+the election of non-permanent members to the Federation Council; the election of members of the trusteeship council in accordance with Paragraph 1(c) of Article 86;
+the admission of new members to the Federation; the suspension of the rights and privileges of membership; the expulsion of members;
+questions relating to the operation of the trusteeship system; and budgetary questions;
+Decisions on other questions, including the determination of additional categories of questions to be decided by a two-thirds (2/3) majority,
+shall be made by a majority vote of the members present and voting;
+Article 19
+A member of the United Federation which is in arrears in the payment of its financial obligations to the Federation shall have no vote in the Supreme Assembly
+if the amount it is in arrears equals or exceeds the amount of the contributions due from it for the preceding two accounting periods.
+The Supreme Assembly may, nevertheless, permit such a member to vote if it is satisfied that the failure to pay is due to conditions beyond the control of the member.
+<TEXTURE:f15ad467-873a-eefb-28b3-b0584c90cb25>
+Composition
+Article 23
+The Federation Council shall consist of eleven (11) members of the United Federation.
+The United Nations of Earth,
+the Planetary Union of Vulcan,
+the Andorian Sovereignty,
+the United Alliance of Tellar,
+and the Confederation of Altair
+shall be permanent members of the Federation Council.
+The Supreme Assembly shall elect six (6) other members of the United Federation to be non-permanent members of the Federation Council, due regard being especially paid,
+in the first instance, to the contribution of the members to the United Federation to the maintenance of interplanetary peace and security
+and to the other purposes of the Federation, and also to equitable geo galactic distribution;
+The non-permanent members of the Federation Council shall be elected for a term of two (2) session periods.
+In the first election of non-permanent members, however, three (3) shall be elected for a term of one (1) session period.
+A retiring member shall not be eligible for immediate reelection.
+Functions and Powers
+Article 24
+In order to assure prompt and effective action by the United Federation of Planets,
+its members confer on the Federation Council primary responsibility for the maintenance of interplanetary peace and security,
+and agree that in carrying out its duties under this responsibility the Federation Council acts on their behalf;
+In discharging these duties the Federation Council shall act in accordance with the purposes and principles of the United Federation.
+The specific powers granted to the Federation Council for the discharge of these duties are laid down in Chapters VI, VII, VIII, and XII;
+The Federation Council shall submit regular and, when necessary, special reports to the Supreme Assembly for its consideration;
+Chapter XVIII: Amendments
+Article 107
+Amendments to the present Charter shall come into force for all members of the United Federation
+when they have been adopted by a two-thirds (2/3) vote of the members of the Supreme Assembly
+and ratified in accordance with their respective statutory processes by two-thirds (2/3) of the members of the United Federation,
+including all the permanent members of the Federation Council.
+Article 108
+A general conference of the members of the United Federation for the purpose of reviewing the present Charter
+may be held at a date and place to be fixed by a two-thirds (2/3) vote of the members of the Supreme Assembly
+and by a vote of any seven (7) members of the Federation Council. Each member of the United Federation shall have one (1) vote in the conference;
+Any alterations of the present Charter recommended by a two-thirds (2/3) vote of the conference
+shall take effect when ratified in accordance with their respective statutory processes by two-thirds (2/3) of the members of the United Federation
+including all the permanent members of the Federation Council;
+If such conference has not been held before the tenth regular session of the Supreme Assembly following the coming into force of the present Charter,
+the proposal to call such a conference shall be placed on the agenda of that session of the Supreme Assembly,
+and the conference shall be held if so decided by a majority vote of the members of the Supreme Assembly and by a vote of any seven (7) members of the Federation Council.
+<TEXTURE:769de2f2-faf1-eaf9-fb46-9f7edbb5187a>
+Article 110
+The present Charter, of which the various language texts are equally authentic,
+upon the coming into full force of the United Federation of Planets, shall be transferred by the United Nations to the organization for permanent deposit in its archives.
+Duly certified copies thereof shall be transmitted by the President to the governments of all the signatory social systems.
+In faith whereof the representatives of the governments of the United Federation of Planets have signed the present Charter.
+Done at the planet Babel, 11 October 2161.
+Followed by the signature sheets of the original signatory governments.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

@@ -1,0 +1,153 @@
+<DESC:Introduction to Klingon>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Qaudrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-106 / Introduction to Klingon
+*Takes a deep breath and proceeds*
+<TEXTURE:6711fd45-8484-de28-38b3-4a48cd71e6f0>
+The Klingon Empire was founded some time in the 9th century by Kahless the Unforgettable.
+Who performed many heroic feats including the unification of the Klingon people when he killed the tyrant Molor.
+Kahless came to be revered in Klingon society to the point of near-deification, and many aspects of Klingon culture came to revolve around an emulation of Kahless' life.
+The Klingon Homeworld is referred to by many names: Klinzhai, Kling, Klingon, or Qo'noS (pronounced Kronos).
+This M-class planet is the second in the Klingon Star System. It is about 1.5 times the size of Earth.
+On Qo'noS, there is little water, except for some saline lakes, which is why the climate is hot and the vegetation meager.
+The biggest city on the planet is The First City (veng wa'DIch), the center of the Klingon Empire.
+<TEXTURE:df303915-91fd-e1ee-1dd8-333b2cf70a7f>
+Klingon Society:
+Klingon society functions through a system of family reputation and honor.
+Tradition is an integral part of their lives and breaking from observances is considered a grievous insult to society that is not forgotten easily:
+bringing shame to the offender's name for several generations.
+Klingon society is hierarchically organized.
+Status is generally a matter of descent and relations, although it can occasionally be earned or improved through notable battles or victories.
+Higher classes consist of the Major Houses or family lines, most of whom are quite wealthy and own vast lands guarded by armed forces that are loyal to their house.
+Others have less influence and often enter into an alliance with the more powerful houses to be able to survive; they are often referred to a Minor Houses.
+Bloodlines and relations are also taken very seriously by any true Klingon. Lines comprise of more than mere family members.
+It is more like a network of mutual obligations and defense agreements.
+Deeds done beyond living memory can indebt one family to another for generations, such is their emphasis on repaying debts.
+In this way, there comes a time when the line is too massive to maintain, and some line-founders must split off to form a new name.
+For a Klingon to join a family, it must be done according to the rite of R'uustal, after approval by the matriarch or patriarch of the family house.
+Each House is usually led by the eldest male descendant of the first head of the house, however there is a growing acceptance of the oldest daughter becoming head of House under certain circumstances.
+Although lower-class Klingons do not necessarily consider themselves members of a House, they have normally pledged allegiance to a particular House.
+They usually work as servants or belong to the House's armed forces. If a Klingon behaves dishonorably, his shame reflects on the whole House.
+Males traditionally dominated public life in the Empire, assuming the leading roles in politics and the military with only rare exceptions.
+A notable exception to the prohibition of women serving on the High Council came when Azetbur became Chancellor of the High Council after her father, Gorkon, was assassinated in 2293.
+Women, in turn, traditionally dominated the household and the management of the family's affairs.
+Klingon women were treated as equals except in politics and matters of inheritance.
+They were prohibited by law from serving in the High Council and cannot take control of their Houses unless they have the money and no male successors of the lineage.
+Otherwise, Klingon women were expected to exhibit the same physical prowess and lust for blood and honor as the men.
+<TEXTURE:ca91267b-d732-c4ec-51d8-50424bf1239b>
+Genetics:
+In the year 2154, the Klingons gained access to the genetic material of Human Augments and tried to adapt this genetic engineering to improve themselves.
+The test subjects did gain increased strength and intelligence, but then their neural pathways started to degrade and they died in agony.
+One of the subjects suffered from the Levodian flu, which was modified by the Augment DNA to become a fatal, airborne, mutagenic plague that spread rampantly among the Empire, from world to world.
+In the first stage of this plague, Klingons lost the ridges on their foreheads and began to look more Human.
+With the help of a Klingon scientist named Antaak, Dr. Phlox of the Earth starship Enterprise was able to formulate a cure that halted the genetic effects of the virus in the first stage.
+This retained the changes in appearance along with some minor neural re-ordering.
+The neural ordering caused changes in the emotional makeup of the Klingons. For example, the infected started to feel fear.
+Even though the infected did not develop any stage-two characteristics, such as enhanced strength, speed, or endurance they did not die from it.
+This left millions of Klingons changed. These alterations were even passed on to their children.
+Klingons were apparently so embarrassed by the fallout from their failed attempt at genetic enhancement that they refused to discuss the incident with outsiders.
+Due to the secrecy of the Klingon Empire, knowledge of the change became lost over time to the general population of the Federation.
+By the 24th century, the reason for smooth forehead Klingons was not widely known outside the Empire, and questions were generally met with a brusque answer along the lines of "we don't discuss it with outsiders."
+<TEXTURE:0603b7a8-5039-70d6-2ad0-5c6d701b1402>
+Klingons are classified as "humanoid", since they roughly follow the designs and symmetry of the humanoid body form shared by most of the races in the Alpha Quadrant.
+However, there are some differences.
+The most striking characteristic of a Klingon's appearance is the sagittarian crest on their forehead.
+Every Klingon forehead has its own unique pattern, much like a fingerprint, however certain similarities can be found within family lines.
+The Klingons have a body structure that is partly exoskeleton, meaning their resistance to physical force is far greater than mere flesh, and they have a higher muscle mass ratio than most humans.
+This system is especially suited to protecting the interior organs from damage caused by fighting.
+Heavy chest plates, a heavily-armored back (including spinal cord), and a pronounced brow ridge (to protect the brain) are common features.
+Klingons are capable of comparably greater physical strength and endurance than Terran humans.
+The Klingon body incorporates multiple redundancies for nearly all vital bodily functions, such as an 8-chambered heart, 3 lungs and two livers.
+This characteristic, known as brak'lul, gives Klingons enormous resiliency in battle.
+Despite the considerable sophistication of Klingon technology, significant gaps exist in Klingon medical science,
+in part due to cultural biases that injured warriors should be left to die or to carry out the Hegh'bat, a ritual suicide.
+Klingons have no tear ducts. The blood of Imperial race Klingons is a lavender-colored fluid, while the various genetic fusions exhibit other colour characteristics.
+The olfactory sense of a typical Klingon is typically very keen.
+It is theorized that since the initial stages of the mating ritual involves much "sniffing" of the potential mate,
+it is possible that this is an alternative way of identifying a Klingon's emotions or intent through their pheromones.
+Klingon children matured far more quickly than Human children.
+At the age of only one Earth year, a Klingon child had the appearance a Human child had at about four.
+By the age of eight Earth years, a Klingon attained the maturity a Human did not reach until about age sixteen.
+When Klingon children began growing into adults, they went through jak'tahla, a Klingon form of puberty.
+Like other mammalian species, Klingon females were capable of lactation to breastfeed infants.
+<TEXTURE:d3719ead-0351-0e9a-fabf-32e23780dc14>
+Klingons tended to live for over 150 years, but even into advanced old age, they tended to still be strong enough for combat.
+Klingon Rituals and Beliefs:
+An integral part of tradition is the various rituals that mark milestones in a Klingon's life or the history of the Empire.
+Most notable of the rites is the Rite of Succession, which a future leader of the Empire must complete with a valid Arbiter of Succession overseeing the proceedings.
+Before the Rite can begin, there's another elaborate ceremony needed to confirm the death of the previous leader.
+This is known as the Sonchi Ceremony. For individual Klingon warriors, they are expected to go through the Rite of Ascension to be recognized as a full adult.
+<TEXTURE:dd2c17b1-3dcb-3a79-b2e3-fac5b02430c5>
+The most famed and prestigious warriors receive the honour of induction into The Order of The Bat'leth.
+This elite group has a long tradition, and the Chancellor himself will oversee the inauguration ceremony which normally takes place in the Hall of Warriors at Ty'Gokor.
+This structure houses the bones of Klingon heroes and legends, honouring them with statues and stone tablets detailing their illustrious deeds.
+In Klingon society, the death of a warrior is not mourned, especially a warrior who has died honourably, as in battle or the line of duty.
+In such cases, the survivors celebrate the freeing of the spirit.
+Although Klingons believe in an afterlife (traditionally Sto-Vo-Kor), but there is no burial ceremony.
+They dispose the body in the most efficient means possible.
+There is no equivalent to the devil in Klingon mythology, although a beast known as Fek'lhr is believed to guard the underworld of Gre'thor.
+According to myth, ancient Klingon warriors slew their gods a millennium ago. They were apparently more trouble than they were worth.
+Klingon tradition holds that "A Klingon is a man the day he can first hold a blade".
+Another Klingon ritual is the R'uustai, or bonding ceremony, in which two individuals join families, becoming brothers and sisters.
+Klingons believe that they have the instinctive ability to look an opponent in the eye and see the intent to kill.
+Klingon tradition holds that a Klingon who dies by their own hand will not travel across the River of Blood to enter Sto-Vo-Kor.
+If a Klingon warrior strikes another with the back of his hand, it is interpreted as a challenge to the death.
+Klingon warriors speak proudly to each other - they do not whisper or keep their distance.
+Standing far away and whispering are considered insults in Klingon society.
+<TEXTURE:184ed78f-f75a-04f8-3972-796c5bd3abf3>
+Klingon in Starfleet:
+In 2364, Lieutenant junior grade Worf was assigned as a command division bridge officer on the USS Enterprise (NCC-1701-D), under the command of Captain Jean-Luc Picard.
+Worf spent most of his first year on the Enterprise-D as a relief officer for the conn and other bridge stations.
+Worf was permitted a variation from the Starfleet uniform dress code, and wore a Klingon warrior's sash, sometimes called a baldric by Humans, over his regular duty uniform.
+Following the death of Natasha Yar at the hands of the Armus entity, Worf became acting security chief.
+In 2365, Worf transferred to the operations division and officially became the Enterprise-D's chief tactical officer and security chief.
+He was promoted to the rank of full lieutenant in 2366. After seven years of service aboard the starship, Worf rose in rank to lieutenant commander in 2371.
+During these years of service, Worf's record was marred by a single reprimand, earned when he killed Duras in an honor duel after the latter had Worf's mate, K'Ehleyr, killed.
+Killing Duras directly affected the ascension of a new Klingon Chancellor after the death of K'mpec.
+While awaiting reassignment following the destruction of the Enterprise, Worf took an extended leave of absence from Starfleet to evaluate his future.
+He returned his son to Earth to live with the Rozhenkos while he himself took refuge on Boreth.
+<TEXTURE:a029fa04-4732-da54-96b8-5b40ed2bbad0>
+Meanwhile, on the other side of the Federation, Captain Benjamin Sisko and the crew of Deep Space 9 were having trouble keeping order with the Klingons present at the station.
+When the treaty with the Klingon Empire was threatened during the Klingons' invasion of Cardassia in 2372,
+Sisko stated, "Curzon told me once that in the long run, the only people who can really handle Klingons are Klingons."
+It was at this time he requested Worf's help.
+In 2373, Worf was ordered to take the USS Defiant and join the fleet of ships set to intercept a Borg cube in Sector 001 on a course for Earth.
+Along with the USS Bozeman and USS Lexington, the Defiant was heavily damaged by the cube and Worf was considering a kamikaze attack, when the USS Enterprise-E came to Worf's rescue.
+The Enterprise-E took on board the survivors of the Defiant, including Worf.
+Reunited with his old crewmates, Worf assisted in destroying the cube with the tactical information divulged by Picard.
+After it was destroyed, Worf discovered that a sphere was traveling back in time to 2063, in an attempt to prevent First Contact between Humans and Vulcans.
+After destroying the Borg sphere, Worf successfully helped destroy the Enterprise's deflector dish, which the Borg were turning into an interplexing beacon, and prevent them from changing history.
+<TEXTURE:823ad0ec-7b85-a25c-5f4e-121767b5a3f6>
+Klingon Alliance:
+The Treaty of Alliance (also known as the Klingon Alliance) was the official agreement that established the alliance between the United Federation of Planets and the Klingon Empire.
+Vulcan ambassador Sarek was one of the key figures behind the negotiations that created the alliance, and his son, ambassador Spock, was the one who proposed the alliance.
+The Treaty was regarded with controversy when first suggested, but later proved to be a cornerstone for peace in the Alpha Quadrant.
+The Federation-Klingon alliance represented a fundamental shift in the balance of power in the Alpha and Beta Quadrants, as the two former enemies united.
+According to the treaty's terms, each side could request the other's assistance in fighting against its enemies.
+This clause, in part, forced the Romulan Star Empire to the sidelines, unable to compete against the combined forces of the Federation and the Klingons.
+As a result, the Romulans devoted considerable resources towards trying to break up the alliance, albeit without success.
+By contrast, in 2372 the Dominion was able to break the alliance by manipulating the Klingon Empire into an unprovoked invasion of the Cardassian Union, an action condemned by the Federation.
+The alliance was resumed the following year, after the Dominion joined the Cardassians' war against the Klingons.
+The Klingons continue to be allies to the Federation, and
+continue to play an integral role in Starfleet and the protection of the Gamma Quadrant
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request  one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck
