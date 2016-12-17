@@ -16,7 +16,7 @@ import ConfigParser
 import os
 
 conf = ConfigParser.ConfigParser()
-conf.read(os.path.abspath("config.d/sdc.conf"))
+conf.read(os.path.abspath("config.d/sdq.conf"))
 conf.sections()
 
 ## Config Parse Helper ##
