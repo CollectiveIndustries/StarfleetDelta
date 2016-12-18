@@ -45,7 +45,7 @@ ANSWER_TAG = "\A[A-D]$"
 # SQL section #
 
 	## CLASSES ##
-INSERT_CLASS = "INSERT INTO `courses` (`AutherID`,`Class Name`, `Class Description`) VALUES ('%s','%s','%s')"
+INSERT_CLASS = "INSERT INTO `courses` (`DivID`, `AutherID`, `Class Name`, `Class Description`) VALUES ('%s','%s','%s','%s')"
 LOOKUP_AUTHER = "SELECT `ID` FROM `accounts` WHERE `username` = '%s'"
 
 ASSET_TYPE = "SELECT type.`atid` FROM `asset_types` type WHERE type.`type` = '%s'"
@@ -56,6 +56,8 @@ INSERT_LINE = "INSERT INTO `curriculum` (`classID`,`lineNumber`,`displayText`) V
 
 ASSET_ID = "SELECT a.`aid` FROM `assets` a WHERE a.`uuid`='%s'"
 INSERT_ASSET_LINE = "INSERT INTO `curriculum` (`classID`,`asset_id`,`lineNumber`) VALUES ('%s','%s','%s')"
+
+FILE_NAME = "SELECT `did`, `dname` FROM `divisions` WHERE FileNamePrefix = '%s'"
 
 	## EXAMS ##
 INSERT_EXAM_LINE = "INSERT INTO `exams` (`course_id`, `question_number`, `question`, `a`, `b`, `c`, `d`, `answer`) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s')"
@@ -140,13 +142,14 @@ for c in classes:
 	file = c.split("/")[-1]  # grab the actual file name with out the path
 	row = file.split(".")[0] # chop the extension off
 	name = row.split("_")[0] # split file name into a list using "_" as a seperator
+	div = fetch(FILE_NAME % (name.split("-")[0])) # grab the File name Prefix and crossrefrence with the Divison name on file
 	try: # try to ressemble the Author name if it failes its probably unnamed
 		author = row.split("_")[1]+" "+row.split("_")[2]
 	except Exception: # If name is was not found on the file name throw a warning and add "Unknown Author"
 		print(color.WARNING+"WARNING: "+c+" --> Unknown Author"+color.END)
 		author = "Unknown Author"
-
-	print(color.OKGREEN+"CLASS: "+name+"\nAUTHOR: "+author+color.END)
+	print(color.HEADER+"DIVISION: "+div[1].rstrip()+color.END)
+	print(color.OKGREEN+"\nCLASS: "+name+"\nAUTHOR: "+author+color.END)
 	with open(c,'rb') as file:
 		line_number = 1 # Reset the line counter on each file open
 		for line in file: # Read through the file line by line
@@ -154,7 +157,7 @@ for c in classes:
 				txt = line.replace("<DESC:", "")
 				txt = txt.replace(">","")
 				AID = fetch(LOOKUP_AUTHER %(author))[0]
-				sql(INSERT_CLASS % (AID,name,txt.strip("\n")))
+				sql(INSERT_CLASS % (div[0],AID,name,txt.strip("\n")))
 				print(color.OKGREEN+txt+color.END)
 				CID = fetch(CLASS_ID % (name))[0] # Grab the Class ID number for the class we just added
 
