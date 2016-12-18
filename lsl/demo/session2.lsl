@@ -91,7 +91,6 @@ state running
     {
         USER = llDetectedKey(0);
         MENU_CHANNEL = ID2Chan((string)USER);
-        MENU_HANDLE = llListen(MENU_CHANNEL, "", "", "");
         setText("Exam in progress!\nThis terminal in use by\n" + llGetDisplayName(USER));
         if(debug) llSay(0, "I have been touched by " + llGetDisplayName(USER));
         EXAM = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=init&course_id=" + (string)COURSE_ID);
@@ -115,7 +114,7 @@ state running
             else if (INIT && QUESTIONINDEX <= TOTALQUESTIONS) //INIT == TRUE
             {
                 QUESTION = llList2String(parsedBody, 1);
-                
+	        MENU_HANDLE = llListen(MENU_CHANNEL, "", USER, "");
                 llDialog(USER, QUESTION, ANSWERS, MENU_CHANNEL);
                 // 1) Question Dialog here (parse dialog menu here)
             }
@@ -129,6 +128,10 @@ state running
 	            // 4) DEAL with Answer here
 	            // 5) Fire http request with next question While Index < Total else goto 6)
 		llSay(0,"RESPONSE: "+(string)body);
+		//ANSWER|OK|-EOF-
+		//IF ANSWER OK
+	        QUESTIONINDEX = QUESTIONINDEX + 1; // Next question and fire the event
+		EXAM = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=line&course_id=" + (string)COURSE_ID+"&qindex="+(string)QUESTIONINDEX);
 	}
 	else
         {
@@ -138,7 +141,7 @@ state running
     listen(integer chan, string name, key id, string msg)
     {
         llSay(0, (string)msg);
-        QUESTIONINDEX = QUESTIONINDEX + 1;
+	llListenRemove(MENU_HANDLE);
         EXAM_ANSWER = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=answer&qindex=" + (string)QUESTIONINDEX + "&uuid=" + (string)USER + "&answer=" + msg);
         // 2) GUI Response from USER
         // 3) HTTP Request with answer
