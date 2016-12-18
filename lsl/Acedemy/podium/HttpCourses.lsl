@@ -1,20 +1,20 @@
 /*
 HTTP_menu.lsl
 Program designed to function as an http menu to allow for avatars on SL/OSG to interact with the Acedemic classroom for Starfleet Delta
-    Copyright (C) 2016  Andrew Malone
+   Copyright (C) 2016  Andrew Malone
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 // User configurable variables.
@@ -96,7 +96,7 @@ string StridedMenuText(list items)
     return ReturnString;
 }
 
-//Md5Checksum Encrypted channel hash
+//Md5Checksum Encrypted channel hashing
 integer ID2Chan(string id)
 {
     integer mainkey = 921;
@@ -295,8 +295,9 @@ state class
         llListenRemove(MenuListen);
         API_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(), 0)); //Init the API Channel
         llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(), 0)), "Status:In_Use");
-        llSetText("Class In Progress", <0, 1, 0>, 1.0);
+        llSetText("Class Loading.....", <0, 1, 0>, 1.0);
         FormSection = "class_init";
+        llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(), 0)),"COURSE_ID:"+(string)CourseNumber);
         CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_init&course_id=" + (string)CourseNumber + "&uuid=" + (string)USER); //Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
     }
 
@@ -339,6 +340,8 @@ state class
                     llSetObjectName(":");
                     FormSection = "class_running";
                     LINE_TOTAL = llList2Integer(temp, 4);
+                    llSetText("Class in Progress", <0, 1, 0>, 1.0);
+                    llInstantMessage(USER,"Class written by: "+llList2String(temp, 6)+" For syntax issues or grammatical errors Please IM the Author with the Class Name and details pertaining to the errors, Thank You.");
                     CLASS = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=class_running&course_id=" + (string)CourseNumber + "&course_line=" + (string)COURSE_INDEX);
                 }
                 else if(llToLower(llList2String(temp, 0)) == "error")
@@ -348,7 +351,12 @@ state class
                 }
                 //Respond back to the website with the class_init key to tell MySQL we need the total lines for the class
             }
-            else if(stat == 200 && FormSection == "class_running" && COURSE_INDEX < (LINE_TOTAL + 1))
+            else if(stat == 200 && FormSection == "class_running" && COURSE_INDEX == LINE_TOTAL)
+            {
+                llRegionSay(ID2Chan(llMD5String(llGetObjectDesc(), 0)),"START_EXAM:TRUE");
+                llResetScript();
+            }
+            else if(stat == 200 && FormSection == "class_running" && COURSE_INDEX < (LINE_TOTAL))
             {
                 if(llToLower(llList2String(temp, 0)) == "line")
                 {
