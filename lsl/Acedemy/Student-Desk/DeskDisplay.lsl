@@ -3,12 +3,14 @@ integer listenhandle;
 
 integer COURSE_ID;
 integer totalquestions;
-integer questionindex;
+integer questionindex = 1;
 string question;
 list answers;
 string correctans;
 string chosenans;
 key USER;
+
+integer INIT = FALSE;
 
 integer debug = TRUE;
 
@@ -42,7 +44,7 @@ default
     }
     listen(integer channel, string name, key id, string msg)
     {
-        
+
         list message = llParseString2List(msg, [":"], []);
         if (llList2String(message, 0) == "Texture")
         {
@@ -77,21 +79,30 @@ state running
     http_response(key reqid, integer stat, list metadata, string body)
     {
         if(debug) llSay(0, body);
-        if (reqid == EXAM)
+        if (reqid == EXAM && stat == 200)
         {
-            if (stat == 200)
+            if (!INIT)
             {
                 list parsedBody = llParseString2List(body, ["|"], []);
                 if (llList2String(parsedBody, 0) == "TOTAL")
                 {
                     totalquestions = llList2Integer(parsedBody, 1);
+                    INIT = TRUE;
+                    EXAM = llHTTPRequest(COURSE_PAGE, POST_PARAMS, "branch=line&course_id=" + (string)COURSE_ID+"&qindex="+(string)questionindex);
+                    questionindex += 1;
+                    jump break;
                     if(debug) llSay(0, "Total questions set to " + (string)totalquestions);
                 }
             }
-            else 
+            else //INIT == TRUE
             {
-                llSay(0, "There was an error. Error details as follows: \nERROR CODE: " + (string) stat + "\nERROR INFO: " + body);
+
             }
+            @break;
+        }
+        else
+        {
+            llSay(0, "There was an error. Error details as follows: \nERROR CODE: " + (string) stat + "\nERROR INFO: " + body);
         }
     }
 }
