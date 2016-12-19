@@ -8,8 +8,8 @@ $ERROR = "\n\nFailed to update Users Time Card.\nContact Captain Morketh Sorex S
 
 // SQL statments
 // Insert UUID Username and Email address (AvatarName@Starfleet Delta.co)
-$NEW_AVY_SQL = "INSERT INTO `Starfleet Delta`.`accounts` (`UUID`, `username`, `email`) VALUES ('$uuid', '$name', CONCAT(REPLACE('$name',' ',''),'@Starfleet Delta.co'))";
-$SelectAV = "SELECT ID FROM `Starfleet Delta`.`accounts` WHERE `UUID` = '$uuid'";
+$NEW_AVY_SQL = "INSERT INTO `accounts` (`UUID`, `username`, `email`) VALUES ('$uuid', '$name', CONCAT(REPLACE('$name',' ',''),'@StarfleetDelta.co'))";
+$SelectAV = "SELECT ID FROM `accounts` WHERE `UUID` = '$uuid'";
 $OnFileInsert = "SELECT `ClockUpdate`('$uuid') AS `status`"; //Run the Update function and return a status code
 
 function UserClock($db,$sql)

@@ -27,7 +27,7 @@ $RemoveCommLink = "DELETE FROM `Comms` WHERE `ObjectUUID`='$ObjectUUID'";
 $CommitteeLocked = "SELECT IFNULL(a.DisplayName, a.username) AS `name`, com.url FROM `Comms` com JOIN `accounts` a ON a.ID = com.accountid JOIN `committee` c ON c.aid = a.ID ORDER BY `comid`";
 $DHLocked = "SELECT IFNULL(a.DisplayName, a.username) AS `name`, com.url FROM `Comms` com JOIN `accounts` a ON a.ID = com.accountid WHERE a.dh='1' ORDER BY `comid`";
 $AdminPerms = "SELECT IFNULL(a.DisplayName, a.username) AS `name`, com.url FROM `Comms` com JOIN `accounts` a ON a.ID = com.accountid WHERE a.db_privlage_level='10' ORDER BY `comid`";
-$OnComm = "SELECT IFNULL(a.DisplayName, a.username) AS `name`, com.url FROM `Comms` com JOIN `accounts` a ON a.ID = com.accountid ORDER BY `comid`";
+$OnComm = "SELECT `r`.`rname` AS `rname`, IFNULL(a.DisplayName, a.username) AS `name`, com.url FROM `Comms` com JOIN `accounts` a ON a.ID = com.accountid JOIN `Rank` `r` ON `a`.`RankID` = `r`.`RankID` ORDER BY `comid`";
 
 function UpdateCommLink( $db,$sql )
 {
@@ -209,7 +209,7 @@ function IsOnComm($db,$sql)
         echo "PONG|";
         while($row = mysqli_fetch_array( $result ) )
         {
-            echo $row['name']."|";
+            echo $row['rname']." ".$row['name']."|";
         }
     }
 }
@@ -236,7 +236,7 @@ case "div_lock":
         }
 
         //some message for the titler
-        SendMsg( $db, $Comms, "ADMIN|TITLE|RESET" );
+        SendMsg( $db, $Comms, "$ADMIN|TITLE|RESET" );
         die("-EOF-\n");
 
     case "dh":

@@ -26,8 +26,11 @@ $AcedemyLookup = "SELECT a.`ID`, IFNULL(a.`DisplayName`, a.`username`) AS `name`
 //Course Stats for the Course Selected
 $TotalLines = "SELECT COUNT(*) AS `total` FROM `curriculum` c WHERE c.`classID` = '$CourseID'";
 
+//Get Author name for class.
+$Auth_Name = "SELECT IFNULL(a.`DisplayName`, a.`username`) AS `name` FROM `accounts` a INNER JOIN `courses` c ON c.`AutherID`=a.`ID` WHERE c.`ClassID`='$CourseID'";
+
 // Grab a line from the Course on file and return it if the DisplayText is NULL grab the ASSET type and UUID number TYPE|UUID
-$CourseLine = "SELECT IFNULL(c.`displayText`, CONCAT('ASSET|',CONCAT(aa.`type`,CONCAT(':',a.`uuid`)))) as `line` FROM `curriculum` c LEFT JOIN assets a ON  c.`asset_id` = a.`aid` LEFT JOIN asset_types aa ON a.`type`=aa.`atid` WHERE c.`classID` = '$CourseID' AND c.`lineNumber` = '$course_line'";
+$CourseLine = "CALL `CourseLine`('$CourseID','$course_line')";
 
 //Function defines to keep code clean in this script
 function class_menu($db,$sql)
@@ -80,11 +83,30 @@ function CountLines($db,$sql)
     }
 }
 
+function AuthorName($db,$sql)
+{
+    if(!$result = mysqli_query($db,$sql))
+    {
+        die("ERROR|AuthorName|".mysqli_error($db));
+    }
+    if(mysqli_num_rows($result) > 0)
+    {
+        while($row = mysqli_fetch_array($result))
+        {
+            echo "AUTHOR_NAME|".$row['name']."|";
+        }
+    }
+    else
+    {
+        die("ERROR|MySQL Returned ZERO results when Getting the Course Author of the selected Class.");
+    }
+}
+
 function PullLine($db,$sql)
 {
     if(!$result = mysqli_query($db,$sql))
     {
-        die("ERROR|PullLine|".mysqli_error($db));
+        die("ERROR|PullLine: ".mysqli_error($db));
     }
     if(mysqli_num_rows($result) > 0)
     {
@@ -227,6 +249,7 @@ case "div":
 case "class_init":
     GetRankName($db,$NameByUUID);
     CountLines($db,$TotalLines);
+    AuthorName($db,$Auth_Name);
     die("-EOF-");
     break;
 case "class_running":
