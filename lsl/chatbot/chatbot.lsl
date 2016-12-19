@@ -33,19 +33,19 @@ integer that_begin;
 integer that_end;
 integer cust_begin;
 
-string ANSWER(string in)
+string ANSWER( string in )
 {
     integer begining;
     integer end;
     //<that>BOT ANSWERS HERE</that>
-    begining = llSubStringIndex(in, "<that>"); //get the begining marker for the return chat
-    end = llSubStringIndex(in, "</that>"); //get the ending marker marker for the return chat
-    return llGetSubString(in, begining + 6, end - 1);//select ONLY that section of chat
+    begining = llSubStringIndex( in, "<that>" ); //get the begining marker for the return chat
+    end = llSubStringIndex( in, "</that>" ); //get the ending marker marker for the return chat
+    return llGetSubString( in, begining + 6, end - 1 ); //select ONLY that section of chat
 }
 
-string SearchAndReplace(string input, string old, string new)
+string SearchAndReplace( string input, string old, string new )
 {
-    return llDumpList2String(llParseString2List(input, [old], []), new);
+    return llDumpList2String( llParseString2List( input, [old], [] ), new );
 }
 
 default
@@ -56,37 +56,37 @@ default
         botid = "a62644feee375ab9"; //change this to your BOTID or any BOTID for any webbased AIML chat bot
     }
 
-    on_rez(integer param)
+    on_rez( integer param )
     {
         llResetScript();
     }
 
-    link_message(integer sender_num, integer num, string msg, key id)
+    link_message( integer sender_num, integer num, string msg, key id )
     {
-        requestid = llHTTPRequest("http://www.pandorabots.com/pandora/talk-xml?botid=" + botid + "&input=" + llEscapeURL(msg) + "&custid=" + cust, [HTTP_METHOD, "POST"], "");
+        requestid = llHTTPRequest( "http://www.pandorabots.com/pandora/talk-xml?botid=" + botid + "&input=" + llEscapeURL( msg ) + "&custid=" + cust, [HTTP_METHOD, "POST"], "" );
     }
-    http_response(key request_id, integer status, list metadata, string body)
+    http_response( key request_id, integer status, list metadata, string body )
     {
-        if (request_id == requestid)
+        if ( request_id == requestid )
         {
             //lt status="0" botid="d39d74092e343ef7" custid="927920cc9b50855e">
             //<that>BOT ANSWERS HERE</that>
-            cust_begin = llSubStringIndex(body, "custid=");
-            cust = llGetSubString(body, cust_begin + 8, cust_begin + 23);
-            that_begin = llSubStringIndex(body, "<that>"); // this should be < that > (delete @)
-            that_end = llSubStringIndex(body, "</that>"); //this should be < / that > (delete @)
-            reply = llGetSubString(body, that_begin + 6, that_end - 1);
-            newreply = SearchAndReplace(reply, "%20", " ");
+            cust_begin = llSubStringIndex( body, "custid=" );
+            cust = llGetSubString( body, cust_begin + 8, cust_begin + 23 );
+            that_begin = llSubStringIndex( body, "<that>" ); // this should be < that > (delete @)
+            that_end = llSubStringIndex( body, "</that>" ); //this should be < / that > (delete @)
+            reply = llGetSubString( body, that_begin + 6, that_end - 1 );
+            newreply = SearchAndReplace( reply, "%20", " " );
             reply = newreply;
-            newreply = SearchAndReplace(reply, "& quot;", "\""); //this should be &quot; (delete @) the wiki changes it to "
+            newreply = SearchAndReplace( reply, "& quot;", "\"" ); //this should be &quot; (delete @) the wiki changes it to "
             reply = newreply;
-            newreply = SearchAndReplace(reply, "& lt;br& gt;", "\n"); //the first search should be & lt;br & gt; (delete @)
+            newreply = SearchAndReplace( reply, "& lt;br& gt;", "\n" ); //the first search should be & lt;br & gt; (delete @)
             reply = newreply;
-            newreply = SearchAndReplace(reply, "& gt;", ">"); //the first search should be & gt; (delete @)
+            newreply = SearchAndReplace( reply, "& gt;", ">" ); //the first search should be & gt; (delete @)
             reply = newreply;
-            newreply = SearchAndReplace(reply, "& lt;", "<"); //this first search should be & lt;
+            newreply = SearchAndReplace( reply, "& lt;", "<" ); //this first search should be & lt;
 
-            llSay(0, newreply);
+            llSay( 0, newreply );
             //llSay(0,ANSWER(body));
         }
     }

@@ -34,44 +34,44 @@ default
 {
     state_entry()
     {
-        llOwnerSay("INIT: Systems starting");
-        llSetTimerEvent(5.0);//5 Second refresh
-        StatReq = llHTTPRequest(STAT_PAGE, STAT_PARAMS_POST, "stat=" + llToLower(llGetObjectDesc()));
+        llOwnerSay( "INIT: Systems starting" );
+        llSetTimerEvent( 5.0 ); //5 Second refresh
+        StatReq = llHTTPRequest( STAT_PAGE, STAT_PARAMS_POST, "stat=" + llToLower( llGetObjectDesc() ) );
     }
 
     timer()
     {
-        StatReq = llHTTPRequest(STAT_PAGE, STAT_PARAMS_POST, "stat=" + llToLower(llGetObjectDesc()));
+        StatReq = llHTTPRequest( STAT_PAGE, STAT_PARAMS_POST, "stat=" + llToLower( llGetObjectDesc() ) );
     }
 
-    changed(integer change)
+    changed( integer change )
     {
-        if(change & CHANGED_OWNER)
+        if( change & CHANGED_OWNER )
         {
             llResetScript();
         }
     }
 
-    http_response(key req , integer stat, list met, string body)
+    http_response( key req , integer stat, list met, string body )
     {
         if( req == StatReq )   //Response was from the StatPage
         {
-            if(stat == 200)   //HTTP was Sent correctly
+            if( stat == 200 ) //HTTP was Sent correctly
             {
                 //Set up if statment to handle server Errors here
-                if(llToLower(llGetSubString(body, 0, 5)) == "error:")
+                if( llToLower( llGetSubString( body, 0, 5 ) ) == "error:" )
                 {
-                    llOwnerSay(HTTP_ERROR + "\nSTAT: " + (string)stat + "\nRES: " + (string)body);
+                    llOwnerSay( HTTP_ERROR + "\nSTAT: " + ( string )stat + "\nRES: " + ( string )body );
                 }
                 else
                 {
-                    llSetText(body, <1, 1, 1>, 1.0);
+                    llSetText( body, <1, 1, 1>, 1.0 );
                 }
                 USER = "";
             }
             else
             {
-                llSetText("Error " + (string)stat, <1, 0, 0>, 1.0);
+                llSetText( "Error " + ( string )stat, <1, 0, 0>, 1.0 );
             }
             //llOwnerSay(HTTP_ERROR+"\nSTAT: "+(string)stat+"\nRES: "+(string)body);
         }

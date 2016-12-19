@@ -13,11 +13,11 @@ list Names = [
              ];
 
 
-integer ID2Chan(string id)
+integer ID2Chan( string id )
 {
     integer mainkey = 921;
-    string tempkey = llGetSubString((string)id, 0, 7);
-    integer hex2int = (integer)("0x" + tempkey);
+    string tempkey = llGetSubString( ( string )id, 0, 7 );
+    integer hex2int = ( integer )( "0x" + tempkey );
     return hex2int + mainkey;
 }
 
@@ -27,45 +27,45 @@ default
 {
     state_entry()
     {
-        NETWORK_CHANNEL = ID2Chan(llMD5String(llGetObjectDesc(), 0));
+        NETWORK_CHANNEL = ID2Chan( llMD5String( llGetObjectDesc(), 0 ) );
         owner = llGetOwner();
-        if(debug)
+        if( debug )
         {
-            llSay(0, "Initializing, please wait...");
+            llSay( 0, "Initializing, please wait..." );
         }
-        if(debug)
+        if( debug )
         {
-            llSay(0, "Ready.");
+            llSay( 0, "Ready." );
         }
-        listenhandle = llListen(NETWORK_CHANNEL, "", "", "");
+        listenhandle = llListen( NETWORK_CHANNEL, "", "", "" );
     }
-    listen(integer chan, string name, key id, string msg)
+    listen( integer chan, string name, key id, string msg )
     {
-        if(llList2String(llParseString2List(msg, ["|"], []), 0) == "ALERT")
+        if( llList2String( llParseString2List( msg, ["|"], [] ), 0 ) == "ALERT" )
         {
-            RELAYNAME = llList2String(llParseString2List(msg, ["|"], []), 1);
-            PUSHERNAME = llList2Key(llParseString2List(msg, ["|"], []), 2);
-            vector COORDS = (vector)COORDS;
-            for (count = 0; count < llGetListLength(Names); count++)
+            RELAYNAME = llList2String( llParseString2List( msg, ["|"], [] ), 1 );
+            PUSHERNAME = llList2Key( llParseString2List( msg, ["|"], [] ), 2 );
+            vector COORDS = ( vector )COORDS;
+            for ( count = 0; count < llGetListLength( Names ); count++ )
             {
-                if(debug)
+                if( debug )
                 {
-                    llSay(0, llList2String(Names, count));
+                    llSay( 0, llList2String( Names, count ) );
                 }
                 string simName = llGetRegionName();
                 string newSlurlPrefix = "http://maps.secondlife.com/secondlife/";
-                list details = llGetObjectDetails(PUSHERNAME, [OBJECT_POS]);
-                vector userPOS = llList2Vector(details, 0);
-                string urlSuffix = llEscapeURL(simName) + "/" + (string)llRound(userPOS.x + 1) + "/" + (string)llRound(userPOS.y) + "/" + (string)llRound(userPOS.z);
+                list details = llGetObjectDetails( PUSHERNAME, [OBJECT_POS] );
+                vector userPOS = llList2Vector( details, 0 );
+                string urlSuffix = llEscapeURL( simName ) + "/" + ( string )llRound( userPOS.x + 1 ) + "/" + ( string )llRound( userPOS.y ) + "/" + ( string )llRound( userPOS.z );
 
-                llInstantMessage(llList2Key(Names, count), llGetDisplayName(PUSHERNAME) + " is sending a Security Alert at coordinates " + newSlurlPrefix + urlSuffix + " at the " + RELAYNAME);
+                llInstantMessage( llList2Key( Names, count ), llGetDisplayName( PUSHERNAME ) + " is sending a Security Alert at coordinates " + newSlurlPrefix + urlSuffix + " at the " + RELAYNAME );
             }
         }
-        else if(llList2String(llParseString2List(msg, ["|"], []), 0) == "ADMIN")
+        else if( llList2String( llParseString2List( msg, ["|"], [] ), 0 ) == "ADMIN" )
         {
-            if(llList2String(llParseString2List(msg, ["|"], []), 1) == "REBOOT")
+            if( llList2String( llParseString2List( msg, ["|"], [] ), 1 ) == "REBOOT" )
             {
-                llListenRemove(listenhandle);
+                llListenRemove( listenhandle );
                 llResetScript();
             }
         }
