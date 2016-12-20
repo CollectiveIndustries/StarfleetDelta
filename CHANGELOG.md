@@ -8,6 +8,7 @@
 
 - \[Academics\] Notecard uploader [\#42](https://github.com/CollectiveIndustries/StarfleetDelta/issues/42)
 - \[Acedemics\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
+- \[Academics\] Exams Systems [\#34](https://github.com/CollectiveIndustries/StarfleetDelta/issues/34)
 - \[Acedemics\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/StarfleetDelta/issues/32)
 - \[Combadge\] Database scripted Commlinks [\#31](https://github.com/CollectiveIndustries/StarfleetDelta/issues/31)
 - \[Feature\] Population Statistics for Starfleet Delta [\#20](https://github.com/CollectiveIndustries/StarfleetDelta/issues/20)
