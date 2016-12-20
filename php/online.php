@@ -47,14 +47,14 @@ function RemoveComms( $db,$sql )
     msqli_commit();
 }
 
-switch($BRANCH)
+switch( $BRANCH )
 {
 case "lookup":
-    GetMembers($db,$Members);
-    die("-EOF-");
+    GetMembers( $db,$Members );
+    die( "-EOF-" );
 case "remove":
-    RemoveComms($db,$RemoveComm);
-    die("-EOF-");
+    RemoveComms( $db,$RemoveComm );
+    die( "-EOF-" );
 }
 
 ?>

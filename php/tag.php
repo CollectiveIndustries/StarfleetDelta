@@ -1,7 +1,7 @@
 <?php
-header('Content-type: text/html; charset=utf-8');
-include("config.php");
-mysqli_set_charset($db,"utf8");
+header( 'Content-type: text/html; charset=utf-8' );
+include( "config.php" );
+mysqli_set_charset( $db,"utf8" );
 //	ini_set('default_charset', 'UTF-8');
 $uuid = $_POST['uuid'];
 
@@ -11,17 +11,17 @@ $ERROR = "\n\nFailed to update Group Tag.\nContact Captain Morketh Sorex UFGQ IT
 $Tag = "SELECT IFNULL(a.`DisplayName`, a.`username`) AS `name`, a.`active`, r.`rname`, t.`tag_name`, d.`colorX`, d.`colorY`, d.`ColorZ`, r.`RankLogo` FROM `accounts` a INNER JOIN `divisions` d ON a.`DivID` = d.`did` INNER JOIN `Rank` r ON a.`RankID` = r.`RankID` INNER JOIN `Titles` t ON a.`TitleID` = t.`tid` WHERE `UUID` = '$uuid' LIMIT 1";
 
 
-$query = mysqli_query($db,$Tag);
-$Rows = mysqli_num_rows($query);
-if ($Rows == 0 ) // Is there a record already?
+$query = mysqli_query( $db,$Tag );
+$Rows = mysqli_num_rows( $query );
+if ( $Rows == 0 ) // Is there a record already?
 {
     //No record on file they must be a civilian\observer
     echo "<255,255,255>:═══════\nCivilian\nUFGQ";//\nBUG ".$Rows. "\nuuid = ".$uuid;
     //echo "<255,255,255>:".$Tag;
 }
-elseif ($Rows == 1)
+elseif ( $Rows == 1 )
 {
-    $list = mysqli_fetch_array($query);
+    $list = mysqli_fetch_array( $query );
 
     $name = $list['name'];
     $rank = $list['rname'];
@@ -31,7 +31,7 @@ elseif ($Rows == 1)
     $colorZ = $list['ColorZ'];
     $logo = $list['RankLogo'];
 
-    if (0 == $list['active'])
+    if ( 0 == $list['active'] )
     {
         echo "<255,255,255>:".$logo."\nCivilian\nUFGQ";
     }

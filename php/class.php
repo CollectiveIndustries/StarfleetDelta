@@ -1,7 +1,7 @@
 <?php
-header('Content-type: text/html; charset=utf-8');
-include("config.php");
-mysqli_set_charset($db,"utf8");
+header( 'Content-type: text/html; charset=utf-8' );
+include( "config.php" );
+mysqli_set_charset( $db,"utf8" );
 //	$uuid = "81c65d80-2e5c-42e2-b6f2-0e541368ca1a";
 
 $branch = $_POST['branch']; // this will effect what we do with the rest of the values and what info we pull to allow for multipost comunication to the db from SL
@@ -33,120 +33,120 @@ $Auth_Name = "SELECT IFNULL(a.`DisplayName`, a.`username`) AS `name` FROM `accou
 $CourseLine = "CALL `CourseLine`('$CourseID','$course_line')";
 
 //Function defines to keep code clean in this script
-function class_menu($db,$sql)
+function class_menu( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|class_menu|".mysqli_error($db));
+        die( "ERROR|class_menu|".mysqli_error( $db ) );
     }
-    while($row = mysqli_fetch_array($result))
+    while( $row = mysqli_fetch_array( $result ) )
     {
         echo $row['did']."|".$row['dname']."|";
     }
 }
 
-function class_menu2($db,$sql)
+function class_menu2( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|class_menu2|".mysqli_error($db));
+        die( "ERROR|class_menu2|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
-        while($row = mysqli_fetch_array($result))
+        while( $row = mysqli_fetch_array( $result ) )
         {
             echo $row['ClassID']."|".$row['Class Name']."|";
         }
     }
     else
     {
-        die("ERROR|MySQL returned an empty result set for the chosen class group.");
+        die( "ERROR|MySQL returned an empty result set for the chosen class group." );
     }
 }
 
-function CountLines($db,$sql)
+function CountLines( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|CountLines|".mysqli_error($db));
+        die( "ERROR|CountLines|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
-        while($row = mysqli_fetch_array($result))
+        while( $row = mysqli_fetch_array( $result ) )
         {
             echo "TOTAL|".$row['total']."|";
         }
     }
     else
     {
-        die("ERROR|MySQL Returned ZERO results when counting lines in the selected course.");
+        die( "ERROR|MySQL Returned ZERO results when counting lines in the selected course." );
     }
 }
 
-function AuthorName($db,$sql)
+function AuthorName( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|AuthorName|".mysqli_error($db));
+        die( "ERROR|AuthorName|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
-        while($row = mysqli_fetch_array($result))
+        while( $row = mysqli_fetch_array( $result ) )
         {
             echo "AUTHOR_NAME|".$row['name']."|";
         }
     }
     else
     {
-        die("ERROR|MySQL Returned ZERO results when Getting the Course Author of the selected Class.");
+        die( "ERROR|MySQL Returned ZERO results when Getting the Course Author of the selected Class." );
     }
 }
 
-function PullLine($db,$sql)
+function PullLine( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|PullLine: ".mysqli_error($db));
+        die( "ERROR|PullLine: ".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
-        while($row = mysqli_fetch_array($result))
+        while( $row = mysqli_fetch_array( $result ) )
         {
             echo "LINE|".$row['line']."|";
         }
     }
     else
     {
-        die("ERROR|MySQL Returned ZERO results when pulling the line from the selected course.");
+        die( "ERROR|MySQL Returned ZERO results when pulling the line from the selected course." );
     }
 }
 
-function GetRankName($db,$sql)
+function GetRankName( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|GetRankName|".mysqli_error($db));
+        die( "ERROR|GetRankName|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
-        while($row = mysqli_fetch_array($result))
+        while( $row = mysqli_fetch_array( $result ) )
         {
             echo "RANK_NAME|".$row['rname']."|".$row['name']."|";
         }
     }
     else
     {
-        die("ERROR|MySQL Returned ZERO results when pulling the Avatar's Rank and Name.");
+        die( "ERROR|MySQL Returned ZERO results when pulling the Avatar's Rank and Name." );
     }
 }
 
-function IsCommittee($db,$sql)
+function IsCommittee( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|IsCommittee|".mysqli_error($db));
+        die( "ERROR|IsCommittee|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
         return TRUE;
     }
@@ -156,13 +156,13 @@ function IsCommittee($db,$sql)
     }
 }
 
-function IsAcademy($db,$sql)
+function IsAcademy( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|IsAcademy|".mysqli_error($db));
+        die( "ERROR|IsAcademy|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
         return TRUE;
     }
@@ -171,13 +171,13 @@ function IsAcademy($db,$sql)
         return FALSE;
     }
 }
-function IsDepartmentHead($db,$sql)
+function IsDepartmentHead( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|IsDepartmentHead|".mysqli_error($db));
+        die( "ERROR|IsDepartmentHead|".mysqli_error( $db ) );
     }
-    if(mysqli_num_rows($result) > 0)
+    if( mysqli_num_rows( $result ) > 0 )
     {
         return TRUE;
     }
@@ -187,76 +187,78 @@ function IsDepartmentHead($db,$sql)
     }
 }
 
-function OtherStaff($db,$sql)
+function OtherStaff( $db,$sql )
 {
-    if(!$result = mysqli_query($db,$sql))
+    if( !$result = mysqli_query( $db,$sql ) )
     {
-        die("ERROR|OtherStaff|".mysqli_error($db));
+        die( "ERROR|OtherStaff|".mysqli_error( $db ) );
     }
-    while($row = mysqli_fetch_array($result))
+    while( $row = mysqli_fetch_array( $result ) )
     {
         // User is unauthorized so kill the script we dont really care anymore
-        die("ERROR|".$row['rname']." ".$row['name'].", Unauthorized Access Detected");
+        die( "ERROR|".$row['rname']." ".$row['name'].", Unauthorized Access Detected" );
     }
 }
 
-function AuthLevel($db)
+function AuthLevel( $db )
 {
     //Grab our authentication lookups and set them up here as a global value
     global $NameByUUID;
     global $CommitteeLookup;
     global $DH;
     global $AcedemyLookup;
-    if(IsCommittee($db,$CommitteeLookup))
+    if( IsCommittee( $db,$CommitteeLookup ) )
     {
         return "full";
     }
-    else if(IsAcademy($db,$AcedemyLookup))
+    else if( IsAcademy( $db,$AcedemyLookup ) )
     {
         return "full";
     }
-    else if(IsDepartmentHead($db, $DH))
+    else if( IsDepartmentHead( $db, $DH ) )
     {
         return "dh";
     }
-    else if(IsOtherStaff($db,$NameByUUID))
+    else if( IsOtherStaff( $db,$NameByUUID ) )
     {
         return "none";
     }
 }
 
 // all the Magic happens in this section here multi-post comunication from SL to the DB
-switch ($branch) {
+switch ( $branch )
+{
 case "menu": // Grab a list of divisions provide them to SL as a | seperated list for the menu
     echo "DIV_MENU|";
-    switch (AuthLevel($db)) {
-    case "full": //Full menu
-        class_menu($db,$ALLClassMenu);
-        break;
-    case "dh": //DH Menu
-        class_menu($db,$DHmenu);
-        class_menu($db,$BasicMenu);
-        break;
-    case "none":
-        break;
+    switch ( AuthLevel( $db ) )
+    {
+        case "full": //Full menu
+            class_menu( $db,$ALLClassMenu );
+            break;
+        case "dh": //DH Menu
+            class_menu( $db,$DHmenu );
+            class_menu( $db,$BasicMenu );
+            break;
+        case "none":
+            break;
     }
-    die("-EOF-");
+    die( "-EOF-" );
 case "div":
     echo "CLASS_MENU|";
-    class_menu2($db,$ClassByDivId);
-    die("-EOF-");
+    class_menu2( $db,$ClassByDivId );
+    die( "-EOF-" );
     break;
 case "class_init":
-    GetRankName($db,$NameByUUID);
-    CountLines($db,$TotalLines);
-    AuthorName($db,$Auth_Name);
-    die("-EOF-");
+    GetRankName( $db,$NameByUUID );
+    CountLines( $db,$TotalLines );
+    AuthorName( $db,$Auth_Name );
+    die( "-EOF-" );
     break;
 case "class_running":
-    PullLine($db,$CourseLine);
-    die("-EOF-");
+    PullLine( $db,$CourseLine );
+    die( "-EOF-" );
     break;
 }
 
-die(" -EOF- ");
+die( " -EOF- " );
 ?>

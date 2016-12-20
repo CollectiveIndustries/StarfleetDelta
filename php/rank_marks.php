@@ -1,7 +1,7 @@
 <?php
-header('Content-type: text/html; charset=utf-8');
-include("config.php");
-mysqli_set_charset($db,"utf8");
+header( 'Content-type: text/html; charset=utf-8' );
+include( "config.php" );
+mysqli_set_charset( $db,"utf8" );
 
 ?>
 <html>
@@ -17,15 +17,16 @@ mysqli_set_charset($db,"utf8");
                                                                 <th>Rank Logo</th>
                                                                 </tr>
                                                                 <?php
-                                                                header('Content-type: text/html; charset=utf-8');
+                                                                header( 'Content-type: text/html; charset=utf-8' );
 
 $query = "SELECT rname, RankLogo FROM `Rank`"; //You don't need a ; like you do in SQL
-$result = mysqli_query($db,$query);
+$result = mysqli_query( $db,$query );
 
 //	echo "<table>"; // start a table tag in the HTML
 
-while($row = mysqli_fetch_array($result))
-{   //Creates a loop to loop through results
+while( $row = mysqli_fetch_array( $result ) )
+{
+    //Creates a loop to loop through results
     echo "<tr><td>" . $row['rname'] . "</td><td>" . $row['RankLogo'] . "</td></tr>";  //$row['index'] the index here is a field name
 }
 

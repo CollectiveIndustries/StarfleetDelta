@@ -1,7 +1,7 @@
 <?php
-header('Content-type: text/html; charset=utf-8');
-include("config.php");
-mysqli_set_charset($db,"utf8");
+header( 'Content-type: text/html; charset=utf-8' );
+include( "config.php" );
+mysqli_set_charset( $db,"utf8" );
 
 ?>
 <html>
@@ -18,12 +18,13 @@ mysqli_set_charset($db,"utf8");
                                                                                 <input style = "background-color:#6D6968;" type="text" name="name" value="YourName Resident"><br><br>
                                                                                         <select style = "background-color:#6D6968;">
                                                                                                 <?php
-                                                                                                $result = mysqli_query($db,"SELECT `ClassID`,`Class Name`  FROM `courses`");
-while($row = mysqli_fetch_array($result))
-{   //Creates a loop to loop through results
+                                                                                                $result = mysqli_query( $db,"SELECT `ClassID`,`Class Name`  FROM `courses`" );
+while( $row = mysqli_fetch_array( $result ) )
+{
+    //Creates a loop to loop through results
     echo "<option>" . $row['ClassID'] . " ". $row['Class Name'] . "</option>";
 }
-mysqli_close($db);
+mysqli_close( $db );
 ?>
 </select>
 <br><br>Score:<br>

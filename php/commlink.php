@@ -194,7 +194,7 @@ function ValidComm( $db,$sql )
     }
 }
 
-function IsOnComm($db,$sql)
+function IsOnComm( $db,$sql )
 {
     if( !$result = mysqli_query( $db,$sql ) )
     {
@@ -207,7 +207,7 @@ function IsOnComm($db,$sql)
             echo "Running Comm Check\n";
         }
         echo "PONG|";
-        while($row = mysqli_fetch_array( $result ) )
+        while( $row = mysqli_fetch_array( $result ) )
         {
             echo $row['rname']." ".$row['name']."|";
         }
@@ -229,45 +229,45 @@ switch ( $branch )
 case "div_lock":
     switch ( $div_lookup )
     {
-    case "titler":
-        if( $DEBUG )
-        {
-            echo "\nTitler\n";
-        }
+        case "titler":
+            if( $DEBUG )
+            {
+                echo "\nTitler\n";
+            }
 
-        //some message for the titler
-        SendMsg( $db, $Comms, "$ADMIN|TITLE|RESET" );
-        die("-EOF-\n");
+            //some message for the titler
+            SendMsg( $db, $Comms, "$ADMIN|TITLE|RESET" );
+            die( "-EOF-\n" );
 
-    case "dh":
-        if( $DEBUG )
-        {
-            echo "\nDivision Head Locked\n";
-        }
-        SendMsgLocked($db,$DHLocked, $msg);
-        // initilize DH Locking
-        die("-EOF-\n");
+        case "dh":
+            if( $DEBUG )
+            {
+                echo "\nDivision Head Locked\n";
+            }
+            SendMsgLocked( $db,$DHLocked, $msg );
+            // initilize DH Locking
+            die( "-EOF-\n" );
 
-    case "committee":
-        if( $DEBUG )
-        {
-            echo "\nCommittee Member Locked\n";
-        }
-        SendMsgLocked($db,$CommitteeLocked,$msg);
-        // Init Committee Locking
-        die("-EOF-\n");
+        case "committee":
+            if( $DEBUG )
+            {
+                echo "\nCommittee Member Locked\n";
+            }
+            SendMsgLocked( $db,$CommitteeLocked,$msg );
+            // Init Committee Locking
+            die( "-EOF-\n" );
 
-    case "ping":
+        case "ping":
 
-        if( $DEBUG )
-        {
-            echo "\nPing Test\n";
-        }
-        echo "INFO|";
-        IsOnComm($db,$OnComm);
-        //SendMsg( $db, $Comms, "ADMIN|PING" );
-        // Init Ping request
-        die( "-EOF-\n" );
+            if( $DEBUG )
+            {
+                echo "\nPing Test\n";
+            }
+            echo "INFO|";
+            IsOnComm( $db,$OnComm );
+            //SendMsg( $db, $Comms, "ADMIN|PING" );
+            // Init Ping request
+            die( "-EOF-\n" );
     }
 
     SendMsgLocked( $db, $CommLock, $msg );
@@ -276,30 +276,30 @@ case "div_lock":
 default:
     switch ( $msg )
     {
-    case "UPDATE": // UPDATE the Comm table with the comm that just connected
-        if( $DEBUG )
-        {
-            echo "\nUpdateCommLink('$OwnerUUID', '$ObjectUUID', '$url')\n";
-        }
+        case "UPDATE": // UPDATE the Comm table with the comm that just connected
+            if( $DEBUG )
+            {
+                echo "\nUpdateCommLink('$OwnerUUID', '$ObjectUUID', '$url')\n";
+            }
 
-        UpdateCommLink( $db,$AddComm );
-        SendMsg( $db, $Comms, "Commlink Now Activated." );
-        die( "\n\n-EOF\n" );
+            UpdateCommLink( $db,$AddComm );
+            SendMsg( $db, $Comms, "Commlink Now Activated." );
+            die( "\n\n-EOF\n" );
 
-    case "REMOVE":
-        SendMsg( $db, $Comms, "Commlink Deactivated." );
-        RemoveCommLink( $db,$RemoveCommLink );
-        die( "\n\n-EOF-\n" );
+        case "REMOVE":
+            SendMsg( $db, $Comms, "Commlink Deactivated." );
+            RemoveCommLink( $db,$RemoveCommLink );
+            die( "\n\n-EOF-\n" );
 
-    //REMOVE from DB
-    default:
-        if( $DEBUG )
-        {
-            echo "\nswitch: defualt:\nMessege: '$msg'";
-        }
+        //REMOVE from DB
+        default:
+            if( $DEBUG )
+            {
+                echo "\nswitch: defualt:\nMessege: '$msg'";
+            }
 
-        SendMsg( $db, $Comms, $msg );
-        die( "\n\n-EOF-\n" );
+            SendMsg( $db, $Comms, $msg );
+            die( "\n\n-EOF-\n" );
     }
 }
 

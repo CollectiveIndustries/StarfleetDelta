@@ -1,31 +1,34 @@
 <?php
-include("config.php");
-include("functions.php");
+include( "config.php" );
+include( "functions.php" );
 session_start();
 
-if($_SERVER["REQUEST_METHOD"] == "POST") {
+if( $_SERVER["REQUEST_METHOD"] == "POST" )
+{
     // username and password sent from form
 
-    $myusername = mysqli_real_escape_string($db,$_POST['username']);
-    $mypassword = mysqli_real_escape_string($db,$_POST['password']);
+    $myusername = mysqli_real_escape_string( $db,$_POST['username'] );
+    $mypassword = mysqli_real_escape_string( $db,$_POST['password'] );
 
     $sql = "SELECT ID FROM accounts WHERE username = '$myusername' and password = SHA2('$mypassword', 512)";
-    $result = mysqli_query($db,$sql);
-    $row = mysqli_fetch_array($result);
+    $result = mysqli_query( $db,$sql );
+    $row = mysqli_fetch_array( $result );
     $active = $row['active'];
 
-    $count = mysqli_num_rows($result);
+    $count = mysqli_num_rows( $result );
 
     // If result matched $myusername and $mypassword, table row must be 1 row
 
-    if($count == 1)
+    if( $count == 1 )
     {
-        session_register("myusername");
+        session_register( "myusername" );
         $_SESSION['login_user'] = $myusername;
 
-        redirect("welcome.php");
+        redirect( "welcome.php" );
         exit();
-    } else {
+    }
+    else
+    {
         $error = "ERROR: Your Login Name or Password is invalid<br>POST USER: ".$_POST['username']."<br>POST PASSWORD: ".$_POST['password']."<br>myusername: ".$myusername."<br>mypassword: ".$mypassword."<br> Result Count: ".$count;
     }
 }
@@ -36,23 +39,27 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <title>Starfleet Delta Login Portal</title>
 
 <style type = "text/css">
-body {
+              body
+{
 font-family:Arial, Helvetica, sans-serif;
     font-size:14px;
 }
 
-label {
+label
+{
 font-weight:
     bold;
     width:100px;
     font-size:14px;
 }
 
-.box {
+.box
+{
 border:
 #666666 solid 1px;
 }
-.middleDiv {
+.middleDiv
+{
 position :
     absolute;
     width    : 300px;
