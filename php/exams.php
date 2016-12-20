@@ -19,7 +19,7 @@ $QUESTION = "SELECT `question_number`,`question`,`a`,`b`,`c`,`d` FROM `exams` e 
 $StudentID = "SELECT a.`ID` AS `id` FROM `accounts` a WHERE a.`UUID`='$StudentUUID'";
 $QuestionID = "SELECT e.`eid` AS `id` FROM `exams` e WHERE e.`question_number`='$QuestionNumber' AND e.`course_id`='$CourseID'";
 
-$GET_GRADE = "";
+$GET_GRADE = "SELECT((SELECT 1.0*COUNT(*) FROM scores s	JOIN accounts a ON a.ID=s.StudentID JOIN exams e ON e.eid=s.QuestionID WHERE s.answer=e.answer AND a.UUID='$StudentUUID' GROUP BY a.ID) / (SELECT COUNT(*) AS total FROM exams e WHERE e.course_id = '$CourseID' GROUP BY e.course_id)*100) AS `percentage`";
 
 function GetSID( $db,$sql )
 {
@@ -31,7 +31,7 @@ function GetSID( $db,$sql )
     {
         while( $row = mysqli_fetch_array( $result ) )
         {
-            echo "OK|Returning GetSID() ".$row['id'];
+//          echo "OK|Returning GetSID() ".$row['id'];
             return $row['id'];
         }
     }
@@ -51,7 +51,7 @@ function GetQID( $db,$sql )
     {
         while( $row = mysqli_fetch_array( $result ) )
         {
-            echo "OK|Returning GetQID() ".$row['id'];
+//          echo "OK|Returning GetQID() ".$row['id'];
             return $row['id'];
         }
     }
@@ -99,9 +99,17 @@ function GetGrade( $db,$sql )
     {
         die( "ERROR|GetGrade|".mysqli_error( $db ) );
     }
-    while( $row = mysqli_fetch_array( $result ) )
+    if( mysqli_num_rows( $result ) > 0 )
     {
-        echo $row['score'];
+
+        while( $row = mysqli_fetch_array( $result ) )
+        {
+            echo $row['percentage']."|";
+        }
+    }
+    else
+    {
+        echo "ERROR|GetGrade(): MySQL returned ZERO results while Calculating Final Grade.\n".$sql."\nMySQL ERROR: ".mysqli_error( $db );
     }
 }
 
