@@ -30,6 +30,10 @@
 - \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/StarfleetDelta/issues/15)
 - \[Time Clock\] PHP sql statments broke.....again [\#14](https://github.com/CollectiveIndustries/StarfleetDelta/issues/14)
 
+**Merged pull requests:**
+
+- Updates LoginSystem with Origin state [\#43](https://github.com/CollectiveIndustries/StarfleetDelta/pull/43) ([Morketh](https://github.com/Morketh))
+
 ## [v0.1-alpha](https://github.com/CollectiveIndustries/StarfleetDelta/tree/v0.1-alpha) (2016-10-28)
 **Fixed bugs:**
 
