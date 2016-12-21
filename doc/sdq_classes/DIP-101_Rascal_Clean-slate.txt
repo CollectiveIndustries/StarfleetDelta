@@ -1,0 +1,196 @@
+<DESC:Introduction to Bajor>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-101 / Introduction to Bajor.
+*Takes a deep breath and proceeds*
+<TEXTURE:36437067-a3d0-26af-151f-0bf91f9fa9b0>
+The Bajoran sector is located in the Bajoran System which is in the Alpha Quadrant.
+It borders both the Cardassian and Federation space.
+The Bajoran System has 14 planet.
+Bajor is the third planet in the system.
+This is the largest planet within the System.
+It has 5 moons and has a 26-hours in one day.
+Bajor is the homeworld of the Bajorans.
+We have a strong spiritual and faith-centered culture.
+The planet itself is rich in silicon, iron, carbon, and nickel.
+The population is approximately 17.5 billion of which 90% are Bajoran.
+Besides the Bajoran language, Standard Federation English, Kardasi and Ferengi are also spoken on Bajor.
+<TEXTURE:40719862-d186-7d89-a05f-06fdeb138bd5>
+The Bajoran culture was flourishing with great architects, artists, builders, and philosophers even before human on Earth were standing erect.
+So, as you can see we Bajorans are a very very ancient race.
+Hundreds of years before most of the nearby races had developed space flight,
+we had already flown the first solar sail vessel to other planets and even crossed into interstellar space at faster than light speeds.
+As I have mentioned before we are a very highly spiritual race that was freed from 40 years of oppression from the Cardassians.
+*Briefly remembers her days as a resistance fighter in the Occupation*
+As you can see we, Bajorans are humanoid in form and function with the exception of a ridged nose.
+There are slight deviations from the Terran human physiology that can be detected through different reactions due to body changes.
+For example, when a Bajoran female is pregnant, instead of nauseating, they sneeze.
+A Bajoran can live approximately 130 years.
+It is our custom to place the family name before the individual name.
+There are some Bajorans, I'm not one of them, who have decided to drop this tradition and reversed their names to conform to the majority of the other races.
+Our identity is as Bajorans are intrinsically connected to our earcuff.
+They were once used to denote the caste (D'jarra) of the wearer.
+The earcuff tells you about the wearer, their family and occupation.  The earcuff is traditionally worn on the right ear.
+The D'jarra (caste) system had lost it's importance since the occupation even though the wearing of the earcuff continues.
+The profession of the wearer is symbolized in ring on the earcuff.
+For example: religious people will most times have very elaborate cuffs.  While the military earcuffs are plain.
+The earcuffs are unique for each individual.
+The d'jarra is dependent on family line.
+Everyone's d'jarra dictates the profession of the Bajoran for life.
+There is a ranking order and people of a lesser ranking order had to pay respect to a person with a higher ranking d'jarra.
+For example; The Tenari d'jarra is lesser than the Ih'valla (artist) d'jarra.
+IF a Bajoran were to break their d'jarra to pursue another occupation it is punishable by law which will result in either exile or death.
+There is one Bajoran who did try to restore the d'jarra system during his brief role as Emissary in 2372.  His name is Akorem.  He did fail in his attempt.
+It caused a lot of problems among the Bajoran population and it would have denied us Federation membership since it would be caste-based discrimination.
+<TEXTURE:8e5421c1-8310-2999-f251-5d53b32279fc>
+My religion, the Bajoran religious culture, honors the “Prophets”.
+The live in the Celestial Temple in the Bajoran wormhole.  The Prophets are non-corporeal entities that live in the Bajoran wormhole guides the Bajoran people.  We believe in guidance from the
+prophecies that are revealed to ancient religious men; a lot like how the Greeks believed in the Delphi Oracles.
+Within the religious texts of Bajoran faith, safe passage through the Bajoran wormhole (The Celestial Temple) is seen as the blessing of the Prophets.
+There is a very steep hierarchy in the Bajoran religion based around the Vedek Assembly.
+This has an important part in the Bajoran culture and government and is vital to the Bajoran self TEXTURE.
+The religious orders are key in celebrating holidays, weddings, and other ceremonies.
+KAI  -  Religious leader of all Bajorans, and head of the Vedek Assembly. There is only one Kai on all of Bajor, and the Assembly votes on the position.
+The Kai holds influence not only in the religious sector, but is important in Government and even advises the Ministry.
+Performs daily functions similar to those of a Vedek.
+VEDEK  -  Vedeks are established within the faith.
+They may stay with in the order they began or they may start their own.
+They are each permitted to interpret the Prophet's teachings, as well as the proverbs.
+They preside over religious holidays, and train healers and Acolytes.
+Not all sit on the Vedek Assembly, there are a limited number of seats, and one must be selected to join the ranks.
+PRYLAR  -  Head of a shrine or temple.
+They must follow the teaching of a classical order and those of an established Vedek.
+They are allowed to preside over religious holidays, though they do not have a voice within the Vedek Assembly.
+They have completed all of their training, but need to establish themselves before they can start their own order.
+Though many continue to serve as healers.
+MONK  -  Assistants to the Prylars and Vedeks, Monks play an important role in aiding during services.
+They are still learning the faith, and are not yet allowed to lead ceremonies. They may help to teach Acolytes in the beginning stages of the faith, and many also serve as healers.
+ACOLYTE  -  Trainees of the faith.
+Acolytes will learn all Bajoran holidays and customs.
+Training will take place on Bajor, at the Monastery under the supervision of the Monks and Vedeks.
+The central figures in the Bajoran faith are the Prophets.
+They are the transcendent entities that provide Bajoran spiritual truth.
+We Bajorans believe the Prophets are responsible for replenishing our paghs, or life-forces from The Celestial Temple.
+Bajoran religion also believes that the Prophets are responsible for sending their wisdom to the Bajoran people by means of nine Orbs.
+The pagh is a spiritual force inherent to all sentient beings.
+Bajorans believe that the Prophets replenish the pagh from The Celestial Temple.
+Higher religious figures, including Kais and Vedeks are believed to be able to divine the pagh by grasping the ear, which is believed to house the pagh.
+In 2369, Commander Benjamin Sisko, The Emissary, contacted the Prophets.
+They have allowed passage through the wormhole.
+They made contact only with two other people; the Grand Nagus Zek and Quark of the Ferengi Alliance.
+The Prophets do not experience time the way most humanoids do.
+The Prophets also created the Nine Orbs or Tears of the  Prophets.
+The Orbs are hourglass in shape and they give off light and a visible energy field and each Orb has a different power or property.
+Over the past 10 000 years, nine Orbs appeared in the skies above Bajor.
+These Orbs have have been sent by the Prophets from the Celestial Temple to give us Bajorans the Prophet's insight and wisdom.
+Only one Orb remained in the sky after the Cardassian Occupational Forces withdrew from Bajor.
+The others were taken back to Cardassia for scientific research.
+The Orb that remained has the ability to vividly place the user inside a distant memory.
+Bajor was able to recover the Third Orb that is knows as the the Orb of Prophecy and Change.
+This gives the user a surrealist project of the future in which it is open to interpretation even though it is always correct in some way.
+In 2371, the Ferengi Grand Nagus Zek sold the Orb of Wisdom back to Bajor.  This unlocks the overlooked insight for the user.
+In 2373, the Cardassian government in a gesture of peace returned The Orb of Time.  This Orb also has the ability to time travel.
+Traditionally, the Orbs are housed in sacred shrines at different monasteries and temples all across Bajor.
+The policy for the Vedek Assembly to be consulted before issuing Orb encounters has fall out of practice.
+The Bajoran Orbs are:
+The Orb of Prophecy and Change
+The Orb of Wisdom
+The Orb of Time
+The Orb of Contemplation
+The Orb of Memory
+The Orb of Destiny
+The Orb of Truth
+The Orb of Souls
+The Orb of Unity
+The Orb of the Emissary was discovered later and it was not one of the original 9 Orbs.
+The evil counterpart to the Bajoran Prophets are the Pah-Wraiths.
+The Pah-Wraiths did live in the Celestial Temple at one time with the Prophets.
+But for whatever reason, they were banished to the Fire Caves on Bajor.  The Pah-Wraiths are also called “False Prophets”
+The book, Kosst Amojan, is an ancient religious text that details the knowledge of the Pah-Wraith.
+In it it details the imprisonment and release of the Pah-Wraiths.
+The Kosst Amojan is considered a very dangerous book.  The viewing of the text was restricted to the Kai alone.
+The Kosst Amojan told  how to release the Pah-Wraith.
+In 2375, the book was removed from the Archives, the first time in over seven hundred years when Kai Winn and Gul Dukat took it to the Fire Caves.
+They were just about to release the Pah-Wraith when they were stopped by the Emissary.
+The book was then destroyed in the fires of the Pah-Wraith.
+The followers of the Pah-Wraiths identified themselves by wearing red earcuffs and red armbands.
+These followers believed that the Pah-Wraiths would bring about the restoration of Bajor.
+The peaceful planet Bajor's isolated serenity was crushed with the invasion of the Cardassian Occupation forces.
+The Occupation lasted from 2328 to 2369.
+“Murder was just the end of the fun for them, first came the humiliation, mothers raped in front of their children,
+husbands beaten until their wives couldn’t recognize them, old people buried alive because they couldn’t work any more” – Major Kira Nerys.
+In the beginning, it looked like the Cardassian's was there to offer assistance, but their real motive was the rich natural resources that Bajor had to offer.
+Within 20 years Bajor was formally annexed, labor camps were set up, and established an oppressive regime that enslaved us Bajoran's on our own home-world to help strip our own land of it's natural resources
+<TEXTURE:36437067-a3d0-26af-151f-0bf91f9fa9b0>
+Just for practicing our faith, we were beaten, tortured, and imprisoned.
+We not only worked in the mines we also worked in Terok Nor, the ore processing station that was in orbit.
+A lot of our artifacts were stolen or destroyed, the Orbs were taken, family ripped apart, and the female Bajorans were forced to be comfort women to the Cardassian Officers.
+If we were even suspected of committing crimes against our oppressors, we were taken and executed without trial.
+We were driven from our own homeland, to wander the galaxy and settling wherever we could find room.
+Camps of Bajoran refugees sprung up on near by planets.
+These Bajorans were treated as pariahs.
+The the conditions in the camps being very primitive lacking the basic needs of life such as food.
+The Bajoran refugees preferred this way of living then back in the mines.
+More than 10 million Bajorans died at the hands of the Cardassians.
+We Bajorans said that enough is enough and started to fight back.
+I was one of these people.  I was in the resistance.
+It was in the Dahkur province, in the mountains and caves where underground groups organized themselves against our oppressors.
+We carried out bombings and other acts of sabotage.
+All of us Bajorans remembers Shakaar Edon; he is the one who led the resistance cell that liberated on the labor camps call Gallitep.
+During the Occupation we put the D'jarre to the side and we all united and rise up against our oppressors.
+We were no longer a peaceful group of people.
+We became militaristic. Aggression and victories became our main focus, no longer was our main focus on our spirituality.
+The Cardassians were finally compelled to withdraw after nearly all of our resources were depleted, terrorist intimidation and the growing political pressure.
+We actually became a thorn in their side.
+When they  left, they ravaged and burned the cities, desecrated the monastery and poisoning our soil.
+As a result of all of this, my government requested the Federation to assist in administering Terok Nor, renamed Deep Space Nine.
+With the discovery of the wormhole in the nearby Denorios system, we were no longer an isolated, lonely planet.
+The wormhole changed our political status to gaining an immediate strategic value in the Alpha Quadrant.
+This wormhole gave a 70,000 light year shortcut to the Gamma Quadrant.
+Bajor discovered the wormhole and therefore claimed it as theirs in 2369.
+The wormhole is under the joint administration of the Federation and Bajor.
+The Bajoran Provisional Government was set up in haste at the end of the Cardassian Occupation in 2369.
+The Provisional Government were responsible for much of the reconstruction of the Bajoran society, even though in the beginning the shallow premise on which the government was founded was controversial.
+<TEXTURE:40719862-d186-7d89-a05f-06fdeb138bd5>
+Most former resistance fighters makes up the Bajoran Militia military.  Our structure is similar to that of a traditional Earth army with similar ranks.
+The officers or graduates of the Military Academy,  but there are many fiel commissions that were granted to individuals that led and aided the resistance.
+Despite our usual benign activities, our Militia should not be underestimated.  We are highly motivated and possess patriotism comparable to a Klingon or Romulan.
+In 2369, the Bajor-Cardassia Armistice was signed and the Cardassian Supreme Directive 26/45 was issued.
+This allowed for full withdrawal of the Cardassian Occupational Forces from Bajor.
+This Armistice also dealt with the return of POWs and the issue of Cardassian property that remained on Bajor.
+Llvian Proclamation-- signed into law by the the Provisional Government.  All collaborators with the Cardassian forces were permanently exiled from Bajor.
+In 2370, Bajoran prisoners were liberated from the Houted Labor Camp on Cardassia IV.
+Civil unrest was growing on Bajor, this was instigated by The Alliance for Global Unity, also called The Circle.
+The attempt to take control of the Government climaxed in a siege on the Capital city and DS9 that led to the death of legendary hero Li Nalas
+Bajor set up a colony on a planet that we called New Bajor, in the Gamma Quadrant, but that did not last too long.
+The colony was massacred by the dominion.  We also lost quite a few ships including the USS Odyssey.
+Because of this DS9 was given the USS Defiant in which DS9 became an integral part of Starfleet defensive posture in response to the new Dominion threat.
+A formal Bajor-Cardassia Treaty was signed by Kai Winn and Legate Turrel.
+This treat the final peace between Cardassian and Bajor.  This included the exchange of Ambassadors, return of the Orbs and war reparations to Bajor for damages during the Occupation.
+Bajor first applied for Federation membership in 2373, but was delayed due to the impending Dominion invasion into the Alpha Quadrant.
+Later in the same year we signed a nonaggression pact with the Dominion prior to the Dominion war which was followed by the endorsement by the Emissary of the Prophets.
+Three years later, Bajor's petition into the Federation was reopened and it did meet criteria for membership including the democratic global government, established civil rights and advanced technological capability.
+Bajor became a member of the Federation on 23760929.
+Since then, the Federation poured resources into Bajor an an increasing rate in a effort to help aid in the recovery from the Cardassian Occupation and to bring Bajor up to the living standards of other Federation worlds.
+Thanks for listening, and may the Prophets guide you!
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

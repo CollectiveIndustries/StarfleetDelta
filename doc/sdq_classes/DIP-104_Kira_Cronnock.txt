@@ -1,0 +1,140 @@
+<DESC:Romulan Star Empire>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is  DIP-104 / Romulan Star Empire
+*Takes a deep breath and proceeds*
+<TEXTURE:3d6166e4-a0a2-ee42-c56a-2654c720e87b>
+"It's always a game of chess with them." - Jean-Luc Picard
+Today we will be looking at the culture, history, technology, military and diplomacy of the Romulan Star Empire.
+The Romulans are passive warriors.
+Even though they do not commit themselves to war and conflict, they can  be found waiting quietly, plotting the perfect moment to strike or respond.
+CULTURAL AND HISTORICAL OVERVIEW
+<TEXTURE:c752d050-fa69-d954-122d-b4e35b364ec1>
+The Romulan heritage hails from ancient Vulcan ancestry, for it is written that a group of Vulcan expatriates fled the planet almost two thousand years ago
+after being wholly disenchanted with the new peaceful and logic based social reforms brought about by the philosopher Surak.
+Neither their means of escape, nor their technological capabilities during this period are known, as detailed records of this time are thin,
+but on reaching the planet the Federation calls 'Romulus' and its cousin 'Remus' (Romii),
+the colonists settled and created a new society; a society that took it far away from its Vulcan roots.
+Today, the race, which collectively embodies the Romulan Star Empire has spread far and wide across large expanses of their native Beta Quadrant,
+encompassing a highly functional, adaptive and technically advanced military machine.
+The Senate is the central political and governing body of the Empire.  The head of the Senate is the Praetor, with various Proconsuls as subordinates.
+The Romulan government's policy is a dictatorship having complete control over the masses.
+Romulans believe that the  preferred method of existence is for one to maintain an orderly, efficient lifestyle, whist keeping private, low profiles.
+<TEXTURE:0b15d16e-1be2-22ed-5e73-2ea371b18384>
+The Tal Shiar oversees the Empire's intelligence services.
+They also oversee the internal security and ensure that there is complete discipline and loyalty among their people.
+External affairs is a large department within the agency.
+It is the superpower that is in charge of  espionage, infiltrations, collusions, sabotage operations and slander.
+The Tal Shiar can even override traditional governmental powers.
+A Romulan citizen can 'disappear' fairly quickly if they were to speak out against Tal Shiar motives and tactics.
+Imperial scout vessels first made contact with humans in the mid 22nd century.
+It wasn't long afterwards that a bitter war raged between the two powers.
+With the Earth Force vessels having superior propulsion, and both fusion torpedoes and phaser cannons,
+it was not a long enduring war, and at the critical engagement near the planet Cheron everything changed, and the war was over with a resounding Terran victory.
+Losing the war was a humiliation that the Romulan Empire never forgot.
+And because of that, diplomatic negotiation arrangements were made to create the Neutral Zone.
+Neither the Romulans nor the Federation were allowed to enter this part of space.
+This lasted a century till the Romulans violated the treaty.
+Around the mid 23rd century, the Empire moved into a period of peace and cooperation with their new allies -the Klingons.
+In fact there was a great deal of collaboration, involving the sharing of technology (most notably the cloaking device) and certain ship designs.
+The alliance did not last long, and they soon began to exploit the Klingons.
+This caused a grudging mistrust and hatred, which is something the Klingons have never forgotten, or forgiven.
+With the formation of the Federation, the Romulans became isolated and had very little diplomatic contact between the two superpowers.
+There were several incidences in the violations of the Neutral Zone which occurred for years and decades involving several skirmishes,
+such as the Norkan Massacre, even though an outright confrontation was always averted.
+It was during this time that both superpowers continued to expand and advance with knowledge and intelligence on both sides becoming more and more scarce.
+That was until the Tomed Incident in 2311.  This battle resulted in the forming of the Treaty of Algeron.
+The conditions for the Treaty of Algeron reaffirmed the Neutral Zone arrangements and state that violation by either side could be considered as an act of war.
+The treaty also demanded that the Federation stop all research and development in cloaking systems and related technological fields.
+In 2367 it seemed like there was going to be a historic era of peace and cooperation right around the corner.
+But that was not to be.  Spock, a noted Federation Ambassador for many decades, had undertaken a bold and ambitious initiative to unify the Romulan and Vulcan peoples.
+Unknown to Spock, his Romulan Governmental contact, Senator Pardek, had launched a Romulan invasion fleet to Vulcan, which was ultimately doomed.
+Behind the closed doors of the Romulan Senate the idea of unification was immediately rejected.
+They felt that such a unity held no significant advantage to the Empire and it was completely foolish and pointless.
+Also, Vulcan was a member of the Federation.  They were not sure how such a "reunification" could work unless the Empire somehow took control of Vulcan by force.
+This in turn would invoke a full scale conflict with the Federation forces.
+The Empire was completely confident of the victory since they were strong and well equipped.
+For the Federation to lose Vulcan would be the greatest loss for them.
+This was a unique opportunity to finally end the stalemate and confront the Federation head on.  At least this was the Romulan way of thinking at the time.
+This attack was not going to succeed.
+The Federation had planted spies on Romulus.   The spies were not only able to contact Starfleet to inform them of the situation and that a Romulan invasion force was crossing the Neutral Zone,
+They were also able to escape and safely return to Federation space.
+Klingon involvement was suspected, but  no clear evidence as to the means of their undetected arrival and escape were discovered.
+TECHNOLOGY
+The cloaking device is the most noted technological factor in the Romulan military.
+The cloaking system involves an energy envelope which surrounds a vessel or object rendering it undetectable.
+At first light is being bent around the ship rendering it invisible to the eye,  in which it is complimented by several layers of particle scattering fields,
+which further camouflages the vessel to scanning devices and EM sweeps, as all the scanning vessel will pick up is background radiation.
+<TEXTURE:37422565-125a-3ae6-0de6-2f82e1a7aea3>
+The central power generators aboard modern Romulan Warbirds , are forced quantum singularities.
+In essence these are artificially created gravity wells, or micro black holes.
+They are known to give off abnormal amounts of tetryon radiation,
+abnormal enough for certain vessels in reasonable proximity to sometimes detect them, even through the Cloaking Device.
+Principal beam weapons on their vessels involve a focused, directed-energy discharge, that cause matter disruption, and molecular debonding.
+These are known as disrupters.  Disruptors have certain advantages over the Federation phased energy rectification devices, most notably its basic destructive effect, and power efficiency.
+Perhaps the Empire's biggest threat, other than the Dominion, has been the enduring Federation/Klingon Alliance.
+The Romulans have made several attempts to undermine  Federation/Klingon relations, without much success.
+Ever since the Khitomer massacre, the Romulans had managed to forge ties with the Duras family, one the the Klingon Empire's most respected and powerful houses.
+It was through this relationship that the Romulans sought to undermine the alliance structure by affecting changes in the highest levels of Klingon government and forcing Gowron to give up control of the High Council.
+A political argument that developed caused divisions in every area of Klingon society.
+If the argument was allowed to escalate it may have turned into a full scale civil war that could have very well ripped the internal infrastructure of the Empire apart.
+The Federation was watching very closely to what was happening inside the Klingon Empire.  To lose such a great ally would have had a devastating outcome.
+The Federation was alerted to the Romulan involvement.
+So the Federation put into place a blockade of about 20 starships.
+These starships were employing an interlinking gravitic sensor network which could detect the location and proximity of any cloaked ships attempting to cross the border.
+The blockade also  prevented further Romulan subversion, and ended the continued flow of weapons and supplies to the clutches of the Duras collaborators.
+In 2374 the Tal Shiar launched a bold campaign to capture a new concept vessel being developed by the Federation, called the Prometheus.
+The vessel's advanced technology incorporated a tactically brilliant 'multi-vector assault mode' which was of severe concern to the Romulan military.
+If the prototype could be acquired, it would be a severe blow to the Federation,
+for, not only would it be an opportunity to examine the latest Federation technology at close quarters, but the use and exploitation of such technology could be used against them.
+Unfortunately, the vessel could not be secured due to the lacking ability  of the team deployed to recover and pilot it to Romulan territory.
+A rescue party of several Federation vessels also hindered the operation, and at least one Warbird was lost.
+The Federation expelled the Romulan ambassador from Federation space, only to return after profuse apologies some months later.
+The Tal Shiar had lost a good bit of their organization in the Jem'Hadar incident with the Obsidian Order.
+In 2373 a non-aggression pact with the Dominion had been signed.
+This was to prevent any additional entanglements that could have furthered weaken the Empire.
+The initial military opposition of the Dominion had been severely curtailed when the Tal Shiar launched a preemptive strike against the Founders.
+The Romulans temporarily allied themselves with the Cardassian Obsidian Order, a heavy assault against the Founders homeworld in the Gamma Quadrant was carried out.
+But a fleet of 150 Jem'Hadar warships were waiting for them, and the massive defeat cost the Romulan Empire great,
+as their intelligence and security agency and perhaps the most important arm of their government had been utterly decimated.
+After the peace treaty with the Dominion was established the Romulan Star Empire was not destined to be simply interested observers for long,
+for they were indeed drawn into the conflict after Tal Shiar intelligence recovered evidence that the Dominion had long term plans to invade and conquer the Empire.
+They did not know that the evidence was all a lie.
+This was an elaborate scheme invented by Starfleet Officer Benjamin Sisko in an attempt to drag the Empire into the war.
+It was the opinion of the Federation that without the Romulans' assistance, the war could not be won.
+For the first time in history Romulan forces fought alongside the Federation and Klingon fleets to rid the quadrant of the gravest of threats.
+Romulan Star Empire stats:
+GOVERNMENT TYPE      	Senatorial Imperialism
+GOVERNMENT BODY        	Romulan Senate
+HOME SYSTEM                   	Romulus
+MEMBER WORLDS              	66
+CONQUERED WORLDS       	209
+AGE OF THE MODERN ERA 	2015 (Earth years)
+MILITARY DEFENCE            	Romulan Military
+INTELLIGENCE                     	Tal Shiar
+TECHNOLOGY RATING      	458.0
+OCCUPIED TERRITORY    	13,106 sectors
+COLONIES                           	2980
+FLEET SIZE                          	5976 ships
+PRIMARY WARSHIP      	D'deridex Class (Warbird)
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request  one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck!

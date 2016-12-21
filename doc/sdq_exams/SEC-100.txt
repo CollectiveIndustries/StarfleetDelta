@@ -1,0 +1,60 @@
+1. In what year did Starfleet Security gain full divisional status?
+A:2141
+B:2151
+C:2161
+D:2171
+C
+2. True/False The office of the Fleet Admiral is the top tier of UFGQ Security, and all key Security related decisions come through this office. 
+A:True
+B:False
+C:N/A
+D:N/A
+B
+3. What is the minimum amount of time that you will spend as a Security Aide?
+A:4 weeks 
+B:3 weeks
+C:2 weeks 
+D:1 week
+A
+4. True/False - When in sim you must be "On Duty" at all times
+A:True
+B:False
+C:N/A
+D:N/A
+B
+5. What is not one of  the three critical things that you need to be aware of at all times when on duty?
+A:How many visitors are currently on the Sim and where they are.
+B:Who is the ranking Security officer on the Sim.
+C:What everyone in sim is doing.
+D:Who is the ranking Officer in Charge on the Sim.
+C
+6. True/False - When you come on duty you must report to a senior Security officer.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+7. True/False - Security officers should shoot first and ask questions later
+A:True
+B:False
+C:N/A
+D:N/A
+B
+8. When is the only time a UFGQ Security officer should be instructing anyone about anything?
+A:When correcting a direct rule violation
+B:When correcting a suspected violation
+C:When investigating a direct rule violation
+D:When suspecting a direct rule violation
+A
+9. True/False -  The first course of action you should do is to identify if the offender is armed
+A:True
+B:False
+C:N/A
+D:N/A
+A
+10. Who should incident reports be filed with?
+A:Security CO
+B:Security XO
+C:Fleet Admiral
+D:All of the above
+D

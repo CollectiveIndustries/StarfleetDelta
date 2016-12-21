@@ -1,0 +1,204 @@
+<DESC:Bridge Stations - Operations Officers>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:ac597b92-800a-bb09-d058-1d8f552e6332>
+Welcome to the Operations Division of SDQ!
+Our class today is OPS-103 / Bridge Stations - Operations Officers
+*Takes a deep breath and proceeds*
+<TEXTURE:68052150-2657-4b25-7e25-a47d1e1ed658>
+There are actually 4 separate operation officer positions on a Starship,
+but many times the crews will be smaller and a given operation officer may fill multiple Op spots on a bridge.
+The four possible spots are:
+HELM – Controls where the ship goes, also known as Conn
+MAIN OPS – Internal sensors, power allocation controls, transporter and tractor controls
+COMM (Communications) – Internal Comm, External Communication sensors and transmitters, signal processing equipment, universal translator, jamming controls, encryption/decryption controls.
+AUXILIARY OPS – configurable station that may have any of the above controls.
+Often the Operation Officer's title corresponds to the station that they are manning: Helm, Main Ops, Comm, and Axillary Ops.
+So let's talk about the different tasks that each of these stations may perform.
+<TEXTURE:9e774130-40e6-e65d-3dfa-36fc465bd8b4>
+HELM
+Helm is responsible for steering the ship: programming in coordinates to the Navigation computer and controlling the speed that the ship moves at.
+One of Helm's primary jobs is to provide positional and ETA information to the Captain.
+Another critical job is to repeat back the Captain's instruction immediately before executing it, so that the Captain knows precisely what Helm is doing at all times.
+(This also allows any miscommunication of intended course to be immediately identified and corrected.)
+For instance if the Captain asks Helm to set a course for station Omicron 4, then Helm would do two things.
+He would enter the course into the navigation computer and he would repeat back the Captain's instruction. Helm would say something like, “Aye sir, course laid in for Omicron 4.”
+Note that he would NOT actually change the ship's current direction or speed until the Captain tells him to engage.
+Most of the time when the Captain tells Helm to engage a course, he will specify the desired speed. If the Captain says to engage and does not specify a speed,
+then Helm will engage the new course at the same speed the ship was originally traveling.
+Helm would answer something like,
+“Aye sir, engaging at warp 7.”
+Helm usually tells the Captain where the ship is headed (rather than where it is at the moment) and the Estimated Time until Arrival (or ETA).
+Å helmsman needs to keep track of ETA and periodically inform the Captain of how far away (time wise) the ship is from whatever the Captain desires to go to.
+Helm typically provides ETA in 5 or 10 minute increments, plus 1 or 2 smaller increments as they get very close to the destination.
+Most of the time the Captain will ask Helm for an ETA as soon as the course is laid in and engaged—he may even request ETA before ordering Helm to engage,
+and if the elapsed time is too long, he may change the speed at which he asks Helm to engage.
+If the Captain does not ask for ETA, it is recommended that Helm volunteer that information anyhow.
+Here is an example.
+The Captain asks Helm to set course for Starbase 7 at warp 5, and it will take 15 minutes to arrive the destination.
+The Captain asks for ETA and is informed that we will arrive in 15 minutes on given course and speed.
+The Captain says, “Very good” or “Thank you, Helm.”
+At this point the helm officer looks at the clock and estimates what time we will arrive. For instance if the time is 1930 when the 15 minute ETA is given, the the ship will arrive it's destination at 1945.
+Helm will watch the clock. When it is 1935, Helm will say something like, “ETA to destination is 10 minutes, Captain.”
+Again when it is 1940, Helm will say something like, “Captain, ETA to destination is now 5 minutes.”
+When it is 1943, Helm will say something like, “Captain, arriving destination in 2 minutes,”and then make a recommendation.
+If approaching a starbase, the recommendation will be something like, “Recommend we drop to impulse now and come to all stop when reaching the station.”
+If we are approaching a planet, recommendation would be, “Request permission to drop to impulse for safe approach and enter standard orbit.”
+Then when ETA is zero, Helm will inform the Captain that we have arrived.
+<TEXTURE:bcb648c0-02fe-3aaf-0435-4f114288a3bb>
+Technically Helm should never move the ship or change speed without an explicit direction from the Captain.
+The theory is that the Captain is controlling the position of the ship and the helm officer is simply the Captain's arms for steering the ship.
+In reality however, many Captains will establish a close enough bond with their helmsman that certain obvious functions may be automatically performed.
+For instance, the Captain may tell Helm to set a course to planet Sigma Gamma 4 and engage at warp 5.
+When they arrive the solar system, Helm may automatically slow down to impulse and enter a standard orbit when they arrive the planet.
+In this case, Helm would still verbally state what Helm is doing,
+but would not require an explicit direction from the Captain to do so.
+Again, this is ONLY done when there is an agreement between the Captain and Helm that standard operations may be automatically performed. In this case,
+Helm would say something like, “Entering target solar system, slowing to ½ impulse,” followed by “Entering standard orbit around Sigma Gamma 4.”
+The Helm officer does more than just plot courses and steer the ship.
+They also monitor the warp and impulse systems, and immediately inform engineering of any irregularities.
+Helm will run simulations in the Nav computer to look for more optimal courses.
+Helm will manipulate thrusters when they need to to small fine movements.
+Helm will also run diagnostics on the navigation system to assure it is operating properly.
+Helm will also keep an eye on navigation sensors to assure the ship is on course and inform the Captain at the slightest deviation.
+Helm will also use navigation sensors to watch for threats that he may have to steer around (such as ion storms, black holes, etc).
+If the ship is flying at warp, Helm must use the computer to make course corrections.
+If the ship is flying at low impulse, Helm may be permitted to manually steer around obstacles, but most of the time Helm achieves course adjustments via the computer.
+In battles, Helm may be asked to fly evasive maneuvers.
+There are actually two types of evasive maneuvers: specified and manual.
+There is a set of named (or specified maneuvers) that both the Captain and Helm memorize, and often tactical is involved in the evasive maneuver as well.
+Each name means a specific helm and tactical action.
+For instance there is an evasive maneuver requires Helm to fly away from enemy at warp 5 until they are being pursued, then suddenly drop to impulse,
+dive down a bit, come around, then approach the pursuing vessel from underneath as Tactical fires at the vessel.
+That would be a lot for the Captain to say all at once. So that procedure is given a name (say Evasive Maneuver Beta 7).
+When the Captain orders Evasive Maneuver Beta 7, both Helm and Tactical know exactly what to do.
+There is a second type of evasive maneuver called “manual.” This means, quite literally, the helmsman flies the starship by the seat of his pants,
+doing whatever is necessary for the situation. Generally if the Captain wants a manual evasive maneuver, he will just say, “Evasive maneuver.”
+It is understood to be manual when a maneuver name is not specified.
+Manual evasive maneuvers are used both in battles and in other emergency situations, such as when the ship is hit by a shock wave and his hurled out of control towards an asteroid or planetoid.
+Usually the Captain will call “evasive maneuver” in such emergency, unless the s/he has been incapacitated by the emergency.
+But when there is a sudden emergency where the ship will be destroyed if the pilot does not take immediate action, Helm may still take that action without a Captain's orders in order to preserve the ship.
+<TEXTURE:2531cf07-d324-a4b3-33ed-614cf9be5758>
+MAIN OPS
+Main Ops is one of the most critical and busiest positions on the bridge, as it supports and enables pretty much all of the other bridge stations.
+Main Ops is a bit different than most stations in that the officer manning the station does not get direct orders from the Captain for everything he does.
+Some of Main Ops jobs are automatically performed, as situations on the bridge define parts of his/her work.
+In addition to the automatic work, they also have tasks that require a Captain's command, such as operating the transporters and tractors.
+We will talk about that shortly, but first let's look at some of the jobs that Main Ops does automatically.
+Main Ops is in charge of the internal sensors.
+They monitor them constantly to assure that all is running smoothly and they identify problems to the appropriate department.
+For instance, if there is a power fluctuation on the forward deflector array, Main Ops would notify Engineering, and Engineering would dispatch a team to address the issue.
+Main Ops is the station who keeps track of where personnel is on the ship, and would locate a given individual if requested to do so.
+Main Ops also monitors restricted areas and notifies Security if someone enters an off-limits area.
+(Please note that on some ships Security will take over the monitoring of restricted areas—this varies from ship to ship and is at the Captain's discretion.
+But even on those ships, an Operations Officer must know how to do this function and may be called on at any time to assist security with it at any time.)
+Also among their “automatic” tasks, Main Ops will handle all data links and most computer links. If a station needs configuring, Main Ops does it.
+If Science wants to launch a probe,
+Science will define the parameters,
+but Main Ops will configure those parameters into the probe and establish the data link between the probe and the Science station.
+The officer assigned to Main Ops must be proactive and must pay attention to what is happening on the bridge.
+A big piece of Main Ops job is working behind the scenes to ensure the other stations have whatever they need (power, resources such as sensor or LCARS access, data links, etc) to effective do their job.
+Likewise, when an away team is sent out,
+Main Ops will assure that whatever tools they need for the away mission are waiting for them in the transporter room—such as phasers, tricorders, breathing apparatus, etc.
+Technically Main Ops is in charge of all power and resource allocations, but when there is an Engineer on the bridge, Engineering will often take over the power allocation function for them.
+Power allocation requirements change constantly.
+When we are at Condition Green (no alert), power is distributed over the ship as evenly as possible.
+If there are conflicting demands for the available power, then Main ops will prioritize who gets the requested power when.
+Power allocation requirements and priorities change for each of the alert conditions.
+For instance in Yellow Alert, holodecks are disabled and many secondary systems (personal replicators in crew quarters, etc) are shut down.
+All primary systems (life support, bridge stations, main engineering, shields, propulsion systems and weapons systems) receive full power and are brought on line if they were not already on line.
+This puts the ship in a state of readiness.
+When there is a Red Alert, power is borrowed from any non-primary and non-critical station as needed.
+A power reserve of 15% is held for things like shields, weapons systems and propulsion systems.
+There are predefined power allocation requirements for each alert state and when the given alert is called,
+Main Ops (or possibly the Engineer if he is on the bridge) automatically performs the power allocations.
+If we have sustained damage and there is not enough power,
+main ops may elect to move people off of a given deck and shut down life support systems on that deck to get more power for primary and emergency systems.
+<TEXTURE:9b594588-c1da-7119-3bfe-1c6f17f1d542>
+When there is any type of emergency (battle related or damage from natural phenomenon), Main Ops handles the Emergency Response Systems.
+This includes things like taking damage and casualty reports from all decks.
+Main Ops will coordinate with Sickbay to dispatch emergency medical teams and Main Ops will coordinate with Engineering to dispatch emergency repair teams.
+If there is a hull breach, then Main Ops will seal it with a containment field. If there is a hazardous condition on the deck, Main Ops will order the evacuation of that deck.
+Main Ops will perform these functions automatically, but will then inform the Captain of what they have done.
+Main Ops will also provide emergency status reports  any time the Captain asks them for it.
+In addition to these automatic duties, Main Ops is in charge of the transporters and of non-tactical use of the tractors.
+Main Ops does not automatically decide when to operate these devices, but follows orders from the Captain or XO.
+For instance, the Captain may ask Main Ops to keep a lock on the away team and beam the up at the first sign of trouble.
+Or the XO may ask Main Ops to tractor a damaged shuttle and move it into the shuttle bay.
+Normally Tactical will handle any use of tractor beams to ensure the safety of the ship or the enforcement of Federation law
+(such as holding a enemy ship by tractor so that it cannot attack us).
+However, if Tactical is overloaded in an emergency situation, they may request Main Ops to operate the tractor under their direction.
+Also, most of the time tactical is in charge of raising/lowering the shields, but Main Ops may be given control of the shields for special operations,
+such as dropping shields very briefly (seconds) for an emergency transport.
+Main Ops works closely with all departments, but even more so with Tactical and Engineering.
+Because of that, the Chief of Engineering and the Senior Tactical Officer can both give legal command to Main Ops, just like the CO and XO can do.
+<TEXTURE:4f11b1be-e167-eaf0-f63c-ac1dbf658c2d>
+COMM
+The Communications Officer does all external communications for the ship, but that is only a small part of their job.
+They are also in charge of signal detection, triangulation of signal source, signal monitoring, boosting/filtering of signals, encryption/decryption tasks and jamming.
+In addition it is Comm's job to know when an outside source is jamming us or if they are trying to access our LCARS (say to download a virus or override command codes).
+It is also Comm's job to monitor the status of the communication sensor array and to periodically run diagnostics to assure it is functioning properly.
+There are two types of external commutation: routine and nonroutine.
+Routine ones are handled automatically and the non-routine outgoing messages are done on the Captain's command.
+Routine communications would include things like transmitting crew messages through Starfleet to their families, receiving routine transmissions from Starfleet,
+handling the communications for pre-approved shuttle docking or launching, routine transmissions of logs and status reports to Starfleet, etc.
+Basically any communication that falls within the normal day-to-day operations of the starship is automatically handled by the Comm Officer.
+In addition, any necessary signal processing is automatically performed by Comm.
+But if the signal itself is non-standard, then the Comm officer informs the Captain of the signal, the state it arrived in and what steps the Comm Officer is taking on the signal.
+They might say something like,
+“Captain, I am receiving an automated and repeating distress call, and am currently triangulating the coordinates that it originates from.”
+The Captain may ask Comm to put the signal on screen (display visual if there is visual and play the audio part of the signal), or he may ask for a summary of the contents.
+He will most likely ask Comm to transmit the coordinates to Helm as soon as they have them and will probably ask Helm to lay in a course to them.
+Comm would not send a response to the distress signal until ordered to do so by the Captain.
+It is not uncommon for the communication to come in garbled and require some form of signal processing.
+Comm may need to boost the signal or filter it, or decrypt it or run it through the universal translator.
+Once Comm determines what the incoming message says, they report it to the Captain.
+The Captain will instruct them on any further steps they should take, such as sending a reply or relaying the message on to Starfleet.
+There are two ways that Comm may process an incoming communication. The most common way is to inform the Captain that we are are being hailed,
+and the Captain responds by asking Comm to open a communication link to the incoming message.
+In this case, the Captain speaks directly to whoever is hailing him, and Comm's only job is to assure the comm link is stable.
+The other way is for Comm to act as a message relay to the Captain. In this case, Comm would speak directly to whoever initiated the communication, and then tell the Captain what they said.
+The Captain would tell Comm his response, and Comm would pass that on for the Captain.
+Finally, we should cover a bit about jamming and about responding when we are being jammed.
+Most new Comm officers believe that jamming an enemy ship is simply a matter of pushing a button to turn on jamming--but nothing could be further from the truth.
+Jamming requires constantly monitoring the signal frequency of the target ship, and dynamically adjusting the Jamming signal each time the target ship alters their signal frequency.
+Conversely when we are being jammed, there are several things the Comm officer can do. They can alter and rotate their outgoing signal frequency.
+They can study the jamming signal for its characteristics and produce a counter signal in an attempt to nullify it.
+They can try high intensity high frequency short duration data bursts.
+Or they might launch a communication probe with a prerecorded message in hopes that it will be able to fly past the range of the jamming signal and transmit the desired message.
+<TEXTURE:0a8d2383-62c1-7906-d6d6-75d3bd2d04e2>
+AUXILIARY OPS
+Auxiliary Ops is basically an extra Operations officer on the bridge for when it is really busy.
+Axillary Ops can do any function from their axillary station—including flying the ship.
+But most of the time, Auxiliary Ops supports Main Ops and works directly under the command of the Main Ops officer.
+The Captain would give Operations related commands to Main Ops, then Main Ops will pass on some of those commands to Auxiliary Ops.
+It is pretty much up to the Main Ops officer how they want to split the duties with Auxiliary Ops.
+Sometimes they will both do the same duties but split which station does which decks. Sometimes Auxiliary Ops will be given specific Ops tasks,
+such as Transporters and monitoring the internal sensors for all decks.
+Sometimes the Main Ops officer will elect to give a specific task to the Auxiliary Ops officer, and then assign a new task when the current one is completed.
+The Auxiliary Ops officer has no say in how their tasks are delegated, that decision belongs solely to the Main Ops officer.
+DISTRIBUTION OF OPS DUTIES FOR SMALLER BRIDGE CREWS
+There are times when a starship has to run with smaller bridge crews or even skeleton crews.
+So let's talk about how the Ops duties are usually distributed when there are not 4 Operation Officers available for the bridge shift.
+If there are three officers, then one takes Helm, one takes Main Ops and the other takes Communications.
+If there are two operations officers, then one takes Helm and the other takes Main Ops. In this case, the Main Ops officer will assume the Comm duties as well.
+If there is only one Operations Officer, that officer will take Helm but will also assume the responsibilities of Main Ops and Comm.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

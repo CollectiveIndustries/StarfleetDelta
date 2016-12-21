@@ -1,0 +1,110 @@
+<DESC:The Maquis>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-111 / The Maquis
+*Takes a deep breath and proceeds*
+The word ‘Maquis’ (mah-KEE) comes from a type of high ground in southeastern France on Earth that is covered with scrub growth. It is the kind of terrain in which the armed resistance groups hid.
+Members of those bands were called Maquisards. Eventually the term became an honorific that meant “armed resistance fighter.”
+<TEXTURE:589ca7f3-2701-d418-5193-f1877ea410e9>
+In 2367, after years of war, the Federation and the Cardassian Union signed a peace treaty.
+The main condition was that the line which represented the Cardassian/Federation Border would be redrawn - resulting in some Cardassian worlds ending up in Federation territory, and vice versa.
+In addition, the treaty set up a buffer zone between the two superpowers.
+This buffer - the Demilitarized Zone (DMZ) - was a no go area for weapons of any kind.
+Entrance of the DMZ by any Federation or Cardassian Starship would be deemed an act of war.
+The Federation colonists living near the Cardassian border were angry at the terms of the treaty.
+They had built their lives and homes on their worlds (including Volan II, Volan III, Soltok IV, Umoth VII), living under the protection of Starfleet.
+Now, suddenly, they found themselves living in Cardassian territory.
+The Federation advised those affected by the treaty to re-locate. The Admirals back on Earth had hoped their Federation Citizens would comply.
+The Admirals were wrong!
+Some colonists re-located. Some however, had no wish to rebuild their lives elsewhere and stayed. They hoped that despite the proximity of the Cardassians, they could continue to live in peace.
+The colonists were wrong!
+<TEXTURE:1cad4255-23ab-6c79-8aa0-abe24c6ad453>
+Certain Cardassians within the Central Command were disappointed at the terms of the treaty - in particular, the amount of extra territory that came with it.
+They had hoped that the treaty would have given the Union more worlds than it had actually gained.
+Then, someone, somewhere within Central Command came up with an idea - Why not force the Federation colonists within the DMZ to leave by making life totally unbearable for them?
+Within months, agents from Cardassia were infiltrating the Federation Colonies.
+The outcome was unprovoked attacks on citizens, sabotage of Food replicators, and in general life became very bleak for the colonists.
+The Central Command anticipated that eventually, all of the colonists would leave, and since no Federation Starship could enter the DMZ, this would leave the abandoned world's wide open for the Cardassian Union to claim.
+The Central Command was very wrong!
+The Cardassians only provoked the colonists further. Many thought that by signing the treaty, The Federation had betrayed them. The attempts by the Cardassians to make them leave proved to be the final straw.
+With Starfleet unable and unwilling to protect them from the sneak Cardassian attacks, the colonists started to protect themselves. They had weapons, ships, and the motivation to use them.
+All they needed now was a name for themselves - somehow, "Federation Citizens" didn't seem to fit any more.
+Back in the Terran World War II, a French Resistance group had caused all sorts of problems for the Germans. The colonists adopted the name of that Resistance Group...Maquis.
+<TEXTURE:33f160ba-bb40-3fc2-a35d-6801b6057f76>
+On Stardate 47802.3, the Cardassian cruiser Bok'Nor was destroyed by a bomb at Deep Space Nine.
+Gul Dukat and Commander Sisko soon discovered that the DMZ was turning into a war zone - with modified Federation Courier Ships attacking Cardassian trading vessels and vice versa.
+The tense situation got worse when Gul Dukat was kidnapped by an unknown agency.
+Later on, a subspace message was transmitted from a group claiming responsibility for the destruction of the Bok'Nor and Gul Dukat's abduction
+- they called themselves The Maquis.
+A small team lead by Commander Sisko travelled to the Badlands, a area of the DMZ infested with plasma storms, in search of Dukat.
+Although unsuccessful in finding the Gul, they discovered that Commander Hudson, Starfleet's attaché to the Federation's Colonies was in fact working for the Maquis.
+A second attempt to retrieve Dukat was successful, and with the Gul's help, it was discovered that the Central Command were violating the terms of the treaty by smuggling weapons to their colonists within the DMZ.
+Commander Sisko also discovered that the Maquis was planning an attack on a Cardassian weapons depot, which was located within a Civilian population.
+A small team lead by the Commander successfully averted a new Cardassian-Federation war by stopping the Maquis attack, and both Governments agreed to stop and search all ships entering the DMZ for weapons.
+Despite this close call, Starfleet was worried that the ex-Federation Citizens could eventually end up starting a new war with Cardassia, and they were labelled outlaws by the Federation.
+<TEXTURE:d21109fe-0a7b-5f54-31cd-ef534360b064>
+What was even more worrying for the Federation was that some people within Starfleet, like Commander Hudson, actually sympathized with the Maquis viewpoint.
+Soon a small number of officers were resigning from Starfleet to join the Maquis. Some stayed - hoping to help the rebels from within the Federation.
+On Stardate 47941.7, Lieutenant Ro Laren, a Bajoran, was given an assignment by Starfleet.
+This was to infiltrate the Maquis, gain their trust, and convince them to attack a convoy of Ships. Once the attack begun, Starfleet Ships would emerge from a nearby Nebula to capture the rebels.
+However, Lieutenant Ro had become attached to the Maquis cause during her short time with them, and she betrayed the Federation and Captain Picard by revealing the hidden Starfleet task force to her Maquis comrades.
+She was last seen beaming aboard a Maquis ship.
+<TEXTURE:8b5b0389-4abf-d20a-9e3e-83d447b3d603>
+Starfleet were determined to track down the Rebels, and on Stardate 48315.6, the U.S.S.
+Voyager was dispatched to search for a Maquis Ship which had disappeared within the Badlands. Strangely enough, the Voyager also disappeared, and it would be a while before she was heard from again.
+Lieutenant Thomas Riker, who sympathized with the Maquis and had joined them, successfully stole the USS Defiant from Deep Space Nine on Stardate 48467.3.
+He and the rest of the Maquis were concerned with reports about a Secret Cardassian fleet being built in the Orias system.
+Riker was planning on using the powerful Starfleet warship to break through the Cardassian defense systems and destroy the secret fleet. However, they eventually found themselves being pursued by 15 Cardassian Warships.
+Commander Sisko and Major Kira managed to talk Riker out of a suicide mission, and thanks to a deal struck between Gul Dukat, the Cardassian Ministry of Justice and Commander Sisko,
+Riker spent the rest of his life in a Cardassian Labour camp, instead of being executed.
+His Maquis comrades were taken back to the Federation to be punished for their crimes. As for the secret base, it turned out that the Cardassians were never planning to use it against the Maquis.
+<TEXTURE:f37ce92c-b12d-5e24-b71d-6c7cfc86282d>
+With the Klingon invasion of Cardassia on Stardate 49011.4 came a major shift of power towards the Maquis.
+What was left of the Cardassian fleet was directed towards protecting their space from the Klingon raiders that remained in the vicinity.
+This meant that the Maquis were given a free rein in the DMZ - so they took advantage of it and stepped up their terrorist activities.
+If that wasn't bad enough for the Cardassians, the Maquis stole Industrial Grade replicators intended for Cardassia from Deep Space Nine,
+in an elaborate plan involving Kasidy Yates (Captain Sisko's girlfriend) and the head of Starfleet Security on the Station, Commander Michael Eddington, who announced his allegiance to the Maquis and took the replicators with him...
+Captain Sisko vowed to track down Commander Eddington, who had become the leader of the Maquis. Sisko finally succeeded on Stardate 50485.2, but not before the Maquis had used Chemical Weapons on a Cardassian planet -
+another sign that the Maquis weren't just content with defending themselves. Eddington was imprisoned for his crimes against the Federation.
+However, the good times for the Maquis came to an end on Stardate 50564.2 when Gul Dukat surprised everyone by announcing that Cardassia was joining the Dominion -
+who had earlier sent a fleet of Jem'Hadar warships into the Alpha Quadrant.
+Dukat (who made himself leader of his people) declared his intention to eliminate the Maquis.
+With the Jem'Hadar fighting alongside the Cardassian Union, the Maquis soon suffered devastating losses, and most of the rebels were eliminated within 5 days of Dukat's announcement.
+Sometime later, Captain Sisko received information that the remaining Maquis members had launched one final attack on Cardassia.
+During the Klingon Invasion, the Klingons had done a deal with the Maquis, which resulted in the rebels gaining Cloaking devices from the Empire.
+They had fitted these cloaking devices to some long range missiles, and had launched them at Cardassia.
+Captain Sisko realized that if the missiles managed to reach Cardassia, it would provoke the Dominion to declare War on the Federation.
+Since the missiles were undetectable, Sisko had no choice but to join forces with the man who could stop the missiles - Commander Michael Eddington.
+It was later discovered that the message was fake - it was really a signal from Eddington's Maquis Cell that they've managed to reach a rendezvous point and were ready for evacuation at a secret Marquis Base.
+Unfortunately, the Jem'Hadar knew about the base, and Eddington's Maquis Cell was destroyed - with Eddington himself dying for the cause in the process.
+While the Maquis may no longer exist in the Alpha Quadrant, some people, including Captain Sisko,
+believed that there may be survivors of the movement hiding somewhere, waiting for the right opportunity to resurface (there’s a lot that can be done with 30 cloaking devices).
+<TEXTURE:b801e760-d95e-cf05-57f5-71fa5921d054>
+In a way, Sisko was proved right a few months into the Dominion War. Around Stardate 51501.4, a message from the U.S.S.
+Voyager was received by Starfleet. Voyager (Captain Kathryn Janeway commanding) had somehow been pushed into the Delta Quadrant while looking for a Maquis ship three years previous.
+Shortly after entering the Delta Quadrant, the Maquis crew had lost their ship and were forced to beam on board Voyager, where they became part of the Starfleet crew.
+At this point in time, the Maquis on Voyager were all that was left of the entire movement.
+Voyager’s crew (thanks to an advanced alien communications network) then received information about the slaughter of the Alpha Quadrant Maquis -
+This was obviously depressing to the Maquis in the Delta Quadrant, to say the least.
+With Cardassia destroying the Maquis colonies, the DMZ a distant memory, and the Maquis of Voyager joining Starfleet, the story of the people who felt betrayed by the Federation has reached the last page.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

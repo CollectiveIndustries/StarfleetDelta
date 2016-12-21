@@ -1,0 +1,88 @@
+<DESC:Subspace Communication>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:ac597b92-800a-bb09-d058-1d8f552e6332>
+Welcome to the Operations Division of SDQ!
+Our class today is OPS-105  / Subspace communication
+*Takes a deep breath and proceeds*
+An analysis of a subspace comwave
+<TEXTURE:6d259f5a-a8a3-bce4-e7f8-522f056b29cb>
+Subspace communication (also called subspace radio or the hyperchannel) was the primary form of communication used throughout the Federation.
+By transmission through subspace rather than normal space, subspace communication permitted the sending of data and messages across interstellar distances faster than the speed of light.
+This made it much more practical than conventional radio.
+In fact, Starships rarely even monitor frequencies that traveled at the speed of light or slower.
+Subspace communication was mainly used by Starfleet Command to transmit orders to commanding officers of starships on deep-space assignments.
+Likewise, the vessel's' commanding officers use subspace communication to relay reports on their various missions back to Starfleet Command, to ask for suggestions, and/or to make requests
+Depending on the actual distance between a vessel and the nearest subspace relay beacon, real-time communication was possible.
+An example of this is when Starfleet Lieutenant Reginald Barclay contacted the USS Enterprise-E,
+which was seven light years away from his location on the Jupiter Station, and spoke real-time to the ship's Counselor, Commander Deanna Troi.
+Subspace communications had a varying degree of band frequencies, from upper (or high-band) to lower.
+For example, a diplomatic frequency used by the Vulcans was on a lower subspace band.
+Vulcans had been utilizing subspace communications as early as the Earth year 1957, as their ships were outfitted with subspace transceivers.
+22nd century
+Earth had developed subspace communication as early as 2151.
+During this time, however, subspace amplifiers were required in order to maintain contact between Earth and Earth Starfleet vessels over long distances.
+Contact with these amplifiers was maintained with a single subspace antenna.
+If this antenna was damaged, a starship would only be capable of short-range communication.
+Orders and reports were not the only communications to and from starships,.personal messages were also sent.
+The crew of the NX-01 Enterprise, for example, received personal messages from friends and family members back on Earth.
+Captain Jonathan Archer himself received recordings of water polo tournaments in what Trip Tucker described as the "subspace mailbag".
+The treaty following the Earth-Romulan War was established entirely by subspace radio.
+No visual contact between Humans, the Romulans, or their allies was ever established.
+However, subspace communication was not available to all Earth ships during this period.
+The Horizon was not able to communicate via subspace when the ship made contact with Sigma Iotia II in 2168.
+Thus, their report was not received by Starfleet Command until 100 years later
+Before being destroyed, a group of Borg drones in the Alpha Quadrant sent a subspace message to the Borg in the Delta Quadrant in 2153.
+The message would have taken at least 200 years to reach its destination and, if received, may have been the way the Borg of the 24th century learned of the existence and location of Earth.
+In 2374 However, the USS Voyager is able to communicate almost instantaneously between the Delta and Alpha Quadrants using a system of ancient relay stations,
+proving that subspace communication signals slow down over time, unless amplified by a relay station.
+23rd century
+By the 23rd century, subspace communication was in wide use throughout the Federation.
+During this time, a starship's communications officer was required to create subspace logs detailing all messages sent and received.
+In some cases, marriages were performed entirely on subspace radio.
+Magda Kovacs and Ruth Bonaventure were married to two of the three miners on the Rigel XII mining colony via subspace radio in 2266
+<TEXTURE:0a974005-4815-c4e9-2a24-8265187c2b00>
+After Fleet Captain Christopher Pike was injured upon being exposed to delta radiation, months of "subspace chatter" emerged regarding the accident.
+Later, in 2267, Spock fabricated a subspace message ordering the Enterprise to divert to Starbase 11.
+For the sole purpose of returning Pike, his former CO, to Talos IV where Pike could live out the rest of his days in comfort.
+During the subsequent court martial, Enterprise received subspace transmissions from Talos IV in violation of General Order 7.
+Trelane of Gothos was able to block Enterprise's subspace communications using his mirror machine.
+The Eminians employed a subspace transmission unit to keep in contact with the Vendikans during their computer-fought war.
+This unit was tied in with Eminiar VII's attack computers.
+24th century
+<TEXTURE  abfbbee4-87e3-1b3b-1688-19b4972e273d>
+By the 24th century, subspace communications were handled through subspace relay networks, replacing previous networking methods such as subspace amplifiers.
+These networks were maintained, at least in part, by various relay stations.
+A 24th century professor, Doctor Paul Manheim, was renowned for his work in perfecting subspace communications.
+Even with the incredible speeds offered with subspace communications,
+a message traveling subspace over a distance of 2,700,000 light years would have taken over fifty-one years and ten months to reach Federation space in 2364.
+Lore was able to communicate with the Crystalline Entity using subspace communications in 2364.
+However, a later encounter with the entity by the USS Enterprise-D required the use of graviton pulses for communication.
+Unidentified subspace communications were detected by a class-1 probe that was sent to Nelvana III.
+In 2369 Commander Benjamin Sisko sent a subspace message to Klaestron IV to verify the warrant of Dax.
+The same year, Chief O'Brien received a subspace message from his wife who visited the grain processing center in Lasuma on Bajor.
+Later, when Odo tried to contact Starfleet Headquarters, he learned that Major Kira had blocked all subspace communication.
+Present date
+With it already being a very efficient communication system, only a few advancements have needed to be made in subspace communications since the 24th century.
+We have needed to add more relay stations as the federation has expanded in th the Delta and Gamma quadrants.
+By using more efficient processors in the relay stations and adjusting bandwidths we have cut in half the time a message would take to travel in subspace from what it was in the 24 century.
+But unfortunately it still can take several days for a signal to relay through subspace.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

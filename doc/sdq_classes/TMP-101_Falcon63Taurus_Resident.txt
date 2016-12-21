@@ -1,0 +1,173 @@
+<DESC:Temporal Mechanics>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-202 / Temporal Mechanics
+*Takes a deep breath and proceeds*
+This course is designed for those officers who are interested in temporal phenomena or are considering a career with the Department of Temporal Investigations.
+We will review some of the important foundations of the field, including basic temporal phenomena and concepts.
+This course will also prepare those officers interested in a career in the Department of Temporal Investigations,
+by considering alternate time lines and the effects of an officer's actions in the past (or future).
+Introduction:
+<TEXTURE:7c184459-885f-daac-b71a-aade588d836a>
+It has now been several hundred years since the USS Enterprise made the first - accidental - trip a few minutes into the past.
+Other than the Borg the Federation remains the only known power to posses temporal technology.
+As such, we bear a heavy burden of responsibility. Initially, the experts were convinced that the past must be fixed and immutable - the so called "law of conservation of reality".
+As a result Starfleet began sending historical research missions to several parts of Federation history,
+but within less than a year it was clear that the past was not, in fact, fixed, but highly sensitive to change.
+When another accident hurled the Enterprise into 1966, the crews unintentional interference with the past threatened to jeopardize future history significantly.
+Although Starfleet began to re-appraise its policies on time travel, historical research missions continued for some time until it became obvious that the dangers were simply too high.
+By 2268 Starfleet instituted the Temporal Prime Directive.
+This policy, like its standard Prime Directive cousin, was a massively complex set of rules which basically boiled down to one sentence :
+no Federation vessel or crew would willingly jeopardize past history under any circumstances.
+As a consequence of the TPD, all Federation time travel was halted and the very existence of this technology was classified at the highest possible level.
+The Federation determined that it would be best if the very existence of temporal technology was quietly forgotten.
+Unfortunately, it didn't work out that way.
+The Federation has since found itself dealing with a bewilderingly wide variety of cases involving time travel via long forgotten alien devices,
+natural and artificial anomalies, accidents and deliberate sabotage.
+The Federation response to this situation was the formation of the Temporal Investigation Agency in 2273;
+officially Temporal Investigations would be responsible for investigating all known instances of time travel, assessing the impact upon the time line and, if necessary, assigning blame to those involved.
+Less well known are the TIA's other roles.
+These have expanded over the years to include the use of highly classified temporal scanning devices to monitor the creation and state of alternate time lines,
+engaging in covert activity in order to ensure the lid of secrecy remained tightly closed over all temporal technology, and even acting to restore the timeline after it had been altered by accident or design.
+Temporal Investigations continues in operation to this day, and contact with time travelers from the future indicates that it will continue in some form for many centuries to come.
+Common Anomalies:
+Past / Future Incursions :
+This type of case is the most common one encountered by the Temporal Investigations Agency.
+A Future Incursion involves an object moving along the time axis at a rate, from the point of view of the present in the preferred time line, greater than one second per second;
+hence, the objects and/or personnel involved will move into the future.
+A Past Incursion involves an object moving along the time axis at any negative rate, hence travailing into the past.
+Such incursions, more commonly called "time jumps" or more simply "time travel".
+These usually involve movement at a rate vastly higher than normal, so that the journey itself can be virtually instant.
+Temporal Investigations has dealt with many past and future incursions, and is authorized to make such incursions itself when circumstances require it.
+<TEXTURE:4f3aca29-65e4-d432-6eef-0ee65021bb09>
+Wormholes:
+Is the common name for an Einstein Rosen bridge named for the scientists that came up with the theory.
+All wormholes have two endpoints, which can be located anywhere in space-time and are connected by a tunnel of finite length.
+The remarkable aspect of the wormhole is that its internal length Di seems to be entirely independent of the external distance De between its endpoints.
+Thus Di can be very much greater or less than De. The large majority of known wormholes have a value for Di which is very much less than De -
+for example the Bajoran wormhole has a value for De of 70,000 light years but Di is only some 200,000 km, or 3.3 trillion times less.
+This would make wormholes ideal for long range travel  - but unfortunately the endpoints of a wormhole are notoriously prone to sudden and massive changes in their position.
+The Bajoran wormhole remains unique in that both ends are stable.
+While wormhole endpoints can be separated by huge distances, it is common for both ends to be located at the same point in time.
+However, some examples have been discovered in which the endpoints are widely spaced in time, with little or no spatial displacement.
+Wormholes of this sort are commonly responsible for past/future incursions encountered by Temporal Investigations.
+The rarest of all wormholes are those demonstrate significant time and space displacement, such as was discovered by USS Voyager in 2371.
+The Bajoran wormhole, which is unique in many respects, has also demonstrated time displacement on occasion.
+Time Loops :
+These occur when a person or object involved in a Temporal Incursion initiates an event which results in that person or object becoming a causal factor in the original incursion.
+Loops of this kind rarely reset themselves perfectly, and as a result there is a slight departure from the original sequence of events within each repetition.
+The cumulative nature of the alterations makes it certain that, after a sufficient number of cycles, conditions within any time loop will alter so much that the initiating event would be avoided.
+Such loops must therefore be of limited life span, though the life span can be a few days to several decades.
+<TEXTURE:bc07baab-b028-003f-cc67-7a5dfe38aaf6>
+Alternate Time lines:
+Or as some would call them, alternate realities.
+The universe we see around us is the end result of an apparently infinite number of events interacting with each other in a particular order.
+Each one of these events generates alternate time lines - "what might have been" universes in which every possible outcome is played out.
+Any temporal incursion which alters any past event will therefore generate an alternate time line; and since an "event" in this context constitutes any degree of interference,
+even the disturbing of a single atom, then all incursions generate not one but many alternates.
+This has led to the concept of the "preferred time line".
+Temporal Investigations originally defined this as the time line which would exist if temporal technology had never been created,
+but this has since been updated, and the preferred time line is now said to be the time line which would exist if no further incursions occurred.
+Temporal scanning has recorded the signature of the preferred time line, and this is used as the basis for comparison between time lines.
+The Temporal Prime Directive states that in cases involving temporal phenomena, Starfleet must act so as to minimize disruption to the preferred time line.
+<TEXTURE:e8460dfd-b1e0-da13-415a-18eadbd02662>
+TI generally accepts changes to the preferred time line if such changes are judged to be within certain limits -
+the actions of Captain Benjamin Sisko in deliberately meeting with Captain James Kirk during a recent temporal incursion is one example.
+Many people - both outside TI and within it - have complained that this means that the preferred time line has thus become
+"the timeline that the Federation wants to exist in",
+and this criticism has some justification.
+Nevertheless, repeated attempts to correct the timeline would likely generate even worse distortion.
+Strictly speaking this invalidates the concept of the preferred time line, but some standard is required if Temporal Investigations is to fulfill its function and so the agency continues to act on this basis.
+Temporal Rift:
+A spatial formation similar to, but not identical to, a wormhole. Like a wormhole, it connects two points in space-time.
+However, these two points are in constant flux, while wormholes maintain their positions for definite periods of time. Because of this, rifts have no clear event horizon.
+<TEXTURE:05b7351c-f60c-78bc-d301-f82e2760ddb3>
+Temporal Psychosis:
+Also referred to as Temporal Narcosis.
+A condition physically similar to nitrogen narcosis. When one has been exposed to a temporal distortion or anomaly,
+the individual's cerebral cortex may be affected by the drastic changes in space-time.
+(Or they may just be going insane from trying to figure out what's going on!)
+<TEXTURE:c5e13414-c981-a162-526c-33a3fde7c0d0>
+The Guardian of Forever:
+In late 2267 the Enterprise discovered a region of intense temporal and gravitational distortions, and traced the source of those distortions to an uninhabited planet and a mysterious device.
+The device was apparently sentient, and referred to itself as the  Guardian of Forever.
+The landing party attempted to analyze the device, but it defied all attempts at scanning.
+Doctor McCoy, who was suffering from delusions associated with a cordrazine overdose at the time, fled through the portal and inadvertently altered history.
+In this altered timeline, the Enterprise did not exist, and therefore the away team (which had somehow been protected from the change by the Guardian) was stranded.
+Captain Kirk and Commander Spock attempted to follow McCoy back in time, and arrived in the 1930's on Earth.
+Mr. Spock managed to construct a crude temporal scanning device, and managed to find the focal point which changed history: a woman named Edith Keeler.
+In the altered timeline, McCoy had inadvertently prevented Keeler's death in an automobile accident, and she eventually became an important peace activist.
+Her movement kept the United States of America out of the Second World War for a sufficient length of time to allow Nazi Germany to develop the atomic bomb and conquer the world.
+Using this knowledge, Kirk and Spock were able prevent McCoy from saving Keeler, and the timeline was restored to its original state.
+Following this discovery, Federation scientists attempted to study the Guardian, but even in the more than 400 hundred years of study,
+they have made absolutely no progress in deciphering its mechanisms or how it works.
+Even though the existence of The Guardian is known, it's location is highly classified and some speculate that there may be other Guardians of Forever out in the galaxy.
+Concepts:
+<TEXTURE:d194f195-0410-69c5-9b16-8dca003d7895>
+Grandfather Paradox:
+One of the most well-known temporal paradoxes, it occurs when one travels into the past and kills their own ancestor.
+Effectively, the individual committing the murder eliminated himself before he even existed.
+Once his grandfather died, the murderer was not born, and therefore could not commit the murder in the first place.
+Predestination Paradox:
+Simply stated, this is the theory of  Effect before Cause.  It is the inverse of the Grandfather Paradox.
+It suggests that an individual could travel into the past and cause an event which would eventually cause that person to travel back in time.
+(See  Causality Loop ) This theory can get confusing when one considers that if one does not perform the cause, they create an entirely different timeline.
+The Oscillation Theory:
+In this extension of the grandfather paradox, time somehow  loops  between two inherently different realities.
+Reality  reverts  from a possibly unstable time line, for instance: the fact that the grandfather was killed by a person who does not exist.
+This instability causes an  oscillation  between the two (or more) time lines.
+Protection Theory:
+Numerous incidents have suggested that a person who travels through time is somehow protected from the effects of any changes in the timeline.
+Federation scientists have yet to provide conclusive proof that some protection exists,
+but many officers who have traveled through time claim that they would notice any differences as soon as they returned to their own time.
+Causality Loop:
+A state in which an individual continually repeats the same series of actions into infinity.
+Most causality loops are caused by the Predestination Paradox, where the Event 2 causes Event 1 in the past, which in turn causes Event 2.
+The Doubling Theory:
+Based on Dr. Richard Feynman's  sum over histories  theory, it states that for each event, every possible effect that can occur, does occur.
+Therefore, any  change  in the timeline is merely a shift between alternate realities.
+The Butterfly Effect:
+The idea that a small change at one point can have a great effect on a distant point.
+This concept is especially important for a person who is in the past, where he could, in theory, alter the timeline through his very presence in that time.
+A hypothetical example:
+An officer in the past briefly stops a man to ask for directions.
+This brief stop prevents that man from bumping into the woman he would eventually marry.
+Therefore, their child, who would have grown up to become James Kirk, one of the most important figures of Starfleet history, was never born.
+(oops!)
+Advanced Concepts:
+<TEXTURE:1fed571b-2c0c-0dd8-3c29-93ef5c43ed5f>
+Anti-Time:
+Similar in theory to the concept of antimatter, anti-time  travels  in a direction opposite to normal time. In essence,
+as viewed from our timeline, an object existing in an anti-time continuum would be  growing younger.
+When time and anti-time collide, for example, inside certain types of subspace distortions, they annihilate each other and can have significant effects on the fabric of space as well.
+Quantum Leap Theory:
+In this theory time is linear like a piece of string and we travel from the beginning to the end of the string.
+But instead being in a straight line that string of time is wadded up in a ball, and we're still traveling along the string through all its twists and turns.
+Like in a Wormhole where we are able to take a shortcut through the folds in space.
+In the Quantum Leap Theory you are able to randomly Leap to the different points in time along the folds in time.
+The Dali Paradox:
+Also referred to as the Melting Clock Effect.
+An effect in which a temporal anomaly causes distortions in the local space-time continuum which cause time to slow to a gradual hault.
+The Poga Paradox:
+A situation that occurs when an attempt to prevent a certain event in the past ends up causing that same event. This theory is an extension of the Predestination Paradox.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

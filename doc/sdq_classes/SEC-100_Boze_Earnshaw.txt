@@ -1,0 +1,115 @@
+<DESC:Introduction to SDQ Security>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE 23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-100 / Intro to SDQ Security
+*Takes a deep breath and proceeds*
+This class will hopefully provide you with an introduction to the role and structure of the SDQ Security division
+and a brief insight into the responsibility that a Security Officer carries.
+Security is one of the most important divisions in SDQ, as Security personnel have to be able to serve in both a defensive and offensive capacity.
+This will encompass security patrols on board a starship, arresting offenders, guarding prisoners,
+escorting high ranking officers and dignitaries, firing the ship's weapons, providing protection during away team missions, and more.
+Starfleet Security has been around long before the formation of the United Federation of Planets.
+It was inaugurated in the early 2150’s, and originally it was a sub-department of the old United Earth Starfleet.
+<TEXTURE:1dd19b73-254b-638f-319b-79e61b4f6138>
+It gained full divisional status after the United Federation of Planets and subsequently Federation Starfleet were both founded in 2161.
+The Security division currently includes the Intelligence Department and the JAG Corps.
+While each fulfills a dramatically different role, their paths, out of necessity, cross frequently.
+Security requires the information that Intelligence gathers in order to ensure the security of SDQ,
+and Intelligence needs the protection which Security grants them.
+JAG then close the loop by trying offenders and making the necessary prosecutions.
+While Security oversees Intel and JAG both can work independently if necessary.
+A Security officer may be in command over a Intl or JAG officer.
+But that officer can not impede or interfere with Intel gathering or a JAG investigation.
+In some cases a Intel or JAG officer my report directly to the admiralty or counsel.
+Out here in the Delta Quadrant, the SDQ Security division is responsible for security aboard all Federation outposts, ships,
+and facilities, however the division’s mandate actually extends much farther than that.
+The branch is responsible for maintaining and enforcing SDQ rules and regulations,
+procedures and policies on all SDQ and affiliated facilities, outposts, and vessels in the Gamma Quadrant.
+In addition, the division is responsible for security clearances of all SDQ personnel.
+The office of the division Commanding Officer (CO) is the top tier of SDQ Security, and all key Security related decisions come through this office.
+The Executive Officer (XO) acts as the eyes and ears of the Commander in the field, and their relationship is very much like that of a ships CO and XO.
+Divisional administrative duties are channeled through the XO on their way to the CO’s office.
+Needless to say, Security officers hold positions of great responsibility within SDQ as they ultimately are responsible for the safety of all crew and visitors to any of our facilities and vessels.
+Once you first join the division, you will become a Security Aide.
+Whilst an Aide you will undergo some hands on training, participate in drills, complete any outstanding Academy classes, and be assigned to a patrol area.
+The amount of time you spend as a Security Aide will depend on your activity levels; however it will be for a minimum period of 4 weeks.
+Your promotion to the status of Security officer will be decided by the division CO.
+Once you are a Security Officer you will receive selected special Command authorized security powers that authorize you to deal with criminals and troublemakers directly.
+This includes immobilizing, and escorting offenders from any and all of SDQ facilities if necessary.
+Security here is a highly responsible job, and it's not simply a role play!
+For those who do decide to do it though, know that the fact that you are willing to give up some of your relaxation time to help make our home safer for the rest is most appreciated.
+So let’s take a closer look at the actual duties and responsibilities of a SDQ Security Aide.
+As a Security Aide you will be responsible through the chain of command, for securing Majel against all threats both externally and internally.
+This includes, but is not limited to enforcing SDQ rules such as stopping people from firing weapons, littering prims, entering restricted areas and dancing in the buff.
+Essentially you are a police officer - you don't make the rules and you don't pass judgment on anyone.
+Your job is to simply enforce the rules that are handed to you, even if you personally don't agree with them, or it's your best friend violating them.
+Security Aides / Officers have two duty statuses - On Duty or On Call.
+"On Duty" is defined as on the sim, in uniform with your Security group tag active.
+“On Call” is defined as on the sim, but not necessarily in uniform or with an active group tag.
+When "On Duty" you are expected to be in full uniform, with a flip title that clearly indicates your duty status.
+For example, a Lieutenant would use the following titles (color must be silver for Security):
+On duty title: Lieutenant | SDQ: SF Security - On Duty
+Off duty title: Lieutenant | SDQ: SF Security - On Call
+When on duty, there are three critical things that you need to be aware of at all times:
+1. How many visitors are currently on the Sim and where they are.
+2. Who is the ranking Security officer on the Sim.
+3. Who is the ranking Officer in Charge on the Sim.
+After coming on duty, you are to announce your duty status over the SDQ and SDQ Academy Comms channels.
+You must also report to a senior Security officer if one is on duty.
+There have been some alarming trends that have happened with the Security of many Sims.
+They often seem to think that being a Security officer means you get to boss people around and ban people.
+This is simply incorrect.
+The only time a SDQ Security officer should be instructing anyone about anything is when you are correcting a direct rule violation.
+We can't just go around assuming everyone is up to no good and asking them "What are you doing?" all the time.
+This is unacceptable behavior.
+Remember that the members, or potential members you are questioning today, could very well be your superior officer tomorrow.
+If we start assuming that everyone is always up to no good, we quickly wind up having it
+become that way, because we, as officers, have driven it that way with our assumptions.
+Lastly then, if you've found a problem situation, what should you do?
+1. Identify if the suspect (or object) is armed.
+How do you tell if a person is clearly armed?
+You can use CTRL + ALT + T to see if they have any invisible weapons.
+2. Identify the offense committed.
+How does this violate current rules?
+Be sure on this, as you will be expected to put this in your report.
+3. Identify the victim(s).
+Was there a victim that was directly affected by this violation?
+Were there more than one? Who were they?
+4. Talk to the offender first.
+Try to talk them into disarming or disengaging in their offending behavior.
+Don't jump to kick people out when maybe they honestly don't realize they have violated any rules.
+Some are looking for negative reinforcement, and expect you to start yelling at them/shooting them, and when you don't they
+simply leave because they can go somewhere else where they can stir up a hornet's nest.
+5. If necessary, call for increased Security presence.
+In the event that an increased Security presence does not dissuade the offender, it is now time for the suspect to leave.
+Of course, any and all incidents that initiated a security alert, or were more than a simple case of not knowing the rules, must be reported.
+This is done by filing an incident report (includes pictures, chat logs, and witness
+statements),
+to the Security division CO, XO and Fleet Admiral and Admiral prior to going off duty.
+These procedures and others will be covered in much more detail in the College of Law class “Security Officer Protocols”.
+The SDQ Academy continues to support the Security division through the College of Law.
+The College offers a variety of classes for continued education in security/tactical/law related subjects to both cadets and officers alike.
+So if you are a team-player who prefers to talk first and shoot later, is looking for an opportunity to shine, work with fantastic
+like minded people in a division that really makes a difference, then look no further….
+Security wants you! for today.
+<TEXTURE:23ce93f6-5e92-963-4fc7-8cf3f27f9c35>
+This concludes our lecture
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

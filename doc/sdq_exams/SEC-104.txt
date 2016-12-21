@@ -1,0 +1,60 @@
+1. True/False Starfleet fields powerful ship for the purposes of war and conquest.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+2. What is the Primary weapon aboard Federation Starships.
+A:Photon Torpedoes
+B:Disruptor's
+C:Phasers
+D:Quantum Torpedoes
+C
+3. Why does Starfleet field Phasers rather than Disruptor's on our ships.
+A:They are cheaper
+B:They are more powerful
+C:They are efficient
+D:All of the above
+C
+4. Which is these is NOT an advantage of the phaser.
+A:They are high survivable.
+B:Same damage potential regardless of range
+C:Pin point accuracy
+D:Wide  coverage of fire.
+B
+5. True or False. The Photon Torpedo is obsolete and no longer useful in modern combat.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+6. Why is the Photon Torpedo still the mainstay secondary weapon  even after  centuries of existence?
+A:It's a proven and highly useful weapon that is cheap and efficient to mass produce.
+B:Starfleet does not like change.
+C:Because other weapons do not yet exist.
+D:Because they look pretty in flight
+A
+7. Why are your Defensive Shields important?
+A:They provide a wall exasperating your vessel from outside hazards
+B:They are good at absorbing weapon impacts.
+C:They are flexible in form and the amount of protection given
+D:All of the above
+D
+8.  Which is NOT a good tactic in combat?
+A:Closing the distance with phaser fire.
+B:Using both your phasers and photon torpedoes simultaneously.
+C:Standing still while firing your weapons.
+D:Perform a tactical analysis.
+C
+9.  Which IS a good tactic in combat.
+A:RAMMING SPEED!
+B:Firing your phasers at extreme range.
+C:Let just one shield absorb all the impact.
+D:Use your torpedoes as your phasers recharge.
+D
+10. How do you raise  your chances the most of surviving combat?
+A:By having the largest and most powerful ship.
+B:By being able to adapt and improvise to the situation at hand.
+C:By having more ships to help you.
+D:By having a fearsome reputation
+B

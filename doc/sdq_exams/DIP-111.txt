@@ -1,0 +1,90 @@
+1. The word ‘Maquis’ comes from a type of high ground in south-western France
+A:True
+B:False
+C:N/A
+D:N/A
+A
+2. The Federation and the Cardassian Union signed a peace treaty in which year?
+A:2366
+B:2367
+C:2368
+D:2342
+B
+3. Entrance of the DMZ by any Federation or Cardassian Starship would be deemed an act of war.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+4. All of the Federation colonists living near the Cardassian border relocated.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+5. What on Stardate 47802.3?
+A:U.S.S. Voyager was dispatched to search for a Maquis Ship
+B:Lieutenant Ro Laren was given an assignment by Starfleet.
+C:The Cardassian cruiser Bok'Nor was destroyed by a bomb
+D:The Cardassians declared war on the Federation
+C
+6. Which Starfleet attaché to the Federation's Colonies was discovered to be working for the Maquis?
+A:Commander Hudson
+B:Lieutenant Riker
+C:Commander Eddington
+D:Lieutenant Ro Laren
+A
+7. Lieutenant Ro Laren betrayed the Federation and Captain Picard by revealing a hidden Starfleet task force to her Maquis comrades.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+8. The U.S.S. Saratoga was dispatched to search for a Maquis Ship which had disappeared within the Badlands.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+9. The USS Defiant was stolen from Deep Space Nine on which stardate?
+A:48315.6
+B:48229.1
+C:48653.3
+D:48467.3
+D
+10. Lieutenant Riker was executed by the Cardassians on stardate 50485.2
+A:True
+B:False
+C:N/A
+D:N/A
+B
+11. Which items intended for Cardassia were stolen from DS9 by the Maquis?
+A:42 Cases of Romulan Ale
+B:Industrial Grade Replicators
+C:50 Cases of Stem Bolts
+D:Cloaking devices
+A
+12. The Romulans invade Cardassia on Stardate 49011.4
+A:True
+B:False
+C:N/A
+D:N/A
+B
+13. When did Cardassia announce that they were joining the Dominion?
+A:49011.4
+B:50485.2
+C:50564.2
+D:50654.1
+C
+14. How long did it take for the majority of Maquis to be eliminated by Cardassian and Jem'Hadar forces?
+A:24 Hours
+B:1 Week
+C:5 Days
+D:2 Months
+C
+15. Around which stardate did Starfleet first receive a message from the USS Voyager in the Delta Quadrant?
+A:51325.6
+B:51499.2
+C:51500.3
+D:51501.4
+D

@@ -1,0 +1,71 @@
+<DESC:Introduction to Sim Security>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-105 Intro to Sim Security
+*Takes a deep breath and proceeds*
+Today's class will be a brief introduction to Sim Security, if you decide to continue on as a Security Officer you will need to take follow up classes to this lesson.
+First, I would like to mention that I am happy to see you here to learn to become a UFGQ security officer.
+Due to the nature of Second Life, UFGQ Security is more than just a roleplay division and it will be up to you to help to defend our sims against any attacks.
+As a Security Officer you will provide SIM Security for UFGQ, and the rental properties if needed.
+In this class we will discuss the sim rules and some of the aspects of it. You also will learn how to handle visitors and to act in a right way as UFGQ Sec officer.
+It's not a class in which you will get all aspects of security work. Therefore, we have advanced classes and drills.
+Quote by Boze Earnshaw, former UFGQ Chief of Security :
+"Out here in the Gamma Quadrant, the UFGQ Security division is responsible for security aboard all Federation outposts, ships, and facilities, however the division’s mandate actually extends much farther than that.
+Needless to say, Security officers hold positions of great responsibility within UFGQ as they ultimately are responsible for the safety of all crew and visitors to any of our facilities and vessels.
+And, please, let me add that Security here is a highly responsible job, and it's not simply a role play! "
+Before we continue are they any questions?
+*pauses for questions*
+Let us continue, Starfleet Security is the branch of Starfleet responsible for security aboard all Federation outposts, ships, and facilities, it dates back to the 22nd Century.
+However, security officers aboard starships at that time may have been better known as armory officers.
+The senior armory officer would serve on the bridge and be in command of the ships weapons and would frequently join the crew on away missions,
+while lower ranking armory officers would serve on duty in the armory and provide assistance when dealing with intruders.
+Since that time Security and the role of the division has continued to increase and the same can be said of UFGQ Security
+More about the history of Starfleet and UFGQ Security can be found in later classes but for now let's turn our attention to one of the most important things a security aide/officer should know
+THE RULES:
+The current UFGQ sim rules are :
+GRIEFING:
+Griefing in any form will not be tolerated, and will dealt with by Security in an efficient  and appropriate manner
+DECORUM:
+The following rules are in place at all times:
+Minimum Clothing is required in public areas - For Males , this means shorts, for Females, this means Bikinis.
+No explicit public displays of affection
+No foul or abusive language
+WEAPONS:
+Any and all weapons must be in safe mode and holstered at all times unless actively participating in an authorised roleplay, or at a designated weapons range.
+Guests may NOT carry weapons at any time !
+TRESPASSING:
+Entering occupied housing or offices without the presence of the owner/renter or a member of the UFGQ administration is not permitted.
+Entering unoccupied houses or apartments is not permitted without permission by the owner.
+Teleporting blind directly into someone's office or home without prior permission is not permitted
+LITTERING:
+Unless given specific prior permission, all personal objects should be taken back to your inventory when not in use.
+Failure to do so will likely result in the object(s) being returned with UFGQ taking no responsibility for any deeding issues that may occur as a result.
+Next item is how to handle visitors or members, if a conflict with the rules occurs:
+First, handle them politely and with respect, they might not know our rules or could not understand them because of their origin.
+There might be a lot of people cannot understand English and so don't know what you want from them.
+You need to figure out which native language such persons speak and if you are not able to speak that language you will be prepared  by  UFGQ security,
+with some useful sentences and a copy of the sim rules, which have been translated into multiple languages.
+If all attempts fail to communicate with such persons/members you should ask in the group chat for assistance by a security officer with the rights to remove objects and/or eject people.
+Such rights will be given to you after some security drills and a talk with the Security CO & XO.
+The next thing you will learn about is griefers and how to handle them with no additional disruption to the SIM however, that will be taught another day in advanced security classes.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

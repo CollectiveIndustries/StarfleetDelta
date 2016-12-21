@@ -1,41 +1,41 @@
-<big>'''United Federation of Planets, Gamma Quadrant Wiki'''</big>
+<big>'''Starfleet Delta Quadrant Wiki'''</big>
 
 
-United Federation of Planets Gamma Quadrant Wiki currently has '''{{NUMBEROFARTICLES}}''' pages and growing every day.
+Starfleet Delta Quadrant Wiki currently has '''{{NUMBEROFARTICLES}}''' pages and growing every day.
 
 == United Federation of Planets: Gamma Quadrant Pages ==
-# [http://www.ufgq.org/ Main Page]
-# [http://www.ufgq.org/forum Forum]
-# [http://www.ufgq.org/forum/chat/flashchat.php UFGQ Chat Room (Must login through Forum first)]
-# UFGQ [[Council]]
-# [[UFGQ Members]]
-# [[UFGQ Charter]]
-# [[UFGQ Credits]]  and Links
-# [[UFGQ SIM Rules]]
-# [[UFGQ Rules]]
+# [http://www.starfleetdelta.com/ Main Page]
+# [http://www.starfleetdelta.com/forum Forum]
+# [http://www.starfleetdelta.com/forum/chat/flashchat.php Starfleet Delta Chat Room (Must login through Forum first)]
+# Starfleet Delta [[Council]]
+# [[Starfleet Delta Members]]
+# [[Starfleet Delta Charter]]
+# [[Starfleet Delta Credits]]  and Links
+# [[Starfleet Delta SIM Rules]]
+# [[Starfleet Delta Rules]]
 
 == Civilian Departments ==
-# UFGQ [[SCIS]]
-# UFGQ [[SSO]]
+# Starfleet Delta [[SCIS]]
+# Starfleet Delta [[SSO]]
 
 == Starfleet Pages ==
-# UFGQ [[Starfleet Members]]
-# UFGQ:SF [[Divisions]]
-# UFGQ:SF [[Service Records]]
-# UFGQ:SF [[Academy]]
-# UFGQ:SF [[Time in Grade]]
-# UFGQ:SF [[Awards]]
-# UFGQ:SF [[Rank Collars]]
-# UFGQ:SF [[Ships of the Line]]
+# Starfleet Delta [[Starfleet Members]]
+# Starfleet Delta:SF [[Divisions]]
+# Starfleet Delta:SF [[Service Records]]
+# Starfleet Delta:SF [[Academy]]
+# Starfleet Delta:SF [[Time in Grade]]
+# Starfleet Delta:SF [[Awards]]
+# Starfleet Delta:SF [[Rank Collars]]
+# Starfleet Delta:SF [[Ships of the Line]]
 
 == Management ==
 # [[Templates]]
 # [[Forms]]
 # [[Intellectual Property]]
-# [[UFGQ Rules]]
+# [[Starfleet Delta Rules]]
 
 == Archive ==
-# [[UFGQ Retired Members]]
+# [[Starfleet Delta Retired Members]]
 # [[Inactive Forms]]
 # [[Inactive Pages]]
 # [[Inactive Templates]]

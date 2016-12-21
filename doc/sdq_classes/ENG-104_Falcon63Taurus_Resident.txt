@@ -1,0 +1,196 @@
+<DESC:Ships Named Enterprise Pre-Fed.>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:4b45fb27-cf2e-1914-f513-bffddb952d46>
+Welcome to the Engineering Division in SDQ!
+Our class today is ENG-104 / Ships Named Federation Pre Fed.
+*Takes a deep breath and proceeds*
+<TEXTURE:6337cdfe-395f-409e-e52d-012354cb664d>
+One of the most famous ship names in starfleet is Enterprise,
+although some argue witch Enterprise is the most famous.
+I have often been asked what was the first ship named Enterprise.
+I have researched data banks and dug through old books to try to answer this question.
+We acknowledge that other species may have also used the name Enterprise.
+But we will be looking at Starfleet and Earth history for this class.
+Between 1616 and 1979, there were 13 'HMS Enterprises", while between 1775 and 1999, there were 8 "USS Enterprises".
+There have also been 10 NASA and Starfleet "Enterprises", 8 French "Enterprises", 1 Confederate "Enterprise", a few planes, blimps and balloon Enterprises,
+and countless privately-owned "Enterprises".
+As I researched the history of the name, I quickly realized that each of these ships had a fascinating history,
+and that the missions and patrols carried out by each ship are a reflection of the state of international relations and maritime technology at that point in time.
+We do not have the time to go over every Enterprise in history so I have tried to pick a few notable ones for you. I hope you will find this an interesting class.
+The first known Enterprise was a British ship which was sent to find the new passage to the Orient in 1616.
+She succeeded, but was destroyed in a hurricane near India. There is little other data on her.
+The next one on record was a French vessel L'Entreprise but she was captured in May of 1705 by the British.
+She served in the Mediterranean under command of J. Paul.  May 19, 1707, her new captain takes command, W. Davenport, and she saw action off of Leghorn, (Livorno) Italy.
+She wrecked on October 12, 1707 off of Thornton.  Her date of construction is not known.
+Specifications:
+Length: 110 feet
+Beam: 28 feet
+Drought: 15 feet
+Compliment: 115
+Armament of 24 guns
+Displacement: 320 tons
+<TEXTURE:30008227-4579-fb78-c585-fee0f37221b1>
+Then came the British HMS Enterprise from 1709-1749.  She was completed and launched on April 28, 1709.
+From 1709-1712: patrolled the Virginia under command of Nicholas Smith.  In June of 1711 she was taken on an expedition up the St. Lawrence under Rear Admiral Sir Hovenden Walker.
+From 1712-1718: Patrolled home waters from 1712 to 1718.  In 1718: undertook a major repair and refit.  From 1721-1724: Patrolled off of Virginia again.
+In 1740 she was renamed the Liverpool, a hospital ship and in September 1745 she was decommissioned.
+Specifications:
+Length: 118 feet
+Beam: 32 feet
+Compliment: 190
+Armament: 40 guns
+Displacement: 531 tons
+<TEXTURE:8e10192d-6128-cf53-4d1a-b17a6d6886c3>
+The first ship with the name USS Enterprise (for a United States Ship) was a Schooner that sailed from 1799 to 1823.
+She was known as "Lucky little Enterprise". Enterprise's first action came on 1 August 1801 when, just west of Malta,
+she defeated the 14-gun Tripolitan corsair Tripoli, after a fierce but one-sided battle.
+Unscathed, Enterprise sent the battered pirate into port since the schooner's orders prohibited taking prizes.
+This battle is depicted in the TEXTURE you see.
+During her voyages the ship was put in service during the Quasi-war with France.
+Where she Captured 8 privateers and recovered 11 captured American ships.
+This ship was overhauled and rebuilt several times,
+effectively changing from a twelve gun schooner to a fourteen gun topsail schooner and eventually to a brig rigged ship. Sailing the Mediterranean Sea .
+It also sailed the  Caribbean & Gulf of Mexico to combat pirates, smugglers, and slavers. Her crew captured 13 ships on this duty.
+Sadly, on July 9, 1823 she ran aground and broke up on Little Curacao island in the West Indies.
+No losses to the crew.
+Specifications:
+Length: 84" 7"
+Beam: 22" 6"
+Compliment: 70
+Armament: Twelve 6 pound guns
+Displacement: 135 tons
+<TEXTURE:a982b37b-813b-eedd-b961-8504e093a15e>
+Believe it or not the first “flying” Enterprise was in 1861 and was a Balloon.
+During the American Civil War, there was a United States Balloon Corps, which used a balloon named Enterprise.
+These balloons were used for long range reconnaissance of troop movements.
+Apparently, the Union Army made some use of these balloons until the Balloon Corps was disbanded in August 1863.
+One notable event was on June 17, 1861 where Thaddeus Lowe demonstrates Enterprise at the Columbia Armory in Washington DC.
+The balloon ascends to 500 feet, and transmits a telegraph to President Abraham Lincoln.
+From 1864 to 1886 the British HMS Enterprise was the first composite ironclad (wooden construction with iron armor).
+While some have classified this ship as a "lightweight battleship", I tend to think of her as a modified sloop-of-war.
+At 180 feet she was MUCH smaller than what later was classified as a battleship.
+Not much else is known other than in November of 1886 it was sold for scrap and dismantled.
+<TEXTURE:548e96a8-1244-268e-9cdc-8a90d213dfbc>
+We are going to jump ahead several years now to 1936 and the Aircraft Carrier CV-6 USS Enterprise. Known as "The Big E".
+She was the sixth aircraft carrier of the United States Navy and the seventh U.S. Navy ship to bear the name.
+Launched in 1936, she was a ship of the Yorktown class, She participated in more major actions of the war against Japan than did any other US ship.
+Enterprise earned 20 battle stars, the most for any U.S. warship in World War II.
+Some have labeled her the most glorious and honored ship in the history of the United States Navy, rivaled only perhaps by the 18th century frigate USS Constitution.
+On one trip to Europe, she was boarded by the British First Lord of the Admiralty, Sir Albert Alexander,
+who presented Enterprise with a British Admiralty Pennant, the most prestigious decoration of the Royal Navy.
+Enterprise is the only ship outside the Royal Navy to have received this award in the more than 400 years since its creation.
+Enterprise entered the New York Naval Shipyard on 18 January 1946 for deactivation, and was decommissioned on 17 February 1947.
+Specifications:
+Length: 809' 6" (later 827' 5")
+Beam: 83' (later 95' 5")
+Compliment: 1889 (peace) 2919 (war)
+Armament: 8 5"/L38 guns, 16 1.1" guns, (original) 8 5"/L38 guns, 44 - 40mm guns, 60 - 20mm guns (later) Aircraft: 81-90 (1945)
+Displacement: 25,500 tons.
+Propulsion: 9 geared steam turbines, 9 Babcock & Wilcox boilers (400 PSI) 120,000 SHP (4 shafts) = 32.5 knots
+<TEXTURE:bb6fc663-ac9e-094d-7f42-4ee86a10eb21>
+Then, in 1961 came the Aircraft Carrier CVAN-65 USS Enterprise.  The world's first nuclear powered aircraft carrier. Like her predecessor, she was nicknamed "The Big E".
+There were no other ships in her class.  She served in the Vietnam war along with several of the Persian Gulf wars.
+We are unsure of how long this ship served, some records were lost during the Eugenics wars.  But we do know she served until the early to mid 21st century.
+One incident of note happened in 1986 with a mysterious incident at Alameda. Soviet spy Pavel Chekov was captured by ship's marines near one of the reactors.
+Although Chekov was injured in an escape attempt, he later managed to escape from the hospital, probably with KGB assistance.
+The Soviet Union denied any knowledge of a Pavel Chekov, or of any KGB/GRU operations aboard the Enterprise.
+We know of this incident, as when the fugitive James T. Kirk and crew went back in time to bring Humpback whales back to the future.
+Specifications:
+Length: 1119' 9"
+Beam: 126' 4" at waterline, 256" 11" over flight deck
+Compliment: 425 officers, 4154 crew, including air crew
+Armament:
+2 octuple Basic Point Defense Missile System (BPDMS), 3 Vulcan-Phalanx Close In Weapon System (CIWS) 20mm gatling guns
+Aircraft: 80-95
+Displacement: 75,700 std, 91,100 full load
+Propulsion: 8 Westinghouse A2W nuclear fission reactors, geared steam turbines, 280,000(?) SHP = 36(?) knots
+<TEXTURE:4bf188d7-3d2b-064b-91cf-5d533b70aa27>
+In 1976 came the Space Shuttle OV-101 (USA) Enterprise, the first Space Shuttle Orbiter.  It was originally to be named Constitution (in honor of the U.S. Bicentennial),
+however, viewers of the a popular TV Science Fiction show started a write-in campaign urging the White House to rename the vehicle Enterprise.
+The name of that television show is not listed in the data bases.
+While OV-101 never made it into space, she was a valuable testbed for the space shuttle program.
+Originally, Enterprise had been intended to be refitted for orbital flight, which would have made it the second space shuttle to fly after Columbia.
+However, during the construction of Columbia, details of the final design changed, particularly with regard to the weight of the fuselage and wings.
+Refitting Enterprise for spaceflight would have involved dismantling the orbiter and returning the sections to subcontractors across the country.
+As this was an expensive proposition, it was determined to be less costly to build Challenger around a body frame (STA-099) that had been created as a test article.
+Similarly, Enterprise was considered for refit to replace Challenger after the latter was destroyed, but Endeavor was built from structural spares instead.
+Finally, on November 18, 1895, Enterprise was ferried to Washington D.C., where it became the property of the Smithsonian Institution, where it can be seen to this day.
+Specifications:
+Length: 122' 2"
+Wing Span 78"
+Height: 56' 6"
+Inert Weight 165,000 LB
+<TEXTURE:9356a2fc-7ddb-c306-db58-f7f130b7709d>
+In early 2020 man returned to the moon and the first of the new generation of Altair moon landers was named Enterprise.
+Unlike the previous trips to the moon that used one rocket for launch, NASA would launch two separate rockets.
+One would carry the lander vehicle and the separate rocket and fuel for the trip to the moon.  Then a second rocket would launch the crew in the Orion command module.
+Once in space the crew would dock with the lander for the trip to the moon.
+The Orion Crew Module is designed to be reusable for up to ten flights, allowing NASA to construct a fleet of Orion crew modules.
+This was the start of building outposts and eventually a permanent base on the surface of the moon, setting the stage for the journey to Mars.
+<TEXTURE:6b5fbe6f-a06a-a491-d760-b4fcc7bddf97>
+On May 2, 2034 the third ship launched to take man to explore and live on another planet and was also named Enterprise.
+These ships were designed to not only take people to Mars, but to provide shelter on the surface as well.
+Upon arriving into Mars' orbit, the ship would break into sections where one would be the manned lander and the other part would parachute down and become the living quarters.
+When the mission was done, the lander would return to the main ship that was left in orbit for the return flight.
+With each new mission more living quarters are left for the next set of explores building a colony.
+Unfortunately due the nuclear conflict in the 2050's much of the data from this time has been lost.
+<TEXTURE:74934d53-e2f1-537f-563a-a417fd8127bb>
+The next Enterprise we are able to find in the data base was a J-Class freighter built in 2090.
+The J-class was a starship design of Earth origin which was utilized as a freighter.
+They were capable of maintaining a maximum speed of warp two, and capable of hauling loads of up to 30,000 metric tons.
+The warp reactors were personally designed by Zefram Cochrane himself, and there were rumors that he personally signed the inside of each reactor casing.
+The inertial dampers aboard the J-class were far less advanced than that of later warp-capable vessels.
+As such, all passengers on a J-class freighter would have to hold on to handles when the ship went to warp, or risk losing their balance.
+Due to the long travel times between stops being 6 months to a year or more depending on the run, these freighters tended to be multi generational,
+often handing down the captaincy from parent to child..
+<TEXTURE:7d5af979-c451-d3c9-e43b-f00d677b3822>
+In 2122 came the USS Enterprise (XCV-330), also classified as the SS Enterprise.  It was the first spacecraft named Enterprise to be designated a starship.
+The Enterprise was originally built as a simple Fusion probe on Earth in the early 22nd century.  It was one of the earliest vessels to leave the Sol system in the pre-warp era.
+With warp drive ships starting to be built, she was taken out of active service sometime in the mid 2140's.
+In 2175, the vessel was refitted and brought back into service as a historical passenger liner within the Federation.
+For 47 years, the Enterprise offered large-scale transport between the major planets of the Federation.
+Specifications:
+Length: 984' 4"
+Width: 820' 3" (outer rings)
+Armaments: 1 plasma cannon
+Capacity: 100 crew and 850 passengers
+<TEXTURE:fb631ba6-c658-9766-5591-11dc15859aa3>
+Then came the Enterprise NX-01, the Earth's first warp 5 capable starship.
+Commanded by Captain Jonathan Archer, she was launched in 2151, heralding a new era defined by encountering numerous new species like the Andorians, and initiating those friendships.
+The Enterprise established United Earth as a legitimate interstellar power and caused a wholesale revolution in Alpha and Beta Quadrant politics,
+paving the way for the creation of the Coalition of Planets and eventually the United Federation of Planets in 2161.
+In her first year the Enterprise crew made first contact with many species like Klingons, Andorians, Tellarites, just to name a few.
+After the Xindi attack on Earth in March of 2153, Enterprise was recalled home.
+Arriving on April 24th, Enterprise was refitted and upgraded with the new photonic torpedoes, enhanced hull plating, a universal translator update, a new command center,
+and was relaunched on a new mission to the Delphic Expanse to search for the Xindi superweapon.
+Enterprise also took on board a detachment of MACOs for this mission.  The search for the Xindi was long and perilous, taking almost a year.
+Enterprise was in severe danger much of the time in the Expanse due to the presence of spatial anomalies.
+After returning home the Enterprise went through a refit for repairs and upgrades to its systems and was relaunched in May of 2154.
+Under the command of Archer the Enterprise served proudly until the Enterprise was retired in 2161 to make way for new, more advanced starships.
+It was then placed in a Federation museum where it still remains.  If it was not for Captain Archer and this Enterprise. the Federation may very well have never formed.
+Specifications:
+Length: 738' 2"
+Maximum speed: Warp 4.5 (cruising speed), 5.2 (emergency)
+Armaments: Photonic torpedoes.
+Phase cannons
+Spatial torpedoes
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

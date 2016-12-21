@@ -1,0 +1,109 @@
+<DESC:Introduction to Orions>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-112 / Intro to Orions
+*Takes a deep breath and proceeds*
+ORIONS:
+One of the most notorious races of the galaxy would arguably be the Orions.
+<TEXTURE 253ce881-b2cd-c5c5-3604-bdb5d5970553>
+Known for their distinctive green or sometimes blue skin.
+Orion males are typically bald and on average they're taller and more muscular than your average human male.
+<TEXTURE:f9b76eee-e7aa-3088-eed8-aa016f36318e>
+Blue skinned Orion's are rarely seen.
+It is speculated the blue skinned Orion’s may be the descendants of the indigenous people of Rigel VIII.
+In 2268 on USS Enterprise 1701.
+A blue Orion was caught impersonating an Andorian delegate to a conference on Babel
+<TEXTURE:b7e20dc6-f202-9455-9973-edb607066566>
+Orion females are animalistic in nature, known for their carnal appetites and their innate seduction skills.
+A human male can rarely resist the dance of the Orion slave girl. In Orion society, the males are actually slaves to the females.
+This is not very widely known, due to the facade of the females being the slaves, which is perpetuated by selling Orion females on the Orion slave market.
+Once sold to a male, an Orion female will use her unique physiology to her advantage.
+This includes potent pheromones that accelerate the metabolism and increased adrenaline production of males.
+This can raise hostility between males to dangerous levels and even create a delusion in some males.
+<TEXTURE:cd105d4a-75cc-1e19-b4da-01ea954941de>
+Most significantly, this makes the male very susceptible to suggestion.
+Not long after, the male will start to take orders from their female "slave" The longer a man is exposed to the pheromones, the more pronounced the results will become.
+It is a common misconception that Orion females are born with their pheromones.
+In truth, they do not manifest until they are of breeding age.
+This has caused numerous cases of off-worlders abducting young Orion females in order to "train" them before they are capable of using their pheromones to their own advantage.
+<TEXTURE:84cabd12-54ea-4cab-dacf-22ad185372fd>
+A female Orion who fails to develop a certain level of pheromones at this time is sold as a legitimate slave on the Orion slave market.
+They have enough pheromones to arouse a male, but not enough to "enslave" his mind to her will.
+Conversely, a human female will react negatively to the Orion female's pheromones, experiencing symptoms like headaches and irritation.
+Denobulan males experience interruptions in their sleep cycles.
+Vulcans seem to be immune to the effects of the pheromones.
+Orion females are tutored in the arts of seduction and utilizing their pheromones around the time they start to enter puberty and their pheromones first start to manifest.
+Such things are taught in school, though personal techniques are passed from mother to daughter in a coming of age ceremony.
+Such ceremonies have never been witnessed by off-worlders.
+Or, at least, if they have been, none have survived to talk about it.
+It was theorized by noted physician, Dr. Phlox, of the Enterprise NX-01 that these pheromones developed as a defense mechanism against competition.
+ORION HISTORY:
+<TEXTURE:53ccc4dd-141d-072e-45b2-81bd08a47463>
+Orion records were a significant historical resource, with a huge volume of data and a wide variety of different media.
+But incredibly little of it was reliable, being rife with subjective views, rampant falsification, and lazy scholarship.
+Orion historians and artists primarily presented their patrons' views, whether that of a family, government or a business.
+For their side, victories in war and business were exaggerated, as were those of their foes, while defeats were downplayed or left out altogether.
+The records themselves were difficult to obtain without sufficient bribery of the appropriate officials,
+and often needed to be studied under trying circumstances without the ability to determine authenticity.
+The more secret or more factual knowledge was even harder to find, depending on lucky discoveries of full and accurate records,
+intact archaeology, or a long and tedious compilation of pieces of knowledge from a wide range of sources.
+However, despite these problems, there were so many sources for Orion history it was possible for historians to construct a reasonably balanced chronology, albeit with many holes.
+Orion's are not native to the planet Rigel VIII that they call their homeworld.
+The oldest Orion cave-drawings on Rigel VIII  (Botchok) depicted spaceships landing on the plains,
+with bulky suited aliens emerging to capture and carry away the stick-figure natives.
+From accounts it is speculated but not confirmed. That the Orions original planet was destroyed when its sun went nova.
+The Orions took to space to find a new homeworld.
+Over the centuries in space they turned to piracy and slave trading to sustain themselves, becoming part of their culture and way of life.
+The Orions also have several colonies throughout the alpha and beta quadrants. Mostly used for their illicit activities
+The Orions were once a highly advanced civilization. This has drawn great interest from
+Federation historians and archaeologists.
+Federation Scientist Dr. Roger Korby translated medical records from Orion ruins that help revolutionize immunization techniques.
+That became standard reading for medical students at Starfleet Academy.
+Evidence shows they may have been trading with Coridan for several centuries before 2155.
+They began trading with the Earth Cargo Service as early as 2152.
+The Vulcans may have been aware of the Orions as late as 2154.
+Evidence suggests they expanded their area of operations between 2144 and 2154.
+In 2154, a well known Federation vessel, the Enterprise NX-01 was raided by an Orion Interceptor, nine crewmen were taken as slaves.
+<TEXTURE:debfa655-73d2-bfcd-6bcb-491edce42264>
+This was not a high point in relations between the Orion Syndicate and StarFleet.
+In the same year, Tellarites, suspecting Orions of raiding their own vessels, demanded the Coalition of Planets to establish a trade embargo.
+Society:
+The Orions are, in general, a reclusive people who shunned contact with outsiders and stayed close to their home systems.
+Officially Orion's maintain their neutrality and avoided joining with any of the neighboring superpowers.
+They will cooperate with other races in joint ventures, mostly if it has some advantage for them. And some Orions have even joined Starfleet.
+<TEXTURE:88e1d387-6adc-7e29-f2e2-35570117ebea>
+"Sensible" and "civilized" Orion's stayed at home to make their fortunes,
+while adventurous pirates, merchants and explorers probed its edges, and new Colonies pushed it back, but few liked to go too far into it.
+However, they also tended to be semi-nomadic, at least between their Colonies
+<TEXTURE:ae385010-065b-a492-b2ac-70ea159682da>
+Military:
+The Orions do not have an organized military or official space fleet.
+It is one way they can continue  to claim their neutrality.
+Each family or business group will have its own set of fighter ships. That is used for defense or to attack as the need arises.
+Most often Orion's will tend to use ships purchased or stolen from other space faring races.
+This is not to say that Orion's not build their own ships. Pictured is an example of Orion built ships.
+The Orions prefer to build small fast moving ships to use in their piracy.
+But do use ships of all size classifications. The largest ships are used as mobile slave trading bases.  All of this makes it hard to know who are what you may be coming across.
+If you have reports that Orions are in the area that you are in,
+always be cautious of any unmarked or unknown vessels you may come across..
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

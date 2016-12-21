@@ -1,0 +1,60 @@
+1. Shuttles, are auxiliary craft typically attached to a starship or a starbase.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+2. When should you file your flight plan?
+A:When you are doing your preflight checks.
+B:Prior to takeoff,
+C:It is not necessary to file a flight plan.
+D:You file your flight plan after you land.
+B
+3. At what point does your Preflight checks start?
+A:When you take the pilot's seat.
+B:When you fire up the engines.
+C:When you approach to the shuttle.
+D:When you enter the shuttle
+C
+4. It is ok to have your preflight checks memorized.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+5. Which of the following is not part of a preflight checks?
+A:Sensors internal and external
+B:Environmental controls
+C:Com. system is set to play your favorite music
+D:Shields
+C
+6. It is always recommended to hover a few meters after lift off ?
+A:True
+B:False
+C:N/A
+D:N/A
+A
+7. Why do you run scans of the area?
+A:To check for things that you may need to adjust your course to avoid.
+B:Because it is on the checklist.
+C:To see if it is safe to proceed.
+D:You do not need to run scans before you leave
+A
+8. Your shut-down procedures checklist is?
+A:Shorter than the preflight checks.
+B:Just like the one used in your preflight checks.
+C:Longer than the preflight checks.
+D:Different than the preflight checks.
+B
+9. Going  through your pre and post flight checks every single time.
+A:Is the best way to prevent an emergency?
+B:Is a waste of time.
+C:Is not needed if maintain your shuttle.
+D:Is not necessary if you just flew the shuttle an hour ago
+A
+10. Who is responsible for safe operation of the shuttle?
+A:The engineer  that worked on the shuttle.
+B:The admiral that you are transporting.
+C:The Navigator
+D:Me, pilot in command
+D

@@ -1,0 +1,180 @@
+<DESC:Introduction to Caitian>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-102 / Intro to Caitian
+*Takes a deep breath and proceeds*
+PHYSIOLOGY
+The Caitians are a feline race. They are bipedal, possess sleek bodies covered in soft fur, which is of a golden coloration, similar to Terran lions.
+Tall and lean, generally ranging in full grown height from 5’,11" to 6’,4", and weighing around 160 to 180 lbs. Life Expectancy is 125 to 175 years.
+Having very low body fat, they have great difficulty swimming, and tend to dislike large bodies of water.
+With long tails, manes, and fur coloration mostly part similar to Terran short hair domesticated cats.
+They have extremely acute senses, large golden eyes that provide excellent low-light vision, and their vision is very motion sensitive.
+However, they have less color acuity than the human norm. Their hearing is above Vulcan levels.
+Their senses of taste and smell are more developed than humans, though it is far less developed than that say, of an Antican or Terran canine.
+They can’t track by scent, though they can gain strong scent impressions when in close contact with another being.
+The Caitian excellence in hearing makes them ideal experts in Communications. They hear ranges far above and below normal human ranges.
+Standard adult Caitians wear a day-robe, a one piece outfit designed for coolness of wear, as Cait is 90% hot Savannah.
+Children can wear day-robes, but it is not uncommon for them not to wear clothing until adolescence.
+Caitians wear a collar at all times in public, as the neck is considered a vulnerable/sensitive area.
+Bonded Caitians following old traditions may wear identical ankle bracelets, to show their devotion to each other.
+According to the tradition, this anklet is never supposed to be removed for the rest of their lives.
+Shoes or boots are typically not worn by Caitians, even in Starfleet.
+Caitians are often considered among the most physically attractive species in the galaxy. Caitians are extremely agile, dexterous and fast.
+Both hands and feet have retractable claws, which Caitians customarily grow long and sharp, though the use of those claws in combat is unthinkable.
+Ancient Caitian legends also tell of a White Caitian, very few such Caitian have been born in recorded history (pure white being a rarity,
+rarest of all is the silvered coloring of the almost extinct Polar Caitians).
+Caitians are Carnivorous hunters, by nature.
+They prefer their meat raw (blood temperature) or rare, and find it difficult to digest vegetables, although grains are easier.
+Caitians are less hearty than humans, tiring after shorter periods of intense effort than the human norm.
+Their physiology was designed for a predator’s wait and pounce, rather than long migrations. 90% Caitians suffer from Heart Disease.
+This usually results in strokes and heart failure at around 70. Almost all Caitians above that age use artificial hearts.
+As a result, the hospitals on Cait are the best at such surgeries, as they are so common.
+Many Caitians in Star Fleet are engaged in regular cardiovascular training to compensate for this, and can exceed this, but only through regular consistent effort.
+*Pauses to take a drink of water before continuing*
+LANGUAGE
+The Caitian language, Caition,  consists of multiple soft tones, spoken with a deep purring resonance;
+this style of communication makes it difficult for the Caitians to adapt to phonetic languages.
+To an outsider it sounds like just purring at first. After more listening, words can be made out of this soothing language.
+Caitians speak Federation standard English when dealing with off worlders.
+When a Caitian speaks Standard as a second language,
+it is usually punctuated by purring "R"s and hissing "S"s. Caitian female names typically start with M', while male names typically start with S'.
+CAITIAN NAMES
+Caitian names are not just a way of keeping track of who's who. They also serve as a way to tell a little bit about a person's personality and family.
+The modern, universal format for Caitian names is letter, apostrophe (thought the apostrophe doesn't appear in the Caitian spelling), and the last syllable.
+Kits aren't named until they are about one year old. Usually, the parents will have nicknames for each individual child.
+The first letter is indicative of the personality of the name's bearer.
+An individual's personality rarely changes after the first year of their life, it's just the norm for the Caitian psyche.
+Here's a list of what each letter means for personality.
+R - strong willed/ stubborn
+P - sympathetic/ empathic
+L - thoughtful
+S - curious
+K - protective/ hunter's instinct
+M - graceful/ calm
+N - content
+V - impulsive
+T - gregarious
+RELIGION
+The main religion of Cait is the worship of the deity Rrikalla. Rrikalla controls all life in the universe.
+Unlike the deities of some worlds, Rrikalla has no specified gender. For every birth, there is a death.
+Rrikalla maintains existing life, as well, by providing the material things to sustain it; plants for the prey, prey for the predators, and finally predators feed the plants.
+While it has rapidly been dwindling the last few centuries, a few Caitians still religiously worship their matron Deity, the Goddess M'haya,
+a monotheistic entity, that according to their religion created the universe.
+Opposing her are the Dark Ones, who try to trick Caitians and make their lives miserable.
+The Goddess is worshiped in detailed statues, usually kept in a personal shine in the home.
+Both religions are very similar in their beliefs, but Rrikallans tend to be more liberal in their beliefs while M'hayans are more disciplined and commited to their faith.
+M'haya, notable for its emphasis on attainment of wisdom and enlightenment of inner self,
+particularly as realized in the form of meditation known as Zigen'al. M'hayan training emphasizes daily life practice, along with intensive periods of meditation.
+Practicing with others is an integral part of M'haya, which is basically the balance of the 4 elements
+(Earth, Water, Air & Fire) to reach or attain spiritual enlightenment, aesthetic and erotic pleasure.
+The following of Rrikalla has become the major religion of common Caitians, although many purists, the older elite families,
+still hold onto their ancient roots of the Goddess.
+The bow is the traditional form of extending respect, although other races have mistakenly interpreted it as a greeting.
+They have a tendency toward politeness that rivals even that of the Vulcans, although they make no claim on logic.
+They are an emotionally open and highly social people with which several off-world scientists have attributed to their long lifespan.
+They are also a physical people, another thing that caused some confusion to the Terrans.
+Caitians tend to be what the humans call 'touchy-feely.' Unlike the Kzinti, the Caitian race is not hostile in nature.
+Their reputation as one of the most cooperative and intelligent members of the Federation makes Caitian crew members much sought-after throughout Starfleet.
+*Pauses to take a breath before continuing*
+THE PLANET CAIT
+<TEXTURE:6f2d4a14-f725-c7b3-5a96-de4e35253d6b>
+The Caitians call Cait "Ferasa" in their native language. The planet Cait is a normal class-M world within the Lynx constellation,
+Cait is about .80 AU from a yellow star, orbiting Verrral, a Type G3 V star, yellow, slightly brighter than Sol.
+It is the only habitable planet in its system and has two moons, Rea and Sura. Cait’s origins are steeped in mystery.
+The Kzini, the Regulans, and the Lyrans all claim that Cait was essentially a "Lost Colony" of theirs.
+Considering the similar genetic markup of the four species, those theories are possible.
+However, it is also possible that all four species were seeded in that section of space by an alien race akin to the Preservers.
+However it was formed, Caitian culture evolved separately from the other races. Initially, Caitians were a hunting people, wild predators on the Savannah.
+However, what farming did to the humans, ranching did to the Caitians. The domestication of local wildlife turned the nomadic people into more sedentary people.
+As a result, culture soon flourished and in a few thousand years, civilization, based around the ranch principle.
+The asteroid belt that lies in the Caitian system is an abundant source of ores and valuable minerals, not the least of which is dilithium.
+Orbital refining platforms within the belt provide a large percentage of the dilithium crystals used in that area of Federation space.
+Cait would have remained a small, insignificant planet had not it’s system been rich in a rare element: Dilithium.
+This brought it to the attention of the local powers, including the Federation. Cait was admitted to the Federation in 2234 and has been a great asset since.
+The planet Cait isn't anything too unusual. It has five continents, three are very similar, one is far south and quite frozen,
+the other is right on the equator and has thick vegetation.
+The rest of the planet is ocean. It has a population of 5.2 billion people.
+The largest continent is Larrrtov.
+It is almost completely tall grass savanna. It is the perfect environment for hunting.
+The continent of Pirrrem is the second largest.
+It is, for the most part, a smaller version of Larrrtov. The only difference is size and shape.
+There is evidence that, at one point, there was a land bridge from Pirrrem to Larrrtov.
+It is suspected that the original Caitians migrated from one continent to the other, similar to the Terran migration from Asia to North America.
+The last of the savanna continents is Canrral. It has a dry season that lasts for about 3/4 of the year.
+It doesn't receive enough precipitation to allow grass to grow as tall as on Larrrtov or Pirrrem.
+It wasn't heavily populated until domestication of animals made hunting unnecessary. The only heavily forested continent is L'narrr.
+It is located directly on the equator and is covered in tropical forest. It was never, and still isn't, heavily populated. It has never come as much use,
+except a few resorts which attract off-world visitors.
+The last continent is Virrrtam.
+It is located near Cait's southern pole. The only vegetation is a small area of tundra at its northernmost point.
+It is uninhabited, but at one point it was the destination of exiled citizens from Canrral.
+It does not cover the south pole, but the icecap does extend and join with it.
+The boundary of actual land wasn't known until orbital scans were conducted in the early phase of Caitian space exploration.
+GOVERNMENT
+The planetary government is not as powerful as its counterparts on other worlds.
+For the most part, individual provinces and districts govern themselves quick effectively.
+A planetary government exists mostly because it is required to join the United Federation of Planets.
+The government consists of two branches.
+First, is the K'tarrela. This is the senatorial council.
+The K'tarrela is composed of 500 members from around Cait.
+They do not represent any particular region and are allowed to run for election only if they are shown to work solely for the good of Caitian society.
+They create laws, agencies, and control the planetary militia in times of crisis.
+The other branch is the novirrass, our court.
+It is made up of 13 justices that are nominated by the K'tarrela and elected to office by the a vote of the continental courts.
+The Novirrass is the highest court on the planet.
+Appeals can be made to the UFP if parties are not satisfied with the court, though the court cannot accept off-world cases.
+Any dispute with another world must be made to a UFP court. The continental courts are the governing courts for the individual continents of Cait.
+They are the last step before the novirrass. Under them are several smaller courts to handle particular regions.
+Centuries ago most of the courts were abolished due to globalization and acceptance into the UFP.
+SOCIETY
+Caitians live in close family groups, with attachments to larger clans. Caitians tend to take great pride in their appearance.
+Cleanliness, well styled mane, groomed tail, fashionable dress, and perfectly maintained claws are all very important.
+Failure to do so is seen as an act of self mutilation.
+Caitians traditionally greet each other by clasping their hands and extending their claws to just touch each other’s wrist…
+it is a sign of the great trust they have for each other.
+As mentioned above well maintained claws are important in Caitian society, and to even think of using them to harm another being is beyond most Caitians.
+Cities on Cait are be spread out and moderately developed, or built downward so as to have less affect on the environment.
+Xenophobia is almost nonexistent, the main cause for intolerance being violence.
+Caitians are trained from birth to avoid committing violent acts. Their societal right of passage is an oath to forswearing violence, taken at age 12.
+They have had difficulties in relations with particularly warlike species, such as Klingons and Cardassians.
+In the Federation Senate, Caitian Senators are among the first to call for negotiations and peaceful resolution.
+The season where a Caitian Female is fertile occurs once every six months as well, at opposite parts of the year.
+Caitians usually do not actively choose a mate, but instead they go through a process called bonding, which is as much physical as psychological.
+After adolescence, Caitians give off a pheromone that tells others that they are unbonded and are therefore available.
+When two Caitians bond, their pheromones shift and are now read as unavailable by other Caitains.
+The two Caitians become addicted to each other's pheromones, and as a result feel the need to be close to one another.
+The entire process occurs on a subconscious level and can happen without either Caitian knowing it at the time.
+With rare exceptions, these Caitians fall in love and are married. As a result, Caitian society sees bonding as a form of engagement.
+The intensity of the bond varies per individual. The bond lasts for the rest of the Caitians life, and is only broken upon the death of one of the Caitians.
+CAITIANS IN THE FEDERATION
+<TEXTURE:8fe5558f-037f-adc3-615d-579910bfdd17>
+The Caitian world's joined the Federation shortly after its founding, and have been steadfast members ever since.
+Their desire to serve the commonwealth has lead them to enlist in Star Fleet in great numbers.
+For the most part, Caitians in Star Fleet are involved in Communications, Diplomatic Services,
+Medical, Counseling and the Sciences, places where they can serve the common good without compromising their deeply ingrained pacifism.
+Though Caitian shuttle and fighter designs are used as the basis for many of the Federations current versions.
+The legendary Caitian cooperativeness is an attribute that makes them valued members of the Federation.
+A smaller number have found a home in Engineering, and less than 20 are currently found in TAC/SC or the SFMC.
+Before joining the Federation, Caitians had established territorial claims to four systems outside their own, and all four,
+while maintaining close to the home-world, have long been independent of direct rule from Cait.
+All Caitian worlds are open to other species, and as of last census, there were about 17 billion Caitians living throughout the Federation.
+This concludes our lecture for today.
+<TEXTURE:f2f090d8-5a92-69ab-5087-89ca7e8d7454>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

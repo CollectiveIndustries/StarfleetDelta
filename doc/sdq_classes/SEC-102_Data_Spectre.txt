@@ -1,0 +1,216 @@
+<DESC:Hazard Team Part 2 - Weapons>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-102 / Hazard Team Part 2 -  Weapons
+*Takes a deep breath and proceeds*
+Welcome to the second lecture which deals with the weapons and equipment that the hazard team used and encountered.
+We will go through each weapon and their specifications which will include a little about their history.
+Let us begin…
+<TEXTURE:9b4e259a-7a1f-43bb-d09e-c60d8e129305>
+Phaser
+Phaser is an acronym for Phased Energy Rectification.
+This sidearm is commonly used by all Starfleet personnel in both security matters and on away missions.
+The Phaser emits an energy beam that knocks out a target and continually recharges itself.
+It can fire either a narrow beam, or a wide area beam, the latter using up more weapon energy.
+A type-2 phaser is a typical hand-held directed-energy weapon used by Starfleet and United Federation of Planets personnel during the 23rd and 24th centuries.
+More powerful and generally larger in size than the type-1 phaser, type-2 phasers are kept aboard Starfleet and Federation starships, starbases, space stations and at planetary facilities.
+The type-2 phaser is a required piece of equipment for most Starfleet away teams, and is the basic sidearm of Starfleet security teams and Hazard teams.
+Often, concerns about diplomacy would be the only reason a landing party or away team will opt to not carry type-2 phasers,
+as smaller type-1 hand phasers are more easily concealed and give Starfleet personnel a less threatening appearance.
+A descendant of electromagnetic weapons, laser weapons and phase weapons of the 22nd century,
+the type-2 phaser started to supersede the laser pistol as a common Starfleet sidearm in the 23rd century,
+and was standard issue aboard Starfleet vessels by the 2260s.
+Utilized primarily in defensive situations, the Phaser Type-2 has several applications, from use as a weapon to use as a cutting tool, explosive device, or energy source.
+Storing considerable energy, most phasers are distinguished by a roughly pistol or gun-type configuration,
+firing a focused energy discharge in the form of a beam or steady stream.
+In the nearly two hundred years since their introduction to Starfleet personnel, several models and makes have been observed.
+Type-2 Phasers can cause severe to deadly injuries or phaser burns.
+The Type-2 Phaser, while not as powerful as other particle weapons,
+has the advantage of not requiring ammunition in order to fire.
+Instead, its internal energy cells slowly regenerate themselves.
+Variations
+<TEXTURE:adfa49fe-8ed0-62f1-904b-35aced6e51fc>
+One of the earliest incarnations of the type-2 phaser was a Sestra Weapons phaser pistol used in the 23rd century, coming into Starfleet use on reference stardate 2/06.
+The weapon consisted of a removable type-1 hand phaser mated to a pistol grip with a power pack.
+This weapon fell out of use after the late 2260s after the evolution of transtator II technology was discovered on reference stardate 2/09.
+In the 2270s, the Atalskes Phaser Corporation phaser IV model of type-2 phaser was introduced, again consisting of a (somewhat larger) hand phaser (known as the phaser III) mated to a pistol handle.
+These weapons were first issued on reference stardate 2/12 and were used well into the 24th century, despite other models being available.
+These weapons were used aboard many vessels, such as the Enterprise (from 2273 until 2285), Reliant, and the Enterprise-C.
+In the 2280s, the phaser IIB was introduced, as part of the Sestra company's phaser B series,
+returning Starfleet to a shape similar to the 2260s type-2 phaser, with a smaller removable hand phaser, the phaser IB.
+These sturdy weapons were known to be traded as surplus outside of Starfleet many years after first being introduced, into the latter half of the 24th century.
+By the late 2280s, another heavy-duty pistol variant of the type-2 phaser was introduced, with an adjustable emitter shield on top and a spring-like power pack ejection option.
+In the 24th century, Starfleet began to use a variety of type-2 phasers that abandoned the familiar pistol grip,
+having an extension of the body of the weapon that resembled the grip of a hand phaser,
+with at least four distinct variations of this design used in the latter half of the century.
+<TEXTURE:d4820bfc-f592-4261-5601-5194156d9b9a>
+Compression Rifle
+On more hazardous missions, Starfleet officers carry the Compression Rifle as a greater source of firepower.
+The rifle fires pulses of a similar but more powerful type to the Phaser in a tight beam.
+The Compression Rifle also fires a more deadly and silent sniper shot, which requires more energy but can be very effective on infiltration missions.
+Compression phaser rifles are one of the most powerful personnel-carried weapons in the Starfleet arsenal and are an alternative to the type-3 phaser rifle.
+These powerful weapons are assigned to starships that could possibly see intense close-quarters or surface combat.
+The USS Voyager was equipped with Compression Rifles as a standard part of its weapons inventory.
+They were first used by an away team which transported to the Caretaker's array in 2371.
+The crew of the USS Enterprise-E used Compression Rifles numerous times.
+These included warding off invading Borg, protecting the Baku, and assaulting invading Remans.
+The Compression Rifle is also the standard armament for Hazard Team members aboard Voyager from 2376 until the ship's return to the Alpha Quadrant.
+On more hazardous missions, Starfleet officers carry the Compression Rifle as a greater source of firepower.
+The rifle fires pulses of a similar but more powerful type to the Phaser in a tight beam.
+The Compression Rifle also fires a more deadly and silent sniper shot,
+which requires more energy but can be very effective on infiltration missions.
+<TEXTURE:d3694f75-3629-6f8e-8ccd-d20eac1f2f74>
+Enhanced Compression Rifle
+The enhanced compression rifle is a type of rifle weapon,
+an upgrade to the standard compression phaser rifle that can fire both phaser blasts and grenades.
+This new and improved version sports a higher rate and more rapid bursts of phaser fire than it's predecessor,
+and has a nose-mounted grenade launcher, making it extremely suitable for some Hazard Team missions.
+Ensign Korban assisted with the designs of upgrades to this device.
+<TEXTURE:48deb3d5-2d5c-21f6-4802-a4d0b66e3f21>
+Infinity Modulator
+One of the greatest tactical advantages of Borg Drones is the ability to adapt to the modulations alien weaponry, making them useless.
+To combat this, Voyager crewman Seven of Nine designed the Infinity Modulator (or I-Mod),
+which infinitely changes the modulation of the weapon so that the Borg cannot adapt.
+The infinity modulator, also known as the I-MOD,
+is a directed-energy rifle weapon designed by Seven of Nine and Perfecto Oviedo of the USS Voyager to combat the Borg.
+The weapon operates on a rotating band of frequencies which prevented the Borg from adapting to the energy attacks.
+This effectively removed the primary advantage of all Borg drones, who could adapt to other types of weapon fire after a few strikes.
+While a useful weapon against the Borg, the weapon runs on a finite amount of energy and once depleted,
+it  needs to be taken to the nearest energy station to recharge through the Hazard Suit or by means of physical ammunition.
+The weapon played a large role in Voyager's return to the Alpha Quadrant,
+with the Hazard Team utilizing it onboard the Vorsoth Forge holding the ship in the Delta Quadrant.
+<TEXTURE:9eb60e40-f422-9d8d-afe3-0fcbc31149c4>
+Scavenger Rifle
+A product of combined technology by the Scavengers,
+the Scavenger Rifle fires rapid pulses of energy at a target from medium to short range.
+A more energy costly alternative fire of the rifle are energy grenades,
+a wide area shot that is capable of knocking out multiple targets without the need for precise accuracy.
+<TEXTURE:366c9a90-98ad-4990-194a-cefaa793ef00>
+Stasis Weapon
+A mysterious weapon found aboard the Etherian ship,
+the Stasis Weapon mimics the technology behind the stasis system the Etherians use aboard their ship.
+The primary fire of the weapon fires a pulse which can 'freeze' a target in stasis for a short period, and after repeated hits, will die.
+The secondary fire emits five separate pulses, having the same effect.
+<TEXTURE:a082ad02-303b-d2af-35c0-9b14d6a941e5>
+Photon Gatling Gun
+Possibly of Hirogen design, the Photon Gatling Gun was used by the Hirogen Alpha aboard the Scavenger Base.
+This wide area effect gun fires rotating rapid pulses at enemy targets,
+whilst the alternative fire is a single pulse that can deflect off objects until it hits a target or its energy dissipates in transport.
+<TEXTURE:c730103d-f406-0807-cf5b-6e142c1ccd19>
+Photon Burst
+The Photon Burst is a heavy weapon rarely used in the Federation as it fires highly powerful and energy costing micro Photon Torpedoes,
+a smaller type than the ones used in starship defence.
+Aimed at a target, it will almost certainly vaporize them,
+while aiming at the ground proves to be an effective wide area effect on multiple targets.
+The Photon Burst's employment in any capacity had to be approved by Captain Kathryn Janeway before it could be used, due to it's highly destructive design.
+<TEXTURE:c75ca992-1d65-4062-c513-714355320631>
+Arc Welder
+Primarily designed as a energy repair and maintenance tool,
+the Arc Welder was found aboard the Dreadnought Gunship and proved to be an effective weapon in rendering targets unconscious,
+either by using the less powerful, tighter primary fire or the more powerful wider area effect of the secondary fire.
+<TEXTURE:5649e7ae-0a77-0bbc-ec57-e4d203dd74a5>
+Quantum Burst
+The Quantum Burst is the latest heavy weapon produced for the Hazard Team, as well as Starfleet infantry forces at large. It was designed by Hazard Team member Ensign Korban, and follows a similar line of function and design to the Photon Burst. 
+Instead of miniature Photon torpedoes however, it utilizes new and far more destructive mini-Quantum torpedoes for ammunition.
+The Quantum Burst fires mini-quantum torpedoes at the target and are highly destructive. There is also the option of using a phased laser sight, which can make the wielder of the weapon guide the projectile to a specific target or location.
+<TEXTURE:3d38290c-a34c-0489-8ce6-3bd1da745ddc>
+Tetryon Pulse Disruptor
+The tetryon pulse disruptor is a Hirogen rapid-fire directed energy weapon,
+which uses disruptor technology to fire energy composed of tetryon particles
+.
+A weapon of this type was wielded by a Hirogen Alpha that had been stalking Crewman Thomas Odell and Ensign Alexander Munro,
+at the Scavenger base of operations during the USS Voyager Hazard Team's isodesium extraction mission.
+The weapon is mounted on a barrel which fired green bursts of energy at a rapid rate,
+which allows the user to 'pepper' their enemies with either single bolts or a stream of smaller bolts which had a reduced range capability.
+The weapon makes use of loaded ammunition and does not possess a recharge cycle.
+An alternate firing mode on the weapon allows for the magnetic constraint of the discharged energy pulses,
+resulting in a round of the weapon having the ability to "bounce" off a wall and proceed in the corresponding direction.
+<TEXTURE:1cb30cc5-0c57-97cb-775a-b6db25989ebb>
+Compound Grenade Launcher
+The Compound Grenade Launcher is a heavy weapon used by the Federation Starfleet military and the Hazard Team.
+The CGL fires energy grenades capable of injuring and incapacitating any targets caught within its area of effect.
+While the launcher primarily fires time delayed grenades,
+'sticky' grenades can also be fired which stick to a floor or wall and detonate once a target passes within range of it.
+By 2380, the CGL was enhanced by Federation engineers.
+The weapon still features time delayed grenades released by the primary fire.
+Furthermore, the grenades from the weapon can be layered so they are only triggered when an enemy target enters their range, or until remotely triggered by the weapon carrier.
+<TEXTURE:9aeab259-1fdb-1c38-ca40-5738024d0804>
+Assault Rifle
+The Federation Assault Rifle is a high powered particle weapon utilized by the Hazard Team.
+Designed by Starfleet Security and enhanced by Ensign Korban,
+the new Federation Assault Rifle proves to be a more effective short range weapon than the Compression Phaser Rifle and therefore is the weapon of choice in close quarters combat.
+With more of a shotgun feel,
+the Assault Rifle's primary firing mode spread plazma burst, does heavy damage at close range, but is less effective at longer distances.
+It's alternate fire launches a powerful plasma bolt, which can disintegrate a target from short to medium range.
+<TEXTURE:8805599d-654d-6ec1-8738-35bab01b46a7>
+Sniper Rifle
+The Federation Snipe Rifle has the typical features of such a weapon.
+It fires a single, almost instant shot from long range to quickly take out targets at a far away distance.
+The weapon also features a targeting scope to zoom in on a distant object in order to get a clear shot and a good aim on the target.
+<TEXTURE:6f28f268-f3d8-952a-4625-0d9f4d8eafc1>
+Romulan Disruptor
+Widely used by soldiers and guards of the Romulan Star Empire, the hand held disruptor is the continuation of their weapon technology used on starships.
+A similar unit to the phaser in terms of usage and it's rechargeable energy source,
+the secondary fire mode of the weapon allows for a build-up of available weapon energy to fire one powerful burst at a target.
+<TEXTURE:03565520-03da-4d58-1c42-db034fdb4046>
+Romulan Experimental Radiation Disruptor
+Designed and developed by the Romulan Tal Shiar, little is known about this experimental weapon based on the original Disruptor technology.
+On firing, the Radiation Disruptor fills an area with deadly radiation, causing damage to any targets nearby who pass through it before it has dissipated.
+<TEXTURE:72cb02dd-4906-2ad4-a99f-d73de40ce4ce>
+Tetryon Gatling Gun
+Originally of Klingon design, this Tetryon Gatling Gun was picked up by Lieutenant Munro aboard the Mercenary Starbase.
+As will all gatling guns, the weapon fires from multiple fast-recharge chambers and requires large amounts of energy in continuous fire.
+The weapon can also fire a tetryon pulse that bounces off surfaces to reach a target, or will eventually dissipate.
+<TEXTURE:6b884bb8-98c7-194c-da01-3fc351a01ad1>
+Energy Staff
+Located among the Idryll ruins by the Hazard Team,
+the close range weapon fires either a bolt of energy at a target, or spreads it from the source, causing wide area damage,
+even to the carrier. Little is known about the origins or initial purpose of this weapon.
+<TEXTURE:cde28a2d-c560-0f66-99aa-81c971e04e19>
+The Starfleet Hazard Suit
+Is protective battle armor used by Hazard Teams in dangerous and hostile environments during missions.
+Its advanced and micro-technology make it perfect for a variety of missions and tasks.
+The original Hazard Suit was designed and created by Lieutenant Commander Tuvok and Seven of Nine on the USS Voyager in 2376, for the ship's newly established Hazard Team.
+The hazard suit was equipped with a tactical eye display ("TED"), which gave the wearer a crosshairs for weapons aiming and a scope for sniper shooting.
+The TED would also relay mission objectives and tactical information uploaded by the operations manager,
+or the team's weapons specialist when such information was pertinent.
+The TED could also be tied into a team member's tricorder and display information directly from the scan results.
+The suit itself featured a universal power adapter, that allowed it to replenish its internal energy stores from almost any uplink, even some alien consoles and terminals.
+Anabolic protoplasmers and internal dermal regenerators were also installed to increase overall resiliency against weapons fire, as well as aid the wearer if he/she were to be injured.
+In order to activate these features, a corresponding power terminal would need to be located, which would then activate the systems and recharge the wearer's health.
+In order to repair damage to the suit, it was also laced with millions of nanites, which would then repair physical and cosmetic damage to the outer layers.
+The suit's footwear was reinforced and contained magnetic strips on the outer sole, should the team enter an area with little or no gravity.
+When coupled with a helmet, the suit could also be used for extravehicular activity (EVA) when deployment was necessary in the vacuum of space.
+The suit also included a personal transporter buffer for easy storage of many items in a null space that can be rematerialized at virtually any time.
+The buffer contained such things as weapons, a helmet for EVA, or pattern enhancers for easy extraction after mission completion.
+The suit could also withstand great temperatures, and was resilient to most forms of chemicals.
+The design also included a minimal shock absorber, should the wearer have the misfortune of falling from considerable height.
+However, there is a limit to how much damage this portion of the suit can take and would most likely cause either minimal or extreme harm (depending on the height fallen) to the wearer.
+<TEXTURE:e8d09355-c5a5-3f06-38f0-a3ff93599e03>
+When the team was transferred aboard the USS Enterprise-E, improvements were made to the suit.
+Enhancements to the TED included the ability to artificially boost gain levels in all photonic registers (which allowed for a degree of nightvision)
+and (when coupled with a field tricorder) an angular proximity discriminator, which helped the wearer distinguish between hostile and friendly targets.
+The suit also sported enhanced damage control through a phase matrix converter, and integrated ammunition for ease of reload.
+In addition to the damage resiliency features of the original design, this suit added a new system of nanites which allowed field-medic level assistance of organic wounds.
+This version of the suit also contained the updated Starfleet uniform style, which was previously inaccessible to the Voyager crew in the Delta Quadrant.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

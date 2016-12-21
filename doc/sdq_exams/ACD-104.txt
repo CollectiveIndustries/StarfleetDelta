@@ -1,0 +1,60 @@
+1. The bridge will always be configured the same on every ship.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+2. What rank must you be to be the commanding officer of a starship.
+A:Captain
+B:Commander
+C:Lieutenant
+D:Any rank
+D
+3. The 1st officer usually sits.
+A:at the Science station
+B:on the Captain's left
+C:on the Captain's right
+D:the Ops station
+C
+4. What position "Drives" the ship?
+A:Helm/Conn
+B:Operations
+C:Engineering
+D:Both A & C
+A
+5. What position controls communications?
+A:Ops
+B:Science
+C:Conn
+D:Engineering
+A
+6. What 2 positions can control the routing of power flow?
+A:Conn & Ops
+B:Ops & Science
+C:Engineering & Ops
+D:Conn & Engineering
+C
+7. If your do not have a Tactical person who would normally control weapons?
+A:Engineering
+B:Conn
+C:Science
+D:Ops
+B
+8. What position can control the scanners?
+A:Ops
+B:Science
+C:Tactical
+D:All of the above
+D
+9. Who can control of the Security teams on the ship?
+A:The Captain
+B:The 1st officer
+C:The Tactical Officer
+D:All of the above
+D
+10. What are the Auxiliary stations used for?
+A:Environmental systems
+B:Engineering systems
+C:Computer Library
+D:All of the above
+D

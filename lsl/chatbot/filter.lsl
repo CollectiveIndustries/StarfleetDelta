@@ -29,61 +29,61 @@ key gOwner;
 list talkers;
 
 
-listen_to(key talker)
+listen_to( key talker )
 {
-        integer index = llListFindList( talkers, [talker] );
+    integer index = llListFindList( talkers, [talker] );
     if ( index != -1 )
-        {
-        talkers = llDeleteSubList(talkers, index, index);
-         llMessageLinked(LINK_SET,0,"BYE",talker);
-        }
+    {
+        talkers = llDeleteSubList( talkers, index, index );
+        llMessageLinked( LINK_SET, 0, "BYE", talker );
+    }
     else
-        {
+    {
         talkers = talkers + talker;
-         llMessageLinked(LINK_SET,0,"HI",talker);
-        }
+        llMessageLinked( LINK_SET, 0, "HI", talker );
+    }
 }
 
 
 default
-{    
-    state_entry()    
+{
+    state_entry()
     {
         gOwner = llGetOwner();
-        llListen(0,"",NULL_KEY,"");
+        llListen( 0, "", NULL_KEY, "" );
     }
 
-    on_rez(integer i) 
+    on_rez( integer i )
     {
-        llWhisper(0,"Owner say /chat or touch me");
+        llWhisper( 0, "Owner say /chat or touch me" );
         llResetScript();
     }
-    
-    touch_start(integer num_detected)
+
+    touch_start( integer num_detected )
     {
-        listen_to(llDetectedKey(0));
+        listen_to( llDetectedKey( 0 ) );
     }
 
-        listen(integer channel, string name, key id, string msg)
+    listen( integer channel, string name, key id, string msg )
     {
-        if (msg == "/chat")
+        if ( msg == "/chat" )
         {
-            listen_to(id);
+            listen_to( id );
             return;
         }
-        if ((msg == "/reset") && (id == gOwner))
+        if ( ( msg == "/reset" ) && ( id == gOwner ) )
         {
-            llWhisper(0,"Resetting");
+            llWhisper( 0, "Resetting" );
             llResetScript();
         }
-            
+
 
 
         integer index = llListFindList( talkers, [id] );
-        if (index != -1)
+        if ( index != -1 )
         {
-            mesg = llToLower(msg);
-            llMessageLinked(LINK_SET,0,msg,id);
+            mesg = llToLower( msg );
+            llMessageLinked( LINK_SET, 0, msg, id );
         }
     }
 

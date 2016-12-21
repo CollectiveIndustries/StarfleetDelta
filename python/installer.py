@@ -2,7 +2,7 @@
 #
 # Title: install.py
 #
-# Purpose: Installs UFGQ Webpage and Database.
+# Purpose: Installs Starfleet Delta Webpage and Database.
 #
 # Copyright (C) Andrew Malone 2015
 
@@ -23,13 +23,13 @@ username = None
 password = None
 
 # Insert statement for creating a new admin user on first install.
-sql = "INSERT INTO `ufgq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
+sql = "INSERT INTO `sdq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
 
 ### Main Script ###
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
-print "UFGQ Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
+print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
 
 db = function.MySQL_init()
 cursor = db.cursor()

@@ -1,0 +1,130 @@
+<DESC:Anatomy>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-105 / Anatomy
+*Takes a deep breath and proceeds*
+The purpose of this class is to introduce you to humanoid anatomy.
+This class is required for all medical personnel to help them better understand the humanoid form to properly treat your patient.
+In order to explain your patient findings to other medical staff or to document your care and treatment of a patient,
+a common understanding of topographical anatomy is required.
+<TEXTURE:29efef13-e692-8634-2e69-917f67e509cd>
+Planes of the Body:
+- Midline draw an imaginary line drawn from the top of the head through the nose and umbilicus and down to the floor,
+effectively dividing the body into right and left.
+- bilateral includes both sides
+- anterior consists of the front of the body
+- posterior consists of the back of the body
+Directional Terms:
+- right and left are referred to as the right and left of the PATIENT'S body
+- superficial is defined as close to or at the skin level.
+- deep is farther into the body than skin level.
+Superior and Inferior is used to describe the relationship of two structures
+- superior is the portion of the body closer to the head
+- inferior is the portion of the body closer to the feet
+example: the knee is superior to the ankle
+Lateral and Medial -
+- medial means the parts that lie closer to the midline.
+- lateral means the parts that lie farther away from midline.
+example: the knee has a medial (inside) and a lateral (outside) surface
+Proximal and Distal describes the relationship of two structures in an extremity.
+- proximal means closer to the trunk
+- distal means further from the trunk
+example: the knee is proximal to the ankle and distal to the hip.
+Anatomic Positions -
+- prone means lying face down
+- supine means lying face up
+This basic knowledge is very important to being able to effectively treat your patient.
+All humanoid species have similar systems.  There are variations depending on the race.
+Detailed alien anatomy will be further covered in subsequent classes.
+<TEXTURE:f49afe37-f433-4140-13fc-a22ab5dc52c9>
+KLINGON:
+The Klingon body is specially evolved to suit a warrior.  They have rigid spines, chest and feet which act as armour.
+Their anatomy is slightly different than that of humans.
+Klingons have multiple organs known as brak'lul, to allow them to survive multiple injuries during battle.
+They have a third lung to give them more stamina during combat.
+<TEXTURE:9fb787f6-d94f-da42-d610-0a5af4d9aaa8>
+They have 2 livers, where a human has 1, and an 8 chambered heart where a human's heart has 4 chambers.
+They also have multiple stomachs and even a redundant neural function.
+Klingon women have a pregnancy gestation of 30 weeks and Klingon children mature much more rapidly than human children.
+They are born to be warriors, even the females.  Their average lifespan is approximately 150 years.
+<TEXTURE:8971a5c1-75c6-1ea9-bc06-33fae5e29a33>
+TRILL:
+Trill have an anatomy very similar to that of a human, but they have an anterior pouch on their abdomen to allow the joining of a symbiont.
+The symbiont enters the pouch and connects with a Trill's neural network becoming as one.
+Their thoughts are joined, so the Trill gains the memories and experiences of the symbionts previous hosts.
+Due to this a Trill is extremely intelligent, often holding multiple degrees.
+A Trill symbiont will outlive many hosts.  Once joined, the host and symbiont are dependent on each other after 93 hours.
+If the symbiont is removed from the host, symbiont and host will die within hours, even if they are otherwise healthy,
+unless they are re implanted with another host or symbiont. The Trill brain had two cerebral nuclei and two different brain wave patterns.
+Julian Bashir compared them with two linked computers, which both work for the same task.
+Trill are highly allergic to insect bites if they are joined.  The venom from an insect can be fatal to the symbiont.
+<TEXTURE:864d96c3-3af0-2216-4a32-d31837bd76da>
+VULCAN:
+The Vulcan and the human have very similar genetics.  The position of their internal organs is dramatically different than that of humans.
+Where a human liver is positioned, you will find a Vulcan heart.  They also had no appendix.
+Vulcan blood was copper-based and was copper- or rust-colored when deoxygenated in the veins and green when oxygenated in the arteries.
+Vulcans can survive several days without food, water or sleep.  Their metabolism is far superior to humans metabolism.
+They also have superior strength and reflexes.
+Vulcans possessed a highly efficient respiratory system to extract the oxygen they needed from Vulcan's thin atmosphere.
+They were most comfortable in high temperatures, which was natural given the hot, arid climate of their homeworld.
+Their hearing is incredibly sensitive and the females of their species have a very acute sense of smell.
+They are a highly intelligent species, and rely primarily on logic. Their average lifespan is approximately 200 years.
+<TEXTURE:992c83fb-b68f-d17b-473a-1b6a86011bc6>
+ANDORIAN:
+Andorians are most known for their blue skin, white hair and a pair of antennae on their head.
+An Andorian subspecies called the Aenar had white skin and, unlike blue Andorians, were blind and telepathic.
+This antennae is used for balance.
+When an Andorian loses an antennae, they are unable to fight and will be partially disabled until the antennae grows back.
+The placement of Andorian antennae had at least four different variations.
+Shran and others of the 22nd century sprouted antennae from their frontal skullbones.
+Ambassador Shras and his delegation had antennae which sprung further back, off their parietal bones.
+Yet others had longer and thinner antennae.
+Andorians, with a higher metabolic rate than Terrans, were especially vulnerable to phase pulse infection; even minor phase injuries could prove fatal.
+However, they have demonstrated resistance to a wide range of environmental conditions.
+In a climate where the temperature is near the boiling point of water, an Andorian could still thrive, despite losing 10% of their body weight in two days.
+<TEXTURE:5c419f97-e11a-ab49-ee74-80bc34748361>
+Since Andorian physiology made intravenous injection impossible, physicians administered medication through intramuscular injection instead.
+Andorians were true blue bloods: Talas' blood displayed non-viscous, translucent qualities, and were as dark blue as Shran's abrasions.
+Andorian tongues and gums alternated from dark blue to pink.
+<TEXTURE:dcfcf604-177c-6912-95ec-fde1270a6997>
+CAiTIAN:
+Caitians are humanoid in appearance and, having descended from primates themselves,
+are very similar in build and body shape to humans however,
+one of the most striking features of this race is that a Caitians hair normally grows in two or more different colors giving them a two-toned or calico look.
+Caitians also sport a pair of sharpened incisors and have been known to use them in close combat.
+Caitains are generally perceived as intelligent beings,
+though they do appear naïve when it comes to other cultures and can become overwhelmed
+and frustrated when confronted by what they perceive as rigid moral standards.
+If a coupling results in conception, the male and female responsible will raise the child in the super-family acting as a mother/father unit.
+The average Caitian reaches puberty between the ages of 12-15 and immediately becomes sexually active.
+Visitors to Catia are often shocked by the planet’s attitude towards sex and nudity,
+as the natives never developed the sense of modesty that most races in the galaxy have.
+Caitain sexual practices are very casual and are as common as hugs and handshakes on Earth.
+More astounding is that Caitians society never developed a barrier between male and female relationships
+and so homosexual couplings are just as common as heterosexual couplings.
+There is, in fact, no words in the Caitian language for “homosexual” or “bisexual”
+as relations between two people of the same sex are commonplace and perfectly natural.
+This concludes this course on Anatomy.
+There are innumerable species in the galaxy, but this gives you an overview of some of the species you will encounter on a regular basis.
+Additional classes will go more in depth into the lifestyles and cultures of alien species.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

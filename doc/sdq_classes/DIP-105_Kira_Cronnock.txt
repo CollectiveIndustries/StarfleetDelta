@@ -1,0 +1,117 @@
+<DESC:Introduction to the Borg>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be
+your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is DIP-105 / Introduction to the Borg
+*Takes a deep breath and proceeds*
+"Strength is irrelevant, resistance is futile.
+We wish to improve ourselves.
+We will add your biological and technological distinctiveness to our own.
+Your culture will adapt to service ours." -The Borg
+The Borg are relentless, they have no emotion.
+The Borg are cybernetic beings that roam the galaxy assimilating entire civilizations in the search for perfection.
+<TEXTURE:7158ed18-12d7-86f5-5530-713c5f5bffa3>
+CULTURAL AND HISTORICAL OVERVIEW
+At one time the Borg were made completely of organic material.
+It took years modifying and enhancing their biological makeup to incorporate synthetic technological enhancements in order to achieve perfect.
+To have order out of chaos.
+With this the Borg collective came into being along with a Borg Queen who spoke for the collective, who kept the order in the midst of chaos.
+An individual is modified to wear the various cybernetic implants and hardware.
+When this happens they lose all sense of individuality, they become a drone.
+When an individual is assimilated they are absorbed into the Borg collective -a hive mind, also known as a  singular consciousness which incorporates all drones everywhere.
+It is this control mechanism that drives the entire Borg unit with devastating efficiency.
+A Borg drone can be compared to a ship's crew member in that they are programmed for certain ship tasks.
+The way they do is drawing on the knowledge and experience of all Borg, all archived encounters, technology, tactical information and scientific data.
+No other ship and crew are as close to perfection as the Borg are.
+The Queen is the central nucleus (central voice) that the Borg draws on for order, decision-making and strategy for implementation of long-term goals.
+The Queen is the one who decides what is to be done when, where and how.
+The decision to conquer the Federation came from the Borg Queen herself.
+Why did the Borg Queen want to do this? Besides the obvious to assimilate.
+But why was she so adamant in this pursuit?
+The answer is simple, because the Federation had a diverse of cultural and technology of facets for the Borg to draw from.
+<TEXTURE:3da1b1d6-c801-3433-c3e7-511ab43eec59>
+The Borg was first in Federation space in 2364, when a number of outposts along both sides of the Romulan Neutral Zone were destroyed.
+At that time, no one knew who or what they were dealing with.
+Pretty scary huh? Imagine living on those outposts that were destroyed.
+Imagine their fright and how scared they must've felt.  Actual physical contact did not take place till a year later.
+No thanks to Q.  Q had placed a Federation vessel right in the path of a Borg Cube, deep inside the Beta Quadrant.
+But before Q returned the ship safely back into Federation space the Borg was able to scan the ship's computer core.
+They learned a lot about a new species and their organization.
+Ever since then, the Borg set a course for Federation space to conquer the entire Federation.
+Approximately a year and a half later, the Borg arrived at their destination.
+The Borg ended up kidnapping Jean-Luc Picard and turned him into Locutus.
+Locutus was the official spokesperson/unit for the Collective.
+The Borg thought that this would help to speed up the assimilation process.  Boy, were they mistaken.*Dims the lights and smiles at each cadet*
+An Armada of 40 ships from the home fleet massed together at Wolf 359 in an attempt to prevent the Borg vessel reaching Earth.
+All but one were lost in the bloody battle, where 11,000 lives were lost.
+After Locutus was removed from the Borg Cube and returned to his starship, a crucial Achilles heel was discovered in the Borg command structure.
+When commands to regenerate were fed into the Collective it triggered a chain of events, which destroyed the vessel, and the threat was over.
+TECHNOLOGY
+Borg Technology is extremely advanced in all areas, this is because it is a merger or consolidation of all that has
+ever been assimilated. Such as arsenal of technology, weaponry, propulsion, biotechnology and computer
+systems is being forever added to, progressed and embellished.
+A dominating technological factor is the ability to adapt to their tactical environment.
+Unknown alien capabilities such as weaponry and defensive shield status is monitored and analyzed,
+allowing the collective to initiate countermeasure protocols and tactics, which can invariably render an opponent's offensive and defensive initiatives
+redundant and ineffective very quickly.
+In these situations the Borg would adapt their shields to weapons frequency modulations.
+After the heuristic examination of alien shield configurations, and even mutation harmonics, weapon emission frequencies such as those of disruptor banks
+and laser cutters can be modified to penetrate most shield systems.
+<TEXTURE:c7ad77e7-a2cd-8ed7-f991-6bd51e8af8c2>
+The Borg have installed a series of transwarp conduits, which permeate the galaxy.
+From their native Delta Quadrant they are able to make rapid jumps covering great distances, and travel times can be hundreds of times faster than their maximum warp.
+The Federation would normally employ a network of subspace sensor arrays and listening posts along their
+borders to provide advance warnings of potential incursions, but the conduits provide undetectable shortcuts directly into their territory.
+RECENT DIPLOMATIC AND MILITARY MATTERS
+The Borg actually have no diplomatic department.
+All interactive communication and negotiation is carried out by the central voice.
+Shocking revelations that the Borg were present during the incident surrounding Humans first alien contact in
+the 21st century were recently made to the Federation by way of the Enterprise-E. This new incident surrounding
+a serious Borg incursion into Federation space occurred in 2373 when a single Borg vessel attempted to reach
+Earth to begin the mass assimilation process.
+The Cube was stopped in the Sol system by several groups of vessels that were close enough at the time to intercept.
+Since Jean-Luc Picard had prior knowledge of the Borg ship systems was able to order all attacking vessels to target a specific area on the Cube.
+Now, as Picard orders the ships to fire, a small vessel escaped the destruction of the mother ship and headed towards Earth.
+This vessel was able to open a temporal vortex to Earth's past so that it could assimilate the population of Earth before first contact would be made.
+They travel back to the 21st century, the day before first contact was made.
+This happened in April 2063.
+Zefram Cochrane test flew his Titan 5 missile that was capable of warp one; the ship is called the Phoenix.
+This is the flight that caught the attention of an alien survey ship flying by the outer edge of the solar system.
+These aliens are known as the Vulcans
+The Borg was determined to destroy this ship to prevent first contact, therefore, making it easy to assimilate all of Earth's population.
+But thanks to Enterprise-E and her crew the Borg was unsuccessful at preventing first contact.
+Borg stats
+General Information:
+GOVERNMENT TYPE     	Collective (matriarchal)
+GOVERNMENT BODY     	The Borg Collective
+HOME SYSTEM     	unknown
+MEMBER WORLDS     	0
+CONQUERED WORLDS 	8637
+AGE OF THE MODERN ERA 	unknown
+MILITARY DEFENSE     	Borg Cube Network
+General Resources
+TECHNOLOGY RATING 	688.5
+OCCUPIED TERRITORY 	138,190 sectors
+FLEET SIZE         	29085 ships
+PRIMARY WARSHIP     	Borg Cube
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request  one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

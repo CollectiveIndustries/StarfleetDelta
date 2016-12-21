@@ -1,0 +1,60 @@
+1. How many classes can a cadet take per day?
+A:Maximum of 1.
+B:Maximum of 2
+C:Maximum of 3
+D:Maximum of 4
+B
+2. When should you arrive at the academy prior to beginning your class?
+A:5-10 minutes
+B:15-20 minutes
+C:30-45 minutes
+D:45-60 minutes
+C
+3. True/False - I can access the class podium no matter what group tag I am wearing.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+4. Class announcements are to be made at the following times for a class scheduled to begin at 1400:
+A:30 minutes
+B:15  minutes
+C:5 minutes
+D:All of the above
+D
+5.  True/False - I must make class announcements via only the Academy Group Chat.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+6.  When should you not load the tests?
+A:Before the class
+B:During the class
+C:After the class
+D:You don't  need to it is automatic
+B
+7.  True/False - It is very important  that you pay attention to the lecture you are teaching.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+8. What do you do after all the cadets have completed their exams and been dismissed?
+A:Derez the seats, Lock the podium and keep the exam notecards for future reference.
+B:Derez the seats, Lock the podium and leave.
+C:Derez the seats, Lock the podium and enter the grades in the gradebook
+D:Derez the seats, Lock the podium and send the class folder to the Commandant.
+C
+9.  True/False - If a cadet fails the test they have no options to change the grade.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+10. True/False Division Heads are required to teach at least 2 classes per week.
+A:True
+B:False
+C:N/A
+D:N/A
+A

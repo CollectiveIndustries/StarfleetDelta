@@ -1,0 +1,61 @@
+<DESC:Medical Ethics>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MS-104 / Medical Ethics
+*Takes a deep breath and proceeds*
+Your goal here is to strive to be the best that you can be, whether you are a doctor, Nurse, Counselor or Researcher.
+You must want to be the best, and it may not always be easy, but together we will make it fun.
+<TEXTURE:4b772325-eac0-79ff-4d54-02c8572867ef>
+Medical Ethics are basic principles of medical personnel's actions during his/her professional involvement.
+It is the foundation of what we in the medical profession must understand and live by.
+You must also understand that any intervention you do, may do harm.
+In some instances, it may be better to do nothing.
+We live by the motto "harm none".
+You must do what is in the patient's best interest.
+*Steps around the podium and perches on an empty desk*
+However, you must also respect the patient's right to refuse treatment.
+All sentient beings have this right.
+We, as medical professionals, must respect this right, even if it goes against our feelings or beliefs.
+A patient must be fully informed about, and understand, the possible benefits and risks of treatment.
+When they agree to treatment under these circumstances it is known as "Informed Consent"
+This is critical, as it is outlined in the Patient Bill of Rights.
+A Patient's Bill of Rights is a statement of the rights to which patients are entitled as recipients of medical care.
+A few key points of this bill are as follows:
+a) You have the right to accurate and easily-understood information about your health plan,
+health care professionals, and health care facilities.
+If you speak another language, have a physical or mental disability, or just don't understand something,
+help should be given so you can make informed healthcare decisions.
+b) You have the right to know your treatment options and take part in decisions about your care.
+Parents, guardians, family members, or others that you choose can speak for you if you cannot make your own decisions.
+c) You have a right to considerate, respectful care from your doctors, health plan representatives,
+and other health care providers that do not discriminate against you.
+As a medical officer, we must know these rights and abide by them.
+It is our responsibility to treat our patients with the utmost respect and professionalism.
+Regardless of gender and species.
+In UFGQ, training is key.
+Training should continue throughout your medical career.
+Whether it be through classes in the academy, or learning from your fellow officers.
+The CMO and XMO are always happy and willing to provide training to anyone that wants to further their medical career.
+That is how we provide the best care possible to our patients.
+If you have an idea for a class, we would love to hear it and will consider adding it to our curriculum.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck!

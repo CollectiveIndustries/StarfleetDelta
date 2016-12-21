@@ -1,0 +1,130 @@
+<DESC:Intro to Ferengi>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cfe35653-8b5e-f60c-d67f-eda31f52f539>
+Welcome to the Command Division in SDQ!
+Our class today is  DIP-103 / Introduction to Ferengi
+*Takes a deep breath and proceeds*
+"A Ferengi without profit is no Ferengi at all" -18th Rule of Acquisition
+Today we will be talking about the Ferengi.  We are going to cover the following:
+Culture and History
+Technology
+Recent Diplomatic and Military matters.
+The Ferengi live for their material wealth and possessions, and the constant desire to acquire more by any means necessary.
+<TEXTURE:ccdbec59-6351-cf72-a7eb-eb870a96a77a>
+The Ferengi is all about making a profit.
+Even when no one else can see that a profit can be made, the Frenegi finds a way to do just that.
+They have a set of rules called the "Rules of Acquisition".
+There are 186 Rules of Acquisition.
+For the complete list of "Rules of Acquisition" you can find them at http://www.sjtrek.com/trek/rules/
+Now, on to the cultural and historical overview of the Ferengi.
+CULTURAL AND HISTORICAL OVERVIEW
+It did not take the Ferengi alliance long to build up a strong economical empire.  T
+The way they accomplished this was by establishing a strong basis in the economy.
+They did this by dealing and bribing their way to power.
+They were able to acquire a variety of technology such as primitive warp drive and weapons.
+It is not clear if it was done by deceit, fraud or traditional bartering.
+Even though the Ferengi culture is diverse and rather idiosyncratic,
+The population and the planet  remains a  mystery.
+Little is known of their cultural interaction with other species beyond their wide network of trade relationships with neighboring species and empires.
+We can assume they do have some successful methods as evidenced by a wide
+network of trading and commercial agreements with neighboring species, systems and empires.
+yes The reason behind the mystery is that outsiders are usually not welcomed on Ferenginar.
+The first recognized diplomatic contact between the Ferengi and the Federation was in the Delphi Ardu system in the early part of 2364.
+This is when a Ferengi Marauder came head to head with a Galaxy Class ship.
+Relations between the two remained uneasy for the next few years, and diplomatic misunderstandings were barely adverted in the incident.
+The Ferengi homeworld is called Ferenginar. This is where the Ferengi Alliance is located.
+Ferenginar's climate can be described as having extreme humidity and moisture, with quite a bit of rainfall year round.
+<TEXTURE:5d723391-8582-d1ad-f6d4-b737367f2b5d>
+The Grand Nagus is generally the richest man in the heavily capitalistic Ferengi society.
+He is the one who rules the Ferengi Alliance with his vast portfolio from the Chamber of Opportunity
+in the Tower of Commerce, located in the Ferengi capital, the Sacred Marketplace.
+Every prominent Ferengi businessman seeks to do business with the Nagus, whose authority is backed by the Ferengi Bill of Opportunities.
+The Grand Nagus lives in the Nagal Residence.
+Most of The Nagus's actions and policies will affect trade that spans the quadrant.
+All trade is guided by the sacred book, "The Rules of Acquisition".
+The Grand Nagus can come to office if, upon his death bed, the previous Nagus picking a predecessor
+or can be appointed by the Ferengi Commerce Authority.
+The Ferengi Commerce Authority also has the power to remove an unstable Nagus from office.
+<TEXTURE e6d39f00-4a3e-9719-7d12-ad03f4a854f5>
+Gold Pressed Latinum is the currency that is used for trade.
+Value of Latinum from smallest to largest:
+Slip
+Strip
+Bar
+Brick
+Nugget
+20 strips of Latinum = 1 Bar of Latinum.
+This is equivalent to something like:
+Fifty Cents
+One Dollar Bill
+Twenty Dollar Bill
+Fifty Dollar Bill
+Hundred Dollar Bill
+Latinum is a specially treated metallic compound that cannot be replicated or counterfeited.
+This is the thing that defines and motivates the Ferengi ideology and lifestyle.  Acquisition Rule #102 "Nature decays, Latinum lasts forever"
+The Ferengi Commerce Authority (FCA) is responsible for all trade practices all throughout the alliance.
+They also possess broad ranging powers that can liquidate businesses.
+Monitoring the financial and commodities exchanges of the modern Ferengi businessman is a full time occupation.
+<TEXTURE:68e21708-5744-838b-f81b-b400981dc6e4>
+Female Ferengi are not allowed to wear clothing, work, show their faces in public, or talk to non family members.
+It is an unforgivable crime if a female Ferengi earns any profits or deals in any financial or business venture.
+Their sole responsibilities are to reside entirely in the home,
+providing food and clothing for the male members of the family and to take care of the children.
+<TEXTURE:c750f7aa-06bf-6660-aef6-9ef960312b87>
+TECHNOLOGY
+Most of Ferengi technology has been obtained from outside sources.
+They most likely acquired it through the Cardassians whose borders are fairly close.
+As time went on, the military hardware was enhanced and supplemented by theft and trade alike.
+Their flagship, the Marauder,  is just as advanced as any Federation, Klingon or Cadassian ships
+They do not put their money into R&D for their ships -instead they use  reverse engineering of alien technology.
+Their ships have traditional warp systems and are fitted with powerful plasma energy weapons as well.
+If it is so desired by the military to invade or conquer to benefit business, or the acquisition of resources,
+little will stand in the way that would interfere with their profit driven constitution.
+In other words, if a profit is to be made they will make that profit by any means necessary.
+<TEXTURE:190d105f-8a8c-2c1d-aed4-ca8b19f82970>
+RECENT DIPLOMATIC AND MILITARY MATTERS
+When trade negotiations with the Dominion fell through,
+and potential opportunities through the Bajoran wormhole were all but lost,
+it dealt a bitter blow to entrepreneurs everywhere.
+The Ferengi were indeed concerned by the recent Dominion war.
+First and foremost, trade routes across the quadrant collapsed or went dry.
+Secondly, vast and expansive arterial networks fed the Ferengi economy,
+and as such they found their military force somewhat lacking.
+This would be their official diplomatic excuse as to their general absence from the Alpha Quadrant battlefield.
+Little is generally known about 'Ferengi space',
+and what lies within, or the relationship they share with the worlds and peoples that lie within their borders.
+It is certain though that neighboring powers consider the Ferengi,
+a definite threat, one worthy of constant surveillance and vigilance...
+Ferengi Alliance stats
+GOVERNMENT TYPE           	Capitalist Plutocracy
+GOVERNMENT LEADER       	The Grand Nagus
+HOME SYSTEM                    	Ferenginar
+BRIBED MEMBER WORLDS	49
+CONQUERED WORLDS        	70
+AGE OF THE MODERN ERA 	10,055 (Earth years)
+MILITARY DEFENSE             	Ferengi Military
+TECHNOLOGY RATING   	375.5
+OCCUPIED TERRITORY   	6,003 sectors
+COLONIES                       	980
+FLEET SIZE                      	2122 ships
+PRIMARY WARSHIP      	Marauder
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

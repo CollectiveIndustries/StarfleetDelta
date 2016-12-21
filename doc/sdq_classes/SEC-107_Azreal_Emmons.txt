@@ -1,0 +1,135 @@
+<DESC:Klingin Empire Weaponry>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Gamma Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-107 / Klingon Empire Weaponry
+*Takes a deep breath and proceeds*
+The Klingons are a proud warrior race that use a variety of  weapons
+that come in thousands of types and styles.
+Some are for battle and some are ceremonia,l but all are deadly.
+In this class we will cover the most common ones that you may encounter.
+Melee Weapons
+The melee weapons vary in style and usage.
+One type of knife or Bat’leth can look greatly different from another of the same type.
+Most of this customization is due to personal preference and family tradition.
+<TEXTURE:84e148f6-3fef-c8f6-804e-2a51f79614eb>
+Bat'leth
+The Bat’leth or “sword of honor” is a traditional Klingon longsword resembling a crescent-shaped, two-ended scimitar (sword with a curved blade).
+The bat'leth is wielded using three handholds along the outside edge of the blade.
+It is widely considered the most popular weapon among Klingon warriors.
+Klingon oral history holds that the first bat'leth was forged around 625 A.D. by Kahless the Unforgettable,
+who dropped a lock of his hair into the lava from the Kri'stak Volcano, then plunged the fiery lock into the lake of Lursor and twisted it to form a blade.
+After forging the weapon, he used it to defeat the tyrant Molor, and in doing so united the Klingon Homeworld.
+A traditional bat'leth is typically approximately 45.5 inches (116 cm) long,
+with blades of composite baakonite, weighs about 12 lbs. (5.3 kg), and has an exterior hand grip diameter of 2 inches (5 cm).
+Tactical Advantages: Range; striking area; good solid grip; large defensive (or blocking) area; intimidation factor; devastating damage.
+Tactical Disadvantages: Large; cumbersome; some materials are heavy; improper sizing could add to inefficiency;
+overconfidence can develop in certain situation; not as effective against smaller; quicker weapons; no good against an energy weapon fired at range.
+<TEXTURE:eeb36c0d-f2b5-2c5c-1db8-284deaf9f4e7>
+Mek'leth
+The mek'leth or "Bridge Sword" has been around since the early Klingon starships.
+Though the custom-made varieties available vaguely resemble the original "field-expedient" mek'leths in looks, they do function much the same, if not better.
+Each mek'leth is different at first glance, subject to the taste of the individual owner and the artistic flair of the armorer that created it.
+Even the name has evolved from meHleH - "sword that comes from the bridge", to mek'leth - "sword for use on the bridge".
+It has a curved blade approx. 12 inches (30 cm) long, and is an imposing sight.
+Especially suited to close-quarters combat, such as in the corridors of a ship being boarded.
+Tactical Advantages: Light, quick, small, medium-concealment, practical when worn/carried in skilled hands- very deadly. (i.e.: one for parry; one for attack; etc.)
+It is difficult to disarm an opponent that is using mek'leths.
+Disadvantages: Less surface area for parry; requires medium to high level of personal weapon skill; short reach. ship being boarded.
+<TEXTURE:30030c87-f59d-cc4e-5659-2ecf014f8f3e>
+D'k tahg
+A d'k tahg is a Klingon dagger. It is one of the most popular combat knives of the Klingon empire.
+Klingon d'k tahg knives vary frequently, this may be due to designs based on the House served, Fleet served, the rank, the family, or personal preference of the individual.
+Some of the differences are subtle, such as changes in the shape of the blood line, others are drastic, such as changes in the shape of the handle.
+Generally all the knives share this in common, they are approx. 13 - 16 inches (33.02 - 40.64 cm) long, the blades are approx. 3/16 of an inch ( 4.7625 mm) thick and 2 inches (5.08 cm) wide at the widest point.
+It’s wasp like shape, large slotted ricasso and folding twin guard blades are distinctive features that sets it apart from every other Klingon blade.
+The knife has three blades: a main blade with a cutout in the center, and two smaller blades on either side.
+In some models, these side blades are spring loaded and can pop out into position and close up for storage. In other models, the blades are fixed.
+It also features a pommel studded with blunt spikes.
+<TEXTURE:de768d15-bd49-f4d7-437b-b8a0b6b01463>
+The Ma’veq (Mavek or m'veQ)
+Ma’veq is a ceremonial Klingon knife, used in the ceremonial killing of disgraced Klingons by a sibling, in order to bring them honor in the afterlife.
+This ceremony is called Mauk To’Vor. The length is approx. 14 inches ( 35.56 cm) long.
+<TEXTURE:6e76ee05-70f4-7e37-6c5b-8cd41add6a68>
+Jejtaj
+The Jejtaj is a one handed purely defensive weapon.
+It can block any type of weapon attack.
+The other free hand may carry a small dagger or sword (ie.: Mek'leth or a D'k tahg), for attacks or counter-attacks.
+The jejtaj can be wielded like a pair of brass knuckles, with enough practice, one can parry bladed attacks with it and use it as a rudimentary throwing star.
+Handheld Energized Weapons
+<TEXTURE:ca5d5579-0d1a-2fa1-6a6d-b8acac17d7d6>
+Disruptors
+The current frontline Klingon energy weapon is the disruptor, which doubles as a rifle unit.
+The rifle extension includes a shoulder stock, as in the Bajoran rifle.
+The physics behind the disruptor involves the creation of a particle stream in which the total energy field per particle is so high that it cannot be contained for more than a few milliseconds.
+The field rapidly unwinds, and the instability release the contained energy, disrupting any matter the beam contacts.
+Disruptors are employed by the Cardassian Union, Romulan Star Empire, Klingon Empire, Breen, and Orions.
+In their personal and military small arms as well as being mounted as cannon, emitters, turrets, and banks.
+Only the first three are known to have type-3 disruptors, the most advanced developed so far, by the 24th century.
+This is the main weapon all Klingons carry. The disruptor normally only has two settings: stun and kill.
+Ship Mounted Energized Weapons
+<TEXTURE:0ef2b289-dfd1-70f1-2d5e-d1c43d06aa7a>
+Disruptor Cannons
+A disruptor cannon is a directed energy weapon commonly used aboard starships of many different species.
+Disruptor weapons generally carry more energy than standard phaser weapons but lack in accuracy and fast discharge.
+Klingon 22nd century Birds-of-Prey were equipped with an impressive arsenal, for the time, and included wing-mounted (and belly mounted) disruptor cannons and photon torpedo launchers.
+These cannon were capable of firing in either disruptor pulse or beam modes.
+Found on Klingon Birds-of-Prey, Negh'Var and Vor'cha-class cruisers.
+Disruptor Cannons delivers a phasic shield inhibitor along with special hull-breaching capabilities.
+<TEXTURE:9e1942ad-d40c-2039-c63e-50a2cca77510>
+Photon Torpedos ( Pu'DaH dak cha )
+A photon torpedo is a weapon armed with an antimatter warhead.
+Klingons have been yielding such weapons since the mid-22nd century.
+Starfleet uncovered that the Klingons have had photon torpedo technology since as early as 2151.
+They used them extensively on board Raptor-class scout ships, as well as Birds-of-Prey.
+The 24th century saw the deployment of an improved type of ordnance: the quantum torpedo.
+The components of a torpedo were contained within an elongated elliptical metallic casing approximately 2.5 meters in length.
+The weapon is comprised of two tanks armed with a warhead filled with magnetically constrained matter (deuterium) and antimatter separated from contact by a forcefield.
+When the torpedo reaches its target the forcefield drops, bringing the two reactants into contact.
+They annihilate each other releasing energy in the process.
+Care had to be taken by the launching ship or installation when it came to firing a torpedo against targets at short range.
+Like all explosives, the energy released from the detonation was indiscriminate and could cause damage to the torpedo's source as well as the intended target.
+The launching system (or torpedo tube) is essentially a railgun - the torpedo is accelerated to a significant fraction of light-speed by electrodynamic magnets.
+Once in open space, guidance thrusters kick in to guide the torpedo to its target with most of the accelerative force being provided by the launching systems.
+Modern torpedo systems are designed to launch groups of torpedoes simultaneously, in some cases up to 10 per volley.
+<TEXTURE:50f0b6e5-62b8-9fd1-a757-f9fcb131a7d0>
+Cloaking Device
+A cloaking device is a form of stealth technology that uses selective bending of light (and other forms of energy),
+to render a starship or other object completely invisible to the electromagnetic spectrum and most sensors.
+It has been encountered in varying forms over the centuries.
+One of the first Klingon vessels to be equipped with the device was the IKS Klothos, whose Commander, Kor, used it to great effect at the Battle of Caleb IV.
+The device was soon used aboard many other Klingon vessels, such as the Birds-of-Prey.
+It has been speculated that the Klingon Empire acquired cloaking technology during an alliance with the Romulans.
+In order to function, a cloaking device needs to be tied into a ship's deflector shield grid.
+Along with high power consumption, this would explain why a cloaking device and a ship's shields cannot be raised at the same time.
+However, there have been several times when advances in cloaking technology have rendered this untrue.
+Ever since the original encounter with the cloaking device, there has been an ongoing technological race between the galactic powers;
+as organizations like the Federation try to develop new ways of penetrating the cloak, those who use the cloak continually devise ways to render it impenetrable.
+Versions of the cloak used by the Klingons in the late 23rd century also had their flaws.
+Visible energy distortions were detectable while cloaked and prior to decloaking, in 2293, the Enterprise-A developed a method of using a torpedo to track the plasma exhaust of a cloaked ship.
+In the 24th century, the Federation protected its borders from cloaked Romulan incursion by a gravitic sensor net.
+In 2368, Geordi La Forge developed a technique called the tachyon detection grid that used tachyon beams transmitted between different points to expose cloaked objects.
+Soon, this had been implemented on the Federation's border outposts as well as in Klingon space.
+It is less commonly known that cloaked ships radiate a slight subspace variance at warp speeds.
+These variances typically vanish once the vessel drops out of warp.
+If a cloaked ship exceeds its maximum propulsion capacity, it will not be able to fully cloak, and will appear on navigational sensors as a sensor echo.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

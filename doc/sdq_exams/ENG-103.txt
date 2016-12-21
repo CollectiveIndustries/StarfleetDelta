@@ -1,0 +1,60 @@
+1. Which Answer is false?
+A:With a Warp Drive a ship can travel faster than light.
+B:The Warp Drive is the biggest combustion motor ever made and works with fossil fuel.
+C:The Warp-Field manipulate the space/time continuum
+D:All the answers are false
+B
+2. Which Answer is false?
+A:The Federation use the matter/antimatter technology to generate a Warp Field.
+B:The Warp-Field is generated at the bridge of a ship
+C:The Main-Energy-Source at a federation ship is a nuclear-system
+D:Both B and C are false
+D
+3. A ship at warp is easily traceable by its...
+A:Warp signature
+B:Scent
+C:Color of the Nacelles
+D:The sound it makes traveling at warp
+A
+4. Launching an Escape-Pod if your Ship is at Warp is
+A:Is possible
+B:Not possible
+C:N/A
+D:N/A
+B
+5. Which parts belongs to the Warp drive?
+A:Warp matrix flux capacitor
+B:Reaction-chamber
+C:Warp coil
+D:All of the above
+D
+6. Your ship travels with Warp 4.5. If you reduce the outcome parameter of your starboard Warp nacelles and let the backboard Warp nacelles like it is your ship will
+A:Emergency Stop, cause the field will collapse.
+B:turn backboard
+C:turn starboard
+D:moves on forward
+C
+7. True or False? The Warp field hast always the same shape.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+8. True or False? You can establish a Warp field everywhere in universe
+A:True
+B:False
+C:N/A
+D:N/A
+B
+9. Warp 10 means
+A:We are at any point in the universe at the same time
+B:It is not possible to reach Warp 10
+C:Slow as a duck
+D:Travailing at 10 times the speed of light
+A
+10. A good alternative to the Warp-Drive is
+A:Transwarp drive
+B:The Otto-Motor
+C:Coaxial Warp drive
+D:A and C
+D

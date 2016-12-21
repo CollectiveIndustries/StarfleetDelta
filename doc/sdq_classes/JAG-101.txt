@@ -1,0 +1,42 @@
+<DESC:Introduction to I.G.>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
+Welcome to the Security Division in SDQ!
+Our class today is SEC-201 / Introduction to I.G.
+*Takes a deep breath and proceeds*
+The Inspector General (IG) is an investigator charged with examining the actions of a government agency or organization, such as Starfleet or the Federation.
+Their job is to look for the possibility of misconduct, fraud, or criminal activity by individuals.
+The IG, as a general auditor, ensures contractors are operating in compliance with generally established policies of the Federation.
+The position of IG is held by the senior member of the IG Corps assigned to a specific command.
+The Inspector General of Starfleet is the senior member of the IG Corps.  There is an Office of the Inspector General (OIG) at the fleet, planetary, and local levels.
+The Starfleet Inspector General in the Gamma Quadrant is a part of the Judge Advocate General's Branch.
+He/she may appoint a Deputy SFIG to assist with running the Office
+and, in addition, appoint Associate IGs to oversee such departments as Inspections, Investigations/Compliance, or Assistance.
+The Inspections department conductions inspections of the different elements of UFGQ to ensure they are operating efficiently.
+These inspections may be regularly scheduled, at the direction of the Commander, Starfleet, or at the request of the element.
+Investigations/Compliance department conducts investigations to determine if criminal behavior, malfeasance, or violations of policy exist.
+These investigations may be initiated by a complaint or at the direction of the Command.
+The IG can in its investigations recommend a Court Martial be convened, issue Warrants or serve subpoena as necessary.
+The Assistance department provides help to those who are having trouble with another member of the fleet, an office or officer of the fleet, or a procedure.
+All IGs will serve in each of these departments during their tenure in the IG Corps.
+Any officer may be detailed as an IG for a temporary basis.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

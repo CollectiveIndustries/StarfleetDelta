@@ -1,0 +1,60 @@
+1.  What year did Albert Einstein publish his theory?
+A:1907
+B:1917
+C:1927
+D:1937
+B
+2. What was the first technical barrier encountered in the progression of faster travel?
+A:Inertia over 20 mph
+B:Speed of sound
+C:Speed of light
+D:Electromagnetism
+B
+3. What was the name of the theory which described the impossibility of faster-than-light travel?
+A:Special relativity
+B:Laws of thermodynamics
+C:Laws of motion
+D:General relativity
+A
+4. What can travel faster than light in normal space?
+A:Photons
+B:Starships
+C:Gravitons
+D:None of the above
+D
+5. Which of the following is the best description of Warp drive?
+A:Fusion-powered rockets to drive the ship faster than light
+B:A pocket of abnormal spacetime that the ship pulls around itself
+C:A system that creates micro-wormholes to push the ship through space
+D:Warp nacelles magnetically propel the starship through space
+B
+6. In what year was Warp drive first achieved?
+A:2063
+B:2161
+C:1917
+D:2111
+A
+7. True/False - Warp 2 is calculated at twice the speed of light.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+8. What is the name for the bubble a starship at warp is in?
+A:Hyperspace
+B:Wormhole
+C:Subspace
+D:Warp nacelle
+C
+9. Why do starships not always travel at warp 9?
+A:Consumption of resources/excessive wear on ship components
+B:Lack of sensor efficiency
+C:Sensors might not be able to detect a hostile alien.
+D:All of the above.
+D
+10. What was the Warp speed limit set at?
+A:4
+B:5
+C:6
+D:7
+B

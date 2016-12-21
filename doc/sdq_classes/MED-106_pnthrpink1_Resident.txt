@@ -1,0 +1,106 @@
+<DESC:Psychology>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:d6894c4d-fd9d-cf1e-cd09-6a0288eed6da>
+Welcome to the Medical/Science Division in SDQ!
+Our class today is MSI-106 / Psychology
+*Takes a deep breath and proceeds*
+What is Psychology
+<TEXTURE:715c7ec5-d470-a6b9-70f7-81b8fca54ea5>
+Psychology is the study of cognitions, emotions, and behavior.
+Psychologists are involved in a variety of tasks.
+Many spend their careers designing and performing research to better understand how people behave in specific situations, how and why we think the way we do,
+and how emotions develop and what impact they have on our interactions with others.
+These are the research psychologists who often work in research organizations or universities.
+Industrial-organizational psychologists work with businesses and organizations to help them become more productive, effective,
+and efficient, and to assist them in working with their employees and their customers.
+Practitioners, typically counseling and clinical psychologists, work with individuals, couples, families, and small groups to help them feel less depressed,
+less anxious, become more productive or motivated, and overcome issues which prevent them from living up to their potential.
+The study of psychology has five basic goals:
+<TEXTURE:4a9b0b96-a926-3336-22d4-183449afa947>
+1. Describe – The first goal is to observe behavior and describe, often in minute detail, what was observed as objectively as possible
+2. Explain – While descriptions come from observable data, psychologists must go beyond what is obvious and explain their observations. In other words, why did the subject do what he or she did?
+3. Predict – Once we know what happens, and why it happens, we can begin to speculate what will happen in the future.
+There’s an old saying, which very often holds true: "the best predictor of future behavior is past behavior."
+4. Control – Once we know what happens, why it happens and what is likely to happen in the future, we can excerpt control over it.
+In other words, if we know you choose abusive partners because your father was abusive, we can assume you will choose another abusive partner,
+and can therefore intervene to change this negative behavior.
+5. Improve – Not only do psychologists attempt to control behavior, they want to do so in a positive manner, they want to improve a person’s life, not make it worse.
+This is not always the case, but it should always be the intention.
+<TEXTURE:6cb11752-6a54-ac63-c30b-c24939184f41>
+Psychology is both an applied and academic field that studies the human mind and behavior.
+Research in psychology seeks to understand and explain thought, emotion and behavior.
+Applications of psychology include mental health treatment, performance enhancement, self-help, ergonomics and many other areas affecting health and daily life.
+While psychology has its roots in ancient philosophy, it wasn't until the 1879 founding of the first psychology lab that the discipline emerged as a science separate from philosophy and physiology.
+Psychology evolved out of both philosophy and biology. Such discussions of the two subjects date as far back as the early Greek thinkers such as Aristotle and Socrates.
+The word psychology is derived from the Greek word psyche, meaning 'soul' or 'mind.'
+Today, psychologists prefer to use more objective scientific methods to understand, explain, and predict human behavior.
+Psychological studies are highly structured, beginning with a hypothesis that is then empirically tested.
+Psychology has two major areas of focus: academic psychology and applied psychology.
+Academic psychology focuses on the study of different sub-topics within psychology including personality psychology, social psychology and developmental psychology.
+These psychologists conduct basic research that seeks to expand our theoretical knowledge, while other researchers conduct applied research that seeks to solve everyday problems.
+Applied psychology focuses on the use of different psychological principles to solve real world problems.
+Examples of applied areas of psychology include forensic psychology, ergonomics, and industrial-organizational psychology.
+Many other psychologists work as therapists, helping people overcome mental, behavioral and emotional disorders.
+Areas of Psychology
+<TEXTURE:955c167e-a623-dc3c-db01-acda1951b9a0>
+Psychology is a broad and diverse field. A number of different subfields and specialty areas have emerged.
+The following are just some of the major areas of research and application within psychology:
+Abnormal Psychology is the study of abnormal behavior and psychopathology.
+This specialty area is focused on research and treatment of a variety of mental disorders and is linked to psychotherapy and clinical psychology.
+Mental health professional typically utilize the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) to diagnose mental disorders.
+Clinical Psychology is focused on the assessment, diagnosis, and treatment of mental disorders.
+Developmental Psychology is the branch of psychology that looks at human growth and development over the lifespan.
+Theories often focus on the development of cognitive abilities, morality, social functioning, identity and other life areas.
+Forensic Psychology is an applied field focused on using psychological research and principles in the legal and criminal justice system.
+Social Psychology is a discipline that uses scientific methods to study social influence, social perception and social interaction.
+Social psychology studies diverse subjects including group behavior, social perception, leadership, nonverbal behavior, conformity, aggression and prejudice.
+Psychologists may work in a wide variety of settings, including schools, universities, hospitals, private clinics, government offices, corporations and small businesses.
+Psychologists primarily work in one of two broad areas: research psychology or applied psychology.
+Research psychologists investigate physical, emotional, social, cognitive and biological bases of human thought and behavior.
+They often conduct experiments and may work at a colleges or universities, or they may be employed by a business or government office.
+Applied psychologists use their knowledge of human behavior to solve real world problems or help people overcome psychological distress.
+Applied psychologists may work directly with patients in a healthcare setting, such as in a hospital, mental health clinic, school or private practice.
+Other applied psychologists may work in government, industry, business or nonprofit settings.
+In addition to applying their knowledge of psychology directly, these professionals may also perform research, offer training, design products, create programs or provide psychological advice.
+Psychologists employed in research settings often spend a great deal of time developing hypotheses and collecting data.
+The exact research methods used by psychologists depend largely on the topic they are studying.
+For example, some psychologists might perform research using lab experiments, while others might use naturalistic observation.
+Other methods commonly used include administering questionnaires, clinical studies, surveys and interviews.
+Psychologists employed in health care settings often spend a considerable amount of time working directly with clients.
+This might involve conducting assessments of new patients, diagnosing mental disorders and performing psychotherapy.
+Psychologists also frequently consult with other health professionals including doctors, nurses and other therapists.
+Every year, millions of people are affected by disorders of the brain and nervous system including Alzheimer's, Parkinson's disease, strokes, and traumatic brain injuries.
+These illnesses and injuries highlight the importance of the biological bases of behavior.
+<TEXTURE:2f638e93-1710-4a37-9021-0dc3697b7eb6>
+From the day we are born, we begin a process of learning that lasts throughout life.
+Learning has been defined in a number of different ways, but many psychologists describe learning as a relatively permanent change in behavior as a result of experience.
+The ability to create, store and access memories is an essential part of day-to-day life.
+From remembering where you left your keys to learning a language to memorizing information for a class, your memory allows you to function and interact meaningfully with others.
+<TEXTURE:0abac0b4-bb36-c797-08f0-8d8762ffbc07>
+Much of what we know about human thought and behavior has emerged thanks to various psychology theories.
+For example, behavioral theories demonstrated how conditioning can be used to learn new information and behaviors.
+Psychology students typically spend a great deal of time studying these different theories.
+Some theories have fallen out of favor, while others remain widely accepted, but all have contributed tremendously to our understanding of human thought and behavior.
+<TEXTURE:7dd1b7c6-cb44-fc3f-01fd-457c405b6aae>
+By learning more about these theories, you can gain a deeper and richer understanding of psychology's past, present and future.
+Finally, always remember that as a Psychologist in the United Federation Gamma Quadrant, you are NOT to treat or diagnose RL (real-life) situations, only SL (Second Life) RP scenarios.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck

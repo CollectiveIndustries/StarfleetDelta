@@ -1,0 +1,11 @@
+<DESC:Intro to Derping Around>
+<LIGHTS_OFF>
+Hello, everyone!  I am <INSTRUCTOR_NAME> and this is the course dedicated
+to derping around! This includes, but is not limited to, making objects
+such as ones that will make fart noises when specific people pass through them,
+<SOUND:900bdb8a-a208-1c9b-c08e-c67016bf3069>
+Or even something to troll your friends with!
+<SOUND:ec3fe6e4-38e1-015b-d987-284393bf7a55>
+In any case, welcome to Starfleet Delta Quadrant and enjoy your stay!
+<TEXTURE:61320ebe-48bb-8b93-cea9-d1036ab26507>
+<LIGHTS_ON>

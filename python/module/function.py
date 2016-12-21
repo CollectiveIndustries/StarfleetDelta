@@ -12,11 +12,11 @@ import os, shutil
 def MySQL_init():
     ## Set up the Connection using config.d/NAME.conf returns a standard DB Object
     try:
-        db = MySQLdb.connect(config._IN_MYSQL_HOST_,config._IN_MYSQL_USR_,config._IN_MYSQL_PASS_)
+        db = MySQLdb.connect(host=config._IN_MYSQL_HOST_,user=config._IN_MYSQL_USR_,passwd=config._IN_MYSQL_PASS_,db=config._IN_MYSQL_DB_)
         return db
     except MySQLdb.Error:
         print "There was a problem in connecting to the database."
-        print "Please ensure that the database exists on the target system, and that you have configured the settings properly in config/ufgq.conf"
+        print "Please ensure that the database exists on the target system, and that you have configured the settings properly in config/sdq.conf"
         print "Config DUMP:"
         print "HOST: %s\nUSER: %s\nPASS: %s\nDATABASE: %s" %(config._IN_MYSQL_HOST_,config._IN_MYSQL_USR_,config._IN_MYSQL_PASS_,config._IN_MYSQL_DB_)
 #	print "\n\n Returned Error code:\n\n%s, %s" % (MySQLdb.Error[0], MySQLdb.Error[1])

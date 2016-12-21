@@ -1,0 +1,90 @@
+1. Andoria is a Founding Member of the Federation
+A:True
+B:False
+C:N/A
+D:N/A
+A
+2. There have never been conflicts between Vulcan and Andoria.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+3. Andoria is a warm world and temperatures rarely fall below freezing.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+4. Andoria supports a population of:
+A:75 million
+B:1.6 billion
+C:10 billion
+D:30 million
+D
+5. Andorians, in spite of their slender physiques are usually capable of lifting an object__times their weight.
+A:4
+B:10
+C:4
+D:2
+D
+6. Andorians have four sexes: zhen, shen, chan, and thaan.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+7. The ___________ is the oldest inhabited region of Andoria.
+A:Zhevra
+B:Vezhdar Plain
+C:The Archipelago
+D:Cheshras Island
+C
+8. The Andor Confederation is ruled by the______.
+A:Senate
+B:Parliamentary Council
+C:House of Commons
+D:Congress of Andor
+B
+9. the ________is the_______in the Parliamentary Complex.
+A:Senate Hal/Newest
+B:Chancellor's Office/ oldest
+C:Heroes Chamber/ Newest
+D:Heroes’ Antechamber/oldest
+D
+10. there are 64 Electoral provinces.
+A:True
+B:False
+C:N/A
+D:N/A
+A
+11. Andorians are a militaristic race whose weapons have no stun settings.
+A:True
+B:False
+C:N/A
+D:N/A
+B
+12. The Andorians are considered to be a_____ and_______Race
+A:highly intellectual and logical
+B:unemotional and cold
+C:deeply emotional and passionate
+D:deeply introspective and shy
+C
+13. Which of the following is not one of the 4 traditional rituals of the Andorians?
+A:the Time of Knowing
+B:the age of inclusion
+C:the “turning age”
+D:Nutak - When a new Andorian is born
+B
+14. The Andorians have colonized all __ planets in their system.
+A:9
+B:10
+C:12
+D:8
+C
+15. A crucial part of Andorian tradition was the so called ushaan, a code of honor demanding a duel to the death,
+A:True
+B:False
+C:N/A
+D:N/A
+A

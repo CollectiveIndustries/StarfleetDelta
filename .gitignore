@@ -94,3 +94,6 @@ ENV/
 
 #  PHP Configuration File
 php/config.php
+
+# Astyle Originals
+*.orig

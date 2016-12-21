@@ -1,0 +1,135 @@
+<DESC:The Impulse Drive System>
+*Dims the lights and smiles at each cadet*
+<LIGHTS_OFF>
+<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
+Greetings and welcome to the Starfleet Delta Quadrant Academy!
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
+There will be an exam at the conclusion of the lecture.
+You may use your class notes, but please refrain from any talking during the exam.
+If you have any questions at that time, please IM the instructor
+<TEXTURE:4b45fb27-cf2e-1914-f513-bffddb952d46>
+Welcome to the Engineering Division in SDQ!
+Our class today is ENG-102 The Impulse Drive System
+*Takes a deep breath and proceeds*
+With much of the attention going to Warp drives we tend forget about the Impulse drive.  Even though the Impulse system is used more than the warp drive.
+Travel inside planetary systems, conducting scans, star mapping, and even most ship battles are all usually done at sub light speeds using the impulse drive.
+Not to mention you can not jump from a dead stop to warp  without ripping your ship apart, you need to have some momentum in the direction you are going.
+An impulse engine or an Internally Metered Pulse Drive. Is the principal sublight propulsion of the ship.
+This technology was used by United Earth, and later the Federation beginning around the later 21st century.
+In early warp ships they would use the impulse drive for turning the ships.
+A ship would go into warp in a particular direction then drop out of warp to turn the ship with the impulse drive and then jump back to warp.
+Later on a ship would use the impulse drive inside the warp bubble to steer the ship at warp speeds.
+Now with advances we can control the shape of the warp field to change the direction of the ship at warp speeds.
+It is even common practice on a long warp journey to drop out of warp and travel at impulse to give the warp engines a rest and maintenance.
+<TEXTURE:cce6a96c-378c-6c31-1934-3baeec426983>
+In Federation starships, the impulse drive or is basically an augmented fusion rocket, usually consisting of one or more fusion reactors.
+The Main type of Impulse drive you will find is a Haynes Engine.
+It is usually composed of fusion reactor, and accelerator generator, a driver coil, and thrust nozzle to direct the plasma exhaust.
+The Fusion Reactor:
+Is used to generate a highly energized plasma. Most modern starships will use plasma generated from the warp core instead if using a separate reactor.
+Though we still have fusion reactors aboard to use as an auxiliary power generating system for the Impulse engines and the rest of the ship incase warp core is offline.
+The Accelerator Generator:
+It raises the velocity of the plasma before passing it to the next stage the driver coils.
+If the system is set to generate power only, the accelerator is shut down and the energy is diverted by the EPS to the ship's overall power grid.
+The next stage of the engine is the Driver Coil.
+Driver Coil Assembly:
+Or DCA. The DCA is a series of 6 split toroids.
+When the plasma is put through the toroids it creates a combined field effect that slightly reduces the overall mass of the spacecraft and produces a high powered exhaust.
+Vectored Exhaust Director:
+Is final stage, the VED is a series of movable vanes and channels that expels the exhaust in a controlled manner.
+The VED is basically what provides the directed thrust that steers the ship, it also can be set to a venting mode.
+Depending on the design of the impulse system the VED is sometimes called the Impulse Thruster or Output Manifold.
+Magnetic Constrictors:
+These are used to control the plasma flow in the impulse drive and also to control the exhaust in the VED.
+You will also find magnetic constrictors in other systems of the ship like the warp core and deflector dish.
+Those are the primary Impulse components, but there are secondary components that are part of the Impulse system.
+Deuterium Holding cell:
+Deuterium is the primary fuel used on a starship, it is stored in large tanks aboard the ship. It is used by both the Warp and Impulse drives.
+In the Warp drive it is mixed with antimatter to create the plasma for the warp engines but in a Impulse drive Deuterium is used in a fusion reactor to create the power.
+Impulse Capacitance Cell:
+It is a device that stores energy that can in an emergency situation be released into the driver coils.
+It has enough power for a single short impulse burst.
+Sometimes this process has been referred as “Using the rockets to blast our way out”
+Radioactive Disposal Vent;
+These are used to clean out excess radiation that has built up.
+This clean up process is called AID clean up.
+During this cleaning the engines can not be used.
+Torque Buffers:
+These are used to compensate for the power differentials between the Impulse engines.
+If the torque buffers are not equalized one engine will put out more thrust then another and the ship could veer to one side.
+Maneuvering Thrusters:
+Are part of the impulse system of a starship they are essentially smaller  versions of an impulse drive unit.
+Thrusters are positioned at various points around the hull of the ship.
+They are mainly used at slow speeds to change the direction and attitude of a ship. Like in orbit or in docking procedures.
+The main difference between the main drive and a thruster is that the main impulse drive is designed for prolonged use.
+Where as a maneuvering thruster is designed for short bursts of thrust.
+Some helmsmen have used the maneuvering thrusters in impulse speed battle maneuvers.
+By combining an impulse turn with firing the maneuvering thrusters on one side of the ship a good helmsman could turn a starship sharper then you could with just the impulse drive alone.
+Or as former Helmsman Hakaru Sulu is rumored to have done,
+make a ship flip, twist and roll that would make the crew sick if the internal dampeners were not set to full.
+This drive system has been the standard system used in most Federation starships, one other sublight drive design that is used in federation starships is a Gravity Wave Impulse Drive.
+<TEXTURE:dae38c58-58e5-08d7-d96d-bbf0b6f7e474>
+The Gravity Wave Impulse Drive.
+Or more properly named an Inertial Magnetronic Pulse Drive--or more simply the I.M.Pulse, or impulse, Drive.
+First of all, this type of impulse drive is NOT a conventional fusion reaction drive those are still used  for the maneuvering thrusters and the backup power on these ships.
+The drive works as follows:
+A pellet of deuterium-deuterium fusion fuel is fused in a high-energy reaction that is contained and modulated in a magnetronic field.
+A magnetronic field is a magnetic containment field merged with a gravitic force field.
+Basically, the magnetronic field contains and focuses the fusion implosion to such a degree that it generates a substantial amount of gravitic as well as electromagnetic energy.
+These powerful but short-lived gravity waves are used to push or pull the ship in various directions.
+By "pulsing" the drive thousands or even millions of times a second.
+The "drive focuses the  high-energy fusion reaction to produce gravity waves.
+Needless to say, a gravity wave Impulse Drive is an extremely powerful and versatile form of sublight propulsion.
+Since the gravity waves produced can be either attractive or repulsive a ship equipped with an impulse drive can accelerate or decelerate without changing it orientation.
+The Impulse Drive exhaust ports on this type of drive are not used in the same way conventional exhausts are;
+they are used solely to vent the plasma the fusion pulses generate,
+and only add relatively small amounts of acceleration to the ship compared to that generated by the Impulse Drive proper.
+It should be noted, however, that even this ‘waste’ exhaust would still be dozens of times more powerful than any conventional rocket that were used when man first went into space.
+The Ion drive:
+<TEXTURE:175d0474-a420-2bea-df23-4da701a38b92>
+Is on another drive you may come across.
+An ion drive is a form of Electric propulsion that creates thrust by accelerating Ions that it collects in open space.
+This style of dive has 2 advantages over other styles of sublight drives
+1. Is it collects its fuel during its voyage so you do not have to store the Ions on board.
+2. it is a very simple drive by just using e the ionization of the propellant gas, produced through electron bombardment.
+First the engine releases electrons from a cathode by heating it, then the resulting electric charge accelerates the electrons towards the anode and into the discharge chamber.
+Then, the gas used for propulsion.
+The big disadvantage to Ion drive is it has very slow acceleration.
+So it is not used on Federation Starships but you may find it in use on freighters and ships that are limited to fight with in a solar system.
+One thing every cadet wants to know is how fast can I go at full impulse speed?
+Ninety percent lightspeed or so is supposedly the theoretical maximum for an Impulse drive,
+and the ship would have to be pouring all its power for hours into the drive to sustain ever-tinier increases in acceleration.
+But that all depends on the size ship that you are in, the size and type of the drive installed in that ship.
+Full impulse on one ship will be different than full impulse on another.
+Large starships tend to have a slower full impulse speed then in some smaller starships, shuttles and runabouts due to the power to mass ratios.
+But generally a starship at full impulse travels at between 1/4 to 1/2 light speed.
+It is possible to go even faster, but at an ever-increasing cost to engine efficiency.
+But by making adjustments to the various components in the impulse drive system to increase its efficiency.
+Most chief engineers will get a more speed than the original ship specifications.
+It all depends on the overall mass of the ship compared with the power and the efficiency of impulse system.
+That is why some starships like the galaxy class allowed for separating the saucer section from the star drive.
+With the reduction of the extra mass the same impulse drive could propel the star drive section to faster impulse speeds.
+A ship can travel at sublight speeds faster than full impulse, by using a low level warp field to lighten the ship's relative mass.
+At this point a helmsman instead of saying we are at half or full impulse, they would convey the ship's speed as .5 or .99 of warp speed.
+<TEXTURE:84555493-45a8-a963-009c-da59894941da>
+Some species have been known to, what some from earth, have called “Hot Rodding” a shuttle.
+For example you would put an impulse drive unit from Danube class runabout on a Type 7 shuttle craft it would making it much faster,
+assuming you could keep the craft in one piece.
+It is known that some will race these modified ships. No official speeds of this type craft have been recorded but there are claims of going up to .99 of light speed without using a warp field.
+Smiles and pauses
+So in conclusion the Impulse drive system of a ship is the backbone of the ship.
+Providing the ability if travailing and maneuvering at sub warp speeds.
+As well as acting as a backup power generator for the rest of the ship's systems.
+This concludes our lecture for today.
+<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+<LIGHTS_ON>
+Are there any questions?
+*Looks around the room*
+You may now start your test by activating the computer terminal in front of you.
+You will need to score 80% or better to pass this exam.
+If you do happen to fail the class you can request a written exam from the Academy Commandant.
+If you would like a copy of this class for further reference you can request one from the Academy Commandant.
+All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+Good luck
