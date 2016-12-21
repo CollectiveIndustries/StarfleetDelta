@@ -137,7 +137,7 @@ case "grade":
     $sid = GetSID( $db,$StudentID );
     $grade = GetGrade( $db,$GET_GRADE );
 
-    $PUSH_GRADEBOOK = "INSERT INTO `gradebook` (`StudentID`, `CourseID`, `Grade`) VALUES ('$sid', '$course_id', '$grade')";
+    $PUSH_GRADEBOOK = "INSERT INTO `gradebook` (`StudentID`, `CourseID`, `Grade`) VALUES ('$sid', '$CourseID', '$grade')";
 
     CommitDB( $db,$PUSH_GRADEBOOK );
     die( "-EOF-" );
