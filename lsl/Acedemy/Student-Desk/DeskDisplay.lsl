@@ -1,6 +1,6 @@
 
 // User configurable variable
-integer debug = TRUE;
+integer debug = FALSE;
 
 // Network API Variables
 integer API_CHAN;
@@ -18,8 +18,9 @@ string CHOSENANS;
 integer MENU_HANDLE;
 integer MENU_CHANNEL;
 
-
+// General variables
 key USER;
+integer STRIPPEDGRADE;
 
 list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 //list GET_PARAMS = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
@@ -187,11 +188,15 @@ state running
         }
         else if( reqid == GRADES && stat == 200 )
         {
+            string tempgrade = llList2String(llParseString2List(body, ["|"], []), 1);
+            STRIPPEDGRADE = (integer) llList2String(llParseString2List(tempgrade, ["."], []), 0);
             // 7) once the grades request is sent lets get the information returned from the server and handle it.
             if( debug )
             {
                 llSay( 0,"GRADES: "+( string )body );
             }
+            state finished;
+            // Grades are set and recorded, let's go to the finished state
         }
         else
         {
@@ -210,5 +215,30 @@ state running
 
         // 3) HTTP Request with the Answer
         EXAM_ANSWER = llHTTPRequest( COURSE_PAGE, POST_PARAMS, "branch=answer&qindex=" + ( string )QUESTIONINDEX + "&uuid=" + ( string )USER + "&answer=" + msg + "&course_id=" + ( string )COURSE_ID );
+    }
+}
+
+state finished
+{
+    state_entry()
+    {
+        setText("Exam complete!\nYou got a " + (string)STRIPPEDGRADE + "%\nYour grade has been recorded.");  // Inform the student of their score
+        llSetTimerEvent(300);  // 5 minute timeout to reset
+    }
+    timer()
+    {
+        llSetTimerEvent(0);
+        llResetScript();
+    }
+    touch_start(integer num)  // From here down is just a longtouch to reset, so you're not waiting 5 minutes to clear the panel if you don't want to
+    {
+        llResetTime();
+    }
+    touch_end(integer num)
+    {
+        if (llGetTime() > 1.5)
+        {
+            llResetScript();
+        }
     }
 }
