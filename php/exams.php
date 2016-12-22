@@ -19,7 +19,7 @@ $QUESTION = "SELECT `question_number`,`question`,`a`,`b`,`c`,`d` FROM `exams` e 
 $StudentID = "SELECT a.`ID` AS `id` FROM `accounts` a WHERE a.`UUID`='$StudentUUID'";
 $QuestionID = "SELECT e.`eid` AS `id` FROM `exams` e WHERE e.`question_number`='$QuestionNumber' AND e.`course_id`='$CourseID'";
 
-$GET_GRADE = "SELECT((SELECT 1.0*COUNT(*) FROM scores s	JOIN accounts a ON a.ID=s.StudentID JOIN exams e ON e.eid=s.QuestionID WHERE s.answer=e.answer AND a.UUID='$StudentUUID' GROUP BY a.ID) / (SELECT COUNT(*) AS total FROM exams e WHERE e.course_id = '$CourseID' GROUP BY e.course_id)*100) AS `percentage`";
+$GET_GRADE = "SELECT((SELECT 1.0*COUNT(*) FROM scores s JOIN accounts a ON a.ID=s.StudentID JOIN exams e ON e.eid=s.QuestionID WHERE s.answer=e.answer AND a.UUID='$StudentUUID' AND e.course_id='$CourseID' GROUP BY a.ID) / (SELECT COUNT(*) AS total FROM exams e WHERE e.course_id = '$CourseID' GROUP BY e.course_id)*100) AS `percentage`";
 
 function GetSID( $db,$sql )
 {
