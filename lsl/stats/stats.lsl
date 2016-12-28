@@ -18,7 +18,7 @@ Script is for displaying status for Divisions and Ranks for Starfleet Delta
 */
 
 // User configurable variables.
-string STAT_PAGE = "http://ci-main.no-ip.org/stats.php";
+string STAT_PAGE = "https://starfleetdelta.com/stats.php";
 string HTTP_ERROR = "An unexpected error occured while attempting to get Group Statistics. Please visit https://github.com/CollectiveIndustries/StarfleetDelta/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Variable Init

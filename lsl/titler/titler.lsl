@@ -18,7 +18,7 @@ Program designed to function as a timeclock to allow for avatars on SL/OSG to cl
 */
 
 // User configurable variables.
-string TAG_PAGE = "http://ci-main.no-ip.org/tag.php";
+string TAG_PAGE = "https://starfleetdelta.com/tag.php";
 string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/StarfleetDelta/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Variable Init

@@ -1,4 +1,4 @@
-string ACCOUNT_LIST = "http://ci-main.no-ip.org/online.php";
+string ACCOUNT_LIST = "https://starfleetdelta.com/online.php";
 key queryID; // the id key
 key REQ;
 integer DEBUG = FALSE;

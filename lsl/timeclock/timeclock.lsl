@@ -23,7 +23,7 @@ integer _SOUND_INTERNAL = TRUE; // SOUND API TRUE for local prim sound FALSE for
 list _SOUND_BUTTON_ = ["08ca2c4b-75eb-6056-276e-7cfde6d3a9b3", "4429e529-63b4-ffc6-cbff-220722065c8c", "05f95eed-e222-d17e-22c6-f4c901de120d", "4460c043-ae2f-709e-1bb1-b743a149225c", "f48e3570-98d7-d634-baa2-e479943755f6", "1a3f0d6e-e688-cef5-935d-846f8f386a8f", "09deeff1-5c8e-a627-01ac-1efcf8c41acc", "88bcad6c-4cb5-e8e6-a48d-97724e6de614"];
 key ERROR_SOUND = ""; // Error sound
 key StandByLogo = "ef9fc11a-fc5e-bef6-2934-88ea97529ff8"; // Defualt texture when in standby mode
-string CLOCK_PAGE = "http://ci-main.no-ip.org/clock.php";
+string CLOCK_PAGE = "https://starfleetdelta.com/clock.php";
 
 
 // Variable Init

@@ -12,7 +12,7 @@ list TAG_PARAMS_GET = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-for
 
 key TagReq = "";
 
-string TAG_PAGE = "http://ci-main.no-ip.org/tag.php"; //Cloning the titler lookup for info grabbing
+string TAG_PAGE = "https://starfleetdelta.com/tag.php"; //Cloning the titler lookup for info grabbing
 string HTTP_ERROR = "There was an error looking up the info. Please report this to Engineering and/or IT as soon as possible.";
 string result = "";
 

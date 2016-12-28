@@ -3,7 +3,7 @@
 
 integer INDEX = 1;//Keeps track of the GLobal index number for the items in the inventory
 integer TOTAL_INVENTORY;
-string ASSET_PAGE = "http://ci-main.no-ip.org/asset.php";
+string ASSET_PAGE = "https://starfleetdelta.com/asset.php";
 list ASSET_PARAMS_POST = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded", HTTP_VERBOSE_THROTTLE, FALSE ];
 string ASSET_POST_STRING = "";
 key AssetReq = "";
