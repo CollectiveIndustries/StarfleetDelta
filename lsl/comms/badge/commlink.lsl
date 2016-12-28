@@ -1,6 +1,6 @@
 
 //User configurable Global Variables
-string POST_URL = "http://ci-main.no-ip.org/commlink.php";
+string POST_URL = "http://starfleetdelta.com/commlink.php";
 integer DEBUG = FALSE;
 integer COMM_CHANNEL = 55;
 

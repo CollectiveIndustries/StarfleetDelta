@@ -1,4 +1,4 @@
-string authurl = "http://ci-main.no-ip.org/auth.php";
+string authurl = "http://starfleetdelta.com/auth.php";
 key authrequest;
 
 key user;
