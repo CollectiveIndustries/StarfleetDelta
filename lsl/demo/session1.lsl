@@ -25,7 +25,7 @@ list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-
 //list GET_PARAMS = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 
 key EXAM; // For sending COURSE_ID
-string COURSE_PAGE = "https://starfleetdelta.com/exams.php";
+string COURSE_PAGE = "http://starfleetdelta.com/exams.php";
 integer INIT = FALSE;
 
 

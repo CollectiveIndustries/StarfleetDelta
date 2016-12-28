@@ -1,4 +1,4 @@
-string authurl = "https://starfleetdelta.com/auth.php";
+string authurl = "http://starfleetdelta.com/auth.php";
 key authrequest;
 
 key user;

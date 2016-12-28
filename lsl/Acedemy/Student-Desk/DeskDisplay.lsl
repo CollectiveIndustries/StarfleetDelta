@@ -26,7 +26,7 @@ list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-
 //list GET_PARAMS = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 
 // Web page variables
-string COURSE_PAGE = "https://starfleetdelta.com/exams.php";
+string COURSE_PAGE = "http://starfleetdelta.com/exams.php";
 key EXAM; // For sending COURSE_ID
 key EXAM_ANSWER; // Deals primarily with the answers
 key INIT; // HTTP Request id for init values

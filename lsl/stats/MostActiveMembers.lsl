@@ -17,7 +17,7 @@ Script will pull stats for the Most active mebers by amount of time clocked in
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-string TOP_CLOCK_PAGE = "https://starfleetdelta.com/MostActiveUser.php";
+string TOP_CLOCK_PAGE = "http://starfleetdelta.com/MostActiveUser.php";
 list POST_PARAMS = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 key TOP_CLOCK_REQ;
 
