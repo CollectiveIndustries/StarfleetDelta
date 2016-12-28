@@ -16,7 +16,7 @@ $Rows = mysqli_num_rows( $query );
 if ( $Rows == 0 ) // Is there a record already?
 {
     //No record on file they must be a civilian\observer
-    echo "<255,255,255>:═══════\nCivilian\nUFGQ";//\nBUG ".$Rows. "\nuuid = ".$uuid;
+    echo "<255,255,255>:═══════\nCivilian\nStarfleet Delta";//\nBUG ".$Rows. "\nuuid = ".$uuid;
     //echo "<255,255,255>:".$Tag;
 }
 elseif ( $Rows == 1 )
@@ -33,11 +33,11 @@ elseif ( $Rows == 1 )
 
     if ( 0 == $list['active'] )
     {
-        echo "<255,255,255>:".$logo."\nCivilian\nUFGQ";
+        echo "<255,255,255>:".$logo."\nCivilian\nStarfleet Delta";
     }
     else
     {
-        echo "<".$colorX.",".$colorY.",".$colorZ.">:".$logo."\n".$rank."\n".$name."\n".$tag."\nUFGQ";
+        echo "<".$colorX.",".$colorY.",".$colorZ.">:".$logo."\n".$rank."\n".$name."\n".$tag."\nStarfleet Delta";
     }
 
 }

@@ -1,6 +1,9 @@
 #!/bin/bash
-mysql -e "DROP DATABASE IF EXISTS \`StarfleetDelta\`;CREATE DATABASE \`StarfleetDelta\`;"
-for table in `mysql -B -N -e "SHOW TABLES;" StarfleetDelta-1` do
-  mysql -e "RENAME TABLE \`StarfleetDelta-1\`.\`$table\` to \`StarfleetDelta\`.\`$table\`"
+PASSWORD=password
+USER=root
+#mysql --user=$USER --password=$PASSWORD -e "DROP DATABASE IF EXISTS \`StarfleetDelta\`;CREATE DATABASE \`StarfleetDelta\`;"
+for table in $(mysql --user=$USER --password=$PASSWORD -B -N -e "SHOW TABLES;" StarfleetDelta-1)
+do
+  mysql --user=$USER --password=$PASSWORD -e "RENAME TABLE \`StarfleetDelta-1\`.\`$table\` to \`StarfleetDelta\`.\`$table\`"
 done
-mysql -e "DROP DATABASE \`StarfleetDelta-1\`;"
+#mysql -u$USER -p$PASSWORD -e "DROP DATABASE \`StarfleetDelta-1\`;"
