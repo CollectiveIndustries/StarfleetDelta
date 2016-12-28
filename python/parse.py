@@ -121,7 +121,7 @@ db = function.MySQL_init()
 cursor = db.cursor()
 
 data = fetch("SELECT VERSION()")
-print("Database version: %s " % data)
+print("Database version: %s" % data)
 print("Database configuration settings are correct\n\n")
 
 print(color.HEADER+"Attempting to clean system........"+color.END)

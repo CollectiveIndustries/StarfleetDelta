@@ -23,7 +23,7 @@ username = None
 password = None
 
 # Insert statement for creating a new admin user on first install.
-sql = "INSERT INTO `sdq`.`accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
+sql = "INSERT INTO `accounts` (`username`, `password`, `db_privlage_level`) VALUES (%s, SHA2(%s, 512), 3)"
 
 ### Main Script ###
 
@@ -83,3 +83,6 @@ _FILE_.close()
 
 # File manipulators to move webpage
 function.mv(config._PHP_REPO_,config._WEB_ROOT_)
+
+# Install Default data to the database from here.
+
