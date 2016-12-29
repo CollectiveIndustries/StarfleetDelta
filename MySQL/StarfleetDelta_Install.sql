@@ -285,7 +285,7 @@ CREATE TABLE IF NOT EXISTS `exams` (
 DROP TABLE IF EXISTS `gradebook`;
 CREATE TABLE IF NOT EXISTS `gradebook` (
   `entryIndex` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `date` datetime,
   `StudentID` int(10) unsigned NOT NULL,
   `CourseID` int(10) unsigned NOT NULL,
   `Grade` int(10) unsigned NOT NULL,
