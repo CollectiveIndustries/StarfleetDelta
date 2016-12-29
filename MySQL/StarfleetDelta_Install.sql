@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `induction_date` date DEFAULT NULL,
   `dh` bit(1) NOT NULL DEFAULT b'0',
   `JoinDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'BUG: This field should be a Date however we will get ERROR 1607 Invalid value. Please Fix',
-  `promotiondate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+--  `promotiondate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `DOB` date NOT NULL DEFAULT '1990-01-07',
   `birth_place` varchar(64) NOT NULL DEFAULT 'Some Where',
   `height_metric` tinyint(3) unsigned NOT NULL DEFAULT '6',
