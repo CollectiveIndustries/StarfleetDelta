@@ -1,6 +1,6 @@
 /*
-timeclock.lsl
-Program designed to function as a timeclock to allow for avatars on SL/OSG to clock into and out of Starfleet Delta
+    titler.lsl
+    Program is for pulling name tags from StarfleetDelta.com datadatbase
 	Copyright (C) 2016  Andrew Malone
 
 	This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@ Program designed to function as a timeclock to allow for avatars on SL/OSG to cl
 
 // User configurable variables.
 string TAG_PAGE = "http://starfleetdelta.com/tag.php";
-string HTTP_ERROR = "An unexpected error occured while attempting to clock user in/out. Please visit https://github.com/CollectiveIndustries/StarfleetDelta/issues to submit bug reports or checkup on known issues.\n\n";
+string HTTP_ERROR = "An unexpected error occured while attempting to lookup a title. Please visit https://github.com/CollectiveIndustries/StarfleetDelta/issues to submit bug reports or checkup on known issues.\n\n";
 
 // Variable Init
 key USER = "";
@@ -27,7 +27,7 @@ key TagReq = ""; // Clock request HTTP Key
 list TAG_PARAMS_POST = [HTTP_METHOD, "POST", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 list TAG_PARAMS_GET = [HTTP_METHOD, "GET", HTTP_MIMETYPE, "application/x-www-form-urlencoded"];
 integer listenhandle;
-string version = "3.1";
+string version = "3.5.1";
 
 // Function declarations
 
@@ -39,7 +39,7 @@ default
         listenhandle = llListen( 899, "", NULL_KEY, "" ); //adding a listener var to use later for closing
         llOwnerSay( "INIT: Systems starting" );
         TagReq = llHTTPRequest( TAG_PAGE, TAG_PARAMS_POST, "uuid=" + ( string )llGetOwner() );
-        //TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
+        // TagReq = llHTTPRequest(TAG_PAGE+"?uuid="+(string)llGetOwner(), TAG_PARAMS, "");
     }
     listen( integer chan, string name, key id, string msg )
     {
@@ -50,7 +50,8 @@ default
         }
         else if( msg == "list" )
         {
-            llRegionSay( 899, ( string )llGetDisplayName( llGetOwner() ) + " is using version " + version ); //broadcast owner name and version number
+            // Broadcast owner name and version number
+            llRegionSay( 899, ( string )llGetDisplayName( llGetOwner() ) + " is using version " + version );
         }
     }
 
@@ -65,28 +66,25 @@ default
 
     http_response( key req , integer stat, list met, string body )
     {
-        if( req == TagReq )   //Response was from the TimeClock
+        if( req == TagReq && stat==200 )   // Response was from the Database
         {
-            if( stat == 200 )
-            {
-                //Set up if statment to handle server Errors here
-                if( llToLower( llGetSubString( body, 0, 5 ) ) == "error:" )
-                {
-                    llOwnerSay( HTTP_ERROR + "\nSTAT: " + ( string )stat + "\nRES: " + ( string )body );
-                }
-                else
-                {
-                    list temp = llParseString2List( body, [":"], [] );
-                    vector color = ( vector )llList2String( temp, 0 ) / 255; //Convert RGB stored values database side to Vectors for LSL
-                    string tag = llList2String( temp, 1 );
-                    llSetText( tag, color, 1.0 );
-                }
-                USER = "";
-            }
-            else
+            // Set up if statment to handle server Errors here
+            if( llToLower( llGetSubString( body, 0, 5 ) ) == "error:" )
             {
                 llOwnerSay( HTTP_ERROR + "\nSTAT: " + ( string )stat + "\nRES: " + ( string )body );
             }
+            else
+            {
+                list temp = llParseString2List( body, [":"], [] );
+                vector color = ( vector )llList2String( temp, 0 ) / 255; // Convert RGB stored values database side to Vectors for LSL
+                string tag = llList2String( temp, 1 );
+                llSetText( tag, color, 1.0 );
+            }
+            USER = "";
+        }
+        else
+        {
+            llOwnerSay( HTTP_ERROR + "\nSTAT: " + ( string )stat + "\nRES: " + ( string )body );
         }
     }
 }
