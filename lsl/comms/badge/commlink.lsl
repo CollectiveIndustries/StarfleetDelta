@@ -92,7 +92,7 @@ init()
     DEBUG = FALSE;
     if( llGetSubString( llToLower( llGetObjectName() ), 0, 5 ) == "debug" )
     {
-        llSetObjectName( "DEBUG: " + llKey2Name( llGetOwner() ) + ": Comm System V3" );
+        llSetObjectName( "DEBUG: " + llKey2Name( llGetOwner() ) + ": Comm System V4" );
         DEBUG = TRUE;
     }
     //llOwnerSay(llList2String(["Entering Run Level 5","Entering Run Level 3"],DEBUG));
@@ -131,6 +131,7 @@ default
 {
     on_rez( integer start_param )
     {
+	init();
         llSleep( 0.5 ); // Just in case it doesn't attach instantly
         integer IsAttached = ( llGetAttached() > 0 ); // TRUE if attached, FALSE otherwise
         // if DEBUG is true we want to keep the commlink on the ground for testing purposes, otherwise delete the object.
