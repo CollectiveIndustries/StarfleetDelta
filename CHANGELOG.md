@@ -18,13 +18,13 @@
 
 **Fixed bugs:**
 
+- ASCII/Syntax Errors [\#49](https://github.com/CollectiveIndustries/StarfleetDelta/issues/49)
 - \[Academics\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/StarfleetDelta/issues/37)
 - \[Acedemics\] Podium Init [\#36](https://github.com/CollectiveIndustries/StarfleetDelta/issues/36)
 - \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/StarfleetDelta/issues/30)
 - \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/StarfleetDelta/issues/26)
 - \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/StarfleetDelta/issues/24)
 - \[Installer\] Plaintext password in Command arguments [\#23](https://github.com/CollectiveIndustries/StarfleetDelta/issues/23)
-- \[Installer\] Programming Error on ufgq.accounts [\#22](https://github.com/CollectiveIndustries/StarfleetDelta/issues/22)
 - \[Website\] \[MySQL\] Display tags not showing up correctly [\#18](https://github.com/CollectiveIndustries/StarfleetDelta/issues/18)
 - \[Installer\] \[MySQL\] Syntax error [\#17](https://github.com/CollectiveIndustries/StarfleetDelta/issues/17)
 - \[MySQL\] Login credentials [\#15](https://github.com/CollectiveIndustries/StarfleetDelta/issues/15)
@@ -32,6 +32,8 @@
 
 **Merged pull requests:**
 
+- Update ACM-102\_McCole\_Avon.txt [\#50](https://github.com/CollectiveIndustries/StarfleetDelta/pull/50) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
+- Rename ISSUE\_TEMPLATE.md to ISSUE\_TEMPLATE.md.OLD [\#48](https://github.com/CollectiveIndustries/StarfleetDelta/pull/48) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
 - Updates LoginSystem with Origin state [\#43](https://github.com/CollectiveIndustries/StarfleetDelta/pull/43) ([Morketh](https://github.com/Morketh))
 
 ## [v0.1-alpha](https://github.com/CollectiveIndustries/StarfleetDelta/tree/v0.1-alpha) (2016-10-28)
