@@ -18,7 +18,7 @@
 
 **Fixed bugs:**
 
-- ASCII/Syntax Errors [\#49](https://github.com/CollectiveIndustries/StarfleetDelta/issues/49)
+- \[Academy\] ASCII/Syntax Errors [\#49](https://github.com/CollectiveIndustries/StarfleetDelta/issues/49)
 - \[Academics\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/StarfleetDelta/issues/37)
 - \[Acedemics\] Podium Init [\#36](https://github.com/CollectiveIndustries/StarfleetDelta/issues/36)
 - \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/StarfleetDelta/issues/30)
