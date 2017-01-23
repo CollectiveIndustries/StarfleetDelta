@@ -6,10 +6,10 @@
 
 **Implemented enhancements:**
 
-- \[Academics\] Notecard uploader [\#42](https://github.com/CollectiveIndustries/StarfleetDelta/issues/42)
-- \[Acedemics\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
-- \[Academics\] Exams Systems [\#34](https://github.com/CollectiveIndustries/StarfleetDelta/issues/34)
-- \[Acedemics\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/StarfleetDelta/issues/32)
+- \[Academy\] Notecard uploader [\#42](https://github.com/CollectiveIndustries/StarfleetDelta/issues/42)
+- \[Academy\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
+- \[Academy\] Exams Systems [\#34](https://github.com/CollectiveIndustries/StarfleetDelta/issues/34)
+- \[Academy\] HTTP Handler for reading courses from the DB [\#32](https://github.com/CollectiveIndustries/StarfleetDelta/issues/32)
 - \[Combadge\] Database scripted Commlinks [\#31](https://github.com/CollectiveIndustries/StarfleetDelta/issues/31)
 - \[Feature\] Population Statistics for Starfleet Delta [\#20](https://github.com/CollectiveIndustries/StarfleetDelta/issues/20)
 - \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/StarfleetDelta/issues/16)
@@ -19,8 +19,8 @@
 **Fixed bugs:**
 
 - \[Academy\] ASCII/Syntax Errors [\#49](https://github.com/CollectiveIndustries/StarfleetDelta/issues/49)
-- \[Academics\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/StarfleetDelta/issues/37)
-- \[Acedemics\] Podium Init [\#36](https://github.com/CollectiveIndustries/StarfleetDelta/issues/36)
+- \[Academy\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/StarfleetDelta/issues/37)
+- \[Academy\] Podium Init [\#36](https://github.com/CollectiveIndustries/StarfleetDelta/issues/36)
 - \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/StarfleetDelta/issues/30)
 - \[Installer\] Invalid Syntax [\#26](https://github.com/CollectiveIndustries/StarfleetDelta/issues/26)
 - \[Website\] \[Severe\] PHP Scripts and web site broken [\#24](https://github.com/CollectiveIndustries/StarfleetDelta/issues/24)
@@ -40,7 +40,7 @@
 **Fixed bugs:**
 
 - \[Time Clock\] Invalid IM Key [\#12](https://github.com/CollectiveIndustries/StarfleetDelta/issues/12)
-- \[website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/StarfleetDelta/issues/4)
+- \[Website\] Login box not centered vertically [\#4](https://github.com/CollectiveIndustries/StarfleetDelta/issues/4)
 - \[Installer\] Invalid config Key [\#2](https://github.com/CollectiveIndustries/StarfleetDelta/issues/2)
 - \[Installer\] Traceback enabled on MySQL connection with failed credentials. [\#1](https://github.com/CollectiveIndustries/StarfleetDelta/issues/1)
 
