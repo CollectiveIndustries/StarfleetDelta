@@ -1,65 +1,106 @@
-<DESC:Introduction to J.A.G.>
 *Dims the lights and smiles at each cadet*
+
 <LIGHTS_OFF>
-<SOUND:581a69d3-37ea-3d17-766f-68cacafb8636>
-Greetings and welcome to the Starfleet Delta Quadrant Academy!
-<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+
+<SOUND 581a69d3-37ea-3d17-766f-68cacafb8636>
+
+This is the Intro to JAG class.  
+
 My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
-Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.
-There will be an exam at the conclusion of the lecture.
-You may use your class notes, but please refrain from any talking during the exam.
-If you have any questions at that time, please IM the instructor
-<TEXTURE:cb1fed43-d5cd-14df-d2e0-9b6cbce51574>
-Welcome to the Security Division in SDQ!
-Our class today is SEC-200 / Introduction to J.A.G.
-<TEXTURE:63823281-4122-d7f6-1c2c-06a7ba1b8f83>
-*Takes a deep breath and proceeds*
-The United Federation of Plants in the Gamma Quadrant or SDQ is government by the Federation Charter and the local charter.  Starfleet is further governed by the UCMJ.
-The Starfleet Judge Advocate General (JAG) Branch is the branch charged with overseeing legal matters within Starfleet.
-A Judge Advocate within Starfleet is an officer that oversees legal matters concerning Starfleet personnel.
-Legal counsel within Starfleet report into the senior JAG or SFJAG.
-At SDQ the JAG corps falls under the banner of the security division.
-While Security oversees JAG, an officer may work independently if necessary.
-A Security officer may be in command over a JAG officer,
-but that officer can not impede or interfere with a JAG investigation.
-In some cases a JAG officer may report directly to the admiralty or counsel.
-The Judge Advocate General of Starfleet is the flag rank officer who oversees the JAG corps, and is a member of Starfleet Command.
-During the 2260s, the JAG Office was part of Starfleet's Operations division. By the 2350s it had moved under the Command division.
-Currently in SDQ it is a sub-branch under Security Division reporting to the Commander, Starfleet.
+
+Please hold all questions until the end of the lecture, at which time, I will be glad to answer any that you may have.  
+
+There will be an exam at the conclusion of the lecture.  
+
+You may use your class notes, but please refrain for any talking during the exam.  
+
+If you have any questions at that time, please IM the instructor.  
+
+*Steps around the podium and perches on an empty desk*
+
+
+Welcome to the Introduction to the Judge Advocate General Course.
+
+
+Starfleet Delta Quadrant or SDQ is government by the Federation Charter and the local charter.  Starfleet is further governed by the UCMJ.
+
+
+The Starfleet Judge Advocate Genral (JAG) Branch is the branch charged with overseeing legal matters within Starfleet. 
+
+A Judge Advocate within Starfleet is an officer that oversees legal matters concerning Starfleet personnel. Legal counsel within Starfleet report into the senior JAG or SFJAG
+
+
+The Judge Advocate General of Starfleet is the flag rank officer who oversees the JAG corps, and is a member of Starfleet Command. 
+
+
+During the 2260s, the JAG Office was part of Starfleet's Operations division. By the 2350s it had moved under the Command division.  
+
+Currently in SDQ it is a part of the Security Division, reporting to the Commander, Starfleet.
+
+
 Judge Advocates serve primarily as legal advisors to the command to which they are assigned. In this function, they can also serve as the personal legal advisor to their commander.
-Their advice may cover a wide range of issues dealing with administrative law, government contracting, civilian and military personnel law,
-law of war and international relations, environmental law, etc.
-Judge Advocates may serve as military judges, prosecutors, defense counsel, assistance officers.
+
+Their advice may cover a wide range of issues dealing with administrative law, government contracting, civilian and military personnel law, law of war and international relations, environmental law, etc.
+
+
+Judge Advocates may serve as military judges, prosecutors, defense counsel, assistance officers. 
+
 As military judges they tend to preside over court martials that include a jury of the accused peers; or the legal team member on a board of inquiry.
+
 As prosecutors they are charged with investigation of crimes along with Starfleet law enforcement or Security.
+
+
 As defense counsel, they are charged with advocating the accused side during a court martial.  As an assistance officer they provide advice to common members of the fleet.
-A career as a Starfleet JAG officer is rewarding as you become the commands keeper of ethics.
+
+
+A career as Starfleet JAG officer is rewarding as you become the commands keeper of ethics. 
+
 Your integrity is expected to be beyond reproach and you adhere to the highest standards of Starfleet.
+
+
 All JAG Officers will serve in all of these positions at least once in their career.
+
+
 Organization of the JAG Branch.
-The senior member of the JAG Branch is the SFJAG.  He answers to the Commander of Starfleet.
+
+The senior member of the JAG Branch is the SFJAG.  He answers to the Commander of Starfleet. 
+
 If the size of the Branch permits he may appoint a Deputy SFJAG.
-Under he/she may assign a Associate JAG(s) to oversee the different departments.  They are: Prosecution, Admin Law, Defense, and Assistance.
-Each base and ship will have detailed, for a period of time, a Ship or Base Judge Advocate, depending on personnel strength.
+
+Under he/she may assign an Associate JAGs to oversee the different departments.  Prosecution, Admin Law, Defense, and Assistance.
+
+
+Each Base, ship will have detailed for a period of time, a Ship or Base Judge Advocate, depending on personnel strength. 
+
 That person will be over all junior JAG personnel on that base or ship.
+
+
 Requirements to be a JAG
 - must complete course prescribed in the College of Law
 - meet the requirements to be a Starfleet Officer
 - be recommended by Commanding Officer and accepted by the Judge Advocate General
+
+
 Enlisted Positions
 Enlisted positions in the JAG Corps include,
 Legal Specialist
 Legal NCO
-Legal Administrator.
+Legal Administrator.  
+
 Special skills include court reporter.
+
+
 This concludes our lecture for today.
-<TEXTURE:23ce93f6-5e92-9e63-4fc7-8cf3f27f9c35>
+
 <LIGHTS_ON>
+
 Are there any questions?
+
+
 *Looks around the room*
-You may now start your test by activating the computer terminal in front of you.
-You will need to score 80% or better to pass this exam.
-If you do happen to fail the class you can request a written exam from the Academy Commandant.
-If you would like a copy of this class for further reference you can request one from the Academy Commandant.
-All students will need to record the grade given on their weekly report. Instructors will record the grade in the gradebook.
+
+There Will Now be a Test
+
+You will need to score 80% or better to pass this exam.  All grades are pass/fail only.
+
 Good luck
