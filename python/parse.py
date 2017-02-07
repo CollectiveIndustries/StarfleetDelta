@@ -64,7 +64,7 @@ INSERT_EXAM_LINE = "INSERT INTO `exams` (`course_id`, `question_number`, `questi
 
 
 	## Tables we are going to need to TRUNCATE ##
-TABLES = ["assets","courses","curriculum","exams","gradebook","scores"]
+#TABLES = ["assets","courses","curriculum","exams","gradebook","scores"]
 
 # Text output color definitions
 class color:
@@ -88,6 +88,16 @@ def sql(statement):
 	except Exception as e:
 		print(color.FAIL+"\nERROR: "+statement+"\n"+format(e)+color.END)
 		exit(1)
+	db.commit()
+
+def InsertExam(statement):
+	try:
+		num_rows = cursor.execute(statement)
+	except Warning as w:
+		print(color.WARNING+"\nWARNING: "+statement+"\n"+format(w)+color.END)
+	except MySQLdb.IntegrityError as I:
+		#print(color.FAIL+"\nIntegrityError: "+statement+"\n"+format(I)+color.END)
+		pass
 	db.commit()
 
 	## Run a Fetch ##
@@ -124,16 +134,6 @@ data = fetch("SELECT VERSION()")
 print("Database version: %s" % data)
 print("Database configuration settings are correct\n\n")
 
-print(color.HEADER+"Attempting to clean system........"+color.END)
-sql("SET FOREIGN_KEY_CHECKS = 0")
-for t in TABLES:
-	print(color.WARNING+t+color.END)
-	sql("TRUNCATE %s" % (t))
-	sql("ALTER TABLE %s AUTO_INCREMENT = 1" % (t))
-
-sql("SET FOREIGN_KEY_CHECKS = 1")
-print(color.OKGREEN+"OK"+color.END)
-
 # Glob all the Classes into a list
 classes = [file for file in glob.glob(CLASSES_LOC)]
 
@@ -142,46 +142,51 @@ for c in classes:
 	file = c.split("/")[-1]  # grab the actual file name with out the path
 	row = file.split(".")[0] # chop the extension off
 	name = row.split("_")[0] # split file name into a list using "_" as a seperator
-	div = fetch(FILE_NAME % (name.split("-")[0])) # grab the File name Prefix and crossrefrence with the Divison name on file
-	try: # try to ressemble the Author name if it failes its probably unnamed
-		author = row.split("_")[1]+" "+row.split("_")[2]
-	except Exception: # If name is was not found on the file name throw a warning and add "Unknown Author"
-		print(color.WARNING+"WARNING: "+c+" --> Unknown Author"+color.END)
-		author = "Unknown Author"
-	print(color.HEADER+"DIVISION: "+div[1].rstrip()+color.END)
-	print(color.OKGREEN+"\nCLASS: "+name+"\nAUTHOR: "+author+color.END)
-	with open(c,'rb') as file:
-		line_number = 1 # Reset the line counter on each file open
-		for line in file: # Read through the file line by line
-			if desc.match(line) is not None:
-				txt = line.replace("<DESC:", "")
-				txt = txt.replace(">","")
-				AID = fetch(LOOKUP_AUTHER %(author))[0]
-				sql(INSERT_CLASS % (div[0],AID,name,txt.strip("\n")))
-				print(color.OKGREEN+txt+color.END)
-				CID = fetch(CLASS_ID % (name))[0] # Grab the Class ID number for the class we just added
 
-			elif sound.match(line) is not None:
-				uuid = line.replace("<SOUND:","")
-				uuid = uuid.replace(">","")
-				type = fetch(ASSET_TYPE % ('SOUND'))[0]
-				sql(INSERT_ASSET % (type,uuid.strip("\n"),'SOUND'))
-				asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
-                                sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
-				line_number += 1
+	if fetch(CLASS_ID % (name)) is None: #only continue if the Database has NO RECORD matching NAME
+		div = fetch(FILE_NAME % (name.split("-")[0])) # grab the File name Prefix and crossrefrence with the Divison name on file
+		try: # try to ressemble the Author name if it failes its probably unnamed
+			author = row.split("_")[1]+" "+row.split("_")[2]
+		except Exception: # If name is was not found on the file name throw a warning and add "Unknown Author"
+			print(color.WARNING+"WARNING: "+c+" --> Unknown Author"+color.END)
+			author = "Unknown Author"
+		print(color.HEADER+"DIVISION: "+div[1].rstrip()+color.END)
+		print(color.OKGREEN+"\nCLASS: "+name+"\nAUTHOR: "+author+color.END)
+		with open(c,'rb') as file:
+			line_number = 1 # Reset the line counter on each file open
+			for line in file: # Read through the file line by line
+				if desc.match(line) is not None:
+					txt = line.replace("<DESC:", "")
+					txt = txt.replace(">","")
+					AID = fetch(LOOKUP_AUTHER %(author))[0]
+					sql(INSERT_CLASS % (div[0],AID,name,txt.strip("\n")))
+					print(color.OKGREEN+txt+color.END)
+					CID = fetch(CLASS_ID % (name))[0] # Grab the Class ID number for the class we just added
 
-			elif texture.match(line) is not None:
-				uuid = line.replace("<TEXTURE:","")
-                                uuid = uuid.replace(">","")
-				type = fetch(ASSET_TYPE % ('TEXTURE'))[0]
-				sql(INSERT_ASSET % (type,uuid.strip("\n"),'TEXTURE')) # SOUND
-				asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
-				sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
-				line_number += 1 # Line Index + 1 IF its not the DESC line
+				elif sound.match(line) is not None:
+					uuid = line.replace("<SOUND:","")
+					uuid = uuid.replace(">","")
+					type = fetch(ASSET_TYPE % ('SOUND'))[0]
+					sql(INSERT_ASSET % (type,uuid.strip("\n"),'SOUND'))
+					asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
+                                	sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
+					line_number += 1
 
-			else:
-				sql(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
-				line_number += 1
+				elif texture.match(line) is not None:
+					uuid = line.replace("<TEXTURE:","")
+                                	uuid = uuid.replace(">","")
+					type = fetch(ASSET_TYPE % ('TEXTURE'))[0]
+					sql(INSERT_ASSET % (type,uuid.strip("\n"),'TEXTURE')) # SOUND
+					asset_id = fetch(ASSET_ID % (uuid.strip("\n")))[0]
+					sql(INSERT_ASSET_LINE % (CID,asset_id,line_number))
+					line_number += 1 # Line Index + 1 IF its not the DESC line
+
+				else:
+					sql(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
+					line_number += 1
+	else:
+		print(color.WARNING+"Class "+name+" already on file....Skipping")
+
 db.commit()
 
 # START Exams Parsing #
@@ -205,8 +210,8 @@ for e in exams:
 					o.append(MySQLdb.escape_string(re.sub('\A[A-D]:','', line.rstrip()))) # append question to list remove A: B: C: D: from the line and the \n off the end
 				elif answer.match(line) is not None:
 					a = MySQLdb.escape_string(line.rstrip())
-					sql(INSERT_EXAM_LINE % (cid[0],q_number,q_text,o[0],o[1],o[2],o[3],a)) # push the Q & A to the SQL server
+					InsertExam(INSERT_EXAM_LINE % (cid[0],q_number,q_text,o[0],o[1],o[2],o[3],a)) # push the Q & A to the SQL server
 					o = [] # reset list of answers at the end of each section since the Answer is always last
 
 	else: # and so we skip it and tell the user which one was skipped using the WARNING color
-		print("%sWARNING: Skipping Exam: %s%s" % (color.WARNING,name,color.END))
+		print("\t%sWARNING: Skipping Exam: %s --> No ClassID on file.%s" % (color.WARNING,name,color.END))

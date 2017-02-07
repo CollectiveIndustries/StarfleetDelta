@@ -30,14 +30,11 @@ def ConfigSectionMap(section):
             if dict1[option] == -1:
                 print("Skipping: %s %s" % (section,option))
         except:
-            print("exception on %s %s!" % (section,option))
+            print("Exception on %s %s!" % (section,option))
             dict1[option] = None
     return dict1
 
-
-
 # Set up config values
-# TODO If these are blank/invalid we will ask the user to fix them on the fly
 
 # MYSQL server config
 _IN_MYSQL_HOST_ = ConfigSectionMap("DB")['host']

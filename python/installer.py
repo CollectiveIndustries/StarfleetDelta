@@ -85,4 +85,3 @@ _FILE_.close()
 function.mv(config._PHP_REPO_,config._WEB_ROOT_)
 
 # Install Default data to the database from here.
-
