@@ -1,3 +1,4 @@
+<DESC:SDQ Regulations and Protocols>
 Greetings and welcome to the Starfleet Delta Quadrant Academy
 My name is <INSTRUCTOR_NAME> and I will be your instructor for today's class.
 Welcome to the SDQ Regulations and Protocols class.  
