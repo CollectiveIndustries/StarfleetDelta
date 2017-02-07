@@ -64,7 +64,7 @@ INSERT_EXAM_LINE = "INSERT INTO `exams` (`course_id`, `question_number`, `questi
 
 
 	## Tables we are going to need to TRUNCATE ##
-TABLES = ["assets","courses","curriculum","exams","gradebook","scores"]
+#TABLES = ["assets","courses","curriculum","exams","gradebook","scores"]
 
 # Text output color definitions
 class color:
@@ -123,16 +123,6 @@ cursor = db.cursor()
 data = fetch("SELECT VERSION()")
 print("Database version: %s" % data)
 print("Database configuration settings are correct\n\n")
-
-print(color.HEADER+"Attempting to clean system........"+color.END)
-sql("SET FOREIGN_KEY_CHECKS = 0")
-for t in TABLES:
-	print(color.WARNING+t+color.END)
-	sql("TRUNCATE %s" % (t))
-	sql("ALTER TABLE %s AUTO_INCREMENT = 1" % (t))
-
-sql("SET FOREIGN_KEY_CHECKS = 1")
-print(color.OKGREEN+"OK"+color.END)
 
 # Glob all the Classes into a list
 classes = [file for file in glob.glob(CLASSES_LOC)]
