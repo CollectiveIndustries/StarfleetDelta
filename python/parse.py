@@ -185,7 +185,7 @@ for c in classes:
 					sql(INSERT_LINE % (CID,line_number,MySQLdb.escape_string(line.strip("\n"))))
 					line_number += 1
 	else:
-		print(color.WARNING+"Class "+name+" already on file....Skipping")
+		print(color.WARNING+"Class "+name+" already on file....Skipping (place holder for update section)")
 
 db.commit()
 

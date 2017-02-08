@@ -20,6 +20,9 @@ class color:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+## Config writter ##
+
+
 ## MySQL init function added an error handler + a config data setting dump should be able to use this for all python database connections
 def MySQL_init():
 	while True:
