@@ -15,10 +15,13 @@
 - \[Feature\] Database Driven Titlers [\#16](https://github.com/CollectiveIndustries/StarfleetDelta/issues/16)
 - \[Time Clock\] \[Feature\] 5 Minute Inactivity Timer [\#10](https://github.com/CollectiveIndustries/StarfleetDelta/issues/10)
 - \[Feature\] Time Clock [\#9](https://github.com/CollectiveIndustries/StarfleetDelta/issues/9)
+- \[Installer\] Class uploader truncating tables before upload. [\#55](https://github.com/CollectiveIndustries/StarfleetDelta/pull/55) ([Morketh](https://github.com/Morketh))
 
 **Fixed bugs:**
 
+- \[Classes\] Broken encoding ACD-101 [\#57](https://github.com/CollectiveIndustries/StarfleetDelta/issues/57)
 - \[Academy\] ASCII/Syntax Errors [\#49](https://github.com/CollectiveIndustries/StarfleetDelta/issues/49)
+- \[Acedemy\] Missing class DIP-100 Intro to DIPS [\#47](https://github.com/CollectiveIndustries/StarfleetDelta/issues/47)
 - \[Academy\] Podium Menu Doesn't Time Out [\#37](https://github.com/CollectiveIndustries/StarfleetDelta/issues/37)
 - \[Academy\] Podium Init [\#36](https://github.com/CollectiveIndustries/StarfleetDelta/issues/36)
 - \[TimeClock\] SQL statements broken for new entries [\#30](https://github.com/CollectiveIndustries/StarfleetDelta/issues/30)
@@ -32,6 +35,10 @@
 
 **Merged pull requests:**
 
+- Update and rename ACD-101.txt to ACD-101\_Lucine\_Dax.txt [\#58](https://github.com/CollectiveIndustries/StarfleetDelta/pull/58) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
+- Update and rename ACD-101\_SDQ\_Regulations and Protocols.txt to ACD-10… [\#54](https://github.com/CollectiveIndustries/StarfleetDelta/pull/54) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
+- JAG-100 update [\#53](https://github.com/CollectiveIndustries/StarfleetDelta/pull/53) ([Morketh](https://github.com/Morketh))
+- Create ACD-101\_SDQ\_Regulations and Protocols.txt [\#52](https://github.com/CollectiveIndustries/StarfleetDelta/pull/52) ([Morketh](https://github.com/Morketh))
 - Update ACM-102\_McCole\_Avon.txt [\#50](https://github.com/CollectiveIndustries/StarfleetDelta/pull/50) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
 - Rename ISSUE\_TEMPLATE.md to ISSUE\_TEMPLATE.md.OLD [\#48](https://github.com/CollectiveIndustries/StarfleetDelta/pull/48) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
 - Updates LoginSystem with Origin state [\#43](https://github.com/CollectiveIndustries/StarfleetDelta/pull/43) ([Morketh](https://github.com/Morketh))
