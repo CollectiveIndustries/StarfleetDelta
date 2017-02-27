@@ -1,7 +1,7 @@
 
 #README
 
-Each class/exam pair will need to be seperated into the sdq_classes and the sdq_exams directories accordingly. The installer programs will break if these directories are not kept seprate.
+Each class/exam pair will need to be seperated into the sdq_classes and the sdq_exams directories accordingly. The installer programs will break if these directories are not kept seprate. Due to the limitations of LSL each line shall not exceed 255 charecters total. Any line that exceeds that limit will be chopped off.
 
 ### Classes Formattting
 Title of File: class name, number, and author in the format ABC-123_FIRTNAME_LASNAME.txt
