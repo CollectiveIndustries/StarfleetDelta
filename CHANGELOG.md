@@ -19,6 +19,7 @@
 
 **Fixed bugs:**
 
+- \[Database Updater\] Parsing system, CID not defined [\#62](https://github.com/CollectiveIndustries/StarfleetDelta/issues/62)
 - \[Classes\] Broken encoding ACD-101 [\#57](https://github.com/CollectiveIndustries/StarfleetDelta/issues/57)
 - \[Academy\] ASCII/Syntax Errors [\#49](https://github.com/CollectiveIndustries/StarfleetDelta/issues/49)
 - \[Acedemy\] Missing class DIP-100 Intro to DIPS [\#47](https://github.com/CollectiveIndustries/StarfleetDelta/issues/47)
@@ -35,6 +36,8 @@
 
 **Merged pull requests:**
 
+- Create ACD-100 Exam [\#61](https://github.com/CollectiveIndustries/StarfleetDelta/pull/61) ([Morketh](https://github.com/Morketh))
+- Lucine dax patch 1 [\#60](https://github.com/CollectiveIndustries/StarfleetDelta/pull/60) ([Morketh](https://github.com/Morketh))
 - Update and rename ACD-101.txt to ACD-101\_Lucine\_Dax.txt [\#58](https://github.com/CollectiveIndustries/StarfleetDelta/pull/58) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
 - Update and rename ACD-101\_SDQ\_Regulations and Protocols.txt to ACD-10… [\#54](https://github.com/CollectiveIndustries/StarfleetDelta/pull/54) ([MyNameIsKodos](https://github.com/MyNameIsKodos))
 - JAG-100 update [\#53](https://github.com/CollectiveIndustries/StarfleetDelta/pull/53) ([Morketh](https://github.com/Morketh))
