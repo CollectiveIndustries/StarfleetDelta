@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- \[Installer\] Script always asks for database connection settings [\#63](https://github.com/CollectiveIndustries/StarfleetDelta/issues/63)
 - \[Academy\] Notecard uploader [\#42](https://github.com/CollectiveIndustries/StarfleetDelta/issues/42)
 - \[Academy\] Long touch function with admin menu [\#35](https://github.com/CollectiveIndustries/StarfleetDelta/issues/35)
 - \[Academy\] Exams Systems [\#34](https://github.com/CollectiveIndustries/StarfleetDelta/issues/34)
