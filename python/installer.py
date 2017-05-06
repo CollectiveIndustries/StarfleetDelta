@@ -29,7 +29,7 @@ sql = "INSERT INTO `accounts` (`username`, `password`, `db_privlage_level`) VALU
 
 subprocess.call('clear')
 print "Welcome: " + getpass.getuser()
-print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
+print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone - Collective Industries (tm)\n\n"
 
 db = function.MySQL_init()
 cursor = db.cursor()

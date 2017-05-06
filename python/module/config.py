@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 ##################################################################################################
 #
 # Copyright (C) Andrew Malone, Collective Industries 2016
@@ -7,7 +8,7 @@
 #
 # TITLE: config
 #
-# PURPOSE: Configuration import
+# PURPOSE: Configuration file managment
 #
 #
 ##################################################################################################
@@ -15,8 +16,10 @@
 import ConfigParser
 import os
 
+ConfigFile = "config.d/sdq.conf"
+
 conf = ConfigParser.ConfigParser()
-conf.read(os.path.abspath("config.d/sdq.conf"))
+conf.read(os.path.abspath(ConfigFile))
 conf.sections()
 
 ## Config Parse Helper ##
@@ -33,6 +36,18 @@ def ConfigSectionMap(section):
             print("Exception on %s %s!" % (section,option))
             dict1[option] = None
     return dict1
+
+## Config section writter ##
+def ConfigAddSection(section):
+	conf.add_section(section)
+
+def ConfigSetValue(section,key,value):
+	conf.set(section,key,value)
+
+def ConfigWrite():
+	cfgfile = open(ConfigFile, "wb")
+	conf.write(cfgfile)
+	cfgfile.close()
 
 # Set up config values
 
