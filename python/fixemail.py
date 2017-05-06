@@ -67,4 +67,3 @@ for row in results:
 print(separator)
 
 db.commit()
-

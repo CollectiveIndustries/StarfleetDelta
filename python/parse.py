@@ -143,7 +143,7 @@ for c in classes:
 	row = file.split(".")[0] # chop the extension off
 	name = row.split("_")[0] # split file name into a list using "_" as a seperator
 
-	if fetch(CLASS_ID % (name)) is None: #only continue if the Database has NO RECORD matching NAME
+	if fetch(CLASS_ID % (name)) is None: # Only continue if the Database has NO RECORD matching NAME
 		div = fetch(FILE_NAME % (name.split("-")[0])) # grab the File name Prefix and crossrefrence with the Divison name on file
 		try: # try to ressemble the Author name if it failes its probably unnamed
 			author = row.split("_")[1]+" "+row.split("_")[2]
