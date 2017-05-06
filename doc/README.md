@@ -1,5 +1,5 @@
 
-#README
+# README
 
 Each class/exam pair will need to be seperated into the sdq_classes and the sdq_exams directories accordingly. The installer programs will break if these directories are not kept seprate. Due to the limitations of LSL each line shall not exceed 255 charecters total. Any line that exceeds that limit will be chopped off.
 
@@ -31,5 +31,11 @@ B:Answer B
 C:Answer C
 D:Correct Answer D
 D
+2. Question #2
+A:Answer A
+B:Answer B
+C:Correct Answer C
+D:Answer D
+C
 ```
 Every question on the exam will need to be formatted using this template as the python scripts will crash with extra characters and out of place questions.
