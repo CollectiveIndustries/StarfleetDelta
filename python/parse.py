@@ -123,8 +123,8 @@ answer = re.compile(ANSWER_TAG)
 ### Main Script ###
 
 subprocess.call('clear')
-print "Welcome: " + getpass.getuser()
-print "Starfleet Delta Notecard Parser Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
+print("Welcome: " + getpass.getuser())
+print("Starfleet Delta Notecard Parser Copyright (C) 2016 Andrew Malone Collective Industries\n\n")
 print os.getcwd()
 db = function.MySQL_init()
 

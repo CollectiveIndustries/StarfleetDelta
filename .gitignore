@@ -97,3 +97,6 @@ php/config.php
 
 # Astyle Originals
 *.orig
+
+# Visual Studio Cache
+.vs/

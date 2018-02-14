@@ -27,8 +27,8 @@ update = "UPDATE `accounts` SET `email`='%s' WHERE `ID`=%s"
 ### Main Script ###
 
 subprocess.call('clear')
-print "Welcome: " + getpass.getuser()
-print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n"
+print("Welcome: " + getpass.getuser())
+print("Starfleet Delta Installer Copyright (C) 2016 Andrew Malone Collective Industries\n\n")
 
 db = function.MySQL_init()
 
@@ -37,8 +37,8 @@ curupdate = db.cursor()
 
 cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
-print "Database version: %s " % data
-print "Database configuration settings are correct\n\n"
+print("Database version: %s " % data)
+print("Database configuration settings are correct\n\n")
 sleep(2)
 
 cursor.execute(select)

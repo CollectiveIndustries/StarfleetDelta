@@ -28,17 +28,17 @@ sql = "INSERT INTO `accounts` (`username`, `password`, `db_privlage_level`) VALU
 ### Main Script ###
 
 subprocess.call('clear')
-print "Welcome: " + getpass.getuser()
-print "Starfleet Delta Installer Copyright (C) 2016 Andrew Malone - Collective Industries (tm)\n\n"
+print("Welcome: " + getpass.getuser())
+print("Starfleet Delta Installer Copyright (C) 2016 Andrew Malone - Collective Industries (tm)\n\n")
 
 db = function.MySQL_init()
 cursor = db.cursor()
 
 cursor.execute("SELECT VERSION()")
 data = cursor.fetchone()
-print "Database version: %s " % data
-print "Database configuration settings are correct\n\n"
-print "Uploading "+config._IN_MYSQL_FILE_+" to database.......Please standby this could take a long time depending on file size"
+print("Database version: %s " % data)
+print("Database configuration settings are correct\n\n")
+print("Uploading "+config._IN_MYSQL_FILE_+" to database.......Please standby this could take a long time depending on file size")
 sleep(2)
 
 # Open the file ReadOnly and stream it to MySQL's Standard In. Redirect Standard Out/Error
@@ -47,13 +47,13 @@ with open(config._IN_MYSQL_FILE_, 'r') as f:
        proc = Popen(command, stdin = f)
        stdout, stderr = proc.communicate()
 
-print "Upload finished."
+print("Upload finished.")
 
 # get webadmin username and password
 while ((username is None) or (username == '')):
                 username = raw_input('New Administrator account for the webpage (cannot be left blank): ')
 while ((password is None) or (password == '')):
-		print "Password for New administrator (cannot be left blank)"
+		print("Password for New administrator (cannot be left blank)")
 		password = getpass.getpass()
 
 # Execute the SQL Statement on the server
