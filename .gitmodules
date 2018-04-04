@@ -1,0 +1,3 @@
+[submodule "python/module"]
+	path = python/module
+	url = https://github.com/Morketh/PythonModules.git
