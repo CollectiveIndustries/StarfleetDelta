@@ -1,103 +1,110 @@
 <?php
-include( "config.php" );
-include( "functions.php" );
-session_start();
-
-if( $_SERVER["REQUEST_METHOD"] == "POST" )
-{
-    // username and password sent from form
-
-    $myusername = mysqli_real_escape_string( $db,$_POST['username'] );
-    $mypassword = mysqli_real_escape_string( $db,$_POST['password'] );
-
-    $sql = "SELECT ID FROM accounts WHERE username = '$myusername' and password = SHA2('$mypassword', 512)";
-    $result = mysqli_query( $db,$sql );
-    $row = mysqli_fetch_array( $result );
-    $active = $row['active'];
-
-    $count = mysqli_num_rows( $result );
-
-    // If result matched $myusername and $mypassword, table row must be 1 row
-
-    if( $count == 1 )
-    {
-        session_register( "myusername" );
-        $_SESSION['login_user'] = $myusername;
-
-        redirect( "welcome.php" );
-        exit();
+// Include config file
+require_once 'config.php';
+ 
+// Define variables and initialize with empty values
+$username = $password = "";
+$username_err = $password_err = "";
+ 
+// Processing form data when form is submitted
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+ 
+    // Check if username is empty
+    if(empty(trim($_POST["username"]))){
+        $username_err = 'Please enter username.';
+    } else{
+        $username = trim($_POST["username"]);
     }
-    else
-    {
-        $error = "ERROR: Your Login Name or Password is invalid<br>POST USER: ".$_POST['username']."<br>POST PASSWORD: ".$_POST['password']."<br>myusername: ".$myusername."<br>mypassword: ".$mypassword."<br> Result Count: ".$count;
+    
+    // Check if password is empty
+    if(empty(trim($_POST['password']))){
+        $password_err = 'Please enter your password.';
+    } else{
+        $password = trim($_POST['password']);
     }
+    
+    // Validate credentials
+    if(empty($username_err) && empty($password_err)){
+        // Prepare a select statement
+        $sql = "SELECT username, password FROM accounts WHERE username = ?";
+        
+        if($stmt = mysqli_prepare($link, $sql)){
+            // Bind variables to the prepared statement as parameters
+            mysqli_stmt_bind_param($stmt, "s", $param_username);
+            
+            // Set parameters
+            $param_username = $username;
+            
+            // Attempt to execute the prepared statement
+            if(mysqli_stmt_execute($stmt)){
+                // Store result
+                mysqli_stmt_store_result($stmt);
+                
+                // Check if username exists, if yes then verify password
+                if(mysqli_stmt_num_rows($stmt) == 1){                    
+                    // Bind result variables
+                    mysqli_stmt_bind_result($stmt, $username, $hashed_password);
+                    if(mysqli_stmt_fetch($stmt)){
+                        if($password == $hashed_password){
+                            /* Password is correct, so start a new session and
+                            save the username to the session */
+                            session_start();
+                            $_SESSION['username'] = $username;      
+                            header("location: welcome.php");
+                        } else{
+                            // Display an error message if password is not valid
+                            $password_err = 'The password you entered was not valid.';
+                        }
+                    }
+                } else{
+                    // Display an error message if username doesn't exist
+                    $username_err = 'No account found with that username.';
+                }
+            } else{
+                echo "Oops! Something went wrong. Please try again later.";
+            }
+        }
+        
+        // Close statement
+        mysqli_stmt_close($stmt);
+    }
+    
+    // Close connection
+    mysqli_close($link);
 }
 ?>
-
-<html>
+ 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Starfleet Delta Login Portal</title>
-
-<style type = "text/css">
-              body
-{
-font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
-}
-
-label
-{
-font-weight:
-    bold;
-    width:100px;
-    font-size:14px;
-}
-
-.box
-{
-border:
-#666666 solid 1px;
-}
-.middleDiv
-{
-position :
-    absolute;
-    width    : 300px;
-    height   : 500px;
-    left     : 50%;
-    top      : 50%;
-margin-left :
-    -150px; /* half of the width  */
-margin-top  :
-    -250px; /* half of the height */
-}
-</style>
-
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <style type="text/css">
+        body{ font: 14px sans-serif; }
+        .wrapper{ width: 350px; padding: 20px; }
+    </style>
 </head>
-
-<body class="middleDiv" bgcolor = "#000000">
-
-                                      <div align = "center">
-                                              <div style = "width:300px; border: solid 1px #0000A0;" align = "center">
-                                                      <div style = "background-color:#0000A0; color:#FDD017; padding:3px;"><b>Starfleet Delta Login Portal</b></div>
-
-                                                              <div style = "color:#FDD017; margin:30px">
-
-                                                                      <form action = "" method = "post">
-                                                                              <label>User Name  :
-                                                                              </label><input style = "background-color:#6D6968;" type = "text" name = "username" class = "box"/><br/><br/>
-                                                                                          <label>Password   :</label><input style = "background-color:#6D6968;" type = "password" name = "password" class = "box"/><br/><br/>
-                                                                                                      <input type = "submit" value = " Engage! "/><br />
-                                                                                                              </form>
-
-                                                                                                              <div style = "font-size:13px; font-weight: 600; color:#cc0000; margin-top:10px"><?php echo $error;
-?></div>
-
-</div>
-
-</div>
-
-</div>
-
+<body>
+    <div class="wrapper">
+        <h2>Login</h2>
+        <p>Please fill in your credentials to login.</p>
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                <label>Username</label>
+                <input type="text" name="username"class="form-control" value="<?php echo $username; ?>">
+                <span class="help-block"><?php echo $username_err; ?></span>
+            </div>    
+            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control">
+                <span class="help-block"><?php echo $password_err; ?></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Login">
+            </div>
+            <p>Don't have an account? Contact Support</p>
+        </form>
+    </div>    
 </body>
 </html>
