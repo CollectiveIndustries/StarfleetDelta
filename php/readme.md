@@ -7,4 +7,4 @@ This section of the repository will be used for the web site development durring
 
 ## Credits
 
-Hollow Omnicron - Web Login system, Sample Configuration File
+Hollow Omnicron - Web Login system, Sample Configuration File, Error Page
