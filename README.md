@@ -1,4 +1,4 @@
-# Starfleet Dela
+# Starfleet Delta
 Repository for Starfleet Delta Webpage, Database, and all in-world scripts
 
 The Officer Rank Structure is as follows:
