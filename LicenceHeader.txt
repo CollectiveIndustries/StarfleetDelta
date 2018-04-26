@@ -1,7 +1,7 @@
 /*
 TITLE of PROGRAM
 DESCRIPTION LINE
-    Copyright (C) 2016  NAME in part by Collective Industries.
+    Copyright (C) 2018 NAME in part by Collective Industries.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
