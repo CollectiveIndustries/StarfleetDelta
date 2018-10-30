@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `TitleID` tinyint(3) unsigned NOT NULL DEFAULT '1',
   `DisplayName` varchar(64) DEFAULT NULL,
   `email` varchar(120) NOT NULL,
-  `password` char(106) DEFAULT NULL COMMENT '128 char long sha512 hash',
+  `password` char(128) DEFAULT NULL COMMENT '128 char long sha512 hash',
   `active` tinyint(4) NOT NULL DEFAULT '1' COMMENT '0 inactive 1 active',
   `induction_date` date DEFAULT NULL,
   `dh` bit(1) NOT NULL DEFAULT b'0',
